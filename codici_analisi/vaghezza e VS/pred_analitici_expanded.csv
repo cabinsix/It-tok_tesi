@@ -1,0 +1,1402 @@
+nome;concretezza;animato;pattern;pattern_semispec;vsupp;frequenza;verbo;Var1
+abitudine;astratto;non_animato;VPrepN;V di N;essere;20;essere di abitudine;essere di abitudine
+accordo;astratto;non_animato;VPrepN;V di N;andare;297;andare di accordo;andare di accordo
+accordo;astratto;non_animato;VPrepN;V di N;essere;3387;essere di accordo;essere di accordo
+accordo;astratto;non_animato;VPrepN;V in N;essere;149;essere in accordo;essere in accordo
+accordo;astratto;non_animato;VDetN;V det_indef N;fare;106;fare un(/il) accordo;fare il accordo
+accordo;astratto;non_animato;VDetN;V det_indef N;fare;106;fare un(/il) accordo;fare un accordo
+accordo;astratto;non_animato;VPrepN;V di N;mettere;604;mettere di accordo;mettere di accordo
+accordo;astratto;non_animato;VPrepN;V in N;mettere;5;mettere in accordo;mettere in accordo
+acqua;concreto;non_animato;VN;VN;fare;9;fare acqua;fare acqua
+acqua;concreto;non_animato;VPrepN;V in N;mettere;26;mettere in acqua;mettere in acqua
+addio;astratto;non_animato;VDetN;V det_indef N;dare;6;dare un addio;dare un addio
+affare;astratto;non_animato;VPrepN;V in N;essere;38;essere in affare;essere in affare
+affare;astratto;non_animato;VDetN;V det_def N;fare;79;fare il affare;fare il affare
+affare;astratto;non_animato;VPrepN;V in N;mettere;36;mettere in affare;mettere in affare
+agente;concreto;umano;VPrepN;V da N;fare;5;fare da agente;fare da agente
+agricoltura;astratto;non_animato;VN;VN;fare;9;fare agricoltura;fare agricoltura
+aiuto;astratto;non_animato;VPrepN;V in N;andare;52;andare in aiuto;andare in aiuto
+aiuto;astratto;non_animato;V(Det)N;V (det_indef) N;dare;109;dare (un) aiuto;dare aiuto
+aiuto;astratto;non_animato;V(Det)N;V (det_indef) N;dare;109;dare (un) aiuto;dare un aiuto
+aiuto;astratto;non_animato;VPrepN;V di N;essere;249;essere di aiuto;essere di aiuto
+aiuto;astratto;non_animato;VPrepN;V di N;essere;163;essere di aiuto;essere di aiuto
+americano;concreto;non_animato;VDetN;V det_def N;fare;24;fare il americano;fare il americano
+amicizia;astratto;non_animato;VPrepN;V in N;essere;18;essere in amicizia;essere in amicizia
+amicizia;astratto;non_animato;VN;VN;fare;144;fare amicizia;fare amicizia
+amico;astratto;non_animato;VPrepN;V da N;fare;5;fare da amico;fare da amico
+amico;astratto;non_animato;VDetN;V det_def N;fare;7;fare il amico;fare il amico
+amministrazione;astratto;non_animato;VPrepN;V sotto N;essere;12;essere sotto amministrazione;essere sotto amministrazione
+amore;astratto;non_animato;VN;VN;dare;11;dare amore;dare amore
+amore;astratto;non_animato;VPrepN;V in N;essere;5;essere in amore;essere in amore
+anello;concreto;non_animato;VPrepN;V da N;fare;5;fare da anello;fare da anello
+angelo;concreto;umano;VPrepN;V da N;fare;8;fare da angelo;fare da angelo
+anima;astratto;non_animato;VN;VN;dare;5;dare anima;dare anima
+animo;astratto;non_animato;VPrepN;V in N;avere;47;avere in animo;avere in animo
+ansia;astratto;non_animato;VPrepN;V in N;essere;31;essere in ansia;essere in ansia
+ansia;astratto;non_animato;VPrepN;V in N;mettere;5;mettere in ansia;mettere in ansia
+appuntamento;astratto;non_animato;V(Det)N;V (det_indef) N;dare;60;dare (un) appuntamento;dare appuntamento
+appuntamento;astratto;non_animato;V(Det)N;V (det_indef) N;dare;60;dare (un) appuntamento;dare un appuntamento
+appuntamento;astratto;non_animato;V(Det)N;V (det_indef) N;prendere;14;prendere (un) appuntamento;prendere appuntamento
+appuntamento;astratto;non_animato;V(Det)N;V (det_indef) N;prendere;14;prendere (un) appuntamento;prendere un appuntamento
+argomento;astratto;non_animato;VDetN;V det_def N;avere;5;avere il argomento;avere il argomento
+aria;concreto;non_animato;VN;VN;dare;22;dare aria;dare aria
+aria;concreto;non_animato;VN;-;prendere;25;prendere aria;prendere aria
+arma;concreto;non_animato;VPrepN;V in N;mettere;5;mettere in arma;mettere in arma
+arte;astratto;non_animato;VN;VN;fare;54;fare arte;fare arte
+artista;concreto;umano;VN;VN;essere;18;essere artista;essere artista
+artista;concreto;umano;VDetN;V det_def N;fare;6;fare il artista;fare il artista
+aspetto;astratto;non_animato;VDetN;V det_indef N;dare;129;dare un aspetto;dare un aspetto
+atteggiamento;astratto;non_animato;VDetN;V det_indef N;avere;225;avere un atteggiamento;avere un atteggiamento
+atteggiamento;astratto;non_animato;VPrepN;V in N;essere;13;essere in atteggiamento;essere in atteggiamento
+attenzione;astratto;non_animato;VN;VN;avere;7;avere attenzione;avere attenzione
+attenzione;astratto;non_animato;VN;VN;dare;15;dare attenzione;dare attenzione
+attenzione;astratto;non_animato;VN;VN;fare;384;fare attenzione;fare attenzione
+attesa;astratto;non_animato;VPrepN;V in N;essere;497;essere in attesa;essere in attesa
+attesa;astratto;non_animato;VPrepN;V in N;mettere;32;mettere in attesa;mettere in attesa
+attività;astratto;non_animato;VPrepN;V in N;essere;74;essere in attività;essere in attività
+attività;astratto;non_animato;VN;VN;fare;49;fare attività;fare attività
+attività;astratto;non_animato;VPrepN;V in N;mettere;12;mettere in attività;mettere in attività
+atto;astratto;non_animato;VPrepN;V in N;avere;9;avere in atto;avere in atto
+atto;astratto;non_animato;VN;VN;dare;63;dare atto;dare atto
+atto;astratto;non_animato;VPrepN;V in N;mettere;2229;mettere in atto;mettere in atto
+atto;astratto;non_animato;VN;-;prendere;356;prendere atto;prendere atto
+attore;concreto;umano;VN;VN;essere;10;essere attore;essere attore
+attore;concreto;umano;VDetN;V det_def N;fare;21;fare il attore;fare il attore
+autorità;astratto;non_animato;VN;VN;avere;10;avere autorità;avere autorità
+autorità;astratto;non_animato;VDetN;V det_def N;fare;7;fare la autorità;fare la autorità
+avversario;astratto;non_animato;VDetN;V det_def N;fare;6;fare il avversario;fare il avversario
+azione;;;VPrepN;V in N;andare;6;andare in azione;andare in azione
+azione;;;VPrepN;V in N;mandare;26;mandare in azione;mandare in azione
+azione;astratto;non_animato;VPrepN;V in N;mettere;76;mettere in azione;mettere in azione
+bacio;astratto;non_animato;VDetN;V det_indef N;dare;138;dare un(/il) bacio;dare il bacio
+bacio;astratto;non_animato;VDetN;V det_indef N;dare;138;dare un(/il) bacio;dare un bacio
+bagno;;;VPrepN;V in N;andare;179;andare in bagno;andare in bagno
+bagno;astratto;non_animato;VDetN;V det_def/indef N;fare;484;fare il/un bagno;fare il bagno
+bagno;astratto;non_animato;VDetN;V det_def/indef N;fare;484;fare il/un bagno;fare un bagno
+bagno;astratto;non_animato;VPrepN;V a N;mettere;28;mettere a bagno;mettere a bagno
+ballo;astratto;non_animato;VPrepN;V in N;avere;8;avere in ballo;avere in ballo
+ballo;astratto;non_animato;VPrepN;V in N;essere;113;essere in ballo;essere in ballo
+ballo;astratto;non_animato;VDetN;V det_indef N;fare;10;fare un ballo;fare un ballo
+ballo;astratto;non_animato;VPrepN;V in N;mettere;19;mettere in ballo;mettere in ballo
+bambina;astratto;non_animato;VDetN;V det_def N;fare;6;fare la bambina;fare la bambina
+bambino;concreto;umano;VDetN;V det_def N;fare;43;fare il bambino;fare il bambino
+barba;concreto;non_animato;VDetN;V det_def N;fare;50;fare la barba;fare la barba
+base;concreto;non_animato;VDetN;V det_indef N;avere;234;avere una base;avere una base
+battaglia;;;VPrepN;V in N;andare;36;andare in battaglia;andare in battaglia
+battaglia;concreto;non_animato;VN;VN;dare;113;dare (la) battaglia;dare battaglia
+battaglia;concreto;non_animato;VN;VN;dare;113;dare (la) battaglia;dare la battaglia
+battaglia;concreto;non_animato;VDetN;V det_def N;fare;13;fare la battaglia;fare la battaglia
+battaglia;;;VPrepN;V in N;mandare;9;mandare in battaglia;mandare in battaglia
+bene;astratto;non_animato;VDetN;V det_def N;fare;119;fare il bene;fare il bene
+bestia;;;VPrepN;V in N;andare;9;andare in bestia;andare in bestia
+bestia;;;VPrepN;V in N;mandare;31;mandare in bestia;mandare in bestia
+bicicletta;;;VPrepN;V in N;andare;87;andare in bicicletta;andare in bicicletta
+bisogno;astratto;non_animato;V(Det)N;V (det_def) N;avere;174;avere (il) bisogno;avere bisogno
+bisogno;astratto;non_animato;V(Det)N;V (det_def) N;avere;174;avere (il) bisogno;avere il bisogno
+bocca;concreto;non_animato;VN;VN;mettere;13;mettere bocca;mettere bocca
+bomba;concreto;non_animato;VDetN;V det_indef N;mettere;44;mettere una bomba;mettere una bomba
+bordo;concreto;non_animato;VPrepN;V a N;avere;98;avere a bordo;avere a bordo
+bordo;concreto;non_animato;VPrepN;V a N;essere;226;essere a bordo;essere a bordo
+bordo;concreto;non_animato;VPrepN;V a N;prendere;37;prendere a bordo;prendere a bordo
+bottiglia;concreto;non_animato;VPrepN;V in N;mettere;7;mettere in bottiglia;mettere in bottiglia
+buongiorno;astratto;non_animato;VDetN;V det_def N;dare;28;dare il buongiorno;dare il buongiorno
+buono;astratto;non_animato;VDetN;V det_def N;fare;19;fare il buono;fare il buono
+caccia;;;VPrepN;V a N;andare;334;andare a caccia;andare a caccia
+caccia;astratto;non_animato;VDetN;V det_def N;dare;782;dare la(/una) caccia;dare la caccia
+caccia;astratto;non_animato;VDetN;V det_def N;dare;782;dare la(/una) caccia;dare una caccia
+caccia;astratto;non_animato;VPrepN;V a N;essere;80;essere a caccia;essere a caccia
+caccia;astratto;non_animato;VPrepN;V in N;essere;10;essere in caccia;essere in caccia
+caccia;astratto;non_animato;VDetN;V det_indef N;fare;5;fare un caccia;fare un caccia
+calcio;astratto;non_animato;VDetN;V det_indef/def N;dare;88;dare un(/il) calcio;dare il calcio
+calcio;astratto;non_animato;VDetN;V det_indef/def N;dare;88;dare un(/il) calcio;dare un calcio
+calcio;astratto;non_animato;VN;VN;fare;5;fare calcio;fare calcio
+calcio;astratto;non_animato;VPrepN;V a N;prendere;238;prendere a calcio;prendere a calcio
+caldo;astratto;non_animato;VDetN;V det_indef N;fare;15;fare un caldo;fare un caldo
+cambio;astratto;non_animato;VPrepN;V in N;avere;75;avere in cambio;avere in cambio
+cambio;astratto;non_animato;VDetN;V det_def N;dare;177;dare il(/un) cambio;dare il cambio
+cambio;astratto;non_animato;VDetN;V det_def N;dare;177;dare il(/un) cambio;dare un cambio
+cambio;astratto;non_animato;VPrepN;V in N;dare;38;dare in cambio;dare in cambio
+cambio;astratto;non_animato;VDetN;V det_indef N;fare;18;fare un cambio;fare un cambio
+cammino;astratto;non_animato;VPrepN;V in N;mettere;85;mettere in cammino;mettere in cammino
+campagna;concreto;non_animato;VN;VN;fare;50;fare campagna;fare campagna
+campo;concreto;non_animato;VN;VN;avere;16;avere campo;avere campo
+campo;concreto;non_animato;VDetN;V det_def N;dare;5;dare il campo;dare il campo
+campo;concreto;non_animato;VPrepN;V in N;mettere;771;mettere in campo;mettere in campo
+capitano;concreto;umano;VDetN;V det_def N;fare;7;fare il capitano;fare il capitano
+capo;concreto;non_animato;VPrepN;V a N;avere;36;avere a capo;avere a capo
+capo;concreto;non_animato;VPrepN;V a N;essere;1090;essere a capo;essere a capo
+capo;concreto;non_animato;VPrepN;V a N;mettere;457;mettere a capo;mettere a capo
+carabiniere;concreto;umano;VDetN;V det_def N;fare;13;fare il carabiniere;fare il carabiniere
+carattere;astratto;non_animato;VN;VN;avere;47;avere carattere;avere carattere
+carattere;astratto;non_animato;VN;VN;dare;7;dare carattere;dare carattere
+carcere;;;VPrepN;V in N;andare;76;andare in carcere;andare in carcere
+carcere;concreto;non_animato;VPrepN;V in N;essere;172;essere in carcere;essere in carcere
+carcere;;;VPrepN;V in N;mandare;20;mandare in carcere;mandare in carcere
+carcere;concreto;non_animato;VPrepN;V in N;mettere;61;mettere in carcere;mettere in carcere
+carica;astratto;non_animato;VDetN;V det_def N;avere;52;avere la carica;avere la carica
+carica;astratto;non_animato;VDetN;V det_def N;dare;34;dare la carica;dare la carica
+carica;astratto;non_animato;VPrepN;V in N;mettere;8;mettere in carica;mettere in carica
+carità;astratto;non_animato;VDetN;V det_def N;avere;5;avere la carità;avere la carità
+carità;astratto;non_animato;VDetN;V det_def N;fare;17;fare la carità;fare la carità
+carriera;astratto;non_animato;VN;VN;fare;226;fare (una) carriera;fare carriera
+carriera;astratto;non_animato;VN;VN;fare;226;fare (una) carriera;fare una carriera
+carta;concreto;non_animato;VPrepN;V su N;mettere;28;mettere su carta;mettere su carta
+casa;;;VPrepN;V a N;andare;765;andare a casa;andare a casa
+casa;concreto;non_animato;VPrepN;V da N;fare;11;fare da casa;fare da casa
+caso;astratto;non_animato;VN;VN;fare;6;fare caso;fare caso
+catena;concreto;non_animato;VPrepN;V in N;essere;6;essere in catena;essere in catena
+catena;concreto;non_animato;VDetN;V det_def N;mettere;11;mettere la catena;mettere la catena
+cattivo;concreto;non_animato;VDetN;V det_def N;fare;30;fare il cattivo;fare il cattivo
+causa;astratto;non_animato;VN;VN;essere;159;essere causa;essere causa
+causa;astratto;non_animato;VN;VN;fare;94;fare causa;fare causa
+causa;astratto;non_animato;VDetN;V det_indef N;fare;20;fare una causa;fare una causa
+cavaliere;concreto;umano;VDetN;V det_def N;fare;5;fare il cavaliere;fare il cavaliere
+cavallo;;;VPrepN;V a N;andare;73;andare a cavallo;andare a cavallo
+cavallo;concreto;animato;VPrepN;V a N;essere;51;essere a cavallo;essere a cavallo
+cena;;;VPrepN;V a N;andare;130;andare a cena;andare a cena
+cena;concreto;non_animato;VPrepN;V a N;essere;59;essere a cena;essere a cena
+cena;concreto;non_animato;VDetN;V det_indef N;fare;14;fare una cena;fare una cena
+centro;concreto;non_animato;VN;VN;fare;17;fare centro;fare centro
+cerimonia;concreto;non_animato;VDetN;V det_indef N;fare;5;fare una cerimonia;fare una cerimonia
+cima;concreto;non_animato;VPrepN;V in N;mettere;17;mettere in cima;mettere in cima
+cinema;;;VPrepN;V a N;andare;5;andare a cinema;andare a cinema
+cinema;astratto;non_animato;VN;VN;fare;92;fare cinema;fare cinema
+coda;concreto;non_animato;VPrepN;V in N;mettere;66;mettere in coda;mettere in coda
+cognome;astratto;non_animato;VDetN;V det_def N;avere;23;avere il cognome;avere il cognome
+cognome;astratto;non_animato;VDetN;V det_def N;dare;16;dare il cognome;dare il cognome
+cognome;astratto;non_animato;VDetN;V det_def N;prendere;8;prendere il cognome;prendere il cognome
+colazione;astratto;non_animato;VN;VN;fare;80;fare colazione;fare colazione
+colore;concreto;non_animato;VN;VN;avere;5;avere colore;avere colore
+colore;concreto;non_animato;V(Det)N;V (det_indef) N;dare;44;dare (un) colore;dare colore
+colore;concreto;non_animato;V(Det)N;V (det_indef) N;dare;44;dare (un) colore;dare un colore
+colore;concreto;non_animato;VN;-;prendere;6;prendere colore;prendere colore
+colpa;astratto;non_animato;VDetN;V det_def N;avere;30;avere la colpa;avere la colpa
+colpa;astratto;non_animato;VDetN;V det_def N;dare;418;dare (la/una) colpa;dare colpa
+colpa;astratto;non_animato;VDetN;V det_def N;dare;418;dare (la/una) colpa;dare la colpa
+colpa;astratto;non_animato;VDetN;V det_def N;dare;418;dare (la/una) colpa;dare una colpa
+colpa;astratto;non_animato;VDetN;V det_indef N;fare;37;fare una colpa;fare una colpa
+colpo;;;VPrepN;V a N;andare;16;andare a colpo;andare a colpo
+colpo;concreto;non_animato;VDetN;V det_indef N;dare;119;dare un colpo;dare un colpo
+colpo;concreto;non_animato;VN;VN;fare;76;fare colpo;fare colpo
+colpo;concreto;non_animato;VDetN;V det_indef N;fare;29;fare un colpo;fare un colpo
+comando;astratto;non_animato;VDetN;V det_def N;avere;275;avere il comando;avere il comando
+comando;astratto;non_animato;VDetN;V det_def/indef N;dare;101;dare il/un comando;dare il comando
+comando;astratto;non_animato;VDetN;V det_def/indef N;dare;101;dare il/un comando;dare un comando
+comando;astratto;non_animato;VPrepN;V a N;essere;8;essere a comando;essere a comando
+commercio;astratto;non_animato;VPrepN;V in N;avere;9;avere in commercio;avere in commercio
+commercio;astratto;non_animato;VPrepN;V in N;mettere;605;mettere in commercio;mettere in commercio
+compagnia;astratto;non_animato;VN;VN;avere;6;avere compagnia;avere compagnia
+compagnia;astratto;non_animato;VN;VN;fare;43;fare compagnia;fare compagnia
+compagnia;astratto;non_animato;VDetN;V det_def N;fare;7;fare la compagnia;fare la compagnia
+compenso;astratto;non_animato;VPrepN;V in N;avere;14;avere in compenso;avere in compenso
+compito;astratto;non_animato;VDetN;V det_def N;avere;2533;avere il compito;avere il compito
+compito;astratto;non_animato;VDetN;V det_def N;dare;98;dare il compito;dare il compito
+compito;astratto;non_animato;VN;VN;essere;7;essere compito;essere compito
+complimento;astratto;non_animato;VDetN;V det_def N;fare;255;fare il complimento;fare il complimento
+complimento;astratto;non_animato;VDetN;V det_indef N;fare;23;fare un complimento;fare un complimento
+comune;astratto;non_animato;VPrepN;V in N;avere;27;avere in comune;avere in comune
+comune;astratto;non_animato;VPrepN;V in N;essere;11;essere in comune;essere in comune
+comunicazione;astratto;non_animato;VN;VN;dare;11;dare comunicazione;dare comunicazione
+comunicazione;astratto;non_animato;VN;VN;fare;13;fare comunicazione;fare comunicazione
+comunicazione;astratto;non_animato;VDetN;V det_def N;fare;6;fare la comunicazione;fare la comunicazione
+comunicazione;astratto;non_animato;VPrepN;V in N;mettere;665;mettere in comunicazione;mettere in comunicazione
+comunista;concreto;umano;VDetN;V det_def N;fare;8;fare il comunista;fare il comunista
+condizione;astratto;non_animato;VDetN;V det_indef N;dare;6;dare una condizione;dare una condizione
+condizione;astratto;non_animato;VPrepN;V in N;mettere;235;mettere in condizione;mettere in condizione
+confessione;astratto;non_animato;VDetN;V det_indef N;fare;14;fare una confessione;fare una confessione
+confine;concreto;non_animato;VPrepN;V da N;fare;71;fare da confine;fare da confine
+confronto;astratto;non_animato;VDetN;V det_indef N;fare;147;fare un confronto;fare un confronto
+confronto;astratto;non_animato;VPrepN;V a N;mettere;657;mettere a confronto;mettere a confronto
+confronto;astratto;non_animato;VPrepN;V in N;mettere;25;mettere in confronto;mettere in confronto
+confusione;;;VPrepN;V in N;andare;18;andare in confusione;andare in confusione
+confusione;astratto;non_animato;VN;VN;fare;53;fare confusione;fare confusione
+confusione;;;VPrepN;V in N;mandare;28;mandare in confusione;mandare in confusione
+confusione;astratto;non_animato;VPrepN;V in N;mettere;9;mettere in confusione;mettere in confusione
+conoscenza;astratto;non_animato;V(Det)N;V (det_def) N;avere;82;avere (la) conoscenza;avere conoscenza
+conoscenza;astratto;non_animato;V(Det)N;V (det_def) N;avere;82;avere (la) conoscenza;avere la conoscenza
+conoscenza;astratto;non_animato;VPrepN;V a N;essere;1634;essere a conoscenza;essere a conoscenza
+conoscenza;astratto;non_animato;V(Det)N;V (det_def) N;fare;603;fare (la) conoscenza;fare conoscenza
+conoscenza;astratto;non_animato;V(Det)N;V (det_def) N;fare;603;fare (la) conoscenza;fare la conoscenza
+conoscenza;astratto;non_animato;VPrepN;V a N;mettere;102;mettere a conoscenza;mettere a conoscenza
+conoscenza;astratto;non_animato;VN;-;prendere;24;prendere conoscenza;prendere conoscenza
+conseguenza;astratto;non_animato;VDetN;V det_def N;avere;26;avere la conseguenza;avere la conseguenza
+conseguenza;astratto;non_animato;VN;VN;essere;18;essere conseguenza;essere conseguenza
+consenso;astratto;non_animato;VN;VN;avere;6;avere consenso;avere consenso
+consenso;astratto;non_animato;V(Det)N;V (det_def) N;dare;71;dare (il) consenso;dare consenso
+consenso;astratto;non_animato;V(Det)N;V (det_def) N;dare;71;dare (il) consenso;dare il consenso
+consiglio;astratto;non_animato;VDetN;V det_indef/def N;dare;100;dare un(/il) consiglio;dare il consiglio
+consiglio;astratto;non_animato;VDetN;V det_indef/def N;dare;100;dare un(/il) consiglio;dare un consiglio
+contadino;concreto;umano;VDetN;V det_def N;fare;25;fare il contadino;fare il contadino
+contadino;concreto;umano;VDetN;V det_def N;fare;6;fare la contadino;fare la contadino
+contatto;;;VPrepN;V a N;andare;16;andare a contatto;andare a contatto
+contatto;astratto;non_animato;VN;VN;avere;7;avere contatto;avere contatto
+contatto;astratto;non_animato;VPrepN;V in N;essere;396;essere in contatto;essere in contatto
+contatto;astratto;non_animato;VPrepN;V a N;mettere;85;mettere a contatto;mettere a contatto
+contatto;astratto;non_animato;VPrepN;V in N;mettere;870;mettere in contatto;mettere in contatto
+contatto;astratto;non_animato;VN;-;prendere;96;prendere contatto;prendere contatto
+conto;astratto;non_animato;VN;VN;dare;48;dare conto;dare conto
+conto;astratto;non_animato;VN;VN;fare;12;fare conto;fare conto
+conto;astratto;non_animato;VDetN;V det_indef N;fare;11;fare un conto;fare un conto
+conto;astratto;non_animato;VPrepN;V in N;mettere;201;mettere in conto;mettere in conto
+conto;astratto;non_animato;VPrepN;V in N;prendere;10;prendere in conto;prendere in conto
+contratto;concreto;non_animato;VPrepN;V sotto N;essere;158;essere sotto contratto;essere sotto contratto
+contratto;concreto;non_animato;VDetN;V det_indef N;fare;41;fare un contratto;fare un contratto
+contratto;concreto;non_animato;VPrepN;V sotto N;mettere;760;mettere sotto contratto;mettere sotto contratto
+coraggio;astratto;non_animato;V(Det)N;V (det_def) N;avere;1609;avere (il) coraggio;avere coraggio
+coraggio;astratto;non_animato;V(Det)N;V (det_def) N;avere;1609;avere (il) coraggio;avere il coraggio
+coraggio;astratto;non_animato;V(Det)N;V (det_def) N;dare;23;dare (il) coraggio;dare coraggio
+coraggio;astratto;non_animato;V(Det)N;V (det_def) N;dare;23;dare (il) coraggio;dare il coraggio
+coraggio;astratto;non_animato;V(Det)N;V (det_def) N;prendere;20;prendere (il) coraggio;prendere coraggio
+coraggio;astratto;non_animato;V(Det)N;V (det_def) N;prendere;20;prendere (il) coraggio;prendere il coraggio
+corda;concreto;non_animato;VDetN;V det_def N;mettere;5;mettere la corda;mettere la corda
+corno;concreto;non_animato;VDetN;V det_def N;fare;33;fare la corno;fare la corno
+corno;concreto;non_animato;VDetN;V det_def N;mettere;7;mettere la corno;mettere la corno
+corpo;;;VPrepN;V di N;andare;17;andare di corpo;andare di corpo
+corpo;concreto;non_animato;VPrepN;V in N;avere;30;avere in corpo;avere in corpo
+corpo;concreto;non_animato;VN;VN;dare;76;dare corpo;dare corpo
+corpo;concreto;non_animato;VN;-;prendere;49;prendere corpo;prendere corpo
+corrente;astratto;non_animato;VPrepN;V a N;essere;17;essere a corrente;essere a corrente
+corsa;astratto;non_animato;VPrepN;V in N;essere;66;essere in corsa;essere in corsa
+corsa;astratto;non_animato;VDetN;V det_def N;fare;13;fare la corsa;fare la corsa
+corsa;astratto;non_animato;VDetN;V det_indef N;fare;45;fare una corsa;fare una corsa
+corso;astratto;non_animato;VN;VN;dare;40;dare corso;dare corso
+corso;astratto;non_animato;VPrepN;V in N;essere;2277;essere in corso;essere in corso
+corso;astratto;non_animato;VDetN;V det_indef N;fare;65;fare un corso;fare un corso
+corte;concreto;non_animato;VDetN;V det_def N;fare;113;fare la(/una) corte;fare la corte
+corte;concreto;non_animato;VDetN;V det_def N;fare;113;fare la(/una) corte;fare una corte
+coscienza;astratto;non_animato;VN;VN;avere;20;avere coscienza;avere coscienza
+coscienza;astratto;non_animato;VDetN;V det_def N;avere;58;avere la coscienza;avere la coscienza
+coscienza;astratto;non_animato;VN;-;prendere;203;prendere coscienza;prendere coscienza
+costo;astratto;non_animato;VDetN;V det_def N;avere;22;avere il costo;avere il costo
+costo;astratto;non_animato;VPrepN;V a N;essere;16;essere a costo;essere a costo
+costruzione;astratto;non_animato;VPrepN;V in N;essere;325;essere in costruzione;essere in costruzione
+cretino;concreto;non_animato;VDetN;V det_def N;fare;15;fare il cretino;fare il cretino
+cretino;concreto;non_animato;VDetN;V det_def N;fare;6;fare la cretino;fare la cretino
+crisi;;;VPrepN;V in N;andare;174;andare in crisi;andare in crisi
+crisi;astratto;non_animato;VPrepN;V in N;essere;410;essere in crisi;essere in crisi
+crisi;;;VPrepN;V in N;mandare;52;mandare in crisi;mandare in crisi
+crisi;astratto;non_animato;VPrepN;V in N;mettere;603;mettere in crisi;mettere in crisi
+croce;concreto;non_animato;VPrepN;V in N;mettere;52;mettere in croce;mettere in croce
+croce;concreto;non_animato;VDetN;V det_indef N;mettere;13;mettere una croce;mettere una croce
+cuore;concreto;non_animato;VPrepN;V a N;avere;301;avere a cuore;avere a cuore
+cuore;concreto;non_animato;VDetN;V det_def N;dare;7;dare il cuore;dare il cuore
+cuore;concreto;non_animato;VDetN;V det_def N;mettere;66;mettere il cuore;mettere il cuore
+cuore;concreto;non_animato;VPrepN;V a N;prendere;137;prendere a cuore;prendere a cuore
+cura;;;VPrepN;V in N;andare;5;andare in cura;andare in cura
+cura;astratto;non_animato;VN;VN;avere;42;avere cura;avere cura
+cura;astratto;non_animato;VPrepN;V in N;avere;105;avere in cura;avere in cura
+cura;astratto;non_animato;VPrepN;V in N;essere;71;essere in cura;essere in cura
+cura;astratto;non_animato;VPrepN;V sotto N;essere;6;essere sotto cura;essere sotto cura
+cura;astratto;non_animato;VPrepN;V in N;mettere;7;mettere in cura;mettere in cura
+cura;astratto;non_animato;VN;-;prendere;33;prendere cura;prendere cura
+cura;astratto;non_animato;VPrepN;V in N;prendere;44;prendere in cura;prendere in cura
+curiosità;astratto;non_animato;VDetN;V det_def N;avere;16;avere la curiosità;avere la curiosità
+curva;concreto;non_animato;VDetN;V det_indef/def N;fare;38;fare una(/la) curva;fare la curva
+curva;concreto;non_animato;VDetN;V det_indef/def N;fare;38;fare una(/la) curva;fare una curva
+custode;concreto;umano;VDetN;V det_def N;fare;7;fare il custode;fare il custode
+danno;;;VPrepN;V a N;andare;12;andare a danno;andare a danno
+danno;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;55;fare (un/il) danno;fare danno
+danno;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;55;fare (un/il) danno;fare il danno
+danno;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;55;fare (un/il) danno;fare un danno
+debito;astratto;non_animato;VDetN;V det_def N;avere;5;avere il debito;avere il debito
+debito;astratto;non_animato;VPrepN;V in N;essere;54;essere in debito;essere in debito
+decisione;astratto;non_animato;VDetN;V det_indef N;fare;5;fare una decisione;fare una decisione
+decisione;astratto;non_animato;VDetN;V det_indef/def N;prendere;314;prendere una(/la) decisione;prendere la decisione
+decisione;astratto;non_animato;VDetN;V det_indef/def N;prendere;314;prendere una(/la) decisione;prendere una decisione
+denaro;concreto;non_animato;VN;VN;fare;5;fare denaro;fare denaro
+desiderio;astratto;non_animato;VDetN;V det_def/indef N;avere;72;avere il(/un) desiderio;avere il desiderio
+desiderio;astratto;non_animato;VDetN;V det_def/indef N;avere;72;avere il(/un) desiderio;avere un desiderio
+destino;astratto;non_animato;VDetN;V det_def N;avere;11;avere il destino;avere il destino
+diavolo;concreto;animato;VDetN;V det_def N;fare;17;fare il diavolo;fare il diavolo
+difesa;astratto;non_animato;VPrepN;V a N;mettere;6;mettere a difesa;mettere a difesa
+difetto;astratto;non_animato;VDetN;V det_def N;avere;102;avere il difetto;avere il difetto
+difetto;astratto;non_animato;VPrepN;V in N;essere;12;essere in difetto;essere in difetto
+differenza;astratto;non_animato;VN;VN;fare;8;fare differenza;fare differenza
+differenza;astratto;non_animato;VDetN;V det_def N;fare;620;fare la differenza;fare la differenza
+difficoltà;;;VPrepN;V in N;andare;12;andare in difficoltà;andare in difficoltà
+difficoltà;astratto;non_animato;V(Det)N;V (det_def) N;avere;65;avere (la) difficoltà;avere difficoltà
+difficoltà;astratto;non_animato;V(Det)N;V (det_def) N;avere;65;avere (la) difficoltà;avere la difficoltà
+difficoltà;astratto;non_animato;VPrepN;V in N;essere;288;essere in difficoltà;essere in difficoltà
+difficoltà;astratto;non_animato;VPrepN;V in N;mettere;701;mettere in difficoltà;mettere in difficoltà
+dimensione;astratto;non_animato;V(Det)N;V (det_def) N;avere;206;avere (la) dimensione;avere dimensione
+dimensione;astratto;non_animato;V(Det)N;V (det_def) N;avere;206;avere (la) dimensione;avere la dimensione
+direttore;concreto;umano;VN;VN;essere;17;essere direttore;essere direttore
+direttore;concreto;umano;VDetN;V det_def N;fare;32;fare il direttore;fare il direttore
+direzione;astratto;non_animato;VDetN;V det_def/indef N;avere;77;avere la/una direzione;avere la direzione
+direzione;astratto;non_animato;VDetN;V det_def/indef N;avere;77;avere la/una direzione;avere una direzione
+direzione;astratto;non_animato;VDetN;V det_indef N;dare;14;dare una direzione;dare una direzione
+direzione;astratto;non_animato;VDetN;V det_indef/def N;prendere;27;prendere una/la direzione;prendere la direzione
+direzione;astratto;non_animato;VDetN;V det_indef/def N;prendere;27;prendere una/la direzione;prendere una direzione
+diritto;astratto;non_animato;V(Det)N;V (det_def) N;avere;1923;avere (il) diritto;avere diritto
+diritto;astratto;non_animato;V(Det)N;V (det_def) N;avere;1923;avere (il) diritto;avere il diritto
+diritto;astratto;non_animato;V(Det)N;V (det_def) N;dare;105;dare (il) diritto;dare diritto
+diritto;astratto;non_animato;V(Det)N;V (det_def) N;dare;105;dare (il) diritto;dare il diritto
+disco;concreto;non_animato;VDetN;V det_indef N;fare;72;fare un disco;fare un disco
+discorso;astratto;non_animato;VDetN;V det_indef/def N;fare;228;fare un/il discorso;fare il discorso
+discorso;astratto;non_animato;VDetN;V det_indef/def N;fare;228;fare un/il discorso;fare un discorso
+disegno;concreto;non_animato;VDetN;V det_indef N;fare;25;fare un disegno;fare un disegno
+disgrazia;astratto;non_animato;VDetN;V det_def N;avere;13;avere la disgrazia;avere la disgrazia
+disgrazia;astratto;non_animato;VPrepN;V in N;essere;5;essere in disgrazia;essere in disgrazia
+disordine;astratto;non_animato;VPrepN;V in N;essere;13;essere in disordine;essere in disordine
+disordine;astratto;non_animato;VPrepN;V in N;mettere;6;mettere in disordine;mettere in disordine
+disposizione;astratto;non_animato;VPrepN;V a N;avere;3044;avere a disposizione;avere a disposizione
+disposizione;astratto;non_animato;VDetN;V det_def N;avere;8;avere la disposizione;avere la disposizione
+disposizione;astratto;non_animato;VPrepN;V a N;dare;6;dare a disposizione;dare a disposizione
+disposizione;astratto;non_animato;VPrepN;V a N;mettere;5887;mettere a disposizione;mettere a disposizione
+distanza;astratto;non_animato;VDetN;V det_def/indef N;avere;47;avere la/una distanza;avere la distanza
+distanza;astratto;non_animato;VDetN;V det_def/indef N;avere;47;avere la/una distanza;avere una distanza
+distanza;astratto;non_animato;VN;-;prendere;8;prendere distanza;prendere distanza
+disturbo;astratto;non_animato;VPrepN;V di N;essere;8;essere di disturbo;essere di disturbo
+divisione;astratto;non_animato;VDetN;V det_def N;fare;11;fare la divisione;fare la divisione
+dolore;astratto;non_animato;VDetN;V det_def N;avere;12;avere il dolore;avere il dolore
+dolore;astratto;non_animato;VDetN;V det_indef N;dare;6;dare un dolore;dare un dolore
+domanda;astratto;non_animato;VN;VN;fare;60;fare domanda;fare domanda
+domanda;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;294;fare (una/la) domanda;fare domanda
+domanda;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;294;fare (una/la) domanda;fare la domanda
+domanda;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;294;fare (una/la) domanda;fare una domanda
+donna;;;VPrepN;V a N;andare;8;andare a donna;andare a donna
+donna;concreto;umano;VN;VN;essere;102;essere donna;essere donna
+dote;;;VPrepN;V in N;andare;6;andare in dote;andare in dote
+dote;astratto;non_animato;VPrepN;V in N;avere;33;avere in dote;avere in dote
+dote;astratto;non_animato;VDetN;V det_def N;avere;43;avere la dote;avere la dote
+dote;astratto;non_animato;VPrepN;V in N;dare;21;dare in dote;dare in dote
+dottore;concreto;umano;VDetN;V det_def N;fare;12;fare il dottore;fare il dottore
+dovere;astratto;non_animato;VDetN;V det_def N;avere;480;avere il dovere;avere il dovere
+dubbio;astratto;non_animato;VDetN;V det_indef/def N;avere;70;avere un/il dubbio;avere il dubbio
+dubbio;astratto;non_animato;VDetN;V det_indef/def N;avere;70;avere un/il dubbio;avere un dubbio
+dubbio;astratto;non_animato;VPrepN;V in N;essere;53;essere in dubbio;essere in dubbio
+dubbio;astratto;non_animato;VPrepN;V in N;mettere;1172;mettere in dubbio;mettere in dubbio
+educazione;astratto;non_animato;VDetN;V det_indef N;dare;5;dare una educazione;dare una educazione
+effetto;astratto;non_animato;VN;VN;avere;57;avere effetto;avere effetto
+effetto;astratto;non_animato;VDetN;V det_indef/def N;avere;728;avere un/il effetto;avere il effetto
+effetto;astratto;non_animato;VDetN;V det_indef/def N;avere;728;avere un/il effetto;avere un effetto
+effetto;astratto;non_animato;VDetN;V det_indef/def N;dare;72;dare un/il effetto;dare il effetto
+effetto;astratto;non_animato;VDetN;V det_indef/def N;dare;72;dare un/il effetto;dare un effetto
+effetto;astratto;non_animato;VPrepN;V sotto N;essere;16;essere sotto effetto;essere sotto effetto
+effetto;astratto;non_animato;V(Det)N;V (det_indef) N;fare;40;fare (un) effetto;fare effetto
+effetto;astratto;non_animato;V(Det)N;V (det_indef) N;fare;40;fare (un) effetto;fare un effetto
+energia;astratto;non_animato;V(Det)N;V (det_indef) N;avere;54;avere (una) energia;avere energia
+energia;astratto;non_animato;V(Det)N;V (det_indef) N;avere;54;avere (una) energia;avere una energia
+energia;astratto;non_animato;VN;VN;dare;44;dare energia;dare energia
+eroe;concreto;umano;VDetN;V det_def N;fare;12;fare il eroe;fare il eroe
+errore;astratto;non_animato;VPrepN;V in N;essere;37;essere in errore;essere in errore
+errore;astratto;non_animato;VDetN;V det_indef N;fare;110;fare un errore;fare un errore
+esame;astratto;non_animato;VDetN;V det_indef/def N;dare;20;dare un/il esame;dare il esame
+esame;astratto;non_animato;VDetN;V det_indef/def N;dare;20;dare un/il esame;dare un esame
+esame;astratto;non_animato;VPrepN;V sotto N;essere;11;essere sotto esame;essere sotto esame
+esame;astratto;non_animato;VDetN;V det_indef N;fare;66;fare un esame;fare un esame
+esame;astratto;non_animato;VPrepN;V sotto N;mettere;14;mettere sotto esame;mettere sotto esame
+esame;astratto;non_animato;VPrepN;V in N;prendere;738;prendere in esame;prendere in esame
+esempio;astratto;non_animato;VDetN;V det_indef N;dare;71;dare un esempio;dare un esempio
+esempio;astratto;non_animato;VPrepN;V da N;fare;11;fare da esempio;fare da esempio
+esempio;astratto;non_animato;VDetN;V det_indef N;fare;1001;fare un esempio;fare un esempio
+esempio;astratto;non_animato;VPrepN;V a N;prendere;15;prendere a esempio;prendere a esempio
+esempio;astratto;non_animato;VPrepN;V da N;prendere;27;prendere da esempio;prendere da esempio
+esempio;astratto;non_animato;VN;-;prendere;45;prendere esempio;prendere esempio
+esempio;astratto;non_animato;VPrepN;V in N;prendere;14;prendere in esempio;prendere in esempio
+esilio;;;VPrepN;V in N;andare;313;andare in esilio;andare in esilio
+esilio;astratto;non_animato;VPrepN;V in N;essere;83;essere in esilio;essere in esilio
+esilio;;;VPrepN;V in N;mandare;182;mandare in esilio;mandare in esilio
+esperienza;astratto;non_animato;VN;VN;avere;19;avere esperienza;avere esperienza
+esperienza;astratto;non_animato;VDetN;V det_indef N;avere;20;avere una esperienza;avere una esperienza
+esperienza;astratto;non_animato;VN;VN;fare;207;fare esperienza;fare esperienza
+esposizione;astratto;non_animato;VPrepN;V in N;essere;35;essere in esposizione;essere in esposizione
+esposizione;astratto;non_animato;VPrepN;V in N;mettere;15;mettere in esposizione;mettere in esposizione
+espressione;astratto;non_animato;VN;VN;dare;18;dare espressione;dare espressione
+faccia;concreto;non_animato;VDetN;V det_def N;mettere;90;mettere la faccia;mettere la faccia
+falso;concreto;non_animato;VDetN;V det_indef N;fare;5;fare un falso;fare un falso
+fame;astratto;non_animato;VN;VN;avere;12;avere fame;avere fame
+fame;astratto;non_animato;VDetN;V det_def N;fare;43;fare la fame;fare la fame
+famiglia;concreto;umano;VDetN;V det_indef N;dare;18;dare una famiglia;dare una famiglia
+famiglia;concreto;umano;VDetN;V det_indef/def N;fare;38;fare una/la famiglia;fare la famiglia
+famiglia;concreto;umano;VDetN;V det_indef/def N;fare;38;fare una/la famiglia;fare una famiglia
+fascista;concreto;umano;VDetN;V det_def N;fare;5;fare il fascista;fare il fascista
+fastidio;astratto;non_animato;VN;VN;dare;94;dare fastidio;dare fastidio
+fatica;astratto;non_animato;V(Det)N;V (det_def/indef) N;fare;52;fare (la/una) fatica;fare fatica
+fatica;astratto;non_animato;V(Det)N;V (det_def/indef) N;fare;52;fare (la/una) fatica;fare la fatica
+fatica;astratto;non_animato;V(Det)N;V (det_def/indef) N;fare;52;fare (la/una) fatica;fare una fatica
+favore;;;VPrepN;V a N;andare;70;andare a favore;andare a favore
+favore;astratto;non_animato;VDetN;V det_def N;avere;28;avere il favore;avere il favore
+favore;astratto;non_animato;VPrepN;V a N;essere;404;essere a favore;essere a favore
+favore;astratto;non_animato;VPrepN;V in N;essere;35;essere in favore;essere in favore
+favore;astratto;non_animato;VDetN;V det_indef/def N;fare;204;fare un/il favore;fare il favore
+favore;astratto;non_animato;VDetN;V det_indef/def N;fare;204;fare un/il favore;fare un favore
+fede;astratto;non_animato;VN;VN;avere;48;avere (la) fede;avere fede
+fede;astratto;non_animato;VN;VN;avere;48;avere (la) fede;avere la fede
+fede;astratto;non_animato;VDetN;V det_def N;dare;5;dare la fede;dare la fede
+fede;astratto;non_animato;VN;VN;fare;5;fare fede;fare fede
+felicità;astratto;non_animato;VDetN;V det_def N;avere;5;avere la felicità;avere la felicità
+felicità;astratto;non_animato;VDetN;V det_def N;dare;17;dare la felicità;dare la felicità
+fenomeno;astratto;non_animato;VDetN;V det_def N;fare;15;fare il fenomeno;fare il fenomeno
+festa;concreto;non_animato;VPrepN;V in N;essere;34;essere in festa;essere in festa
+festa;concreto;non_animato;V(Det)N;V (det_def/indef) N;fare;106;fare (una/la) festa;fare festa
+festa;concreto;non_animato;V(Det)N;V (det_def/indef) N;fare;106;fare (una/la) festa;fare la festa
+festa;concreto;non_animato;V(Det)N;V (det_def/indef) N;fare;106;fare (una/la) festa;fare una festa
+fianco;concreto;non_animato;VPrepN;V a N;avere;21;avere a fianco;avere a fianco
+fiato;concreto;non_animato;VN;VN;dare;17;dare fiato;dare fiato
+fiato;concreto;non_animato;VN;-;prendere;25;prendere fiato;prendere fiato
+fiducia;astratto;non_animato;V(Det)N;V (det_def) N;avere;148;avere (la) fiducia;avere fiducia
+fiducia;astratto;non_animato;V(Det)N;V (det_def) N;avere;148;avere (la) fiducia;avere la fiducia
+fiducia;astratto;non_animato;V(Det)N;V (det_def) N;dare;85;dare (la) fiducia;dare fiducia
+fiducia;astratto;non_animato;V(Det)N;V (det_def) N;dare;85;dare (la) fiducia;dare la fiducia
+fiducia;astratto;non_animato;VDetN;V det_def N;mettere;5;mettere la fiducia;mettere la fiducia
+figlia;astratto;non_animato;VDetN;V det_indef N;dare;48;dare una figlia;dare una figlia
+figlia;astratto;non_animato;VN;VN;essere;50;essere figlia;essere figlia
+figlio;concreto;umano;VN;VN;essere;126;essere figlio;essere figlio
+figlio;concreto;umano;VDetN;V det_indef N;fare;71;fare un figlio;fare un figlio
+film;concreto;non_animato;VN;VN;fare;67;fare film;fare film
+filo;concreto;non_animato;VDetN;V det_def N;fare;14;fare il filo;fare il filo
+fine;astratto;non_animato;VN;VN;avere;23;avere fine;avere fine
+fine;astratto;non_animato;VDetN;V det_def N;avere;109;avere il fine;avere il fine
+fine;astratto;non_animato;VDetN;V det_def N;fare;212;fare la fine;fare la fine
+fine;astratto;non_animato;VN;VN;mettere;496;mettere fine;mettere fine
+fiore;concreto;non_animato;VPrepN;V in N;essere;19;essere in fiore;essere in fiore
+firma;astratto;non_animato;VDetN;V det_indef/def N;mettere;61;mettere una/la firma;mettere la firma
+firma;astratto;non_animato;VDetN;V det_indef/def N;mettere;61;mettere una/la firma;mettere una firma
+fisico;concreto;non_animato;VN;VN;essere;15;essere fisico;essere fisico
+fondo;;;VPrepN;V a N;andare;126;andare a fondo;andare a fondo
+fondo;;;VPrepN;V in N;andare;33;andare in fondo;andare in fondo
+fondo;concreto;non_animato;VN;VN;dare;16;dare fondo;dare fondo
+fondo;;;VPrepN;V a N;mandare;6;mandare a fondo;mandare a fondo
+forma;astratto;non_animato;VN;VN;avere;44;avere forma;avere forma
+forma;astratto;non_animato;VDetN;V det_def N;avere;906;avere la forma;avere la forma
+forma;astratto;non_animato;VN;VN;dare;157;dare forma;dare forma
+forma;astratto;non_animato;VDetN;V det_indef/def N;dare;202;dare una/la forma;dare la forma
+forma;astratto;non_animato;VDetN;V det_indef/def N;dare;202;dare una/la forma;dare una forma
+forma;astratto;non_animato;VPrepN;V in N;essere;272;essere in forma;essere in forma
+forma;astratto;non_animato;VPrepN;V in N;mettere;26;mettere in forma;mettere in forma
+forma;astratto;non_animato;VN;-;prendere;170;prendere forma;prendere forma
+forma;astratto;non_animato;VDetN;V det_indef/def N;prendere;54;prendere una/la forma;prendere la forma
+forma;astratto;non_animato;VDetN;V det_indef/def N;prendere;54;prendere una/la forma;prendere una forma
+fortuna;astratto;non_animato;V(Det)N;V (det_def) N;avere;767;avere (la) fortuna;avere fortuna
+fortuna;astratto;non_animato;V(Det)N;V (det_def) N;avere;767;avere (la) fortuna;avere la fortuna
+fortuna;astratto;non_animato;VN;VN;fare;28;fare fortuna;fare fortuna
+forza;astratto;non_animato;VN;VN;avere;20;avere forza;avere forza
+forza;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;175;dare (la/una) forza;dare forza
+forza;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;175;dare (la/una) forza;dare la forza
+forza;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;175;dare (la/una) forza;dare una forza
+forza;astratto;non_animato;VPrepN;V in N;essere;72;essere in forza;essere in forza
+forza;astratto;non_animato;VN;VN;fare;16;fare forza;fare forza
+fotografia;concreto;non_animato;VN;VN;fare;7;fare fotografia;fare fotografia
+fotografia;concreto;non_animato;VDetN;V det_indef/def N;fare;19;fare una/la fotografia;fare la fotografia
+fotografia;concreto;non_animato;VDetN;V det_indef/def N;fare;19;fare una/la fotografia;fare una fotografia
+francese;concreto;non_animato;VDetN;V det_def N;fare;5;fare il francese;fare il francese
+fratello;concreto;umano;VN;VN;essere;20;essere fratello;essere fratello
+fretta;;;VPrepN;V di N;andare;35;andare di fretta;andare di fretta
+fretta;astratto;non_animato;VN;VN;avere;32;avere fretta;avere fretta
+fretta;astratto;non_animato;VPrepN;V di N;essere;9;essere di fretta;essere di fretta
+fretta;astratto;non_animato;VPrepN;V di N;fare;6;fare di fretta;fare di fretta
+fronte;astratto;non_animato;VN;VN;fare;237;fare fronte;fare fronte
+frutto;concreto;non_animato;VDetN;V det_def N;dare;51;dare il frutto;dare il frutto
+frutto;concreto;non_animato;VN;VN;essere;72;essere frutto;essere frutto
+frutto;concreto;non_animato;VPrepN;V a N;mettere;308;mettere a frutto;mettere a frutto
+fuga;;;VPrepN;V in N;andare;48;andare in fuga;andare in fuga
+fuga;astratto;non_animato;VPrepN;V in N;essere;80;essere in fuga;essere in fuga
+fuga;astratto;non_animato;VPrepN;V in N;mettere;609;mettere in fuga;mettere in fuga
+fumo;;;VPrepN;V in N;andare;177;andare in fumo;andare in fumo
+fumo;concreto;non_animato;VN;VN;fare;5;fare fumo;fare fumo
+fumo;;;VPrepN;V in N;mandare;55;mandare in fumo;mandare in fumo
+funerale;astratto;non_animato;VDetN;V det_def N;fare;11;fare il funerale;fare il funerale
+funzione;astratto;non_animato;VDetN;V det_def N;avere;955;avere la funzione;avere la funzione
+funzione;astratto;non_animato;VPrepN;V in N;essere;413;essere in funzione;essere in funzione
+funzione;astratto;non_animato;VPrepN;V in N;mettere;177;mettere in funzione;mettere in funzione
+fuoco;;;VPrepN;V a N;andare;133;andare a fuoco;andare a fuoco
+fuoco;concreto;non_animato;VPrepN;V a N;dare;10;dare a fuoco;dare a fuoco
+fuoco;concreto;non_animato;VN;VN;dare;85;dare fuoco;dare fuoco
+fuoco;concreto;non_animato;VPrepN;V a N;essere;8;essere a fuoco;essere a fuoco
+fuoco;concreto;non_animato;VN;VN;fare;89;fare fuoco;fare fuoco
+fuoco;;;VPrepN;V a N;mandare;10;mandare a fuoco;mandare a fuoco
+fuoco;concreto;non_animato;VPrepN;V a N;mettere;408;mettere a fuoco;mettere a fuoco
+fuoco;concreto;non_animato;VN;-;prendere;60;prendere fuoco;prendere fuoco
+gamba;concreto;non_animato;VPrepN;V in N;essere;24;essere in gamba;essere in gamba
+gamba;concreto;non_animato;VPrepN;V sotto N;prendere;8;prendere sotto gamba;prendere sotto gamba
+gara;astratto;non_animato;VPrepN;V in N;essere;102;essere in gara;essere in gara
+gara;astratto;non_animato;VPrepN;V a N;fare;234;fare a gara;fare a gara
+gara;astratto;non_animato;VDetN;V det_indef N;fare;46;fare una gara;fare una gara
+gara;astratto;non_animato;VPrepN;V in N;mettere;18;mettere in gara;mettere in gara
+gas;concreto;non_animato;VN;VN;dare;23;dare gas;dare gas
+gatto;concreto;animato;VDetN;V det_def N;fare;8;fare il gatto;fare il gatto
+generale;concreto;non_animato;VDetN;V det_def N;fare;5;fare il generale;fare il generale
+genitore;concreto;umano;VN;VN;essere;10;essere genitore;essere genitore
+genitore;concreto;umano;VPrepN;V da N;fare;6;fare da genitore;fare da genitore
+genitore;concreto;umano;VDetN;V det_def N;fare;18;fare il genitore;fare il genitore
+gesto;astratto;non_animato;VDetN;V det_def N;fare;48;fare il gesto;fare il gesto
+ginocchio;concreto;non_animato;VPrepN;V in N;essere;71;essere in ginocchio;essere in ginocchio
+ginocchio;concreto;non_animato;VPrepN;V in N;mettere;338;mettere in ginocchio;mettere in ginocchio
+gioco;astratto;non_animato;VDetN;V det_def N;fare;179;fare il gioco;fare il gioco
+gioco;astratto;non_animato;VPrepN;V in N;mettere;586;mettere in gioco;mettere in gioco
+gioia;astratto;non_animato;VDetN;V det_def N;avere;30;avere la gioia;avere la gioia
+gioia;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;15;dare (la/una) gioia;dare gioia
+gioia;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;15;dare (la/una) gioia;dare la gioia
+gioia;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;15;dare (la/una) gioia;dare una gioia
+giovane;astratto;non_animato;VDetN;V det_def N;fare;23;fare il giovane;fare il giovane
+giro;;;VPrepN;V a N;andare;10;andare a giro;andare a giro
+giro;;;VPrepN;V in N;andare;966;andare in giro;andare in giro
+giro;astratto;non_animato;VDetN;V det_def N;fare;624;fare il giro;fare il giro
+giro;astratto;non_animato;VDetN;V det_indef N;fare;712;fare un giro;fare un giro
+giro;astratto;non_animato;VPrepN;V in N;mettere;136;mettere in giro;mettere in giro
+giro;astratto;non_animato;VPrepN;V in N;prendere;2022;prendere in giro;prendere in giro
+giudizio;;;VPrepN;V in N;andare;6;andare in giudizio;andare in giudizio
+giudizio;astratto;non_animato;VDetN;V det_def N;dare;8;dare il giudizio;dare il giudizio
+giudizio;astratto;non_animato;VDetN;V det_indef N;dare;216;dare un giudizio;dare un giudizio
+giustizia;astratto;non_animato;VN;VN;dare;9;dare giustizia;dare giustizia
+giustizia;astratto;non_animato;VN;VN;fare;86;fare giustizia;fare giustizia
+gloria;astratto;non_animato;VPrepN;V in N;avere;6;avere in gloria;avere in gloria
+gloria;astratto;non_animato;VN;VN;dare;10;dare gloria;dare gloria
+gola;concreto;non_animato;VN;VN;fare;11;fare gola;fare gola
+grado;astratto;non_animato;VPrepN;V in N;mettere;134;mettere in grado;mettere in grado
+grazia;astratto;non_animato;VDetN;V det_def N;avere;14;avere la grazia;avere la grazia
+grazia;astratto;non_animato;VDetN;V det_def N;dare;14;dare la grazia;dare la grazia
+grazia;astratto;non_animato;VDetN;V det_def N;fare;8;fare la grazia;fare la grazia
+gruppo;concreto;non_animato;VN;VN;fare;30;fare gruppo;fare gruppo
+guaio;astratto;non_animato;VPrepN;V in N;mettere;10;mettere in guaio;mettere in guaio
+guardia;astratto;non_animato;VPrepN;V a N;essere;25;essere a guardia;essere a guardia
+guardia;astratto;non_animato;VPrepN;V di N;essere;20;essere di guardia;essere di guardia
+guardia;astratto;non_animato;VPrepN;V da N;fare;51;fare da guardia;fare da guardia
+guardia;astratto;non_animato;VDetN;V det_def N;fare;157;fare la guardia;fare la guardia
+guardia;astratto;non_animato;VPrepN;V a N;mettere;15;mettere a guardia;mettere a guardia
+guardia;astratto;non_animato;VPrepN;V di N;mettere;7;mettere di guardia;mettere di guardia
+guardia;astratto;non_animato;VPrepN;V in N;mettere;833;mettere in guardia;mettere in guardia
+guerra;;;VPrepN;V in N;andare;150;andare in guerra;andare in guerra
+guerra;concreto;non_animato;V(Det)N;V (det_def) N;fare;408;fare (la) guerra;fare guerra
+guerra;concreto;non_animato;V(Det)N;V (det_def) N;fare;408;fare (la) guerra;fare la guerra
+guerra;concreto;non_animato;VDetN;V det_indef N;fare;45;fare una guerra;fare una guerra
+guerra;;;VPrepN;V in N;mandare;20;mandare in guerra;mandare in guerra
+guida;astratto;non_animato;VDetN;V det_def N;avere;20;avere la guida;avere la guida
+guida;astratto;non_animato;VPrepN;V da N;fare;139;fare da guida;fare da guida
+gusto;astratto;non_animato;VDetN;V det_def N;avere;31;avere il gusto;avere il gusto
+gusto;astratto;non_animato;VDetN;V det_def N;dare;6;dare il gusto;dare il gusto
+idea;astratto;non_animato;VN;VN;avere;34;avere idea;avere idea
+idea;astratto;non_animato;VDetN;V det_def N;avere;208;avere la idea;avere la idea
+idea;astratto;non_animato;VDetN;V det_indef N;avere;57;avere una idea;avere una idea
+impegno;astratto;non_animato;VDetN;V det_indef N;avere;42;avere un impegno;avere un impegno
+impegno;astratto;non_animato;VDetN;V det_indef N;prendere;12;prendere un impegno;prendere un impegno
+importanza;astratto;non_animato;VN;VN;avere;22;avere importanza;avere importanza
+importanza;astratto;non_animato;VN;VN;dare;53;dare importanza;dare importanza
+importanza;astratto;non_animato;VPrepN;V di N;essere;125;essere di importanza;essere di importanza
+impresa;astratto;non_animato;VN;VN;fare;21;fare impresa;fare impresa
+impressione;astratto;non_animato;VDetN;V det_indef N;dare;5;dare una impressione;dare una impressione
+impressione;astratto;non_animato;VN;VN;fare;9;fare impressione;fare impressione
+incidente;astratto;non_animato;VDetN;V det_indef N;avere;370;avere un incidente;avere un incidente
+incidente;astratto;non_animato;VDetN;V det_indef N;fare;48;fare un incidente;fare un incidente
+incontro;astratto;non_animato;VDetN;V det_indef N;avere;184;avere un incontro;avere un incontro
+informazione;astratto;non_animato;V(Det)N;V (det_def) N;dare;24;dare (la) informazione;dare informazione
+informazione;astratto;non_animato;V(Det)N;V (det_def) N;dare;24;dare (la) informazione;dare la informazione
+informazione;astratto;non_animato;VN;VN;fare;112;fare informazione;fare informazione
+inglese;concreto;non_animato;VDetN;V det_def N;fare;11;fare il inglese;fare il inglese
+ingresso;astratto;non_animato;VPrepN;V da N;fare;17;fare da ingresso;fare da ingresso
+ingresso;astratto;non_animato;VN;VN;fare;17;fare ingresso;fare ingresso
+ingresso;astratto;non_animato;VPrepN;V in N;prendere;11;prendere in ingresso;prendere in ingresso
+inizio;astratto;non_animato;VN;VN;avere;83;avere inizio;avere inizio
+inizio;astratto;non_animato;VN;VN;dare;315;dare inizio;dare inizio
+intenzione;astratto;non_animato;VN;VN;avere;79;avere intenzione;avere intenzione
+interesse;astratto;non_animato;V(Det)N;V (det_indef) N;avere;182;avere (un) interesse;avere interesse
+interesse;astratto;non_animato;V(Det)N;V (det_indef) N;avere;182;avere (un) interesse;avere un interesse
+interesse;astratto;non_animato;VPrepN;V di N;essere;109;essere di interesse;essere di interesse
+invito;astratto;non_animato;VDetN;V det_indef N;fare;5;fare un invito;fare un invito
+italiano;astratto;non_animato;VDetN;V det_def N;fare;21;fare il italiano;fare il italiano
+lacrima;;;VPrepN;V in N;andare;8;andare in lacrima;andare in lacrima
+ladro;concreto;umano;VDetN;V det_def N;fare;24;fare il ladro;fare il ladro
+largo;concreto;non_animato;VN;VN;fare;22;fare largo;fare largo
+latino;concreto;non_animato;VPrepN;V in N;mettere;7;mettere in latino;mettere in latino
+lavoro;astratto;non_animato;VN;VN;dare;66;dare lavoro;dare lavoro
+lavoro;astratto;non_animato;VDetN;V det_def N;fare;233;fare (il) lavoro;fare il lavoro
+lavoro;astratto;non_animato;VDetN;V det_def N;fare;233;fare (il) lavoro;fare lavoro
+lavoro;astratto;non_animato;VPrepN;V a N;mettere;18;mettere a lavoro;mettere a lavoro
+legge;astratto;non_animato;VDetN;V det_indef N;fare;116;fare una legge;fare una legge
+letto;concreto;non_animato;VPrepN;V a N;mettere;75;mettere a letto;mettere a letto
+lezione;;;VPrepN;V a N;andare;38;andare a lezione;andare a lezione
+lezione;astratto;non_animato;VDetN;V det_indef N;dare;166;dare (una) lezione;dare lezione
+lezione;astratto;non_animato;VDetN;V det_indef N;dare;166;dare (una) lezione;dare una lezione
+lezione;astratto;non_animato;V(Det)N;V (det_indef) N;fare;53;fare (una) lezione;fare lezione
+lezione;astratto;non_animato;V(Det)N;V (det_indef) N;fare;53;fare (una) lezione;fare una lezione
+libertà;astratto;non_animato;V(Det)N;V (det_def) N;avere;106;avere (la) libertà;avere la libertà
+libertà;astratto;non_animato;V(Det)N;V (det_def) N;avere;106;avere (la) libertà;avere libertà
+libertà;astratto;non_animato;V(Det)N;V (det_def) N;dare;59;dare (la) libertà;dare la libertà
+libertà;astratto;non_animato;V(Det)N;V (det_def) N;dare;59;dare (la) libertà;dare libertà
+libertà;astratto;non_animato;VPrepN;V in N;mettere;62;mettere in libertà;mettere in libertà
+limite;astratto;non_animato;VDetN;V det_def N;avere;30;avere il limite;avere il limite
+limite;astratto;non_animato;VDetN;V det_indef N;avere;126;avere un limite;avere un limite
+limite;astratto;non_animato;VDetN;V det_def N;dare;7;dare il limite;dare il limite
+limite;astratto;non_animato;VDetN;V det_indef N;dare;10;dare un limite;dare un limite
+limite;astratto;non_animato;VDetN;V det_indef/def N;mettere;33;mettere un/il limite;mettere il limite
+limite;astratto;non_animato;VDetN;V det_indef/def N;mettere;33;mettere un/il limite;mettere un limite
+linea;concreto;non_animato;VPrepN;V in N;mettere;66;mettere in linea;mettere in linea
+lista;concreto;non_animato;VPrepN;V in N;mettere;61;mettere in lista;mettere in lista
+lotta;astratto;non_animato;VPrepN;V in N;essere;119;essere in lotta;essere in lotta
+lotta;astratto;non_animato;VDetN;V det_indef/def N;fare;33;fare una/la lotta;fare la lotta
+lotta;astratto;non_animato;VDetN;V det_indef/def N;fare;33;fare una/la lotta;fare una lotta
+luce;concreto;non_animato;V(Det)N;V (det_def) N;dare;78;dare (la) luce;dare la luce
+luce;concreto;non_animato;V(Det)N;V (det_def) N;dare;78;dare (la) luce;dare luce
+luce;concreto;non_animato;VN;VN;fare;151;fare luce;fare luce
+luce;concreto;non_animato;VPrepN;V in N;mettere;2318;mettere in luce;mettere in luce
+luogo;concreto;non_animato;VN;VN;avere;166;avere luogo;avere luogo
+luogo;concreto;non_animato;VN;VN;dare;178;dare luogo;dare luogo
+madre;concreto;umano;VN;VN;essere;47;essere madre;essere madre
+madre;concreto;umano;VPrepN;V da N;fare;24;fare da madre;fare da madre
+maestro;concreto;umano;VN;VN;essere;7;essere maestro;essere maestro
+maestro;concreto;umano;VPrepN;V da N;fare;28;fare da maestro;fare da maestro
+maestro;concreto;umano;VDetN;V det_def N;fare;33;fare il maestro;fare il maestro
+malattia;astratto;non_animato;VDetN;V det_def N;avere;14;avere la malattia;avere la malattia
+male;;;VPrepN;V a N;andare;68;andare a male;andare a male
+male;astratto;non_animato;VPrepN;V a N;avere;14;avere a male;avere a male
+male;astratto;non_animato;V(Det)N;V (det_indef) N;avere;14;avere (un) male;avere male
+male;astratto;non_animato;V(Det)N;V (det_indef) N;avere;14;avere (un) male;avere un male
+male;astratto;non_animato;V(Det)N;V (det_indef) N;fare;53;fare (un) male;fare male
+male;astratto;non_animato;V(Det)N;V (det_indef) N;fare;53;fare (un) male;fare un male
+mamma;concreto;umano;VN;VN;essere;20;essere mamma;essere mamma
+mamma;concreto;umano;VPrepN;V da N;fare;14;fare da mamma;fare da mamma
+mano;concreto;non_animato;VPrepN;V in N;avere;704;avere in mano;avere in mano
+mano;concreto;non_animato;VDetN;V det_indef N;dare;801;dare una mano;dare una mano
+mano;concreto;non_animato;VPrepN;V in N;mettere;118;mettere in mano;mettere in mano
+mano;concreto;non_animato;VN;VN;mettere;169;mettere mano;mettere mano
+mano;concreto;non_animato;VPrepN;V in N;prendere;658;prendere in mano;prendere in mano
+marcia;astratto;non_animato;VPrepN;V in N;essere;55;essere in marcia;essere in marcia
+marcia;astratto;non_animato;VDetN;V det_indef N;fare;5;fare una marcia;fare una marcia
+marcia;astratto;non_animato;VPrepN;V in N;mettere;208;mettere in marcia;mettere in marcia
+mare;concreto;non_animato;VPrepN;V a N;mettere;6;mettere a mare;mettere a mare
+marito;concreto;umano;VN;VN;essere;10;essere marito;essere marito
+marito;concreto;umano;VN;-;prendere;8;prendere marito;prendere marito
+massa;concreto;non_animato;VN;VN;avere;7;avere massa;avere massa
+massa;concreto;non_animato;VN;VN;fare;8;fare massa;fare massa
+matto;astratto;non_animato;VPrepN;V di N;dare;53;dare di matto;dare di matto
+matto;astratto;non_animato;VDetN;V det_def N;dare;5;dare il matto;dare il matto
+matto;astratto;non_animato;VPrepN;V per N;prendere;19;prendere per matto;prendere per matto
+medico;concreto;umano;VN;VN;essere;6;essere medico;essere medico
+medico;concreto;umano;VDetN;V det_def N;fare;74;fare il medico;fare il medico
+membro;astratto;non_animato;VN;VN;essere;99;essere membro;essere membro
+memoria;astratto;non_animato;VN;VN;avere;8;avere memoria;avere memoria
+mente;astratto;non_animato;VPrepN;V a N;avere;17;avere a mente;avere a mente
+mente;astratto;non_animato;VPrepN;V in N;avere;877;avere in mente;avere in mente
+mente;astratto;non_animato;VPrepN;V in N;mettere;7;mettere in mente;mettere in mente
+mercato;concreto;non_animato;VN;VN;avere;5;avere mercato;avere mercato
+merito;astratto;non_animato;VDetN;V det_def/indef N;avere;526;avere il/un merito;avere il merito
+merito;astratto;non_animato;VDetN;V det_def/indef N;avere;526;avere il/un merito;avere un merito
+merito;astratto;non_animato;V(Det)N;V (det_def) N;dare;48;dare (il) merito;dare il merito
+merito;astratto;non_animato;V(Det)N;V (det_def) N;dare;48;dare (il) merito;dare merito
+mestiere;astratto;non_animato;VDetN;V det_def N;fare;38;fare il mestiere;fare il mestiere
+militare;astratto;non_animato;VN;VN;essere;6;essere militare;essere militare
+militare;astratto;non_animato;VDetN;V det_def N;fare;46;fare il militare;fare il militare
+ministro;concreto;umano;VN;VN;essere;8;essere ministro;essere ministro
+ministro;concreto;umano;VDetN;V det_def N;fare;45;fare il ministro;fare il ministro
+miracolo;astratto;non_animato;VDetN;V det_def N;fare;48;fare il miracolo;fare il miracolo
+miseria;astratto;non_animato;VPrepN;V in N;essere;5;essere in miseria;essere in miseria
+modello;astratto;non_animato;VPrepN;V a N;avere;5;avere a modello;avere a modello
+modello;astratto;non_animato;VN;VN;essere;7;essere modello;essere modello
+modello;astratto;non_animato;VPrepN;V da N;fare;89;fare da modello;fare da modello
+modello;astratto;non_animato;VPrepN;V a N;prendere;256;prendere a modello;prendere a modello
+modo;astratto;non_animato;V(Det)N;V (det_def) N;dare;79;dare (il) modo;dare il modo
+modo;astratto;non_animato;V(Det)N;V (det_def) N;dare;79;dare (il) modo;dare modo
+modo;astratto;non_animato;VPrepN;V in N;fare;2952;fare in modo;fare in modo
+moglie;;;VPrepN;V in N;andare;17;andare in moglie;andare in moglie
+moglie;concreto;umano;VPrepN;V in N;avere;19;avere in moglie;avere in moglie
+moglie;concreto;umano;VPrepN;V in N;dare;175;dare in moglie;dare in moglie
+moglie;concreto;umano;VN;VN;essere;14;essere moglie;essere moglie
+moglie;concreto;umano;VDetN;V det_def N;fare;8;fare la moglie;fare la moglie
+moglie;concreto;umano;VPrepN;V in N;prendere;144;prendere in moglie;prendere in moglie
+moglie;concreto;umano;VN;-;prendere;27;prendere moglie;prendere moglie
+moglie;concreto;umano;VPrepN;V per N;prendere;11;prendere per moglie;prendere per moglie
+monte;;;VPrepN;V a N;andare;58;andare a monte;andare a monte
+monte;;;VPrepN;V a N;mandare;155;mandare a monte;mandare a monte
+morte;astratto;non_animato;VDetN;V det_def N;dare;118;dare la morte;dare la morte
+morte;astratto;non_animato;VDetN;V det_indef N;dare;5;dare una morte;dare una morte
+morte;;;VPrepN;V a N;mandare;87;mandare a morte;mandare a morte
+morte;astratto;non_animato;VPrepN;V a N;mettere;507;mettere a morte;mettere a morte
+mostro;concreto;animato;VDetN;V det_def N;fare;5;fare il mostro;fare il mostro
+motivo;astratto;non_animato;VN;VN;essere;39;essere motivo;essere motivo
+moto;;;VPrepN;V in N;andare;98;andare in moto;andare in moto
+moto;concreto;non_animato;VN;VN;fare;8;fare moto;fare moto
+moto;concreto;non_animato;VPrepN;V in N;mettere;652;mettere in moto;mettere in moto
+motocicletta;;;VPrepN;V in N;andare;8;andare in motocicletta;andare in motocicletta
+movimento;astratto;non_animato;VN;VN;dare;5;dare movimento;dare movimento
+movimento;astratto;non_animato;VPrepN;V in N;essere;120;essere in movimento;essere in movimento
+movimento;astratto;non_animato;V(Det)N;V (det_def) N;fare;21;fare (il) movimento;fare il movimento
+movimento;astratto;non_animato;V(Det)N;V (det_def) N;fare;21;fare (il) movimento;fare movimento
+movimento;astratto;non_animato;VPrepN;V in N;mettere;122;mettere in movimento;mettere in movimento
+musica;concreto;non_animato;V(Det)N;V (det_def) N;fare;195;fare (la) musica;fare la musica
+musica;concreto;non_animato;V(Det)N;V (det_def) N;fare;195;fare (la) musica;fare musica
+musica;concreto;non_animato;VPrepN;V in N;mettere;209;mettere in musica;mettere in musica
+nascita;astratto;non_animato;VDetN;V det_def N;dare;10;dare la nascita;dare la nascita
+naso;concreto;non_animato;VDetN;V det_def N;mettere;62;mettere il naso;mettere il naso
+natura;astratto;non_animato;VN;VN;avere;11;avere natura;avere natura
+necessità;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;339;avere (la/una) necessità;avere la necessità
+necessità;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;339;avere (la/una) necessità;avere necessità
+necessità;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;339;avere (la/una) necessità;avere una necessità
+nemico;concreto;non_animato;VN;VN;essere;11;essere nemico;essere nemico
+nipote;concreto;umano;VN;VN;essere;10;essere nipote;essere nipote
+noia;astratto;non_animato;VPrepN;V a N;avere;6;avere a noia;avere a noia
+noia;astratto;non_animato;VN;VN;dare;7;dare noia;dare noia
+nome;astratto;non_animato;V(Det)N;V (det_def) N;avere;525;avere (il) nome;avere il nome
+nome;astratto;non_animato;V(Det)N;V (det_def) N;avere;525;avere (il) nome;avere nome
+nome;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;3145;dare (il/un) nome;dare il nome
+nome;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;3145;dare (il/un) nome;dare nome
+nome;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;3145;dare (il/un) nome;dare un nome
+nome;astratto;non_animato;VDetN;V det_def N;fare;491;fare il nome;fare il nome
+nome;astratto;non_animato;VDetN;V det_def N;mettere;41;mettere il nome;mettere il nome
+nome;astratto;non_animato;VPrepN;V a N;prendere;5;prendere a nome;prendere a nome
+nome;astratto;non_animato;V(Det)N;V (det_def) N;prendere;81;prendere (il) nome;prendere il nome
+nome;astratto;non_animato;V(Det)N;V (det_def) N;prendere;81;prendere (il) nome;prendere nome
+notizia;astratto;non_animato;VN;VN;avere;13;avere notizia;avere notizia
+notizia;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;360;dare (una/la) notizia;dare la notizia
+notizia;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;360;dare (una/la) notizia;dare notizia
+notizia;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;360;dare (una/la) notizia;dare una notizia
+notizia;astratto;non_animato;VN;VN;fare;29;fare notizia;fare notizia
+nudo;astratto;non_animato;VPrepN;V a N;mettere;317;mettere a nudo;mettere a nudo
+numero;astratto;non_animato;VDetN;V det_def N;avere;154;avere il numero;avere il numero
+numero;astratto;non_animato;VDetN;V det_def N;dare;169;dare il numero;dare il numero
+numero;astratto;non_animato;VN;VN;fare;21;fare numero;fare numero
+nuovo;astratto;non_animato;VPrepN;V a N;mettere;7;mettere a nuovo;mettere a nuovo
+obbligo;astratto;non_animato;VPrepN;V di N;essere;389;essere di obbligo;essere di obbligo
+obbligo;astratto;non_animato;VPrepN;V in N;essere;5;essere in obbligo;essere in obbligo
+occasione;astratto;non_animato;VN;VN;essere;18;essere occasione;essere occasione
+occhiata;astratto;non_animato;VDetN;V det_indef N;dare;60;dare una occhiata;dare una occhiata
+occhio;concreto;non_animato;VDetN;V det_def N;avere;428;avere il occhio;avere il occhio
+occhio;concreto;non_animato;VDetN;V det_indef N;dare;54;dare un occhio;dare un occhio
+occhio;concreto;non_animato;VDetN;V det_def N;mettere;129;mettere il occhio;mettere il occhio
+occupazione;astratto;non_animato;VPrepN;V sotto N;essere;15;essere sotto occupazione;essere sotto occupazione
+odio;astratto;non_animato;VPrepN;V in N;avere;35;avere in odio;avere in odio
+odio;astratto;non_animato;VDetN;V det_indef N;avere;10;avere un odio;avere un odio
+odio;astratto;non_animato;VPrepN;V in N;prendere;11;prendere in odio;prendere in odio
+odore;astratto;non_animato;VDetN;V det_indef N;avere;70;avere un odore;avere un odore
+oggetto;concreto;non_animato;VPrepN;V ad N;avere;260;avere ad oggetto;avere ad oggetto
+oggetto;concreto;non_animato;VN;VN;essere;428;essere oggetto;essere oggetto
+ombra;concreto;non_animato;VN;VN;fare;10;fare ombra;fare ombra
+ombra;concreto;non_animato;VPrepN;V in N;mettere;164;mettere in ombra;mettere in ombra
+onda;;;VPrepN;V in N;andare;8193;andare in onda;andare in onda
+onda;concreto;non_animato;VPrepN;V in N;essere;317;essere in onda;essere in onda
+onda;;;VPrepN;V in N;mandare;2079;mandare in onda;mandare in onda
+onda;concreto;non_animato;VPrepN;V in N;mettere;464;mettere in onda;mettere in onda
+onore;astratto;non_animato;VDetN;V det_def N;avere;13;avere il onore;avere il onore
+onore;astratto;non_animato;VN;VN;dare;17;dare onore;dare onore
+onore;astratto;non_animato;VDetN;V det_def N;fare;43;fare il onore;fare il onore
+onore;astratto;non_animato;VN;VN;fare;9;fare onore;fare onore
+opera;astratto;non_animato;VPrepN;V in N;essere;22;essere in opera;essere in opera
+opera;astratto;non_animato;VN;VN;essere;61;essere opera;essere opera
+opera;astratto;non_animato;VPrepN;V in N;mettere;334;mettere in opera;mettere in opera
+operazione;astratto;non_animato;VDetN;V det_indef N;fare;7;fare una operazione;fare una operazione
+opinione;astratto;non_animato;VDetN;V det_indef N;avere;18;avere una opinione;avere una opinione
+opinione;astratto;non_animato;VPrepN;V di N;essere;11;essere di opinione;essere di opinione
+ordine;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;116;dare (un/il) ordine;dare il ordine
+ordine;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;116;dare (un/il) ordine;dare ordine
+ordine;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;116;dare (un/il) ordine;dare un ordine
+ordine;astratto;non_animato;VPrepN;V in N;essere;163;essere in ordine;essere in ordine
+ordine;astratto;non_animato;V(Det)N;V (det_indef) N;fare;42;fare (un) ordine;fare ordine
+ordine;astratto;non_animato;V(Det)N;V (det_indef) N;fare;42;fare (un) ordine;fare un ordine
+ordine;astratto;non_animato;VPrepN;V in N;mettere;89;mettere in ordine;mettere in ordine
+ordine;astratto;non_animato;VN;VN;mettere;128;mettere ordine;mettere ordine
+orrore;astratto;non_animato;VPrepN;V in N;avere;10;avere in orrore;avere in orrore
+ospite;;;VN;VN;andare;12;andare ospite;andare ospite
+ospite;concreto;umano;VN;VN;avere;6;avere ospite;avere ospite
+ospite;concreto;umano;VN;VN;essere;29;essere ospite;essere ospite
+pace;astratto;non_animato;V(Det)N;V (det_def) N;avere;25;avere (la) pace;avere la pace
+pace;astratto;non_animato;V(Det)N;V (det_def) N;avere;25;avere (la) pace;avere pace
+pace;astratto;non_animato;V(Det)N;V (det_def) N;dare;13;dare (la) pace;dare la pace
+pace;astratto;non_animato;V(Det)N;V (det_def) N;dare;13;dare (la) pace;dare pace
+pace;astratto;non_animato;VPrepN;V in N;essere;88;essere in pace;essere in pace
+pace;astratto;non_animato;VN;VN;fare;96;fare pace;fare pace
+pace;astratto;non_animato;VN;VN;mettere;30;mettere pace;mettere pace
+padre;concreto;umano;VN;VN;essere;55;essere padre;essere padre
+padre;concreto;umano;VPrepN;V da N;fare;54;fare da padre;fare da padre
+padrone;concreto;umano;VN;VN;essere;12;essere padrone;essere padrone
+padrone;concreto;umano;VPrepN;V da N;fare;88;fare da padrone;fare da padrone
+palla;;;VPrepN;V in N;andare;5;andare in palla;andare in palla
+papà;concreto;umano;VPrepN;V da N;fare;5;fare da papà;fare da papà
+parente;concreto;umano;VN;VN;essere;9;essere parente;essere parente
+parola;astratto;non_animato;VDetN;V det_def N;dare;143;dare la parola;dare la parola
+parola;astratto;non_animato;VN;VN;fare;6;fare parola;fare parola
+parola;astratto;non_animato;VDetN;V det_def N;mettere;6;mettere una parola;mettere una parola
+parola;astratto;non_animato;VPrepN;V in N;prendere;20;prendere in parola;prendere in parola
+parola;astratto;non_animato;V(Det)N;V (det_def) N;prendere;97;prendere (la) parola;prendere la parola
+parola;astratto;non_animato;V(Det)N;V (det_def) N;prendere;97;prendere (la) parola;prendere parola
+parte;astratto;non_animato;VPrepN;V da N;avere;41;avere da parte;avere da parte
+parte;astratto;non_animato;VN;VN;avere;13;avere parte;avere parte
+parte;astratto;non_animato;VN;VN;essere;304;essere parte;essere parte
+parte;astratto;non_animato;VN;VN;fare;394;fare parte;fare parte
+parte;astratto;non_animato;VDetN;V det_def/indef N;prendere;14;prendere una/la parte;prendere la parte
+parte;astratto;non_animato;VDetN;V det_def/indef N;prendere;14;prendere una/la parte;prendere una parte
+parte;astratto;non_animato;VN;-;prendere;1459;prendere parte;prendere parte
+partita;astratto;non_animato;VDetN;V det_indef N;fare;39;fare una partita;fare una partita
+partito;astratto;non_animato;VN;-;prendere;12;prendere partito;prendere partito
+passaggio;astratto;non_animato;VDetN;V det_indef/def N;dare;111;dare un/il passaggio;dare il passaggio
+passaggio;astratto;non_animato;VDetN;V det_indef/def N;dare;111;dare un/il passaggio;dare un passaggio
+passaggio;astratto;non_animato;VPrepN;V di N;essere;44;essere di passaggio;essere di passaggio
+passaggio;astratto;non_animato;VDetN;V det_def N;fare;24;fare il passaggio;fare il passaggio
+passione;astratto;non_animato;VDetN;V det_indef/def N;avere;248;avere una/la passione;avere la passione
+passione;astratto;non_animato;VDetN;V det_indef/def N;avere;248;avere una/la passione;avere una passione
+passo;astratto;non_animato;VDetN;V det_def N;fare;80;fare il passo;fare il passo
+pastore;concreto;umano;VN;VN;essere;5;essere pastore;essere pastore
+pastore;concreto;umano;VDetN;V det_def N;fare;24;fare il pastore;fare il pastore
+patto;astratto;non_animato;VDetN;V det_indef/def N;fare;156;fare un/il patto;fare il patto
+patto;astratto;non_animato;VDetN;V det_indef/def N;fare;156;fare un/il patto;fare un patto
+paura;astratto;non_animato;V(Det)N;V (det_def) N;avere;244;avere (la) paura;avere la paura
+paura;astratto;non_animato;V(Det)N;V (det_def) N;avere;244;avere (la) paura;avere paura
+paura;astratto;non_animato;VDetN;V det_indef N;avere;36;avere una paura;avere una paura
+paura;astratto;non_animato;VN;VN;fare;31;fare paura;fare paura
+paura;astratto;non_animato;VN;VN;mettere;10;mettere paura;mettere paura
+pazienza;astratto;non_animato;V(Det)N;V (det_def) N;avere;159;avere (la) pazienza;avere la pazienza
+pazienza;astratto;non_animato;V(Det)N;V (det_def) N;avere;159;avere (la) pazienza;avere pazienza
+pazzo;astratto;non_animato;VDetN;V det_def N;fare;11;fare il pazzo;fare il pazzo
+pelo;concreto;non_animato;VDetN;V det_def N;fare;7;fare il pelo;fare il pelo
+pena;astratto;non_animato;VDetN;V det_def N;avere;9;avere la pena;avere la pena
+pena;astratto;non_animato;VDetN;V det_def N;dare;17;dare la pena;dare la pena
+pena;astratto;non_animato;VPrepN;V in N;essere;10;essere in pena;essere in pena
+pensiero;astratto;non_animato;VDetN;V det_def/indef N;avere;34;avere il/un pensiero;avere il pensiero
+pensiero;astratto;non_animato;VDetN;V det_def/indef N;avere;34;avere il/un pensiero;avere un pensiero
+pensiero;astratto;non_animato;VPrepN;V in N;essere;9;essere in pensiero;essere in pensiero
+pensiero;astratto;non_animato;VDetN;V det_indef N;fare;13;fare un pensiero;fare un pensiero
+pensione;;;VPrepN;V in N;andare;575;andare in pensione;andare in pensione
+pensione;astratto;non_animato;VPrepN;V in N;essere;53;essere in pensione;essere in pensione
+pensione;;;VPrepN;V in N;mandare;92;mandare in pensione;mandare in pensione
+pensione;astratto;non_animato;VPrepN;V in N;mettere;14;mettere in pensione;mettere in pensione
+perdita;;;VPrepN;V in N;andare;15;andare in perdita;andare in perdita
+perdita;astratto;non_animato;VDetN;V det_def N;avere;11;avere la perdita;avere la perdita
+perdita;astratto;non_animato;VDetN;V det_indef N;avere;36;avere una perdita;avere una perdita
+perdita;astratto;non_animato;VPrepN;V in N;essere;39;essere in perdita;essere in perdita
+pericolo;astratto;non_animato;VPrepN;V in N;mettere;747;mettere in pericolo;mettere in pericolo
+permesso;astratto;non_animato;VDetN;V det_def N;avere;313;avere il permesso;avere il permesso
+permesso;astratto;non_animato;VDetN;V det_def/indef N;dare;210;dare il/un permesso;dare il permesso
+permesso;astratto;non_animato;VDetN;V det_def/indef N;dare;210;dare il/un permesso;dare un permesso
+peso;astratto;non_animato;VDetN;V det_def N;avere;37;avere il peso;avere il peso
+peso;astratto;non_animato;VN;VN;avere;12;avere peso;avere peso
+peso;astratto;non_animato;V(Det)N;V (det_def) N;dare;97;dare (il/un) peso;dare il peso
+peso;astratto;non_animato;V(Det)N;V (det_def) N;dare;97;dare (il/un) peso;dare peso
+peso;astratto;non_animato;V(Det)N;V (det_def) N;dare;97;dare (il/un) peso;dare un peso
+pezzo;;;VPrepN;V a N;andare;13;andare a pezzo;andare a pezzo
+pezzo;;;VPrepN;V in N;andare;71;andare in pezzo;andare in pezzo
+pezzo;concreto;non_animato;VPrepN;V a N;essere;37;essere a pezzo;essere a pezzo
+pezzo;concreto;non_animato;VPrepN;V in N;essere;6;essere in pezzo;essere in pezzo
+pezzo;concreto;non_animato;VPrepN;V a N;fare;536;fare a pezzo;fare a pezzo
+pezzo;;;VPrepN;V in N;mandare;25;mandare in pezzo;mandare in pezzo
+piacere;astratto;non_animato;VDetN;V det_def N;avere;223;avere il piacere;avere il piacere
+piacere;astratto;non_animato;VDetN;V det_def N;dare;8;dare il piacere;dare il piacere
+piacere;astratto;non_animato;VN;VN;dare;11;dare piacere;dare piacere
+piacere;astratto;non_animato;VDetN;V det_def N;fare;97;fare il piacere;fare il piacere
+piacere;astratto;non_animato;VN;VN;fare;11;fare piacere;fare piacere
+piano;concreto;non_animato;VDetN;V det_def N;fare;11;fare il piano;fare il piano
+piazza;concreto;non_animato;VN;VN;fare;33;fare piazza;fare piazza
+piede;;;VPrepN;V a N;andare;115;andare a piede;andare a piede
+piede;concreto;non_animato;VPrepN;V a N;essere;62;essere a piede;essere a piede
+piede;concreto;non_animato;VPrepN;V in N;mettere;751;mettere in piede;mettere in piede
+piede;concreto;non_animato;VN;VN;mettere;123;mettere piede;mettere piede
+piede;concreto;non_animato;VN;-;prendere;195;prendere piede;prendere piede
+pietà;astratto;non_animato;VN;VN;avere;32;avere pietà;avere pietà
+pittore;concreto;umano;VDetN;V det_def N;fare;19;fare il pittore;fare il pittore
+poesia;astratto;non_animato;VN;VN;fare;22;fare poesia;fare poesia
+poeta;concreto;umano;VN;VN;essere;9;essere poeta;essere poeta
+poeta;concreto;umano;VDetN;V det_def N;fare;9;fare il poeta;fare il poeta
+politica;astratto;non_animato;VN;VN;fare;262;fare politica;fare politica
+politico;astratto;non_animato;VN;VN;essere;5;essere politico;essere politico
+politico;astratto;non_animato;VDetN;V det_def N;fare;37;fare il politico;fare il politico
+poliziotto;concreto;umano;VPrepN;V da N;fare;6;fare da poliziotto;fare da poliziotto
+poliziotto;concreto;umano;VDetN;V det_def N;fare;37;fare il poliziotto;fare il poliziotto
+polvere;concreto;non_animato;VN;-;prendere;15;prendere polvere;prendere polvere
+ponte;concreto;non_animato;VPrepN;V da N;fare;64;fare da ponte;fare da ponte
+porto;;;VPrepN;V in N;andare;375;andare in porto;andare in porto
+porto;;;VPrepN;V in N;mandare;8;mandare in porto;mandare in porto
+posizione;astratto;non_animato;VDetN;V det_def N;avere;15;avere la posizione;avere la posizione
+posizione;astratto;non_animato;VPrepN;V in N;mettere;81;mettere in posizione;mettere in posizione
+posizione;astratto;non_animato;VDetN;V det_indef/def N;prendere;86;prendere una/la posizione;prendere la posizione
+posizione;astratto;non_animato;VDetN;V det_indef/def N;prendere;86;prendere una/la posizione;prendere una posizione
+posizione;astratto;non_animato;VN;-;prendere;218;prendere posizione;prendere posizione
+possibilità;astratto;non_animato;V(Det)N;V (det_def) N;avere;3469;avere (la) possibilità;avere la possibilità
+possibilità;astratto;non_animato;V(Det)N;V (det_def) N;avere;3469;avere (la) possibilità;avere possibilità
+possibilità;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;1685;dare (una/la) possibilità;dare la possibilità
+possibilità;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;1685;dare (una/la) possibilità;dare possibilità
+possibilità;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;1685;dare (una/la) possibilità;dare una possibilità
+posto;concreto;non_animato;VN;VN;avere;12;avere posto;avere posto
+posto;concreto;non_animato;VN;VN;dare;5;dare posto;dare posto
+posto;concreto;non_animato;VN;VN;fare;160;fare posto;fare posto
+posto;concreto;non_animato;VPrepN;V a N;mettere;185;mettere a posto;mettere a posto
+posto;concreto;non_animato;VDetN;V det_def N;prendere;424;prendere il posto;prendere il posto
+posto;concreto;non_animato;VN;-;prendere;65;prendere posto;prendere posto
+potere;astratto;non_animato;VN;VN;avere;25;avere potere;avere potere
+potere;astratto;non_animato;VN;VN;dare;11;dare potere;dare potere
+potere;astratto;non_animato;VPrepN;V in N;essere;12;essere in potere;essere in potere
+potere;astratto;non_animato;VDetN;V det_def N;prendere;221;prendere il potere;prendere il potere
+povero;astratto;non_animato;VDetN;V det_def N;fare;10;fare il povero;fare il povero
+pranzo;;;VPrepN;V a N;andare;50;andare a pranzo;andare a pranzo
+pranzo;astratto;non_animato;VPrepN;V a N;essere;17;essere a pranzo;essere a pranzo
+pratica;astratto;non_animato;VN;VN;fare;67;fare pratica;fare pratica
+pratica;astratto;non_animato;VDetN;V det_indef N;fare;5;fare una pratica;fare una pratica
+pratica;astratto;non_animato;VPrepN;V in N;mettere;954;mettere in pratica;mettere in pratica
+premio;;;VPrepN;V in N;andare;9;andare in premio;andare in premio
+premio;concreto;non_animato;VPrepN;V in N;avere;23;avere in premio;avere in premio
+premio;concreto;non_animato;VPrepN;V in N;dare;19;dare in premio;dare in premio
+premio;concreto;non_animato;VDetN;V det_indef N;dare;39;dare un premio;dare un premio
+preoccupazione;astratto;non_animato;VDetN;V det_def N;avere;12;avere la preoccupazione;avere la preoccupazione
+presente;astratto;non_animato;VN;VN;avere;9;avere presente;avere presente
+presente;astratto;non_animato;VN;VN;fare;26;fare presente;fare presente
+presenza;astratto;non_animato;VDetN;V det_indef N;fare;8;fare una presenza;fare una presenza
+presidente;concreto;umano;VN;VN;essere;30;essere presidente;essere presidente
+presidente;concreto;umano;VDetN;V det_def N;fare;55;fare il presidente;fare il presidente
+pressione;astratto;non_animato;VDetN;V det_def N;avere;9;avere la pressione;avere la pressione
+pressione;astratto;non_animato;VPrepN;V sotto N;essere;36;essere sotto pressione;essere sotto pressione
+pressione;astratto;non_animato;VN;VN;fare;125;fare (una) pressione;fare pressione
+pressione;astratto;non_animato;VN;VN;fare;125;fare (una) pressione;fare una pressione
+pressione;astratto;non_animato;VPrepN;V in N;mettere;12;mettere in pressione;mettere in pressione
+pressione;astratto;non_animato;VN;VN;mettere;20;mettere pressione;mettere pressione
+pressione;astratto;non_animato;VPrepN;V sotto N;mettere;154;mettere sotto pressione;mettere sotto pressione
+prestito;;;VPrepN;V in N;andare;84;andare in prestito;andare in prestito
+prestito;astratto;non_animato;VPrepN;V in N;avere;28;avere in prestito;avere in prestito
+prestito;astratto;non_animato;VPrepN;V in N;dare;130;dare in prestito;dare in prestito
+prestito;astratto;non_animato;VPrepN;V in N;essere;22;essere in prestito;essere in prestito
+prestito;astratto;non_animato;VDetN;V det_indef N;fare;12;fare un prestito;fare un prestito
+prestito;;;VPrepN;V in N;mandare;193;mandare in prestito;mandare in prestito
+prestito;astratto;non_animato;VPrepN;V a N;prendere;212;prendere a prestito;prendere a prestito
+prestito;astratto;non_animato;VPrepN;V in N;prendere;690;prendere in prestito;prendere in prestito
+prete;concreto;umano;VN;VN;essere;9;essere prete;essere prete
+prete;concreto;umano;VDetN;V det_def N;fare;17;fare il prete;fare il prete
+prezzo;astratto;non_animato;VDetN;V det_indef/def N;avere;297;avere un/il prezzo;avere il prezzo
+prezzo;astratto;non_animato;VDetN;V det_indef/def N;avere;297;avere un/il prezzo;avere un prezzo
+prezzo;astratto;non_animato;VDetN;V det_indef/def N;dare;19;dare un/il prezzo;dare il prezzo
+prezzo;astratto;non_animato;VDetN;V det_indef/def N;dare;19;dare un/il prezzo;dare un prezzo
+prezzo;astratto;non_animato;VDetN;V det_def N;fare;15;fare il prezzo;fare il prezzo
+prezzo;astratto;non_animato;VDetN;V det_indef N;mettere;6;mettere un prezzo;mettere un prezzo
+prigione;;;VPrepN;V in N;andare;65;andare in prigione;andare in prigione
+prigione;concreto;non_animato;VPrepN;V in N;essere;115;essere in prigione;essere in prigione
+prigione;;;VPrepN;V in N;mandare;35;mandare in prigione;mandare in prigione
+prigione;concreto;non_animato;VPrepN;V in N;mettere;118;mettere in prigione;mettere in prigione
+prigioniero;concreto;umano;VN;VN;essere;11;essere prigioniero;essere prigioniero
+prigioniero;concreto;umano;VN;VN;fare;13;fare prigioniero;fare prigioniero
+prigioniero;concreto;umano;VN;-;prendere;9;prendere prigioniero;prendere prigioniero
+principe;concreto;umano;VDetN;V det_def N;fare;5;fare il principe;fare il principe
+processo;;;VPrepN;V a N;andare;8;andare a processo;andare a processo
+processo;astratto;non_animato;VPrepN;V sotto N;essere;46;essere sotto processo;essere sotto processo
+processo;astratto;non_animato;VDetN;V det_def N;fare;48;fare il processo;fare il processo
+processo;astratto;non_animato;VDetN;V det_indef N;fare;25;fare un processo;fare un processo
+processo;astratto;non_animato;VPrepN;V sotto N;mettere;56;mettere sotto processo;mettere sotto processo
+produzione;;;VPrepN;V in N;andare;26;andare in produzione;andare in produzione
+produzione;astratto;non_animato;VDetN;V det_indef N;fare;6;fare una produzione;fare una produzione
+produzione;;;VPrepN;V in N;mandare;5;mandare in produzione;mandare in produzione
+produzione;astratto;non_animato;VPrepN;V in N;mettere;276;mettere in produzione;mettere in produzione
+professione;astratto;non_animato;VDetN;V det_indef N;fare;10;fare una professione;fare una professione
+professore;concreto;umano;VDetN;V det_def N;fare;24;fare il professore;fare il professore
+profumo;concreto;non_animato;VDetN;V det_def N;avere;6;avere il profumo;avere il profumo
+progetto;astratto;non_animato;VDetN;V det_indef/def N;avere;93;avere un/il progetto;avere il progetto
+progetto;astratto;non_animato;VDetN;V det_indef/def N;avere;93;avere un/il progetto;avere un progetto
+progetto;astratto;non_animato;VPrepN;V in N;avere;106;avere in progetto;avere in progetto
+progetto;astratto;non_animato;VPrepN;V in N;essere;234;essere in progetto;essere in progetto
+progetto;astratto;non_animato;VDetN;V det_def N;fare;25;fare il progetto;fare il progetto
+programma;astratto;non_animato;VDetN;V det_indef/def N;avere;130;avere un/il programma;avere il programma
+programma;astratto;non_animato;VDetN;V det_indef/def N;avere;130;avere un/il programma;avere un programma
+programma;astratto;non_animato;VPrepN;V in N;avere;301;avere in programma;avere in programma
+programma;astratto;non_animato;VPrepN;V in N;essere;460;essere in programma;essere in programma
+programma;astratto;non_animato;VDetN;V det_def N;fare;44;fare il programma;fare il programma
+programma;astratto;non_animato;VPrepN;V in N;mettere;23;mettere in programma;mettere in programma
+promessa;astratto;non_animato;VDetN;V det_indef/def N;fare;68;fare una/la promessa;fare la promessa
+promessa;astratto;non_animato;VDetN;V det_indef/def N;fare;68;fare una/la promessa;fare una promessa
+proposito;astratto;non_animato;VDetN;V det_def N;avere;12;avere il proposito;avere il proposito
+proposta;astratto;non_animato;VDetN;V det_def N;fare;45;fare la proposta;fare la proposta
+proposta;astratto;non_animato;VDetN;V det_indef N;fare;89;fare una proposta;fare una proposta
+prova;;;VPrepN;V in N;andare;6;andare in prova;andare in prova
+prova;astratto;non_animato;VPrepN;V in N;avere;12;avere in prova;avere in prova
+prova;astratto;non_animato;VDetN;V det_indef/def N;dare;108;dare una/la prova;dare la prova
+prova;astratto;non_animato;VDetN;V det_indef/def N;dare;108;dare una/la prova;dare una prova
+prova;astratto;non_animato;VN;VN;dare;56;dare prova;dare prova
+prova;astratto;non_animato;VDetN;V det_indef/def N;fare;205;fare una/la prova;fare la prova
+prova;astratto;non_animato;VDetN;V det_indef/def N;fare;205;fare una/la prova;fare una prova
+prova;astratto;non_animato;VPrepN;V a N;mettere;12;mettere a prova;mettere a prova
+prova;astratto;non_animato;VPrepN;V in N;mettere;9;mettere in prova;mettere in prova
+prova;astratto;non_animato;VPrepN;V in N;prendere;8;prendere in prova;prendere in prova
+pugno;concreto;non_animato;VPrepN;V in N;avere;50;avere in pugno;avere in pugno
+pugno;concreto;non_animato;VDetN;V det_indef/def N;dare;61;dare un/il pugno;dare il pugno
+pugno;concreto;non_animato;VDetN;V det_indef/def N;dare;61;dare un/il pugno;dare un pugno
+pugno;concreto;non_animato;VPrepN;V a N;fare;69;fare a pugno;fare a pugno
+pugno;concreto;non_animato;VPrepN;V a N;prendere;129;prendere a pugno;prendere a pugno
+pugno;concreto;non_animato;VPrepN;V in N;prendere;8;prendere in pugno;prendere in pugno
+punto;concreto;non_animato;VDetN;V det_def N;fare;385;fare il punto;fare il punto
+punto;concreto;non_animato;VN;VN;fare;5;fare punto;fare punto
+punto;concreto;non_animato;VPrepN;V a N;mettere;1956;mettere a punto;mettere a punto
+punto;concreto;non_animato;VDetN;V det_indef/def N;mettere;42;mettere un/il punto;mettere il punto
+punto;concreto;non_animato;VDetN;V det_indef/def N;mettere;42;mettere un/il punto;mettere un punto
+qualità;astratto;non_animato;V(Det)N;V (det_def) N;avere;77;avere (la) qualità;avere la qualità
+qualità;astratto;non_animato;V(Det)N;V (det_def) N;avere;77;avere (la) qualità;avere qualità
+questione;astratto;non_animato;VPrepN;V in N;essere;20;essere in questione;essere in questione
+questione;astratto;non_animato;VPrepN;V in N;mettere;80;mettere in questione;mettere in questione
+questione;astratto;non_animato;VPrepN;V in N;prendere;6;prendere in questione;prendere in questione
+radio;;;VPrepN;V in N;andare;7;andare in radio;andare in radio
+radio;;;VPrepN;V in N;mandare;6;mandare in radio;mandare in radio
+ragazza;concreto;non_animato;VDetN;V det_def N;fare;15;fare la ragazza;fare la ragazza
+ragione;astratto;non_animato;VN;VN;avere;208;avere ragione;avere ragione
+ragione;astratto;non_animato;VN;VN;dare;136;dare ragione;dare ragione
+rapporto;astratto;non_animato;VDetN;V det_indef N;avere;1058;avere un rapporto;avere un rapporto
+rapporto;astratto;non_animato;V(Det)N;V (det_def) N;fare;55;fare (il) rapporto;fare il rapporto
+rapporto;astratto;non_animato;V(Det)N;V (det_def) N;fare;55;fare (il) rapporto;fare rapporto
+rapporto;astratto;non_animato;VPrepN;V in N;mettere;69;mettere in rapporto;mettere in rapporto
+rappresentante;astratto;non_animato;VN;VN;essere;6;essere rappresentante;essere rappresentante
+rappresentante;astratto;non_animato;VDetN;V det_def N;fare;16;fare il rappresentante;fare il rappresentante
+re;concreto;umano;VN;VN;essere;45;essere re;essere re
+re;concreto;umano;VDetN;V det_def N;fare;14;fare il re;fare il re
+regalo;concreto;non_animato;VPrepN;V in N;avere;20;avere in regalo;avere in regalo
+regalo;concreto;non_animato;VPrepN;V in N;dare;12;dare in regalo;dare in regalo
+regalo;concreto;non_animato;VDetN;V det_indef/def N;fare;134;fare un/il regalo;fare il regalo
+regalo;concreto;non_animato;VDetN;V det_indef/def N;fare;134;fare un/il regalo;fare un regalo
+regina;concreto;umano;VN;VN;essere;7;essere regina;essere regina
+regola;astratto;non_animato;VDetN;V det_def N;dare;24;dare una regola;dare una regola
+regola;astratto;non_animato;VPrepN;V in N;mettere;60;mettere in regola;mettere in regola
+relazione;astratto;non_animato;VPrepN;V in N;essere;372;essere in relazione;essere in relazione
+relazione;astratto;non_animato;VDetN;V det_def N;fare;24;fare una relazione;fare una relazione
+relazione;astratto;non_animato;VPrepN;V in N;mettere;968;mettere in relazione;mettere in relazione
+resistenza;astratto;non_animato;VN;VN;fare;15;fare resistenza;fare resistenza
+responsabile;astratto;non_animato;VN;VN;essere;189;essere responsabile;essere responsabile
+responsabilità;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;326;avere (la/una) responsabilità;avere la responsabilità
+responsabilità;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;326;avere (la/una) responsabilità;avere responsabilità
+responsabilità;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;326;avere (la/una) responsabilità;avere una responsabilità
+responsabilità;astratto;non_animato;VDetN;V det_def N;dare;22;dare la responsabilità;dare la responsabilità
+responsabilità;astratto;non_animato;VDetN;V det_def N;prendere;7;prendere la responsabilità;prendere la responsabilità
+ricerca;astratto;non_animato;VPrepN;V in N;essere;6;essere in ricerca;essere in ricerca
+ricerca;astratto;non_animato;VN;VN;fare;100;fare ricerca;fare ricerca
+ricerca;astratto;non_animato;VDetN;V det_indef N;fare;151;fare una ricerca;fare una ricerca
+ricordo;astratto;non_animato;VDetN;V det_indef/def N;avere;76;avere un/il ricordo;avere il ricordo
+ricordo;astratto;non_animato;VDetN;V det_indef/def N;avere;76;avere un/il ricordo;avere un ricordo
+riguardo;astratto;non_animato;VN;VN;avere;14;avere riguardo;avere riguardo
+riguardo;astratto;non_animato;VN;VN;fare;7;fare riguardo;fare riguardo
+riposo;;;VPrepN;V a N;andare;16;andare a riposo;andare a riposo
+riposo;astratto;non_animato;VN;VN;dare;5;dare riposo;dare riposo
+riposo;astratto;non_animato;VPrepN;V a N;essere;43;essere a riposo;essere a riposo
+riposo;astratto;non_animato;VPrepN;V a N;mettere;76;mettere a riposo;mettere a riposo
+rischio;astratto;non_animato;VDetN;V det_def N;avere;7;avere il rischio;avere il rischio
+rischio;astratto;non_animato;VPrepN;V a N;essere;398;essere a rischio;essere a rischio
+rischio;astratto;non_animato;VPrepN;V a N;mettere;626;mettere a rischio;mettere a rischio
+riserva;;;VPrepN;V in N;andare;5;andare in riserva;andare in riserva
+riserva;astratto;non_animato;VPrepN;V da N;fare;11;fare da riserva;fare da riserva
+riserva;astratto;non_animato;VPrepN;V in N;mettere;50;mettere in riserva;mettere in riserva
+rispetto;astratto;non_animato;V(Det)N;V (det_def) N;avere;65;avere (il) rispetto;avere il rispetto
+rispetto;astratto;non_animato;V(Det)N;V (det_def) N;avere;65;avere (il) rispetto;avere rispetto
+rispetto;astratto;non_animato;VN;VN;fare;7;fare rispetto;fare rispetto
+risposta;astratto;non_animato;VN;VN;avere;12;avere risposta;avere risposta
+risposta;astratto;non_animato;VDetN;V (det_indef/def) N;dare;213;dare (una/la) risposta;dare la risposta
+risposta;astratto;non_animato;VDetN;V (det_indef/def) N;dare;213;dare (una/la) risposta;dare risposta
+risposta;astratto;non_animato;VDetN;V (det_indef/def) N;dare;213;dare (una/la) risposta;dare una risposta
+risultato;astratto;non_animato;VDetN;V det_def N;avere;65;avere il risultato;avere il risultato
+risultato;astratto;non_animato;VDetN;V det_def N;dare;137;dare il risultato;dare il risultato
+risultato;astratto;non_animato;VDetN;V det_indef N;dare;62;dare un risultato;dare un risultato
+risultato;astratto;non_animato;VN;VN;essere;26;essere risultato;essere risultato
+risultato;astratto;non_animato;VN;VN;fare;13;fare risultato;fare risultato
+ritardo;astratto;non_animato;VDetN;V det_indef N;avere;28;avere un ritardo;avere un ritardo
+ritardo;astratto;non_animato;VPrepN;V in N;essere;206;essere in ritardo;essere in ritardo
+ritorno;astratto;non_animato;VPrepN;V di N;essere;113;essere di ritorno;essere di ritorno
+ritorno;astratto;non_animato;VN;VN;fare;582;fare ritorno;fare ritorno
+riunione;concreto;non_animato;VDetN;V det_indef N;fare;9;fare una riunione;fare una riunione
+rivoluzione;astratto;non_animato;VDetN;V det_indef N;fare;35;fare una rivoluzione;fare una rivoluzione
+rosso;;;VPrepN;V in N;andare;18;andare in rosso;andare in rosso
+rosso;concreto;non_animato;VPrepN;V in N;essere;36;essere in rosso;essere in rosso
+rumore;astratto;non_animato;VDetN;V det_def N;fare;5;fare il rumore;fare il rumore
+rumore;astratto;non_animato;V(Det)N;V (det_indef) N;fare;70;fare (un) rumore;fare rumore
+rumore;astratto;non_animato;V(Det)N;V (det_indef) N;fare;70;fare (un) rumore;fare un rumore
+sacrificio;astratto;non_animato;VDetN;V det_indef/def N;fare;49;fare un/il sacrificio;fare il sacrificio
+sacrificio;astratto;non_animato;VDetN;V det_indef/def N;fare;49;fare un/il sacrificio;fare un sacrificio
+salto;astratto;non_animato;VDetN;V det_indef/def N;fare;639;fare un/il salto;fare il salto
+salto;astratto;non_animato;VDetN;V det_indef/def N;fare;639;fare un/il salto;fare un salto
+salute;astratto;non_animato;VPrepN;V in N;essere;18;essere in salute;essere in salute
+saluto;astratto;non_animato;VDetN;V det_indef/def N;dare;17;dare il/un saluto;dare il saluto
+saluto;astratto;non_animato;VDetN;V det_indef/def N;dare;17;dare il/un saluto;dare un saluto
+saluto;astratto;non_animato;VDetN;V det_indef/def N;fare;55;fare un/il saluto;fare il saluto
+saluto;astratto;non_animato;VDetN;V det_indef/def N;fare;55;fare un/il saluto;fare un saluto
+santo;concreto;non_animato;VDetN;V det_def N;fare;7;fare il santo;fare il santo
+sapore;astratto;non_animato;VDetN;V det_indef/def N;avere;338;avere un/il sapore;avere il sapore
+sapore;astratto;non_animato;VDetN;V det_indef/def N;avere;338;avere un/il sapore;avere un sapore
+sapore;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;33;dare (un/il) sapore;dare il sapore
+sapore;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;33;dare (un/il) sapore;dare sapore
+sapore;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;33;dare (un/il) sapore;dare un sapore
+scambio;astratto;non_animato;VDetN;V det_indef/def N;fare;30;fare un/il scambio;fare il scambio
+scambio;astratto;non_animato;VDetN;V det_indef/def N;fare;30;fare un/il scambio;fare un scambio
+scelta;astratto;non_animato;VDetN;V (det_def) N;avere;27;avere (la) scelta;avere la scelta
+scelta;astratto;non_animato;VDetN;V (det_def) N;avere;27;avere (la) scelta;avere scelta
+scelta;astratto;non_animato;VDetN;V det_def N;dare;11;dare la scelta;dare la scelta
+scelta;astratto;non_animato;VDetN;V det_indef/def N;fare;506;fare una/la scelta;fare la scelta
+scelta;astratto;non_animato;VDetN;V det_indef/def N;fare;506;fare una/la scelta;fare una scelta
+scemo;astratto;non_animato;VDetN;V det_def N;fare;5;fare il scemo;fare il scemo
+scena;;;VPrepN;V di N;andare;13;andare di scena;andare di scena
+scena;;;VPrepN;V in N;andare;876;andare in scena;andare in scena
+scena;concreto;non_animato;VPrepN;V in N;essere;75;essere in scena;essere in scena
+scena;concreto;non_animato;VN;VN;fare;17;fare scena;fare scena
+scena;concreto;non_animato;VDetN;V det_indef N;fare;8;fare una scena;fare una scena
+scena;;;VPrepN;V in N;mandare;13;mandare in scena;mandare in scena
+scena;concreto;non_animato;VPrepN;V in N;mettere;2267;mettere in scena;mettere in scena
+scherzo;astratto;non_animato;VDetN;V det_indef/def N;fare;117;fare un/il scherzo;fare il scherzo
+scherzo;astratto;non_animato;VDetN;V det_indef/def N;fare;117;fare un/il scherzo;fare un scherzo
+schiena;concreto;non_animato;VDetN;V det_def N;dare;5;dare la schiena;dare la schiena
+schifo;astratto;non_animato;VDetN;V det_indef N;essere;44;essere un schifo;essere un schifo
+schifo;astratto;non_animato;VN;VN;fare;27;fare schifo;fare schifo
+scienza;astratto;non_animato;VN;VN;fare;9;fare scienza;fare scienza
+scopo;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;2158;avere (un/il) scopo;avere il scopo
+scopo;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;2158;avere (un/il) scopo;avere scopo
+scopo;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;2158;avere (un/il) scopo;avere un scopo
+scopo;astratto;non_animato;VDetN;V det_indef N;dare;16;dare un scopo;dare un scopo
+scuola;;;VPrepN;V a N;andare;504;andare a scuola;andare a scuola
+scuola;concreto;non_animato;VN;VN;fare;26;fare scuola;fare scuola
+scuola;concreto;non_animato;VDetN;V det_def N;fare;11;fare una scuola;fare una scuola
+scusa;astratto;non_animato;VDetN;V det_def N;dare;5;dare la scusa;dare la scusa
+scusa;astratto;non_animato;VDetN;V det_def N;fare;5;fare la scusa;fare la scusa
+sede;astratto;non_animato;V(Det)N;V (det_def) N;avere;175;avere (la) sede;avere la sede
+sede;astratto;non_animato;V(Det)N;V (det_def) N;avere;175;avere (la) sede;avere sede
+sede;astratto;non_animato;VN;VN;essere;113;essere sede;essere sede
+sega;concreto;non_animato;VDetN;V det_indef N;fare;23;fare una/la sega;fare la sega
+sega;concreto;non_animato;VDetN;V det_indef N;fare;23;fare una/la sega;fare una sega
+segno;;;VPrepN;V a N;andare;473;andare a segno;andare a segno
+segno;concreto;non_animato;VDetN;V det_indef/def N;dare;55;dare un/il segno;dare il segno
+segno;concreto;non_animato;VDetN;V det_indef/def N;dare;55;dare un/il segno;dare un segno
+segno;concreto;non_animato;VN;VN;essere;15;essere segno;essere segno
+segno;concreto;non_animato;VDetN;V det_indef/def N;fare;93;fare un/il segno;fare il segno
+segno;concreto;non_animato;VDetN;V det_indef/def N;fare;93;fare un/il segno;fare un segno
+segno;;;VPrepN;V a N;mandare;10;mandare a segno;mandare a segno
+segno;concreto;non_animato;VPrepN;V a N;mettere;1707;mettere a segno;mettere a segno
+segno;concreto;non_animato;VDetN;V det_indef N;mettere;8;mettere un segno;mettere un segno
+seguito;astratto;non_animato;VN;VN;avere;30;avere seguito;avere seguito
+seguito;astratto;non_animato;V(Det)N;V (det_indef) N;dare;137;dare (un) seguito;dare seguito
+seguito;astratto;non_animato;V(Det)N;V (det_indef) N;dare;137;dare (un) seguito;dare un seguito
+sensazione;astratto;non_animato;VDetN;V det_indef/def N;avere;425;avere una/la sensazione;avere la sensazione
+sensazione;astratto;non_animato;VDetN;V det_indef/def N;avere;425;avere una/la sensazione;avere una sensazione
+sensazione;astratto;non_animato;VDetN;V det_indef/def N;dare;202;dare una/la sensazione;dare la sensazione
+sensazione;astratto;non_animato;VDetN;V det_indef/def N;dare;202;dare una/la sensazione;dare una sensazione
+sensazione;astratto;non_animato;VN;VN;fare;5;fare sensazione;fare sensazione
+senso;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;581;avere (un/il) senso;avere il senso
+senso;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;581;avere (un/il) senso;avere senso
+senso;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;581;avere (un/il) senso;avere un senso
+senso;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;590;dare (un/il) senso;dare il senso
+senso;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;590;dare (un/il) senso;dare senso
+senso;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;590;dare (un/il) senso;dare un senso
+serie;astratto;non_animato;VPrepN;V in N;mettere;57;mettere in serie;mettere in serie
+servizio;astratto;non_animato;VPrepN;V a N;essere;53;essere a servizio;essere a servizio
+servizio;astratto;non_animato;VDetN;V det_def N;fare;119;fare il servizio;fare il servizio
+servizio;astratto;non_animato;VPrepN;V a N;mettere;42;mettere a servizio;mettere a servizio
+servizio;astratto;non_animato;VPrepN;V in N;mettere;291;mettere in servizio;mettere in servizio
+servizio;astratto;non_animato;VPrepN;V a N;prendere;14;prendere a servizio;prendere a servizio
+servizio;astratto;non_animato;VPrepN;V in N;prendere;5;prendere in servizio;prendere in servizio
+servizio;astratto;non_animato;VN;-;prendere;49;prendere servizio;prendere servizio
+servo;concreto;umano;VPrepN;V da N;fare;5;fare da servo;fare da servo
+servo;concreto;umano;VDetN;V det_def N;fare;5;fare il servo;fare il servo
+sforzo;astratto;non_animato;VDetN;V det_indef/def N;fare;160;fare un/il sforzo;fare il sforzo
+sforzo;astratto;non_animato;VDetN;V det_indef/def N;fare;160;fare un/il sforzo;fare un sforzo
+sforzo;astratto;non_animato;VPrepN;V sotto N;mettere;5;mettere sotto sforzo;mettere sotto sforzo
+sguardo;astratto;non_animato;VDetN;V det_def N;avere;42;avere il sguardo;avere il sguardo
+sguardo;astratto;non_animato;VDetN;V det_indef N;dare;186;dare un sguardo;dare un sguardo
+sguardo;astratto;non_animato;VDetN;V det_def N;fare;5;fare il sguardo;fare il sguardo
+sicurezza;astratto;non_animato;VDetN;V det_def N;avere;41;avere la sicurezza;avere la sicurezza
+sicurezza;astratto;non_animato;V(Det)N;V (det_def) N;dare;25;dare (la) sicurezza;dare la sicurezza
+sicurezza;astratto;non_animato;V(Det)N;V (det_def) N;dare;25;dare (la) sicurezza;dare sicurezza
+sicurezza;astratto;non_animato;VDetN;V det_indef N;dare;6;dare una sicurezza;dare una sicurezza
+sicurezza;astratto;non_animato;VPrepN;V in N;mettere;212;mettere in sicurezza;mettere in sicurezza
+signore;concreto;umano;VN;VN;essere;5;essere signore;essere signore
+signore;concreto;umano;VDetN;V det_def N;fare;6;fare il signore;fare il signore
+silenzio;astratto;non_animato;VN;VN;fare;19;fare silenzio;fare silenzio
+silenzio;astratto;non_animato;VPrepN;V sotto N;mettere;5;mettere sotto silenzio;mettere sotto silenzio
+simpatia;astratto;non_animato;VPrepN;V in N;avere;19;avere in simpatia;avere in simpatia
+simpatia;astratto;non_animato;VDetN;V det_def N;avere;10;avere la simpatia;avere la simpatia
+simpatia;astratto;non_animato;V(Det)N;V (det_indef) N;avere;19;avere (una) simpatia;avere simpatia
+simpatia;astratto;non_animato;V(Det)N;V (det_indef) N;avere;19;avere (una) simpatia;avere una simpatia
+simpatia;astratto;non_animato;VPrepN;V in N;prendere;63;prendere in simpatia;prendere in simpatia
+sindaco;concreto;umano;VN;VN;essere;6;essere sindaco;essere sindaco
+sindaco;concreto;umano;VDetN;V det_def N;fare;38;fare il sindaco;fare il sindaco
+sistema;astratto;non_animato;VN;VN;fare;16;fare sistema;fare sistema
+sistema;astratto;non_animato;VPrepN;V a N;mettere;17;mettere a sistema;mettere a sistema
+società;astratto;non_animato;VN;VN;fare;7;fare società;fare società
+società;astratto;non_animato;VDetN;V det_indef N;fare;12;fare una società;fare una società
+società;astratto;non_animato;VPrepN;V in N;mettere;39;mettere in società;mettere in società
+soddisfazione;astratto;non_animato;V(Det)N;V (det_def) N;avere;95;avere (la) soddisfazione;avere la soddisfazione
+soddisfazione;astratto;non_animato;V(Det)N;V (det_def) N;avere;95;avere (la) soddisfazione;avere soddisfazione
+soddisfazione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;48;dare (una/la) soddisfazione;dare la soddisfazione
+soddisfazione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;48;dare (una/la) soddisfazione;dare soddisfazione
+soddisfazione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;48;dare (una/la) soddisfazione;dare una soddisfazione
+sofferenza;astratto;non_animato;VPrepN;V in N;essere;5;essere in sofferenza;essere in sofferenza
+sogno;astratto;non_animato;VDetN;V det_indef/def N;avere;195;avere un/il sogno;avere il sogno
+sogno;astratto;non_animato;VDetN;V det_indef/def N;avere;195;avere un/il sogno;avere un sogno
+sogno;astratto;non_animato;V(Det)N;V det_indef/def N;fare;109;fare un/il sogno;fare il sogno
+sogno;astratto;non_animato;V(Det)N;V det_indef/def N;fare;109;fare un/il sogno;fare un sogno
+soldato;concreto;umano;VDetN;V det_def N;fare;42;fare il soldato;fare il soldato
+soldo;concreto;non_animato;VDetN;V det_def N;fare;90;fare il soldo;fare il soldo
+sole;concreto;non_animato;VDetN;V det_def N;prendere;82;prendere il sole;prendere il sole
+soluzione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;95;dare (una/la) soluzione;dare la soluzione
+soluzione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;95;dare (una/la) soluzione;dare soluzione
+soluzione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;95;dare (una/la) soluzione;dare una soluzione
+sonno;astratto;non_animato;VDetN;V det_indef N;avere;12;avere un sonno;avere un sonno
+sonno;astratto;non_animato;VN;-;prendere;55;prendere sonno;prendere sonno
+sorella;concreto;umano;VN;VN;essere;5;essere sorella;essere sorella
+sorpresa;astratto;non_animato;VDetN;V det_indef N;fare;108;fare una sorpresa;fare una sorpresa
+sorriso;concreto;non_animato;VDetN;V det_indef N;avere;27;avere un sorriso;avere un sorriso
+sorriso;concreto;non_animato;VDetN;V det_indef N;dare;15;dare un sorriso;dare un sorriso
+sorriso;concreto;non_animato;VDetN;V det_indef N;fare;40;fare un sorriso;fare un sorriso
+sorte;astratto;non_animato;VPrepN;V in N;avere;31;avere in sorte;avere in sorte
+sospetto;astratto;non_animato;VDetN;V det_def/indef N;avere;98;avere il/un sospetto;avere il sospetto
+sospetto;astratto;non_animato;VDetN;V det_def/indef N;avere;98;avere il/un sospetto;avere un sospetto
+sostanza;astratto;non_animato;VN;VN;dare;13;dare sostanza;dare sostanza
+spalla;concreto;non_animato;VDetN;V det_def N;dare;87;dare la spalla;dare la spalla
+spalla;concreto;non_animato;VPrepN;V da N;fare;144;fare da spalla;fare da spalla
+spalla;concreto;non_animato;VDetN;V det_def N;fare;13;fare la spalla;fare la spalla
+spazio;astratto;non_animato;VN;VN;avere;31;avere spazio;avere spazio
+spazio;astratto;non_animato;V(Det)N;V (det_indef) N;dare;413;dare (un) spazio;dare spazio
+spazio;astratto;non_animato;V(Det)N;V (det_indef) N;dare;413;dare (un) spazio;dare un spazio
+spazio;astratto;non_animato;VN;VN;fare;238;fare spazio;fare spazio
+specchio;concreto;non_animato;VPrepN;V da N;fare;9;fare da specchio;fare da specchio
+speranza;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;54;avere (una/la) speranza;avere la speranza
+speranza;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;54;avere (una/la) speranza;avere speranza
+speranza;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;54;avere (una/la) speranza;avere una speranza
+speranza;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;77;dare (una/la) speranza;dare la speranza
+speranza;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;77;dare (una/la) speranza;dare speranza
+speranza;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;77;dare (una/la) speranza;dare una speranza
+spesa;astratto;non_animato;V(Det)N;V (det_def) N;fare;688;fare (la) spesa;fare la spesa
+spesa;astratto;non_animato;V(Det)N;V (det_def) N;fare;688;fare (la) spesa;fare spesa
+spesa;astratto;non_animato;VDetN;V det_indef N;fare;6;fare una spesa;fare una spesa
+spettacolo;astratto;non_animato;V(Det)N;V (det_indef) N;dare;39;dare (un) spettacolo;dare spettacolo
+spettacolo;astratto;non_animato;V(Det)N;V (det_indef) N;dare;39;dare (un) spettacolo;dare un spettacolo
+spettacolo;astratto;non_animato;V(Det)N;V (det_def) N;fare;107;fare (il) spettacolo;fare il spettacolo
+spettacolo;astratto;non_animato;V(Det)N;V (det_def) N;fare;107;fare (il) spettacolo;fare spettacolo
+spia;concreto;umano;VPrepN;V da N;fare;13;fare da spia;fare da spia
+spia;concreto;umano;VDetN;V det_def N;fare;64;fare la spia;fare la spia
+spiegazione;astratto;non_animato;VDetN;V det_indef N;avere;52;avere una spiegazione;avere una spiegazione
+spiegazione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;251;dare (una/la) spiegazione;dare la spiegazione
+spiegazione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;251;dare (una/la) spiegazione;dare spiegazione
+spiegazione;astratto;non_animato;V(Det)N;V (det_indef/def) N;dare;251;dare (una/la) spiegazione;dare una spiegazione
+sport;astratto;non_animato;VN;VN;fare;86;fare sport;fare sport
+sposa;;;VN;VN;andare;10;andare sposa;andare sposa
+squadra;astratto;non_animato;VN;VN;fare;23;fare squadra;fare squadra
+stampa;;;VPrepN;V in N;andare;37;andare in stampa;andare in stampa
+stampa;astratto;non_animato;VPrepN;V in N;essere;10;essere in stampa;essere in stampa
+stampa;;;VPrepN;V in N;mandare;15;mandare in stampa;mandare in stampa
+stella;concreto;non_animato;VDetN;V det_def N;dare;5;dare una stella;dare una stella
+stoffa;concreto;non_animato;VDetN;V det_def N;avere;40;avere la stoffa;avere la stoffa
+storia;astratto;non_animato;VN;VN;fare;28;fare storia;fare storia
+storico;concreto;umano;VN;VN;essere;6;essere storico;essere storico
+storico;concreto;umano;VDetN;V det_def N;fare;9;fare il storico;fare il storico
+storico;concreto;umano;VDetN;V det_def N;fare;5;fare la storico;fare la storico
+strada;concreto;non_animato;VN;VN;fare;44;fare strada;fare strada
+strada;concreto;non_animato;VPrepN;V su N;mettere;7;mettere su strada;mettere su strada
+strada;concreto;non_animato;VDetN;V det_def/indef N;prendere;46;prendere (la/una) strada;prendere la strada
+strada;concreto;non_animato;VDetN;V det_def/indef N;prendere;46;prendere (la/una) strada;prendere strada
+strada;concreto;non_animato;VDetN;V det_def/indef N;prendere;46;prendere (la/una) strada;prendere una strada
+studente;concreto;umano;VN;VN;essere;10;essere studente;essere studente
+stupido;astratto;non_animato;VDetN;V det_def N;fare;8;fare il stupido;fare il stupido
+successo;astratto;non_animato;V(Det)N;V (det_indef) N;avere;1168;avere (un/il) successo;avere il successo
+successo;astratto;non_animato;V(Det)N;V (det_indef) N;avere;1168;avere (un/il) successo;avere successo
+successo;astratto;non_animato;V(Det)N;V (det_indef) N;avere;1168;avere (un/il) successo;avere un successo
+successo;astratto;non_animato;VPrepN;V di N;essere;20;essere di successo;essere di successo
+successo;astratto;non_animato;V(Det)N;V (det_indef) N;fare;42;fare (un) successo;fare successo
+successo;astratto;non_animato;V(Det)N;V (det_indef) N;fare;42;fare (un) successo;fare un successo
+suono;concreto;non_animato;V(Det)N;V (det_def/indef) N;avere;179;avere (il/un) suono;avere il suono
+suono;concreto;non_animato;V(Det)N;V (det_def/indef) N;avere;179;avere (il/un) suono;avere suono
+suono;concreto;non_animato;V(Det)N;V (det_def/indef) N;avere;179;avere (il/un) suono;avere un suono
+suono;concreto;non_animato;VDetN;V det_indef N;fare;6;fare un suono;fare un suono
+sviluppo;astratto;non_animato;VPrepN;V in N;essere;95;essere in sviluppo;essere in sviluppo
+sviluppo;astratto;non_animato;VPrepN;V in N;mettere;10;mettere in sviluppo;mettere in sviluppo
+tasca;concreto;non_animato;VPrepN;V in N;mettere;62;mettere in tasca;mettere in tasca
+tassa;astratto;non_animato;VDetN;V det_indef N;mettere;7;mettere una tassa;mettere una tassa
+tavola;concreto;non_animato;VPrepN;V a N;essere;23;essere a tavola;essere a tavola
+teatro;;;VPrepN;V a N;andare;65;andare a teatro;andare a teatro
+teatro;concreto;non_animato;VN;VN;fare;54;fare teatro;fare teatro
+temperatura;astratto;non_animato;VDetN;V det_def N;avere;11;avere la temperatura;avere la temperatura
+tempo;astratto;non_animato;VN;VN;avere;36;avere tempo;avere tempo
+tempo;astratto;non_animato;VN;VN;dare;51;dare tempo;dare tempo
+tempo;astratto;non_animato;VPrepN;V in N;essere;93;essere in tempo;essere in tempo
+tempo;astratto;non_animato;VN;-;prendere;125;prendere tempo;prendere tempo
+tenente;concreto;umano;VDetN;V det_def N;fare;5;fare il tenente;fare il tenente
+tentativo;astratto;non_animato;V(Det)N;V (det_def/indef) N;fare;98;fare (il/un) tentativo;fare il tentativo
+tentativo;astratto;non_animato;V(Det)N;V (det_def/indef) N;fare;98;fare (il/un) tentativo;fare tentativo
+tentativo;astratto;non_animato;V(Det)N;V (det_def/indef) N;fare;98;fare (il/un) tentativo;fare un tentativo
+termine;;;VPrepN;V a N;andare;11;andare a termine;andare a termine
+termine;astratto;non_animato;V(Det)N;V (det_def) N;avere;27;avere (il) termine;avere il termine
+termine;astratto;non_animato;V(Det)N;V (det_def) N;avere;27;avere (il) termine;avere termine
+termine;astratto;non_animato;VDetN;V det_indef N;mettere;5;mettere un termine;mettere un termine
+tesoro;concreto;non_animato;VN;VN;fare;44;fare tesoro;fare tesoro
+testa;;;VPrepN;V in N;andare;90;andare in testa;andare in testa
+testa;concreto;non_animato;VPrepN;V in N;avere;132;avere in testa;avere in testa
+testa;concreto;non_animato;VPrepN;V in N;essere;362;essere in testa;essere in testa
+testa;concreto;non_animato;VPrepN;V in N;mettere;226;mettere in testa;mettere in testa
+timore;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;70;avere (il/un) timore;avere il timore
+timore;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;70;avere (il/un) timore;avere timore
+timore;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;70;avere (il/un) timore;avere un timore
+titolo;astratto;non_animato;V(Det)N;V (det_def) N;avere;528;avere (il) titolo;avere il titolo
+titolo;astratto;non_animato;V(Det)N;V (det_def) N;avere;528;avere (il) titolo;avere titolo
+titolo;astratto;non_animato;VDetN;V det_def N;dare;626;dare il titolo;dare il titolo
+titolo;astratto;non_animato;VDetN;V det_def N;mettere;5;mettere il titolo;mettere il titolo
+titolo;astratto;non_animato;VDetN;V det_def N;prendere;14;prendere il titolo;prendere il titolo
+tono;astratto;non_animato;VDetN;V det_def N;avere;19;avere il tono;avere il tono
+tono;astratto;non_animato;VDetN;V det_def N;dare;11;dare il tono;dare il tono
+torre;concreto;non_animato;VPrepN;V da N;fare;5;fare da torre;fare da torre
+torto;astratto;non_animato;V(Det)N;V (det_def) N;avere;40;avere (il) torto;avere il torto
+torto;astratto;non_animato;V(Det)N;V (det_def) N;avere;40;avere (il) torto;avere torto
+torto;astratto;non_animato;VN;VN;dare;54;dare torto;dare torto
+torto;astratto;non_animato;VPrepN;V in N;essere;18;essere in torto;essere in torto
+torto;astratto;non_animato;VN;VN;fare;12;fare torto;fare torto
+uomo;concreto;umano;VN;VN;essere;73;essere uomo;essere uomo
+uomo;concreto;umano;VDetN;V det_def N;fare;27;fare il uomo;fare il uomo
+uso;astratto;non_animato;VPrepN;V in N;dare;28;dare in uso;dare in uso
+uso;astratto;non_animato;VPrepN;V in N;essere;630;essere in uso;essere in uso
+uso;astratto;non_animato;VDetN;V det_indef N;fare;342;fare un uso;fare un uso
+uso;astratto;non_animato;VN;VN;fare;312;fare uso;fare uso
+uso;astratto;non_animato;VPrepN;V in N;mettere;10;mettere in uso;mettere in uso
+vacanza;;;VPrepN;V in N;andare;369;andare in vacanza;andare in vacanza
+vacanza;astratto;non_animato;VDetN;V det_indef N;fare;47;fare una vacanza;fare una vacanza
+vacanza;;;VPrepN;V in N;mandare;16;mandare in vacanza;mandare in vacanza
+valigia;concreto;non_animato;VPrepN;V in N;mettere;25;mettere in valigia;mettere in valigia
+valore;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;1380;avere (un/il) valore;avere il valore
+valore;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;1380;avere (un/il) valore;avere un valore
+valore;astratto;non_animato;V(Det)N;V (det_indef/def) N;avere;1380;avere (un/il) valore;avere valore
+valore;astratto;non_animato;V(Det)N;V (det_indef) N;dare;143;dare (un) valore;dare un valore
+valore;astratto;non_animato;V(Det)N;V (det_indef) N;dare;143;dare (un) valore;dare valore
+valore;astratto;non_animato;VPrepN;V a N;mettere;9;mettere a valore;mettere a valore
+valore;astratto;non_animato;VPrepN;V in N;mettere;9;mettere in valore;mettere in valore
+vantaggio;;;VPrepN;V a N;andare;56;andare a vantaggio;andare a vantaggio
+vantaggio;;;VPrepN;V in N;andare;90;andare in vantaggio;andare in vantaggio
+vantaggio;astratto;non_animato;VDetN;V det_def N;avere;503;avere il vantaggio;avere il vantaggio
+vantaggio;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;74;dare (il/un) vantaggio;dare il vantaggio
+vantaggio;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;74;dare (il/un) vantaggio;dare un vantaggio
+vantaggio;astratto;non_animato;V(Det)N;V (det_def/indef) N;dare;74;dare (il/un) vantaggio;dare vantaggio
+vantaggio;astratto;non_animato;VPrepN;V a N;essere;13;essere a vantaggio;essere a vantaggio
+vantaggio;astratto;non_animato;VPrepN;V in N;essere;180;essere in vantaggio;essere in vantaggio
+vendetta;astratto;non_animato;VN;VN;avere;11;avere vendetta;avere vendetta
+vendetta;astratto;non_animato;VN;VN;fare;6;fare vendetta;fare vendetta
+vergogna;astratto;non_animato;VDetN;V det_indef N;essere;163;essere una vergogna;essere una vergogna
+via;concreto;non_animato;VDetN;V det_def N;dare;2123;dare il via;dare il via
+via;concreto;non_animato;VDetN;V det_def N;prendere;78;prendere il via;prendere il via
+via;concreto;non_animato;VDetN;V det_def N;prendere;56;prendere la via;prendere la via
+viaggio;astratto;non_animato;VPrepN;V in N;essere;325;essere in viaggio;essere in viaggio
+viaggio;astratto;non_animato;VDetN;V det_indef/def N;fare;337;fare un/il viaggio;fare il viaggio
+viaggio;astratto;non_animato;VDetN;V det_indef/def N;fare;337;fare un/il viaggio;fare un viaggio
+viaggio;astratto;non_animato;VPrepN;V in N;mettere;302;mettere in viaggio;mettere in viaggio
+violenza;astratto;non_animato;VN;VN;fare;10;fare violenza;fare violenza
+visita;;;VPrepN;V in N;andare;62;andare in visita;andare in visita
+visita;astratto;non_animato;VPrepN;V in N;essere;136;essere in visita;essere in visita
+visita;astratto;non_animato;V(Det)N;V (det_indef) N;fare;278;fare (una) visita;fare una visita
+visita;astratto;non_animato;V(Det)N;V (det_indef) N;fare;278;fare (una) visita;fare visita
+vista;astratto;non_animato;VPrepN;V in N;avere;10;avere in vista;avere in vista
+vista;astratto;non_animato;VPrepN;V in N;essere;53;essere in vista;essere in vista
+vista;astratto;non_animato;VPrepN;V in N;mettere;21;mettere in vista;mettere in vista
+vita;astratto;non_animato;VN;VN;avere;37;avere vita;avere vita
+vita;astratto;non_animato;VN;VN;dare;867;dare vita;dare vita
+vita;astratto;non_animato;VPrepN;V in N;essere;282;essere in vita;essere in vita
+vita;astratto;non_animato;V(Det)N;V (det_indef) N;fare;126;fare (una) vita;fare una vita
+vita;astratto;non_animato;V(Det)N;V (det_indef) N;fare;126;fare (una) vita;fare vita
+vita;astratto;non_animato;VPrepN;V in N;mettere;6;mettere in vita;mettere in vita
+vita;astratto;non_animato;VN;-;prendere;52;prendere vita;prendere vita
+vittima;astratto;non_animato;VN;VN;essere;102;essere vittima;essere vittima
+vittima;astratto;non_animato;VDetN;V det_def N;fare;102;fare la vittima;fare la vittima
+voce;astratto;non_animato;VN;VN;avere;41;avere voce;avere voce
+voce;astratto;non_animato;VN;VN;dare;223;dare voce;dare voce
+voglia;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;69;avere (la/una) voglia;avere la voglia
+voglia;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;69;avere (la/una) voglia;avere una voglia
+voglia;astratto;non_animato;V(Det)N;V (det_def/indef) N;avere;69;avere (la/una) voglia;avere voglia
+voglia;astratto;non_animato;VN;VN;avere;31;avere voglia;avere voglia
+volo;astratto;non_animato;VPrepN;V in N;essere;124;essere in volo;essere in volo
+volo;astratto;non_animato;VDetN;V det_indef N;fare;18;fare un volo;fare un volo
+volo;astratto;non_animato;VDetN;V det_def N;prendere;50;prendere il volo;prendere il volo
+volontà;astratto;non_animato;VDetN;V det_def N;avere;76;avere (la/una) volontà;avere la volontà
+volontà;astratto;non_animato;VDetN;V det_def N;avere;76;avere (la/una) volontà;avere una volontà
+volontà;astratto;non_animato;VDetN;V det_def N;avere;76;avere (la/una) volontà;avere volontà
+volto;concreto;non_animato;VN;VN;dare;6;dare volto;dare volto
+voto;astratto;non_animato;VDetN;V det_def N;dare;98;dare il voto;dare il voto
+voto;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;92;fare (un/il) voto;fare il voto
+voto;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;92;fare (un/il) voto;fare un voto
+voto;astratto;non_animato;V(Det)N;V (det_indef/def) N;fare;92;fare (un/il) voto;fare voto
+conoscenza;;;VPrepN;V a N;venire;2325;venire a conoscenza;venire a conoscenza
+mente;;;VPrepN;V in N;venire;1500;venire in mente;venire in mente
+contatto;;;VPrepN;V a N;venire;845;venire a contatto;venire a contatto
+contatto;;;VPrepN;V in N;venire;424;venire in contatto;venire in contatto
+aiuto;;;VPrepN;V in N;venire;241;venire in aiuto;venire in aiuto
+capo;;;VPrepN;V a N;venire;176;venire a capo;venire a capo
+superficie;;;VPrepN;V in N;venire;24;venire in superficie;venire in superficie
+luce;;;VPrepN;V in N;venire;21;venire in luce;venire in luce
+esistenza;;;VPrepN;V a N;venire;19;venire ad esistenza;venire ad esistenza
+noia;;;VPrepN;V a N;venire;18;venire a noia;venire a noia
+morte;;;VPrepN;V a N;venire;17;venire a morte;venire a morte
+uso;;;VPrepN;V in N;venire;14;venire in uso;venire in uso
