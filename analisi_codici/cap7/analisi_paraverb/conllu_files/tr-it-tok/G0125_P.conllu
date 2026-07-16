@@ -1,0 +1,334 @@
+# sent_id = G0125_P_1
+# text = Allora {sp} adoro perché non mi aspettavo tutto {sp} tutta questa risonanza .
+1	allora	allora	ADV	B	_	3	discourse	_	AlignBegin=0.01|DM=Yes
+2	{sp}	pause	X	PC	_	1	discourse	_	_
+3	adoro	adorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	DM=Yes
+4	perché	perché	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	Polarity=Neg|PronType=Neg	7	advmod	_	_
+6	mi	mi	PRON	PC	Case=Dat|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
+7	aspettavo	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp	3	advcl	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	reparandum	_	_
+9	{sp}	pause	X	FF	_	8	discourse	_	_
+10	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	risonanza	risonanza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+
+# sent_id = G0125_P_2
+# text = Io premetto , non sono né una studentessa , ma grazie per averlo pensato , né un' insegnante magari .
+1	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	premetto	premettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+3	non	non	ADV	BN	Polarity=Neg|PronType=Neg	7	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	cop	_	_
+5	né	né	CCONJ	CC	Polarity=Neg	7	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	studentessa	studente	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	grazie	grazie	NOUN	S	_	7	conj	_	_
+10	per	per	ADP	E	_	13	mark	_	_
+11	avere	avere	AUX	VA_PC	VerbForm=Inf	13	aux	_	_
+12	lo	lo	PRON	VA_PC	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
+13	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	9	xcomp	_	_
+14	né	né	CCONJ	CC	Polarity=Neg	16	cc	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	insegnante	insegnante	NOUN	S	Gender=Com|Number=Sing	7	conj	_	_
+17	magari	magari	ADV	B	_	16	advmod	_	|AlignEnd=11
+
+# sent_id = G0125_P_3
+# tags = che_polivalente
+# text = Quel video , quella performance , viene praticamente dalla famosa settimana dello studente che si faceva in un liceo qui ad NAME_PLACE che era stato organizzato praticamente questo laboratorio musicale ed eravamo stati invitati noi come scuola , quindi la mia insegnante ha scelto alcuni rappresentanti dei dei suoi allievi e ci ha portato in queste classi del liceo a fare laboratorio musicale .
+1	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	AlignBegin=11.8
+2	video	video	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	performance	performance	NOUN	S	Gender=Fem|Number=Sing	2	reparandum	_	_
+5	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+6	praticamente	praticamente	ADV	B	_	5	discourse	_	DM=Yes
+7	da	da	ADP	E_RD	_	10	case	_	Prolonged=Yes
+8	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	famosa	famoso	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	di	di	ADP	E_RD	_	13	case	_	_
+12	lo	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	studente	studente	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	che	che	PRON	PR	_	16	obj	_	_
+15	si	si	PRON	PC	Clitic=Yes	16	expl:impers	_	_
+16	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	10	acl:relcl	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	qui	qui	ADV	B	_	19	advmod	_	_
+21	ad	a	ADP	E	_	22	case	_	_
+22	name_place	NAME_PLACE	PROPN	SP	_	20	appos	_	_
+23	che	che	PRON	PR	_	26	mark	_	AlignEnd=21.38
+24	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp	25	aux	_	AlignBegin=21.44
+25	stato	essere	AUX	VA	Gender=Masc|Number=Sing|VerbForm=Part	26	aux:pass	_	_
+26	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	10	xcomp	_	_
+27	praticamente	praticamente	ADV	B	_	26	discourse	_	DM=Yes
+28	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+30	musicale	musicale	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	_
+31	ed	e	CCONJ	CC	_	34	cc	_	_
+32	eravamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp	33	aux	_	_
+33	stati	essere	AUX	VA	Gender=Masc|Number=Plur|VerbForm=Part	34	aux:pass	_	_
+34	invitati	invitare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	26	conj	_	Prolonged=Yes
+35	noi	noi	PRON	PE	Case=Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj:pass	_	_
+36	come	come	ADP	E	_	37	case	_	_
+37	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+38	quindi	quindi	ADV	B	_	43	advmod	_	DM=Yes
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	mia	mio	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=1|PronNumber=Sing|PronType=Prs	41	det:poss	_	_
+41	insegnante	insegnante	NOUN	S	Gender=Com|Number=Sing	43	nsubj	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	43	aux	_	_
+43	scelto	scegliere	VERB	V	VerbForm=Part	35	advcl	_	_
+44	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	45	det	_	_
+45	rappresentanti	rappresentante	NOUN	S	Gender=Masc|Number=Plur	43	obj	_	Prolonged=Yes
+46	dei	di il	ADP	A	_	47	reparandum	_	Interrupted=Yes
+47	di	di	ADP	E_RD	_	50	case	_	_
+48	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+49	suoi	suo	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronNumber=Plur|PronType=Prs	50	det:poss	_	Prolonged=Yes
+50	allievi	allievo	NOUN	S	Gender=Masc|Number=Plur	45	nmod	_	_
+51	e	e	CCONJ	CC	_	54	cc	_	_
+52	ci	ci	PRON	PC	Case=Acc|Number=Plur|Person=1|PronType=Prs	54	obj	_	_
+53	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	54	aux	_	_
+54	portato	portare	VERB	V	VerbForm=Part	43	conj	_	_
+55	in	in	ADP	E	_	57	case	_	_
+56	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	57	det	_	_
+57	classi	classe	NOUN	S	Gender=Fem|Number=Plur	54	obl	_	_
+58	di	di	ADP	E_RD	_	60	case	_	_
+59	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	57	nmod	_	_
+61	a	a	ADP	E	_	62	mark	_	_
+62	fare	fare	VERB	V	VerbForm=Inf	54	xcomp	_	_
+63	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	62	obj	_	_
+64	musicale	musicale	ADJ	A	Gender=Masc|Number=Sing	63	amod	_	_
+
+# sent_id = G0125_P_4
+# text = Io portai NAME_ENTITY non solo perché sono una fissata ,
+1	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	portai	portare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
+3	name_entity	NAME_ENTITY	PROPN	SP	_	2	obj	_	_
+4	non	non	ADV	BN	Polarity=Neg|PronType=Neg	5	advmod	_	_
+5	solo	solo	ADV	B	_	6	advmod	_	_
+6	perché	perché	SCONJ	CS	_	9	mark	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	9	cop	_	Prolonged=Yes
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fissata	fissare	VERB	S	Gender=Fem|Number=Sing	2	advcl	_	_
+
+# sent_id = G0125_P_5
+# text = onestamente infatti io ho ho insistito tantissimo per poterla studiare eeh poiché è una canzone tecnicamente molto molto difficile ,
+1	onestamente	onestamente	ADV	B	_	6	discourse	_	AlignEnd=43.24|DM=Yes
+2	infatti	infatti	ADV	B	_	6	advmod	_	AlignBegin=43.6
+3	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	ho	avere	AUX	SP	Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	reparandum	_	Interrupted=Yes
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	aux	_	_
+6	insistito	insistere	VERB	V	VerbForm=Part	0	root	_	_
+7	tantissimo	tantissimo	ADV	B	Degree=Sup	6	advmod	_	_
+8	per	per	ADP	E	_	11	mark	_	_
+9	potere	potere	VERB	VM_PC	VerbForm=Inf	11	aux	_	_
+10	la	lo	PRON	VM_PC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	studiare	studiare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+12	eeh	pause	X	CC	_	11	discourse	_	_
+13	poiché	poiché	SCONJ	CS	_	16	mark	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	cop	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	9	advcl	_	_
+17	tecnicamente	tecnicamente	ADV	B	_	20	advmod	_	_
+18	molto	molto	ADV	B	_	19	advmod:redup	_	_
+19	molto	molto	ADV	B	_	20	advmod	_	_
+20	difficile	difficile	ADJ	A	Gender=Com|Number=Sing	16	amod	_	_
+
+# sent_id = G0125_P_6
+# text = la mia insegnante ha detto sì , studiamola così impari molte cose , molte tecniche , soprattutto per quanto riguarda il mix , vabbè .
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	aux	_	_
+5	detto	dire	VERB	V	VerbForm=Part	0	root	_	_
+6	sì	sì	ADV	B	_	5	advmod	_	_
+7	studiamo	studiamo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	6	parataxis	_	_
+8	la	lo	PRON	V	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	impari	imparare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	7	advcl	_	_
+11	molte	molto	DET	DI	Gender=Fem|Number=Plur	12	det	_	list_cxn=1
+12	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	molte	molto	DET	DI	Gender=Fem|Number=Plur	14	det	_	list_cxn=2
+14	tecniche	tecnica	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+15	soprattutto	soprattutto	ADV	B	_	18	advmod	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Ind	18	nsubj	_	_
+18	riguarda	riguardare	VERB	V	_	12	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mix	mix	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	vabbè	vabbè	ADV	B	_	20	discourse	_	DM=Yes|GeneralExtender=Yes
+
+# sent_id = G0125_P_7
+# text = E io portai quella perché l' anno scorso , questo video è l' anno scorso di questo periodo qua più o meno , io la stavo studiando per portarla al saggio
+1	e	e	CCONJ	CC	_	3	discourse	_	Prolonged=Yes
+2	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	portai	portai	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	obj	_	_
+5	perché	perché	SCONJ	CS	_	25	mark	_	_
+6	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+8	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	video	video	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	cop	_	_
+12	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	appos	_	_
+14	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	_
+18	qua	qua	ADV	B	_	17	advmod	_	_
+19	più	più	ADV	B	_	17	advmod	_	_
+20	o	o	CCONJ	CC	_	19	fixed	_	_
+21	meno	meno	ADV	B	_	20	fixed	_	|AlignEnd=62
+22	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_=|AlignBegin=62.20
+23	la	lo	PRON	PC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+24	stavo	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp	25	aux	_	_
+25	studiando	studiare	VERB	V	VerbForm=Ger	3	advcl	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	portare	portare	VERB	V_PC	VerbForm=Inf	25	xcomp	_	_
+28	la	lo	PRON	V_PC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	a	a	ADP	E_RD	_	31	case	_	_
+30	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	case	_	_
+31	saggio	saggio	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+
+# sent_id = G0125_P_8
+# text = infatti diciamo che è quasi diventato il mio cavallo di battaglia questa canzone , perché con NAME_PERSON non solo ho rotto delle barriere perché ho portato una canzone in giapponese su {sp} un palco di un saggio in una scuola di musica in un {sp} una cittadina {sp} semisconosciuta e ho fatto una {sp} è bella , è una bellissima canzone per me e poi mi ha anche fatto vincere un contest .
+1	infatti	infatti	ADV	B	_	2	discourse	_	Interrupted=Yes
+2	diciamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
+5	quasi	quasi	ADV	B	_	6	advmod	_	_
+6	diventato	diventare	VERB	V	VerbForm=Part	2	ccomp	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	9	det:poss	_	_
+9	cavallo	cavallo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+14	perché	perché	SCONJ	CS	_	20	mark	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	name_person	NAME_PERSON	PROPN	SP	_	20	obl	_	_
+17	non	non	ADV	BN	Polarity=Neg|PronType=Neg	18	advmod	_	_
+18	solo	solo	ADV	B	_	20	advmod	_	_
+19	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	20	aux	_	_
+20	rotto	rompere	VERB	V	VerbForm=Part	9	advcl	_	_
+21	delle	di il	ADP	E_RD	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	barriere	barriera	NOUN	S	Gender=Fem|Number=Plur	20	obj	_	_
+23	perché	perché	SCONJ	CS	_	25	mark	_	_
+24	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	25	aux	_	_
+25	portato	portare	VERB	V	VerbForm=Part	20	advcl	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	giapponese	giapponese	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	su	su	ADP	E	_	33	case	_	_
+31	{sp}	pause	X	PC	_	30	discourse	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	palco	palco	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	saggio	saggio	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	musica	musica	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	_
+42	in	in	ADP	E	_	46	case	_	_
+43	un	un	DET	S	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	reparandum	_	Interrupted=Yes
+44	{sp}	pause	X	FF	_	43	discourse	_	_
+45	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	cittadina	cittadino	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	_
+47	{sp}	pause	X	PC	_	46	discourse	_	Evaluative=Yes
+48	semisconosciuta	semisconosciuto	ADJ	A	Gender=Fem|Number=Sing	46	amod	_	_
+49	e	e	CCONJ	CC	_	51	cc	_	Prolonged=Yes
+50	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	51	aux	_	_
+51	fatto	fare	VERB	V	VerbForm=Part	55	reparandum	_	_
+52	una	uno	PRON	PI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	orphan	_	_
+53	{sp}	pause	X	FF	_	51	discourse	_	_
+54	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	55	cop	_	_
+55	bella	bello	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+56	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	59	cop	_	_
+57	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+58	bellissima	bello	ADJ	A	Degree=Sup|Gender=Fem|Number=Sing	59	amod	_	_
+59	canzone	canzone	NOUN	S	Gender=Fem|Number=Sing	55	parataxis	_	_
+60	per	per	ADP	E	_	61	case	_	_
+61	me	me	PRON	PE	Case=Acc|Number=Sing|Person=1|PronType=Prs	59	nmod	_	AlignEnd=86.3
+62	e	e	CCONJ	CC	_	68	cc	_	AlignBegin=86.5
+63	poi	poi	ADV	B	_	68	advmod	_	_
+64	mi	mi	PRON	PC	Case=Dat|Number=Sing|Person=1|PronType=Prs	68	iobj	_	_
+65	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	68	aux	_	_
+66	anche	anche	ADV	B	_	68	advmod	_	_
+67	fatto	fare	VERB	V	VerbForm=Part	68	aux	_	_
+68	vincere	vincere	VERB	V	VerbForm=Inf	59	conj	_	_
+69	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	contest	contest	NOUN	S	Foreign=Yes|Number=Sing	68	obj	_	|AlignEnd=88
+
+# sent_id = G0125_P_9
+# text = Io non volevo nemmeno presentarmi a quel contest , tra l' altro non ci volevo andare , poi alla fine ho vinto poi infatti {sp}
+1	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=90.14
+2	non	non	ADV	BN	Polarity=Neg|PronType=Neg	3	advmod	_	_
+3	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp	5	aux	_	_
+4	nemmeno	nemmeno	ADV	BN	Polarity=Neg|PronType=Neg	3	advmod	_	_
+5	presentare	presentare	VERB	V_PC	VerbForm=Inf	0	root	_	_
+6	mi	mi	PRON	V_PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	contest	contest	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	5	obl	_	_
+10	tra	tra	ADP	E	_	11	fixed	_	_
+11	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	_	_
+12	altro	altro	PRON	PI	Gender=Masc|Number=Sing	16	cc	_	_
+13	non	non	ADV	BN	Polarity=Neg|PronType=Neg	15	advmod	_	_
+14	ci	ci	PRON	PC	_	16	obl	_	_
+15	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp	16	aux	_	_
+16	andare	andare	VERB	V	VerbForm=Inf	5	conj	_	_
+17	poi	poi	ADV	B	_	22	advmod	_	Interrupted=Yes
+18	a	a	ADP	E_RD	_	20	case	_	_
+19	la	la	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fine	fine	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+21	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	22	aux	_	_
+22	vinto	vincere	VERB	V	VerbForm=Part	5	conj	_	_
+23	poi	poi	ADV	B	_	22	advmod	_	DM=Yes
+24	infatti	infatti	ADV	B	_	22	advmod	_	_
+25	{sp}	pause	X	FF	_	24	discourse	_	AlignEnd=95.1
+
+# sent_id = G0125_P_10
+# text = comunque lo storytime è questo .
+1	comunque	comunque	ADV	B	_	5	advmod	_	AlignBegin=95.94|DM=Yes
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	storytime	storytime	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+5	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	|AlignEnd=97
+
+# sent_id = G0125_P_11
+# text = vabbé io so prolissa ,
+1	vabbé	vabbé	PRON	B	_	4	discourse	_	AlignBegin=97.46|DM=Yes
+2	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	so	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	cop	_	_
+4	prolissa	prolisso	ADJ	V	Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = G0125_P_12
+# text = so più brava , spero , a cantare che a raccontare storie però vabbè ,
+1	so	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	ccomp	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	brava	bravo	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+4	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	cantare	cantare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	raccontare	raccontare	VERB	V	VerbForm=Inf	6	parataxis	_	_
+10	storie	storia	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	AlignEnd=101.64
+11	però	però	ADV	B	_	4	advmod	_	AlignBegin=101.66|DM=Yes
+12	vabbè	vabbè	VERB	I	_	4	discourse	_	DM=Yes
+
+# sent_id = G0125_P_13
+# text = grazie grazie per l' interessamento .
+1	grazie	grazie	NOUN	S	_	0	root	_	_
+2	grazie	grazie	NOUN	S	_	1	discourse:redup	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	interessamento	interessamento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	|AlignEnd=112

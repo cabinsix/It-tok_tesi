@@ -1,0 +1,154 @@
+# sent_id = 1									
+# text = Feder Centri ha deciso di promuovere anche quest'anno la campagna più informati più protetti per diffondere una corretta informazione sui temi della prevenzione vaccinale e l'educazione ai corretti stili di vita . La prevenzione è importantissima sui temi della vaccinazione . La vaccinazione è un pilastro della sanità e offre protezione contro tutti gli agenti e infettivi . Dunque siamo molto veramente soddisfatti che tutti gli incontri che abbiamo avuto nei nostri centri molto affollati e molto seguiti sono stati veramente inter+ interessanti anche dal punto di vista proprio del+ del+ del / specialistico perché i professori e i medici specialisti intervenuti dopo aver fatto la loro relazione hanno poi risposto a tutte le domande e tutte le curiosità dei presenti . Ci auguriamo che questi incontri di prevenzione *continuis+ continuino sempre anche l'anno prossimo e su tutti i temi che interessano in particolarmente la terz'età .									
+1	Feder	Feder	PROPN	SP	_	4	nsubj	_	comp_1
+2	Centri	Centri	PROPN	SP	_	1	flat:name	_	comp_2
+3	ha	avere	AUX	VA	_	4	aux	_	_
+4	deciso	decidere	VERB	V	_	4	ROOT	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	promuovere	promuovere	VERB	V	_	4	xcomp	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	quest'	questo	DET	DD	_	9	det	_	_
+9	anno	anno	NOUN	S	_	6	obl	_	_
+10	la	il	DET	RD	_	11	det	_	_
+11	campagna	campagna	NOUN	S	_	6	obj	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	informati	informare	VERB	V	_	11	acl	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	protetti	proteggere	VERB	V	_	13	xcomp	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	diffondere	diffondere	VERB	V	_	13	advcl	_	_
+18	una	uno	DET	RI	_	20	det	_	_
+19	corretta	corretto	ADJ	A	_	20	amod	_	_
+20	informazione	informazione	NOUN	S	_	17	obj	_	_
+21	sui	su il	ADP	E_RD	_	22	case	_	_
+22	temi	tema	NOUN	S	_	17	obl	_	_
+23	della	di il	ADP	E_RD	_	24	case	_	_
+24	prevenzione	prevenzione	NOUN	S	_	22	nmod	_	_
+25	vaccinale	vaccinale	ADJ	A	_	24	amod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	l'	il	DET	RD	_	28	det	_	_
+28	educazione	educazione	NOUN	S	_	22	conj	_	_
+29	ai	a il	ADP	E_RD	_	31	case	_	_
+30	corretti	corretto	ADJ	A	_	31	amod	_	_
+31	stili	stile	NOUN	S	_	28	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	vita	vita	NOUN	S	_	31	nmod	_	_
+34	.	.	PUNCT	FS	_	4	punct	_	_
+35	La	il	DET	RD	_	36	det	_	_
+36	prevenzione	prevenzione	NOUN	S	_	38	nsubj	_	_
+37	è	essere	AUX	V	_	38	cop	_	_
+38	importantissima	importante	ADJ	A	_	38	ROOT	_	_
+39	sui	su il	ADP	E_RD	_	40	case	_	_
+40	temi	tema	NOUN	S	_	38	obl	_	_
+41	della	di il	ADP	E_RD	_	42	case	_	_
+42	vaccinazione	vaccinazione	NOUN	S	_	40	nmod	_	_
+43	.	.	PUNCT	FS	_	38	punct	_	_
+44	La	il	DET	RD	_	45	det	_	_
+45	vaccinazione	vaccinazione	NOUN	S	_	48	nsubj	_	_
+46	è	essere	AUX	V	_	48	cop	_	_
+47	un	uno	DET	RI	_	48	det	_	_
+48	pilastro	pilastro	NOUN	S	_	48	ROOT	_	_
+49	della	di il	ADP	E_RD	_	50	case	_	_
+50	sanità	sanità	NOUN	S	_	48	nmod	_	_
+51	e	e	CCONJ	CC	_	52	cc	_	_
+52	offre	offrire	VERB	V	_	48	conj	_	_
+53	protezione	protezione	NOUN	S	_	52	obj	_	_
+54	contro	contro	ADP	E	_	57	case	_	_
+55	tutti	tutto	DET	T	_	57	det:predet	_	_
+56	gli	il	DET	RD	_	57	det	_	_
+57	agenti	agente	NOUN	S	_	53	nmod	_	_
+58	e	e	CCONJ	CC	_	59	cc	_	_
+59	infettivi	infettivo	ADJ	A	_	57	conj	_	_
+60	.	.	PUNCT	FS	_	48	punct	_	_
+61	Dunque	dunque	ADV	B	_	65	advmod	_	DM
+62	siamo	essere	AUX	V	_	65	cop	_	_
+63	molto	molto	ADV	B	_	64	advmod	_	_
+64	veramente	veramente	ADV	B	_	65	advmod	_	DM
+65	soddisfatti	soddisfatto	ADJ	A	_	65	ROOT	_	_
+66	che	che	SCONJ	CS	_	84	mark	_	_
+67	tutti	tutto	DET	T	_	69	det:predet	_	_
+68	gli	il	DET	RD	_	69	det	_	_
+69	incontri	incontro	NOUN	S	_	84	nsubj:pass	_	_
+70	che	che	PRON	PR	_	72	obj	_	_
+71	abbiamo	avere	AUX	VA	_	72	aux	_	_
+72	avuto	avere	VERB	V	_	69	acl:relcl	_	_
+73	nei	in il	ADP	E_RD	_	75	case	_	_
+74	nostri	nostro	DET	AP	_	75	det:poss	_	_
+75	centri	centro	NOUN	S	_	72	obl	_	_
+76	molto	molto	ADV	B	_	77	advmod	_	_
+77	affollati	affollato	ADJ	A	_	75	amod	_	_
+78	e	e	CCONJ	CC	_	80	cc	_	_
+79	molto	molto	ADV	B	_	80	advmod	_	_
+80	seguiti	seguire	ADJ	V	_	77	conj	_	_
+81	sono	essere	AUX	VA	_	84	aux	_	_
+82	stati	essere	AUX	VA	_	84	aux:pass	_	_
+83	veramente	veramente	ADV	B	_	84	advmod	_	_
+84	inter+	interessante	ADJ	V	_	65	advcl	_	_
+85	interessanti	interessante	ADJ	A	_	84	amod	_	_
+86	anche	anche	ADV	B	_	88	advmod	_	_
+87	dal	da il	ADP	E_RD	_	88	case	_	_
+88	punto	punto	NOUN	S	_	85	obl	_	_
+89	di	di	ADP	E	_	90	case	_	_
+90	vista	vista	NOUN	S	_	88	nmod	_	_
+91	proprio	proprio	ADV	B	_	92	advmod	_	_
+92	del+	di il	ADP	V	_	88	nummod	_	_
+93	del+	di il	ADP	S	_	92	fixed	_	_
+94	del	di il	ADP	E_RD	_	96	case	_	_
+95	/	/	PUNCT	FF	_	94	punct	_	_
+96	specialistico	specialistico	ADJ	A	_	88	nmod	_	_
+97	perché	perché	SCONJ	CS	_	113	mark	_	_
+98	i	il	DET	RD	_	99	det	_	_
+99	professori	professore	NOUN	S	_	113	nsubj	_	_
+100	e	e	CCONJ	CC	_	102	cc	_	_
+101	i	il	DET	RD	_	102	det	_	_
+102	medici	medico	NOUN	S	_	99	conj	_	_
+103	specialisti	specialista	ADJ	A	_	102	amod	_	_
+104	intervenuti	intervenire	VERB	V	_	102	acl	_	_
+105	dopo	dopo	SCONJ	CS	_	107	mark	_	_
+106	aver	avere	AUX	VA	_	107	aux	_	_
+107	fatto	fare	VERB	V	_	104	advcl	_	_
+108	la	il	DET	RD	_	110	det	_	_
+109	loro	loro	DET	AP	_	110	det:poss	_	_
+110	relazione	relazione	NOUN	S	_	113	nsubj	_	_
+111	hanno	avere	AUX	VA	_	113	aux	_	_
+112	poi	poi	ADV	B	_	113	advmod	_	_
+113	risposto	rispondere	VERB	V	_	88	advcl	_	_
+114	a	a	ADP	E	_	117	case	_	_
+115	tutte	tutto	DET	T	_	117	det:predet	_	_
+116	le	il	DET	RD	_	117	det	_	_
+117	domande	domanda	NOUN	S	_	113	obl	_	_
+118	e	e	CCONJ	CC	_	121	cc	_	_
+119	tutte	tutto	DET	T	_	121	det:predet	_	_
+120	le	il	DET	RD	_	121	det	_	_
+121	curiosità	curiosità	NOUN	S	_	117	conj	_	_
+122	dei	di il	ADP	E_RD	_	123	case	_	_
+123	presenti	presente	NOUN	S	_	121	nmod	_	_
+124	.	.	PUNCT	FS	_	65	punct	_	_
+125	Ci	ci	PRON	PC	_	126	expl	_	_
+126	auguriamo	augurare	VERB	V	_	126	ROOT	_	_
+127	che	che	SCONJ	CS	_	134	mark	_	_
+128	questi	questo	DET	DD	_	129	det	_	_
+129	incontri	incontro	NOUN	S	_	134	nsubj	_	_
+130	di	di	ADP	E	_	131	case	_	_
+131	prevenzione	prevenzione	NOUN	S	_	129	nmod	_	_
+132	*	*	PUNCT	FF	_	133	cc	_	_
+133	continuis+	continuare	VERB	SP	_	129	conj	_	_
+134	continuino	continuare	VERB	V	_	126	ccomp	_	_
+135	sempre	sempre	ADV	B	_	138	advmod	_	_
+136	anche	anche	ADV	B	_	138	advmod	_	_
+137	l'	il	DET	RD	_	138	det	_	_
+138	anno	anno	NOUN	S	_	134	obl	_	_
+139	prossimo	prossimo	ADJ	A	_	138	amod	_	_
+140	e	e	CCONJ	CC	_	144	cc	_	_
+141	su	su	ADP	E	_	144	case	_	_
+142	tutti	tutto	DET	T	_	144	det:predet	_	_
+143	i	il	DET	RD	_	144	det	_	_
+144	temi	tema	NOUN	S	_	138	conj	_	_
+145	che	che	PRON	PR	_	146	nsubj	_	_
+146	interessano	interessare	VERB	V	_	144	acl:relcl	_	_
+147	in	in	ADP	E	_	148	case	_	_
+148	particolarmente	particolarmente	ADV	B	_	146	advmod	_	_
+149	la	il	DET	RD	_	151	det	_	_
+150	terz'	terz'	PUNCT	NO	_	151	amod	_	_
+151	età	età	NOUN	S	_	146	obj	_	_
+152	.	.	PUNCT	FS	_	126	punct	_	_

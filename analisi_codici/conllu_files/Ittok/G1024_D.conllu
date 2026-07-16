@@ -1,0 +1,149 @@
+# sent_id = 1									
+# text = E ti esprimi contro questo governo e sei sinistroide , ti esprimi contro quelli dall'altra parte e sei fascista , prendi le parti del popolo palestinese e sei antisemita , anche se anche i palestinesi sarebbero semiti , ma vabbè , piccolo dettaglio . Appoggi il popolo russo e sei terrorista , sei contraria ai laboratori per bambini trans e sei omofoba , sei contraria alla presenza delle drag queen nelle scuole elementari e nell'asilo nido e sei transfobica , sei del sud e sei terrona , ti esprimi sulla geo-ingegneria e sei terrapiattista , complottista , esprimi i tuoi dubbi sui sieri genici sperimentali e sei novax con la terza media . Insomma , per ogni cosa un'etichetta . Però considerando che queste etichette provengono dai soliti trogloditi del politicamente corretto e dalle solite radical chic , orgogliosa di indossarle .									
+1	E	e	CCONJ	CC	_	3	cc	_	DM
+2	ti	ti	PRON	PC	_	3	expl	_	_
+3	esprimi	esprimere	VERB	V	_	3	ROOT	_	_
+4	contro	contro	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	_	6	det	_	_
+6	governo	governo	NOUN	S	_	3	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	sei	essere	NUM	DI	_	9	cop	_	_
+9	sinistroide	sinistroide	ADJ	A	_	6	conj	_	_
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ti	ti	PRON	PC	_	12	obj	_	_
+12	esprimi	esprimere	VERB	V	_	3	conj	_	_
+13	contro	contro	ADP	E	_	14	case	_	_
+14	quelli	quello	PRON	PD	_	12	obl	_	_
+15	dall'	da il	ADP	E_RD	_	17	case	_	_
+16	altra	altro	ADJ	A	_	17	amod	_	_
+17	parte	parte	NOUN	S	_	14	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	sei	essere	NUM	S	_	20	cop	_	_
+20	fascista	fascista	ADJ	A	_	14	conj	_	_
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22	prendi	prendere	VERB	V	_	3	conj	_	_
+23	le	il	DET	RD	_	24	det	_	_
+24	parti	parte	NOUN	S	_	22	obj	_	_
+25	del	di il	ADP	E_RD	_	26	case	_	_
+26	popolo	popolo	NOUN	S	_	24	nmod	_	_
+27	palestinese	palestinese	ADJ	A	_	26	amod	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	_
+29	sei	essere	NUM	N	_	30	nummod	_	_
+30	antisemita	antisemita	ADJ	V	_	3	conj	_	_
+31	,	,	PUNCT	FF	_	38	punct	_	_
+32	anche	anche	ADV	B	_	38	mark	_	_
+33	se	se	SCONJ	CS	_	32	fixed	_	_
+34	anche	anche	ADV	B	_	36	advmod	_	_
+35	i	il	DET	RD	_	36	det	_	_
+36	palestinesi	palestinese	NOUN	S	_	38	nsubj	_	_
+37	sarebbero	essere	AUX	V	_	38	cop	_	_
+38	semiti	semita	ADJ	V	_	30	xcomp	_	_
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	ma	ma	CCONJ	CC	_	41	cc	_	DM
+41	vabbè	vabbè	VERB	V	_	3	conj	_	DM
+42	,	,	PUNCT	FF	_	41	punct	_	_
+43	piccolo	piccolo	ADJ	A	_	44	amod	_	_
+44	dettaglio	dettaglio	NOUN	S	_	41	obj	_	_
+45	.	.	PUNCT	FS	_	3	punct	_	_
+46	Appoggi	appoggiare	VERB	V	_	102	advcl	_	_
+47	il	il	DET	RD	_	48	det	_	_
+48	popolo	popolo	NOUN	S	_	46	obj	_	_
+49	russo	russo	ADJ	A	_	48	amod	_	_
+50	e	e	CCONJ	CC	_	52	cc	_	_
+51	sei	sei	NUM	N	_	52	nummod	_	_
+52	terrorista	terrorista	NOUN	S	_	48	conj	_	_
+53	,	,	PUNCT	FF	_	48	punct	_	_
+54	sei	essere	NUM	N	_	55	cop	_	_
+55	contraria	contrario	ADJ	A	_	46	nsubj	_	_
+56	ai	a il	ADP	E_RD	_	57	case	_	_
+57	laboratori	laboratorio	NOUN	S	_	55	nmod	_	_
+58	per	per	ADP	E	_	59	case	_	_
+59	bambini	bambino	NOUN	S	_	57	nmod	_	_
+60	trans	trans	ADJ	A	_	59	amod	_	_
+61	e	e	CCONJ	CC	_	63	cc	_	_
+62	sei	essere	NUM	N	_	63	cop	_	_
+63	omofoba	omofobo	ADJ	A	_	59	conj	_	_
+64	,	,	PUNCT	FF	_	66	punct	_	_
+65	sei	essere	NUM	N	_	66	cop	_	_
+66	contraria	contrario	ADJ	A	_	46	conj	_	_
+67	alla	a il	ADP	E_RD	_	68	case	_	_
+68	presenza	presenza	NOUN	S	_	66	nmod	_	_
+69	delle	di il	ADP	E_RD	_	70	case	_	_
+70	drag	drag	NOUN	S	_	68	nmod	_	_
+71	queen	queen	NOUN	A	_	70	compound	_	_
+72	nelle	in il	ADP	E_RD	_	73	case	_	_
+73	scuole	scuola	NOUN	S	_	68	nmod	_	_
+74	elementari	elementare	ADJ	A	_	73	amod	_	_
+75	e	e	CCONJ	CC	_	77	cc	_	_
+76	nell'	in il	ADP	E_RD	_	77	case	_	_
+77	asilo	asilo	NOUN	S	_	68	conj	_	_
+78	nido	nido	NOUN	S	_	77	compound	_	_
+79	e	e	CCONJ	CC	_	81	cc	_	_
+80	sei	essere	NUM	V	_	81	nummod	_	_
+81	transfobica	transfobico	ADJ	A	_	78	conj	_	_
+82	,	,	PUNCT	FF	_	66	punct	_	_
+83	sei	essere	NUM	N	_	66	dep	_	_
+84	del	di il	ADP	E_RD	_	85	case	_	_
+85	sud	sud	NOUN	S	_	83	nmod	_	_
+86	e	e	CCONJ	CC	_	88	cc	_	_
+87	sei	sei	NUM	SP	_	88	nummod	_	_
+88	terrona	terrone	ADJ	S	_	83	conj	_	_
+89	,	,	PUNCT	FF	_	91	punct	_	_
+90	ti	ti	PRON	PC	_	91	obj	_	_
+91	esprimi	esprimere	VERB	V	_	46	conj	_	_
+92	sulla	su il	ADP	E_RD	_	93	case	_	_
+93	geo	geo	NOUN	SP	_	95	amod	_	comp_1
+94	-	-	PUNCT	FF	_	93	punct	_	_
+95	ingegneria	ingegneria	NOUN	SP	_	91	obj	_	comp_2
+96	e	e	CCONJ	CC	_	98	cc	_	_
+97	sei	essere	NUM	V	_	98	nummod	_	_
+98	terrapiattista	terrapiattista	ADJ	A	_	46	conj	_	_
+99	,	,	PUNCT	FF	_	98	punct	_	_
+100	complottista	complottista	ADJ	S	_	98	appos	_	_
+101	,	,	PUNCT	FF	_	98	punct	_	_
+102	esprimi	esprimere	VERB	V	_	102	ROOT	_	_
+103	i	il	DET	RD	_	105	det	_	_
+104	tuoi	tuo	DET	AP	_	105	det:poss	_	_
+105	dubbi	dubbio	NOUN	S	_	102	obj	_	_
+106	sui	su il	ADP	E_RD	_	107	case	_	_
+107	sieri	siero	NOUN	S	_	108	amod	_	_
+108	genici	genico	NOUN	S	_	102	obj	_	_
+109	sperimentali	sperimentale	ADJ	A	_	108	amod	_	_
+110	e	e	CCONJ	CC	_	112	cc	_	_
+111	sei	essere	NUM	V	_	112	nummod	_	_
+112	novax	novax	ADJ	S	_	108	conj	_	_
+113	con	con	ADP	E	_	116	case	_	_
+114	la	il	DET	RD	_	116	det	_	_
+115	terza	terzo	ADJ	NO	_	116	amod	_	_
+116	media	media	NOUN	S	_	112	nmod	_	_
+117	.	.	PUNCT	FS	_	102	punct	_	_
+118	Insomma	insomma	ADV	B	_	124	advmod	_	DM
+119	,	,	PUNCT	FF	_	118	punct	_	_
+120	per	per	ADP	E	_	122	case	_	_
+121	ogni	ogni	DET	DI	_	122	det	_	_
+122	cosa	cosa	NOUN	S	_	124	nmod	_	_
+123	un'	uno	DET	RI	_	124	det	_	_
+124	etichetta	etichetta	NOUN	S	_	124	ROOT	_	_
+125	.	.	PUNCT	FS	_	124	punct	_	_
+126	Però	però	ADV	B	_	127	advmod	_	DM
+127	considerando	considerare	VERB	V	_	127	ROOT	_	_
+128	che	che	SCONJ	CS	_	131	mark	_	_
+129	queste	questo	DET	DD	_	130	det	_	_
+130	etichette	etichetta	NOUN	S	_	131	nsubj	_	_
+131	provengono	provenire	VERB	V	_	127	ccomp	_	_
+132	dai	da il	ADP	E_RD	_	133	case	_	_
+133	soliti	solito	NOUN	S	_	131	obl	_	_
+134	trogloditi	troglodito	ADJ	A	_	133	amod	_	_
+135	del	di il	ADP	E_RD	_	137	case	_	_
+136	politicamente	politicamente	ADV	B	_	137	advmod	_	_
+137	corretto	corretto	ADJ	A	_	133	amod	_	_
+138	e	e	CCONJ	CC	_	141	cc	_	_
+139	dalle	da il	ADP	E_RD	_	141	case	_	_
+140	solite	solito	ADJ	A	_	141	amod	_	_
+141	radical	radical	NOUN	S	_	133	conj	_	comp_1
+142	chic	chic	ADJ	A	_	141	amod	_	comp_2
+143	,	,	PUNCT	FF	_	141	punct	_	_
+144	orgogliosa	orgoglioso	ADJ	A	_	133	amod	_	_
+145	di	di	ADP	E	_	146	mark	_	_
+146	indossarle	indossare	VERB	V_PC	_	144	advcl	_	_
+147	.	.	PUNCT	FS	_	127	punct	_	_

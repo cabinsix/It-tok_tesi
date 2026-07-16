@@ -1,0 +1,1300 @@
+# sent_id = G0125_16_1
+# text = Leggi questa banalissima frase .
+1	leggi	leggere	VERB	S	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	AlignBegin=0
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	banalissima	banale	ADJ	A	Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	_
+4	frase	frase	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+
+# sent_id = G0125_16_2
+# text = Mi siedo .
+1	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	siedo	sedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = G0125_16_3
+# text = Che cosa ti immagini ?
+1	che	che	DET	DQ	_	2	fixed	_	_
+2	cosa	cosa	NOUN	PQ	Gender=Fem|Number=Sing	4	obj	_	_
+3	ti	ti	PRON	PC	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	immagini	immaginare	VERB	S	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	|AlignEnd=5
+
+# sent_id = G0125_16_4
+# text = E questa è inferenza bayesiana .
+1	e	e	CCONJ	CC	_	4	cc	_	AlignBegin=5.04
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+4	inferenza	inferenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	bayesiana	bayesiano	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+
+# sent_id = G0125_16_5
+# text = Raccolgo l' assist fornito involontariamente dal buon Dr . Story per spiegare che cos' è la statistica bayesiana e perché , sentendo le parole mi siedo , ci viene in mente a una persona che si siede su una sedia ?
+1	raccolgo	raccogliere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	assist	assist	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	1	obj	_	_
+4	fornito	fornire	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+5	involontariamente	involontariamente	ADV	B	_	4	advmod	_	_
+6	da	da	ADP	E_RD	_	9	case	_	_
+7	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	buon	buono	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	dr	dottore	NOUN	S	Gender=Masc|Number=Sing	4	obl:agent	_	_
+10	story	story	NOUN	S	Foreign=Yes	9	appos	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	spiegare	spiegare	VERB	V	VerbForm=Inf	1	advcl	_	_
+13	che	che	DET	DQ	_	14	det	_	_
+14	cos'	cos'	PRON	PQ	Gender=Fem|Number=Sing	12	ccomp	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	statistica	statistica	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+18	bayesiana	bayesiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	AlignEnd=15.42
+19	e	e	CCONJ	CC	_	27	cc	_	AlignBegin=15.42
+20	perché	perché	SCONJ	CS	_	27	mark	_	_
+21	sentendo	sentire	VERB	V	VerbForm=Ger	27	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	parole	parola	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24	mi	mi	PRON	PC	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	obj	_	_
+25	siedo	sedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	23	parataxis	_	_
+26	ci	ci	PRON	PC	Case=Dat|Number=Plur|Person=1|PronType=Prs	27	iobj	_	_
+27	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	conj	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	mente	mente	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	persona	persona	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+33	che	che	PRON	PR	_	35	nsubj	_	_
+34	si	si	PRON	PC	_	35	expl	_	_
+35	siede	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	32	acl:relcl	_	_
+36	su	su	ADP	E	_	38	case	_	_
+37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+
+# sent_id = G0125_16_6
+# text = La statistica bayesiana , al contrario di quella determinista , prevede che l' output di una possibile ipotesi non sia solo zero o uno , ovvero l' ipotesi vera o l' ipotesi falsa , ma che ci sia un certo grado che va da zero a uno di plausibilità , verosimiglianza dell' ipotesi .
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	statistica	statistica	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	bayesiana	bayesiano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	a	a	ADP	E_RD	_	6	case	_	_
+5	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	determinista	determinista	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+11	che	che	SCONJ	CS	_	21	mark	_	_
+12	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	output	output	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	21	nsubj	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	possibile	possibile	ADJ	A	Gender=Com|Number=Sing	17	amod	_	_
+17	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	AlignEnd=31.22
+18	non	non	ADV	BN	Polarity=Neg|PronType=Neg	21	advmod	_	AlignBegin=31.22
+19	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
+20	solo	solo	ADV	B	_	21	advmod	_	_
+21	zero	zero	NUM	N	_	10	ccomp	_	_
+22	o	o	CCONJ	CC	_	23	cc	_	_
+23	uno	uno	NUM	PI	_	21	conj	_	_
+24	ovvero	ovvero	CCONJ	CC	_	26	cc	_	_
+25	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+27	vera	vero	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	o	o	CCONJ	CC	_	30	cc	_	_
+29	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+31	falsa	falso	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	ma	ma	CCONJ	CC	_	35	cc	_	_
+33	che	che	PRON	PR	_	35	nsubj	_	_
+34	ci	ci	PRON	PC	Clitic=Yes	35	expl	_	_
+35	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	21	conj	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	certo	certo	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	grado	grado	NOUN	S	Gender=Masc|Number=Sing	35	nsubj	_	_
+39	che	che	PRON	PR	_	40	nsubj	_	_
+40	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	38	acl:relcl	_	_
+41	da	da	ADP	E	_	42	case	_	_
+42	zero	zero	NUM	N	_	40	obl	_	_
+43	a	a	ADP	E	_	44	case	_	_
+44	uno	uno	NUM	PI	_	40	obl	_	AlignEnd=38.96
+45	di	di	ADP	E	_	46	case	_	AlignBegin=38.96
+46	plausibilità	plausibilità	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+47	verosimiglianza	verosimiglianza	NOUN	S	Gender=Fem|Number=Sing	46	conj	_	_
+48	di	di	ADP	E_RD	_	50	case	_	_
+49	l'	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	|AlignEnd=42
+
+# sent_id = G0125_16_7
+# text = Questo perché non è possibile formulare ipotesi senza che ci siano delle credenze a priori .
+1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	orphan	_	AlignBegin=42.94
+2	perché	perché	SCONJ	CS	_	5	mark	_	_
+3	non	non	ADV	BN	Polarity=Neg|PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+5	possibile	possibile	ADJ	A	Gender=Com|Number=Sing	1	advcl	_	_
+6	formulare	formulare	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	senza	senza	ADP	E	_	11	mark	_	_
+9	che	che	SCONJ	CS	_	8	fixed	_	_
+10	ci	ci	PRON	PC	Clitic=Yes	11	expl	_	_
+11	siano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	advcl	_	_
+12	delle	di il	DET	DI	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	credenze	credenza	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+14	a	a	ADP	E	_	13	amod	_	_
+15	priori	priori	NOUN	B	_	14	fixed	_	|AlignEnd=50
+
+# sent_id = G0125_16_8
+# text = Ma spieghiamolo meglio , con qualche esempio .
+1	ma	ma	CCONJ	CC	_	2	discourse	_	AlignBegin=50.32|DM=Yes
+2	spieghiamo	spieghiamo	VERB	A	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+3	lo	il	PRON	A	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	meglio	meglio	ADV	B	_	2	advmod	_	|AlignEnd=51
+5	con	con	ADP	E	_	7	case	_	AlignBegin=51.86
+6	qualche	qualche	DET	DI	PronType=Ind	7	det	_	_
+7	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	|AlignEnd=52
+
+# sent_id = G0125_16_9
+# text = Prendendo quello del dottor . Story , mi siedo , mi siedo , eeh sentendo queste parole io penso che uno si siede su una sedia .
+1	prendendo	prendere	VERB	V	VerbForm=Ger	17	acl	_	AlignBegin=53.3
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	_
+3	di	di	ADP	E_RD	_	5	case	_	_
+4	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dottor	dottore	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	.	.	NOUN	FS	_	5	punct	_	_
+7	story	Story	NOUN	S	Foreign=Yes	5	appos	_	_
+8	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+9	siedo	sedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	parataxis	_	_
+10	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	siedo	sedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	9	parataxis:redup	_	_
+12	eeh	pause	X	CC	_	13	discourse	_	_
+13	sentendo	sentire	VERB	V	VerbForm=Ger	17	advcl	_	_
+14	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	parole	parola	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	_
+20	si	si	PRON	PC	_	21	expl	_	_
+21	siede	sedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	ccomp	_	_
+22	su	su	ADP	E	_	24	case	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	|AlignEnd=60
+
+# sent_id = G0125_16_10
+# text = Perché ?
+1	perché	perché	ADV	B	PronType=Int	0	root	_	AlignBegin=60.3
+
+# sent_id = G0125_16_11
+# text = Perché vivo in una civiltà , in una società , in cui le sedie sono molto comuni ed è molto comune sedersi sulle sedie .
+1	perché	perché	ADV	B	_	2	mark	_	_
+2	vivo	vivere	ADJ	A	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	orphan	_	_
+3	in	in	ADP	E	_	5	case	_	list_cxn=1
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	civiltà	civiltà	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	in	in	ADP	E	_	8	case	_	list_cxn=2
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	società	società	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	cui	cui	PRON	PR	_	15	obl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	sedie	sedia	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	15	cop	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	comuni	comune	ADJ	A	Gender=Com|Number=Plur	8	acl:relcl	_	_
+16	ed	e	CCONJ	CC	_	19	cc	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	cop	_	_
+18	molto	molto	ADV	B	_	19	advmod	_	_
+19	comune	comune	ADJ	A	Gender=Com|Number=Sing	15	conj	_	_
+20	sedere	sedere	VERB	V_PC	VerbForm=Inf	19	csubj	_	_
+21	si	si	PRON	V_PC	Clitic=Yes	20	expl	_	_
+22	su	su	ADP	E_RD	_	24	case	_	_
+23	le	le	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	sedie	sedia	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	|AlignEnd=68
+
+# sent_id = G0125_16_12
+# text = Ã meno comune sedersi sulle panche o sedersi per terra .
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	AlignBegin=68.14
+2	meno	meno	ADV	B	_	3	advmod	_	_
+3	comune	comune	ADJ	A	Gender=Com|Number=Sing	0	root	_	_
+4	sedere	sedere	VERB	V_PC	VerbForm=Inf	3	csubj	_	_
+5	si	si	PRON	V_PC	Clitic=Yes	4	expl	_	_
+6	su	su	ADP	E_RD	_	8	case	_	_
+7	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	panche	panca	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	sedere	sedere	VERB	V_PC	VerbForm=Inf	3	conj	_	_
+11	si	si	PRON	V_PC	Clitic=Yes	10	expl	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	terra	terra	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	|AlignEnd=72
+
+# sent_id = G0125_16_13
+# text = Sicuramente per una persona che vive , ehm non so , in Asia potrebbe essere più comune sedersi per terra o sedersi su un tappeto piuttosto che sedersi su una sedia , a livello concettuale .
+1	sicuramente	sicuramente	ADV	B	_	15	advmod	_	AlignBegin=73.6|DM=Yes
+2	per	per	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+5	che	che	PRON	PR	_	6	nsubj	_	_
+6	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	acl:relcl	_	_
+7	ehm	pause	X	PD	_	6	discourse	_	_
+8	non	non	ADV	BN	Polarity=Neg|PronType=Neg	9	advmod	_	DM=1
+9	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	parataxis	_	DM=2
+10	in	in	ADP	E	_	11	case	_	_
+11	asia	Asia	PROPN	SP	_	6	obl	_	_
+12	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	13	aux	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	15	cop	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	comune	comune	ADJ	A	Gender=Com|Number=Sing	0	root	_	_
+16	sedere	sedere	VERB	V_PC	VerbForm=Inf	15	csubj	_	_
+17	si	si	PRON	V_PC	Clitic=Yes	16	expl	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	terra	terra	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	o	o	CCONJ	CC	_	21	cc	_	_
+21	sedere	sedere	VERB	V_PC	VerbForm=Inf	16	conj	_	_
+22	si	si	PRON	V_PC	Clitic=Yes	21	expl	_	_
+23	su	su	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	tappeto	tappeto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+26	piuttosto	piuttosto	ADV	B	_	28	advmod	_	_
+27	che	che	ADP	E	_	26	fixed	_	_
+28	sedere	sedere	VERB	V_PC	VerbForm=Inf	21	acl	_	_
+29	si	si	VERB	V_PC	Clitic=Yes	28	expl	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	sedia	sedia	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	livello	livello	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+35	concettuale	concettuale	ADJ	A	Gender=Com|Number=Sing	34	amod	_	|AlignEnd=81
+
+# sent_id = G0125_16_14
+# text = Un altro esempio . Se io sto camminando per strada e sento un rumore di zoccoli dietro di me , è facile che {sp} ipotizzo ci sia un cavallo , Ma magari mi giro e vedo una zebra .
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=88.74
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	orphan	_	|AlignEnd=90
+4	se	se	SCONJ	CS	_	7	mark	_	AlignBegin=90.36
+5	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	aux	_	_
+7	camminando	camminare	VERB	V	VerbForm=Ger	20	advcl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	strada	strada	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	conj	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	zoccoli	zoccolo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+16	dietro	dietro	ADV	B	_	18	case	_	_
+17	di	di	ADP	E	_	16	fixed	_	_
+18	me	me	PRON	PE	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	nmod	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	cop	_	_
+20	facile	facile	ADJ	A	Gender=Com|Number=Sing	3	parataxis	_	_
+21	che	che	SCONJ	CS	_	23	mark	_	_
+22	{sp}	pause	X	PC	_	21	discourse	_	_
+23	ipotizzo	ipotizzo	VERB	SP	Mood=Ind|Number=Sing|Person=1|Tense=Pres	20	csubj	_	_
+24	ci	ci	PRON	PC	_	25	expl	_	_
+25	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	23	ccomp	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cavallo	cavallo	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	|AlignEnd=99
+28	ma	ma	CCONJ	CC	_	31	cc	_	AlignBegin=100.04|DM=Yes
+29	magari	magari	ADV	B	_	31	advmod	_	_
+30	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obj	_	_
+31	giro	girare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	27	conj	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	31	conj	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	zebra	zebra	NOUN	S	Gender=Fem|Number=Sing	33	obj	_	|AlignEnd=102
+
+# sent_id = G0125_16_15
+# text = Non avevo modo di distinguere un cavallo da una zebra dagli zoccoli . Però ho ragionato che quel rumore è simile al rumore che che fa un cavallo .
+1	non	non	ADV	BN	Polarity=Neg|PronType=Neg	2	advmod	_	AlignBegin=102.88
+2	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp	0	root	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	distinguere	distinguere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cavallo	cavallo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	zebra	zebra	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	da	da	ADP	E_RD	_	13	case	_	_
+12	gli	gli	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	zoccoli	zoccolo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	però	però	ADV	B	_	16	cc	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	16	aux	_	_
+16	ragionato	ragionare	VERB	V	_	2	conj	_	_
+17	che	che	SCONJ	CS	_	21	mark	_	_
+18	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
+21	simile	simile	ADJ	A	_	16	ccomp	_	_
+22	a	a	ADP	E_RD	_	24	case	_	_
+23	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	rumore	rumore	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+25	che	che	PRON	PR	_	26	nsubj:redup	_	AlignEnd=111.84
+26	che	che	PRON	PR	_	27	nsubj	_	AlignBegin=111.86
+27	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	acl:relcl	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	cavallo	cavallo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	|AlignEnd=112
+
+# sent_id = G0125_16_16
+# text = Sicuramente non sono gli zoccoli di una mucca , che sono più pesanti , o hanno un passo diverso o gli zoccoli di un caribù , però tra cavallo e zebra c' è un certo grado di verosimiglianza nella mia ipotesi .
+1	sicuramente	sicuramente	ADV	B	_	5	advmod	_	AlignBegin=113.38|DM=Yes
+2	non	non	ADV	BN	Polarity=Neg|PronType=Neg	5	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	5	cop	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	zoccoli	zoccolo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mucca	mucca	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	che	che	PRON	PR	_	12	nsubj	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	cop	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	pesanti	pesante	ADJ	A	Gender=Com|Number=Plur	5	acl:relcl	_	_
+13	o	o	CCONJ	CC	_	14	cc	_	_
+14	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	passo	passo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	o	o	CCONJ	CC	_	20	cc	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	zoccoli	zoccolo	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	caribù	caribù	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	|AlignEnd=121
+24	però	però	ADV	B	_	32	cc	_	AlignBegin=122.08
+25	tra	tra	ADP	E	_	26	case	_	_
+26	cavallo	cavallo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+27	e	e	CCONJ	CC	_	28	cc	_	_
+28	zebra	zebra	NOUN	SP	Gender=Fem|Number=Sing	26	conj	_	_
+29	c'	ci	PRON	PC	_	30	expl	_	_
+30	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	ROOT	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	certo	certo	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	grado	grado	NOUN	S	Gender=Masc|Number=Sing	30	nsubj	_	_
+34	di	di	ADP	E	_	35	case	_	_
+35	verosimiglianza	verosimiglianza	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+36	in	in	ADP	E_RD	_	39	case	_	_
+37	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+38	mia	mio	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=1|PronNumber=Sing|PronType=Prs	39	det:poss	_	_
+39	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	|AlignEnd=126
+
+# sent_id = G0125_16_17
+# text = Era comunque un equino .
+1	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	4	cop	_	AlignBegin=126.94
+2	comunque	comunque	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	equino	equino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	|AlignEnd=128
+
+# sent_id = G0125_16_18
+# text = Questo noi lo facciamo inconsciamente , ma è un modello statistico che è meno diffuso rispetto a quello deterministico per il semplice fatto che prevede l' utilizzo di integrali .
+1	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	AlignBegin=129.38
+2	noi	noi	PRON	PE	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	lo	lo	PRON	PC	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
+4	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+5	inconsciamente	inconsciamente	ADV	B	_	4	advmod	_	|AlignEnd=131
+6	ma	ma	CCONJ	CC	_	9	cc	_	AlignBegin=131.86
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	modello	modello	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+10	statistico	statistico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	che	che	PRON	PR	_	14	nsubj	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
+13	meno	meno	ADV	B	_	14	advmod	_	_
+14	diffuso	diffuso	ADJ	A	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+15	rispetto	rispetto	ADV	B	_	17	case	_	_
+16	a	a	ADP	E	_	15	fixed	_	_
+17	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+18	deterministico	deterministico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	per	per	ADP	E	_	22	fixed	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	semplice	semplice	ADJ	A	Gender=Com|Number=Sing	22	amod	_	_
+22	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	23	fixed	_	_
+23	che	che	PRON	PR	_	24	mark	_	_
+24	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	advcl	_	_
+25	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	integrali	integrale	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+
+# sent_id = G0125_16_19
+# text = eeh E questo era problematico , da un punto di vista dei conti fino al Novecento fino alla fine del Novecento , quando la potenza di calcolo dei computer ha iniziato a essere tale da permettere di risolvere numericamente gli integrali e quindi questa {sp} questi modelli statistici hanno potuto tornare a essere impiegati , mentre prima , eeh per quanto fossero molto naturali , molto coerenti , avevano difficoltà a essere applicati proprio per per fare i conti .
+1	eeh	pause	X	SP	_	5	discourse	_	_
+2	e	e	CCONJ	CC	_	5	discourse	_	DM=Yes
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	5	cop	_	_
+5	problematico	problematico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	|AlignEnd=141
+6	da	da	ADP	E	_	8	case	_	AlignBegin=141.76
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	vista	vista	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E_RD	_	13	case	_	_
+12	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	conti	conto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+14	fino	fino	ADV	B	_	17	case	_	list_cxn=1
+15	a	a	ADP	E_RD	_	17	case	_	_
+16	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	novecento	novecento	NOUN	N	Gender=Masc|Number=Sing	5	nmod	_	Interrupted=Yes
+18	fino	fino	ADV	B	_	21	case	_	list_cxn=2
+19	a	a	ADP	E_RD	_	21	case	_	_
+20	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fine	fine	NOUN	S	Gender=Fem|Number=Sing	17	reparandum	_	_
+22	di	di	ADP	E_RD	_	24	case	_	_
+23	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	novecento	novecento	NUM	N	Gender=Masc|Number=Sing	21	nmod	_	|AlignEnd=146
+25	quando	quando	SCONJ	CS	_	34	mark	_	AlignBegin=146.58
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	potenza	potenza	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	calcolo	calcolo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+30	di	di	ADP	E_RD	_	32	case	_	_
+31	i	i	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	computer	computer	NOUN	S	Foreign=Yes|Gender=Masc|Number=Plur	27	nsubj	_	_
+33	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	34	aux	_	_
+34	iniziato	iniziare	VERB	V	VerbForm=Part	21	advcl	_	_
+35	a	a	ADP	E	_	37	mark	_	_
+36	essere	essere	AUX	V	VerbForm=Inf	37	cop	_	_
+37	tale	tale	ADJ	PD	Gender=Com|Number=Sing	34	xcomp	_	_
+38	da	da	ADP	E	_	39	mark	_	_
+39	permettere	permettere	VERB	V	VerbForm=Inf	37	advcl	_	_
+40	di	di	ADP	E	_	41	mark	_	_
+41	risolvere	risolvere	VERB	V	VerbForm=Inf	39	ccomp	_	_
+42	numericamente	numericamente	ADV	B	_	41	advmod	_	_
+43	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	integrali	integrale	NOUN	S	Gender=Masc|Number=Plur	41	obj	_	_
+45	e	e	CCONJ	CC	_	54	cc	_	_
+46	quindi	quindi	ADV	B	_	54	advmod	_	DM=Yes
+47	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	49	reparandum:redup	_	_
+48	{sp}	pause	X	FF	_	47	discourse	_	_
+49	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	50	det	_	_
+50	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	54	nsubj	_	_
+51	statistici	statistico	ADJ	A	Gender=Masc|Number=Plur	50	amod	_	_
+52	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	53	aux	_	_
+53	potuto	potere	AUX	VM	VerbForm=Part	54	aux	_	_
+54	tornare	tornare	VERB	V	VerbForm=Inf	34	ccomp	_	_
+55	a	a	ADP	E	_	57	mark	_	_
+56	essere	essere	AUX	VA	VerbForm=Inf	57	aux:pass	_	_
+57	impiegati	impiegare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	54	xcomp	_	|AlignEnd=158
+58	mentre	mentre	SCONJ	CS	_	68	cc	_	_
+59	prima	prima	ADV	B	_	68	advmod	_	_
+60	eeh	eeh	PRON	S	_	59	discourse	_	_
+61	per	per	ADP	E	_	62	case	_	_
+62	quanto	quanto	ADV	B	_	65	obl	_	_
+63	fossero	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp	65	cop	_	_
+64	molto	molto	ADV	B	_	65	advmod	_	list_cxn=1
+65	naturali	naturale	ADJ	A	Gender=Com|Number=Plur	68	advcl	_	_
+66	molto	molto	ADV	B	_	67	advmod	_	list_cxn=2
+67	coerenti	coerente	ADJ	A	Gender=Com|Number=Plur	65	conj	_	_
+68	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	21	conj	_	_
+69	difficoltà	difficoltà	NOUN	S	Gender=Fem|Number=Sing	68	obj	_	_
+70	a	a	ADP	E	_	72	mark	_	_
+71	essere	essere	AUX	VA	VerbForm=Inf	72	aux:pass	_	_
+72	applicati	applicare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	68	xcomp	_	_
+73	proprio	proprio	ADV	B	_	67	advmod	_	_
+74	per	per	ADP	E	_	75	reparandum:redup	_	Interrupted=Yes
+75	per	per	ADP	E	_	76	mark	_	list_cxn=2
+76	fare	fare	VERB	V	VerbForm=Inf	68	advcl	_	_
+77	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	78	det	_	_
+78	conti	conto	NOUN	S	Gender=Masc|Number=Plur	76	obj	_	|AlignEnd=168
+
+# sent_id = G0125_16_20
+# text = Quindi se il sole è sorto ieri , se il sole è sorto oggi , posso dire che il sole sorgerà domani .
+1	quindi	quindi	ADV	B	_	15	advmod	_	AlignBegin=168.46|DM=Yes
+2	se	se	SCONJ	CS	_	6	mark	_	AlignBegin=170.94
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sole	sole	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
+6	sorto	sorgere	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	15	advcl	_	_
+7	ieri	ieri	ADV	B	_	6	advmod	_	|AlignEnd=170
+8	se	se	SCONJ	CS	_	12	mark	_	AlignBegin=170.94
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sole	sole	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
+12	sorto	sorgere	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	6	parataxis	_	_
+13	oggi	oggi	ADV	B	_	12	advmod	_	|AlignEnd=172
+14	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	15	aux	_	AlignBegin=172.34
+15	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sole	sole	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	sorgerà	sorgare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	15	ccomp	_	_
+20	domani	domani	ADV	B	_	19	advmod	_	|AlignEnd=174
+
+# sent_id = G0125_16_21
+# text = E sì , è ragionevole , però mi sto basando solo su due giorni .
+1	e	e	CCONJ	CC	_	2	discourse	_	AlignBegin=174.8|DM=Yes
+2	sì	sì	INTJ	I	_	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+4	ragionevole	ragionevole	ADJ	A	Gender=Com|Number=Sing	2	parataxis	_	|AlignEnd=176
+5	però	però	ADV	B	_	8	cc	_	AlignBegin=176.62
+6	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+7	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	aux	_	_
+8	basando	basare	VERB	V	VerbForm=Ger	4	conj	_	_
+9	solo	solo	ADV	B	_	8	advmod	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	_	12	nummod	_	_
+12	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	|AlignEnd=178
+
+# sent_id = G0125_16_22
+# text = Se io invece mi baso anche sull' altro ieri , sul giorno prima , sulla settimana prima , sul mese prima , ho molti più dati che corroborano la mia ipotesi che il sole sorgerà domani , ma la probabilità che il sole sorgerà domani non è uno , perché potrebbero succedere cose .
+# tags = che_polivalente
+1	se	se	SCONJ	CS	_	5	mark	_	_=|AlignBegin=178.56
+2	io	io	PRON	PE	_	5	nsubj	_	_
+3	invece	invece	ADV	B	_	5	advmod	_	_
+4	mi	mi	PRON	PC	_	5	expl	_	_
+5	baso	basare	VERB	V	_	23	advcl	_	_
+6	anche	anche	ADV	B	_	5	advmod	_	_
+7	su	su	ADP	E_RD	_	9	case	_	_
+8	l'	il	DET	E_RD	_	9	det	_	_
+9	altro	altro	ADJ	A	_	5	obl	_	_
+10	ieri	ieri	NOUN	S	_	9	compound	_	|AlignEnd=181
+11	su	su	ADP	E_RD	_	13	case	_	_=|AlignBegin=181.24
+12	il	il	DET	E_RD	_	13	det	_	_=|AlignBegin=181.24
+13	giorno	giorno	NOUN	S	_	9	conj	_	_
+14	prima	prima	ADV	B	_	13	advmod	_	|AlignEnd=182
+15	su	su	ADP	E_RD	_	17	case	_	_=|AlignBegin=182.10
+16	la	il	DET	E_RD	_	17	det	_	AlignBegin=182.1
+17	settimana	settimana	NOUN	S	_	13	conj	_	_
+18	prima	prima	ADV	B	_	17	advmod	_	|AlignEnd=183
+19	su	su	ADP	E_RD	_	21	case	_	_=|AlignBegin=183.14
+20	il	il	DET	E_RD	_	21	det	_	_=|AlignBegin=183.14
+21	mese	mese	NOUN	S	_	17	conj	_	_
+22	prima	prima	ADV	B	_	21	advmod	_	|AlignEnd=183
+23	ho	avere	VERB	V	_	0	root	_	_=|AlignBegin=184.08
+24	molti	molto	DET	DI	_	26	det	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	dati	dato	NOUN	S	_	23	obj	_	_
+27	che	che	PRON	PR	_	28	nsubj	_	_
+28	corroborano	corroborare	VERB	V	_	26	acl:relcl	_	_
+29	la	il	DET	RD	_	31	det	_	_
+30	mia	mio	DET	AP	_	31	det:poss	_	_
+31	ipotesi	ipotesi	NOUN	S	_	28	obj	_	_
+32	che	che	SCONJ	CS	_	35	mark	_	_
+33	il	il	DET	RD	_	34	det	_	_
+34	sole	sole	NOUN	S	_	35	nsubj	_	_
+35	sorgerà	sorgere	VERB	V	_	31	xcomp	_	_
+36	domani	domani	ADV	B	_	35	advmod	_	|AlignEnd=188
+37	ma	ma	CCONJ	CC	_	47	cc	_	AlignBegin=188.64
+38	la	il	DET	RD	_	39	det	_	_
+39	probabilità	probabilità	NOUN	S	_	47	nsubj	_	_
+40	che	che	SCONJ	CS	_	43	mark	_	_
+41	il	il	DET	RD	_	42	det	_	_
+42	sole	sole	NOUN	S	_	43	nsubj	_	_
+43	sorgerà	sorgare	VERB	V	_	39	xcomp	_	_
+44	domani	domani	ADV	B	_	43	advmod	_	_
+45	non	non	ADV	BN	_	47	advmod	_	_
+46	è	essere	AUX	V	_	47	cop	_	_
+47	uno	uno	PRON	PI	_	23	conj	_	|AlignEnd=192
+48	perché	perché	SCONJ	CS	_	50	mark	_	_=|AlignBegin=192.44
+49	potrebbero	potere	AUX	VM	_	50	aux	_	_
+50	succedere	succedere	VERB	V	_	47	advcl	_	_
+51	cose	cosa	NOUN	S	_	50	nsubj	_	|AlignEnd=194
+
+# sent_id = G0125_16_23
+# text = Mi baso su quella che è la mia credenza a posteriori {sp} a priori ,
+1	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	AlignBegin=194.56
+2	baso	basare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+3	su	su	ADP	E	_	4	case	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	obl	_	_
+5	che	che	PRON	PR	_	9	mark	_	_
+6	è	essere	VERB	PR	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	9	det:poss	_	_
+9	credenza	credenza	NOUN	S	Gender=Fem|Number=Sing	4	acl:relcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	posteriori	posteriore	NOUN	S	Number=Plur	9	nmod	_	|AlignEnd=197
+12	a	a	NOUN	S	_	13	case	_	AlignBegin=198
+13	priori	priori	NOUN	S	Number=Plur	11	reparandum	_	_
+
+# sent_id = G0125_16_24
+# text = scusate .
+1	scusate	scusare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	DM=Yes
+
+# sent_id = G0125_16_25
+# text = E quindi il bello di questo modello è che a ogni ipotesi {sp} i risultati dell' ipotesi , quindi a posteriori , diventano a priori per la riformulazione dell' ipotesi .
+1	e	e	CCONJ	CC	_	2	discourse	_	_
+2	quindi	quindi	ADV	B	_	22	discourse	_	AlignEnd=200.06|DM=Yes
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=200.06
+4	bello	bello	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	modello	modello	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	cop	_	_
+9	che	che	SCONJ	CS	_	22	mark	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	ogni	ogni	DET	DI	PronType=Ind	12	det	_	_
+12	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	_
+13	{sp}	pause	X	FF	_	12	punct	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+16	di	di	ADP	E_RD	_	18	case	_	_
+17	l'	il	ADP	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	|AlignEnd=205
+19	quindi	quindi	ADV	B	_	21	advmod	_	AlignBegin=205.16|DM=Yes
+20	a	a	ADP	E	_	21	case	_	_
+21	posteriori	posteriore	ADJ	S	Gender=Masc|Number=Plur	15	nmod	_	|AlignEnd=206
+22	diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	AlignBegin=206.66
+23	a	a	ADP	E	_	24	advmod	_	_
+24	priori	priori	ADV	B	Gender=Masc|Number=Plur	22	nmod	_	_
+25	per	per	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	riformulazione	riformulazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+28	di	di	ADP	E_RD	_	30	case	_	_
+29	l'	il	ADP	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	|AlignEnd=209
+
+# sent_id = G0125_16_26
+# text = Quindi più dati ho , più vengono corroborate le ipotesi .
+1	quindi	quindi	CCONJ	CC	_	4	advmod	_	AlignBegin=209.6|DM=Yes
+2	più	più	ADV	B	_	3	advmod	_	_
+3	dati	dato	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+4	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	|AlignEnd=211
+5	più	più	ADV	B	_	7	advmod	_	AlignBegin=211.2
+6	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	aux:pass	_	_
+7	corroborate	corroborare	VERB	V	Gender=Fem|Number=Plur|VerbForm=Part	4	parataxis	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	|AlignEnd=42
+
+# sent_id = G0125_16_27
+# text = Questo perché eeh non è mai possibile avere la certezza di un' ipotesi , di una teoria ,
+1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	orphan	_	AlignBegin=42.94
+2	perché	perché	SCONJ	CS	_	7	mark	_	_
+3	eeh	pause	X	PE	_	2	discourse	_	_
+4	non	non	ADV	BN	Polarity=Neg	7	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+6	mai	mai	ADV	B	Polarity=Neg	7	advmod	_	_
+7	possibile	possibile	ADJ	A	Gender=Com|Number=Sing	1	advcl	_	_
+8	avere	avere	VERB	V	VerbForm=Inf	7	csubj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	teoria	teoria	NOUN	S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	conj	_	|AlignEnd=220
+
+# sent_id = G0125_16_29
+# text = si può falsificare nel momento in cui non è vera , ma non si ha mai la certezza che sia vera perché ogni dato aggiuntivo la corrobora , ma non la prova sopra ogni qualunque dubbio con statistica uno e bla bla bla .
+1	si	si	PRON	PC	_	3	expl:impers	_	AlignBegin=220.22
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
+3	falsificare	falsificare	VERB	V	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	E_RD	_	6	case	_	AlignBegin=380.62
+5	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=380.62
+6	momento	momento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	cui	cui	PRON	PR	_	11	obl	_	_
+9	non	non	ADV	BN	Polarity=Neg	11	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
+11	vera	VERO	ADJ	A	Gender=Fem|Number=Sing	6	acl:relcl	_	|AlignEnd=224
+12	ma	ma	CCONJ	CC	_	15	cc	_	AlignBegin=224.68
+13	non	non	ADV	BN	Polarity=Neg	15	advmod	_	_
+14	si	si	PRON	PC	_	15	expl:impers	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	_
+16	mai	mai	ADV	B	Polarity=Neg	15	advmod	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	certezza	certezza	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
+21	vera	VERO	ADJ	A	Gender=Fem|Number=Sing	18	advcl	_	AlignEnd=227.6
+22	perché	perché	SCONJ	CS	_	21	mark	_	AlignBegin=227.6
+23	ogni	ogni	DET	DI	PronType=Ind	24	det	_	_
+24	dato	dato	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+25	aggiuntivo	aggiuntivo	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	la	il	PRON	RD	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+27	corrobora	corroborare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	advcl	_	|AlignEnd=229
+28	ma	ma	CCONJ	CC	_	31	cc	_	AlignBegin=229.82
+29	non	non	ADV	BN	Polarity=Neg	31	advmod	_	_
+30	la	il	DET	RD	Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+31	prova	provare	VERB	S	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	conj	_	_
+32	sopra	sopra	ADP	E	_	35	case	_	_
+33	ogni	ogni	DET	DI	PronType=Ind	35	det	_	_
+34	qualunque	qualunque	DET	DI	_	35	det	_	_
+35	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+36	con	con	ADP	E	_	37	case	_	_
+37	statistica	statistica	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	_
+38	uno	uno	PRON	N	_	37	nmod:nummod	_	AlignEnd=233.74
+39	e	e	CCONJ	CC	_	40	cc	_	AlignBegin=233.96
+40	bla	Bla	ADV	SP	_	31	conj	_	GeneralExtender=Yes
+41	bla	Bla	ADV	SP	_	40	flat:name	_	_
+42	bla	Bla	ADV	SP	_	41	flat:name	_	|AlignEnd=234
+
+# sent_id = G0125_16_30
+# text = Quindi applicando questa cosa alla narrativa eeh come fa il buon Doctor Story fa sì che in tutta una serie di descrizioni possano essere eeh omessi dei dettagli perché si basano su quello che si potrebbe definire senso comune , modello standard , ma che in realtà deriva proprio da questo ovvero da dei modelli bayesiani di concezione .
+1	quindi	quindi	CCONJ	CC	_	15	discourse	_	AlignBegin=235.4|DM=Yes
+2	applicando	applicare	VERB	V	VerbForm=Ger	15	advcl	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	a	a	ADP	E_RD	_	7	case	_	_
+6	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	narrativa	narrativa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	eeh	pause	X	AP	_	7	discourse	_	_
+9	come	come	ADV	B	_	10	mark	_	AlignBegin=238.7
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	buon	buono	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	doctor	Doctor	NOUN	SP	Foreign=Yes|Gender=Masc|Number=Sing	10	nsubj	_	_
+14	story	Story	NOUN	SP	Foreign=Yes	13	flat:name	_	AlignEnd=240.08
+15	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	AlignBegin=240.32
+16	sì	sì	ADV	B	_	15	advmod	_	_
+17	che	che	SCONJ	CS	_	27	mark	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	tutta	tutto	DET	T	Gender=Fem|Number=Sing	21	det	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	serie	serie	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	descrizioni	descrizione	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+24	possano	potere	AUX	VM	Mood=Sub|Number=Plur|Person=3|Tense=Pres	25	aux	_	_
+25	essere	essere	AUX	VA	VerbForm=Inf	27	aux:pass	_	_
+26	eeh	pause	X	CC	_	25	discourse	_	_
+27	omessi	omessi	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	15	ccomp	_	_
+28	dei	uno	DET	E_RD	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	21	case	_	_
+29	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	AlignEnd=246.64
+30	perché	perché	SCONJ	CS	_	32	mark	_	AlignBegin=246.7
+31	si	si	PRON	PC	_	32	expl	_	_
+32	basano	basare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	29	advcl	_	_
+33	su	su	ADP	E	_	34	case	_	_
+34	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	32	obl	_	_
+35	che	che	PRON	PR	_	38	nsubj	_	_
+36	si	si	PRON	PC	_	38	expl:impers	_	_
+37	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	38	aux:pass	_	_
+38	definire	definire	VERB	V	VerbForm=Inf	34	acl:relcl	_	_
+39	senso	senso	NOUN	S	Gender=Masc|Number=Sing	38	appos	_	_
+40	comune	comune	ADJ	A	Gender=Com|Number=Sing	39	amod	_	|AlignEnd=250
+41	modello	modello	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	AlignBegin=250.58
+42	standard	standard	ADJ	A	Gender=Com|Number=Sing	41	amod	_	|AlignEnd=251
+43	ma	ma	CCONJ	CC	_	47	cc	_	AlignBegin=251.44
+44	che	che	PRON	PR	_	47	nsubj	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	47	obl	_	_
+47	deriva	derivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	39	conj	_	_
+48	proprio	proprio	ADV	B	_	47	advmod	_	_
+49	da	da	ADP	E	_	50	case	_	_
+50	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	47	obl	_	AlignEnd=253.24
+51	ovvero	ovvero	CCONJ	CC	_	54	cc	_	AlignBegin=253.32
+52	da	da	ADP	E	_	54	case	_	_
+53	dei	uno	DET	E_RD	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	50	conj	_	_
+55	bayesiani	bayesiano	ADJ	A	Gender=Masc|Number=Plur	54	amod	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	concezione	concezione	NOUN	S	Gender=Fem|Number=Sing	54	nmod	_	|AlignEnd=255
+
+# sent_id = G0125_16_31
+# text = Di questo però bisogna fare molto attenzione quando si va comunque a scrivere un' opera che potrebbe essere eeh destinata a un pubblico diverso da noi , quindi da quelle che sono le nostre conoscenze , le nostre credenze a priori , e il nostro modo di vivere .
+1	di	di	ADP	E	_	2	case	_	AlignBegin=256.58
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+3	però	però	ADV	B	_	5	advmod	_	_
+4	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	molto	molto	ADV	B	Gender=Masc|Number=Sing	7	advmod	_	_
+7	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	AlignEnd=259.08
+8	quando	quando	SCONJ	CS	_	10	mark	_	AlignBegin=259.08
+9	si	si	PRON	PC	_	10	expl:impers	_	_
+10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	advcl	_	_
+11	comunque	comunque	ADV	B	_	10	advmod	_	DM=Yes
+12	a	a	ADP	E	_	13	mark	_	_
+13	scrivere	scrivere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+14	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	opera	opera	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	AlignEnd=262.08
+16	che	che	PRON	PR	_	11	nsubj:pass	_	_
+17	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	20	aux	_	_
+18	essere	essere	AUX	VA	VerbForm=Inf	20	aux:pass	_	_
+19	eeh	pause	X	VA	_	18	discourse	_	_
+20	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	15	acl:relcl	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	da	da	ADP	E	_	26	case	_	_
+26	noi	noi	PRON	PE	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	obl	_	|AlignEnd=266
+27	quindi	quindi	CCONJ	CC	_	29	cc	_	AlignBegin=266.38
+28	da	da	ADP	E	_	29	case	_	_
+29	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	26	conj	_	_
+30	che	che	PRON	PR	_	34	nsubj	_	_
+31	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	34	cop	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+33	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronNumber=Plur|PronType=Prs	34	det:poss	_	_
+34	conoscenze	conoscenza	NOUN	S	Gender=Fem|Number=Plur	29	acl:relcl	_	|AlignEnd=268
+35	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	AlignBegin=268.58
+36	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronNumber=Plur|PronType=Prs	37	det:poss	_	_
+37	credenze	credenza	NOUN	S	Gender=Fem|Number=Plur	34	conj	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	priori	priori	NOUN	S	_	37	fixed	_	_
+40	e	e	CCONJ	CC	_	43	cc	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	nostro	nostro	DET	AP	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	43	det:poss	_	_
+43	modo	modo	NOUN	S	Gender=Masc|Number=Sing	37	conj	_	_
+44	di	di	ADP	E	_	45	mark	_	_
+45	vivere	vivere	VERB	V	VerbForm=Inf	43	acl	_	|AlignEnd=273
+
+# sent_id = G0125_16_32
+# text = Esempio banalissimo .
+1	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	AlignBegin=274.98
+2	banalissimo	banale	ADJ	A	Degree=Sup|Gender=Masc|Number=Sing	1	amod	_	|AlignEnd=276
+
+# sent_id = G0125_16_33
+# text = Se io dico che una persona era vestita a lutto probabilmente vi state immaginando qualcuno vestito di nero , ma se il mio romanzo fosse ambientato in Giappone sarebbe vestito di bianco perché per i giapponesi il bianco è il colore del lutto .
+1	se	se	SCONJ	CS	_	3	mark	_	AlignBegin=276.34
+2	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	14	advmod	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	persona	persona	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp	8	aux	_	_
+8	vestita	vestire	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	3	ccomp	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	lutto	lutto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	AlignEnd=278.9
+11	probabilmente	probabilmente	ADV	B	_	14	advmod	_	AlignBegin=279.58
+12	vi	vi	PRON	B	Case=Dat|Clitic=Yes|Number=Plur|Person=2|PronType=Prs	14	expl	_	_
+13	state	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	aux	_	_
+14	immaginando	immaginare	VERB	V	VerbForm=Ger	0	root	_	_
+15	qualcuno	qualcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+16	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing|VerbForm=Part	15	nsubj:pass	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	nero	nero	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	|AlignEnd=283
+19	ma	ma	CCONJ	CC	_	29	cc	_	AlignBegin=283.62
+20	se	se	SCONJ	CS	_	25	mark	_	AlignBegin=295.18
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	mio	mio	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronNumber=Sing|PronType=Prs	23	det:poss	_	_
+23	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+24	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp	25	aux:pass	_	_
+25	ambientato	ambientare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	29	advcl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	giappone	Giappone	PROPN	SP	Gender=Masc|Number=Sing	25	obl	_	AlignEnd=286.5
+28	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	29	aux	_	AlignBegin=286.54
+29	vestito	vestire	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	14	conj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	bianco	bianco	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	AlignEnd=287.94
+32	perché	perché	SCONJ	CS	_	40	mark	_	AlignBegin=287.94
+33	per	per	ADP	E	_	35	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	giapponesi	giapponese	NOUN	S	Gender=Masc|Number=Plur	40	nmod	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	bianco	bianco	NOUN	S	Gender=Masc|Number=Sing	40	nsubj	_	_
+38	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	40	cop	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	colore	colore	NOUN	S	Gender=Masc|Number=Sing	31	advcl	_	_
+41	di	di	ADP	E_RD	_	43	case	_	_
+42	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	lutto	lutto	NOUN	S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	nmod	_	|AlignEnd=290
+
+# sent_id = G0125_16_34
+# text = Quindi al di là della coerenza interna del mio romanzo se il mio romanzo è ambientato in Giappone è molto verosimile che qualcuno conosca questa cosa , o comunque tenga conto di questo fatto , ma se io sto ambientando il mio romanzo in Italia e lo traduco per un giapponese , lui non capirà , o meglio non capirà si immaginerà una scena diversa da quella che io sto descrivendo perché ho messo dei dettagli che io do per scontato ma che in realtà non sono scontati per la sua cultura , eeh e questo è molto più comune di quello che che si possa pensare soprattutto per quanto riguarda tutti quegli aspetti della vita comune che noi diamo ormai per scontato .
+1	quindi	quindi	ADV	B	_	24	discourse	_	AlignBegin=290.54|DM=Yes
+2	a	a	ADP	E_RD	_	3	fixed	_	_
+3	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+4	di	di	ADP	E	_	5	fixed	_	_
+5	là	là	ADV	B	_	8	mark	_	_
+6	di	di	ADP	E_RD	_	8	case	_	_
+7	la	la	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	coerenza	coerenza	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+9	interna	interno	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	di	di	ADP	E_RD	_	13	case	_	_
+11	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mio	mio	DET	AP	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	13	det:poss	_	_
+13	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	AlignEnd=295.18
+14	se	se	SCONJ	CS	_	19	mark	_	AlignBegin=295.18
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	17	det:poss	_	_
+17	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	19	aux:pass	_	_
+19	ambientato	ambientare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	24	advcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	giappone	Giappone	PROPN	SP	_	19	obl	_	AlignEnd=297.32
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	cop	_	AlignBegin=297.54
+23	molto	molto	ADV	B	_	24	advmod	_	_
+24	verosimile	verosimile	ADJ	A	Gender=Com|Number=Sing	0	root	_	_
+25	che	che	SCONJ	CS	_	27	mark	_	_
+26	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	27	nsubj	_	_
+27	conosca	conore	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	24	csubj	_	_
+28	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	|AlignEnd=301
+30	o	o	CCONJ	CC	_	32	cc	_	AlignBegin=301.22
+31	comunque	comunque	ADV	B	_	32	advmod	_	DM=Yes
+32	tenga	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	27	conj	_	_
+33	conto	conto	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+36	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	|AlignEnd=302
+37	ma	ma	CCONJ	CC	_	55	cc	_	AlignBegin=303.12
+38	se	se	SCONJ	CS	_	41	mark	_	_
+39	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+40	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	41	aux	_	_
+41	ambientando	ambientare	VERB	V	VerbForm=Ger	49	advcl	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	mio	mio	DET	AP	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	44	det:poss	_	_
+44	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	41	obj	_	_
+45	in	in	ADP	E	_	46	case	_	_
+46	italia	Italia	PROPN	SP	Gender=Fem|Number=Sing	41	nmod	_	AlignEnd=305.42
+47	e	e	CCONJ	CC	_	49	cc	_	AlignBegin=305.96
+48	lo	lo	PRON	PC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	obj	_	_
+49	traduco	tradurre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	41	conj	_	_
+50	per	per	ADP	E	_	52	case	_	_
+51	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	giapponese	giapponese	NOUN	S	Gender=Masc|Number=Sing	49	obl	_	|AlignEnd=308
+53	lui	lui	PRON	PE	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	55	nsubj	_	AlignBegin=309.14
+54	non	non	ADV	BN	Polarity=Neg	55	advmod	_	_
+55	capirà	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	24	conj	_	|AlignEnd=310
+56	o	o	CCONJ	CC	_	59	cc	_	AlignBegin=310.18
+57	meglio	meglio	ADV	B	Degree=Cmp	59	advmod	_	_
+58	non	non	ADV	BN	Polarity=Neg	59	advmod	_	_
+59	capirà	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	55	conj	_	AlignEnd=311.04|Interrupted=Yes
+60	si	si	PRON	PC	_	61	expl	_	AlignBegin=311.06
+61	immaginerà	immaginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	59	parataxis	_	_
+62	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	scena	scena	NOUN	S	Gender=Fem|Number=Sing	61	obj	_	_
+64	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	63	amod	_	_
+65	da	da	ADP	E	_	66	case	_	_
+66	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	64	obl	_	_
+67	che	che	PRON	PR	_	70	obj	_	_
+68	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	70	nsubj	_	_
+69	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	70	aux	_	_
+70	descrivendo	descrivere	VERB	V	VerbForm=Ger	66	acl:relcl	_	AlignEnd=314.14
+71	perché	perché	SCONJ	CS	_	73	mark	_	AlignBegin=314.16
+72	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	73	aux	_	_
+73	messo	mettere	VERB	V	VerbForm=Part	64	advcl	_	_
+74	dei	uno	DET	DI	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	75	det	_	_
+75	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	73	obj	_	_
+76	che	che	PRON	PR	_	78	obj	_	_
+77	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	78	nsubj	_	_
+78	do	dare	VERB	E	Mood=Ind|Number=Sing|Person=1|Tense=Pres	75	acl:relcl	_	_
+79	per	per	ADP	E	_	80	mark	_	_
+80	scontato	scontato	ADJ	V	Gender=Masc|Number=Sing	78	amod	_	AlignEnd=316.18
+81	ma	ma	CCONJ	CC	_	87	cc	_	AlignBegin=316.24
+82	che	che	PRON	PR	_	87	nsubj	_	_
+83	in	in	ADP	E	_	84	case	_	_
+84	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	87	obl	_	_
+85	non	non	ADV	BN	Polarity=Neg	87	advmod	_	_
+86	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	87	cop	_	_
+87	scontati	scontare	VERB	V	Gender=Masc|Number=Plur	75	conj	_	AlignEnd=317.86
+88	per	per	ADP	E	_	91	case	_	AlignBegin=317.94
+89	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	91	det	_	_
+90	sua	suo	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronNumber=Sing|PronType=Prs	91	det:poss	_	_
+91	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	87	obl	_	|AlignEnd=348
+92	eeh	pause	X	SP	_	91	discourse	_	_
+93	e	e	CCONJ	CC	_	98	cc	_	_
+94	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	98	nsubj	_	_
+95	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	98	cop	_	_
+96	molto	molto	ADV	B	_	98	advmod	_	_
+97	più	più	ADV	B	_	98	advmod	_	_
+98	comune	comune	ADJ	A	Gender=Com|Number=Sing	87	conj	_	_
+99	di	di	ADP	E	_	100	case	_	_
+100	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	98	obl	_	_
+101	che	che	PRON	PR	_	102	reparandum:redup	_	Interrupted=Yes
+102	che	che	PRON	PR	_	105	nsubj	_	_
+103	si	si	PRON	PC	_	105	expl:impers	_	_
+104	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres	105	aux	_	_
+105	pensare	pensare	VERB	V	VerbForm=Inf	100	acl:relcl	_	AlignEnd=323.42
+106	soprattutto	soprattutto	ADV	B	_	109	advmod	_	AlignBegin=323.52
+107	per	per	ADP	E	_	108	case	_	_
+108	quanto	quanto	PRON	PR	_	109	obl	_	_
+109	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	105	acl:relcl	_	_
+110	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Ind	112	det	_	_
+111	quegli	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	112	det	_	_
+112	aspetti	aspetto	NOUN	S	Gender=Masc|Number=Plur	109	obj	_	_
+113	di	di	ADP	E_RD	_	115	case	_	_
+114	la	la	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	115	det	_	_
+115	vita	vita	NOUN	S	Gender=Fem|Number=Sing	112	nmod	_	_
+116	comune	comune	ADJ	A	Gender=Com|Number=Sing	115	amod	_	AlignEnd=326.92
+117	che	che	PRON	PR	_	119	obj	_	AlignBegin=326.92
+118	noi	noi	PRON	PE	Case=Nom|Number=Plur|Person=1|PronType=Prs	119	nsubj	_	_
+119	diamo	dare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	112	acl:relcl	_	_
+120	ormai	ormai	ADV	B	_	119	advmod	_	_
+121	per	per	ADP	E	_	122	mark	_	_
+122	scontato	scontato	ADJ	V	Gender=Masc|Number=Sing	119	amod	_	|AlignEnd=328
+
+# sent_id = G0125_16_35
+# text = Quindi è molto importante per un autore riuscire ad avere un buon controllo delle proprie descrizioni sfruttando il senso comune per non appesantire eeh le descrizioni laddove non sia necessario ma contemporaneamente con uno un orecchio teso a eventuali incongruenze .
+1	quindi	quindi	CCONJ	CC	_	4	discourse	_	AlignBegin=329.52|DM=Yes
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	importante	importante	ADJ	A	Gender=Com|Number=Sing	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	autore	autore	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	AlignEnd=332.58
+8	riuscire	riuscire	VERB	V	VerbForm=Inf	4	csubj	_	AlignBegin=332.6
+9	ad	a	ADP	E	_	10	case	_	_
+10	avere	avere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	buon	buono	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	di	di	ADP	E_RD	_	17	case	_	_
+15	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Art	17	det:poss	_	_
+17	descrizioni	descrizione	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	AlignEnd=336.12
+18	sfruttando	sfruttare	VERB	V	VerbForm=Ger	13	advcl	_	AlignBegin=336.58
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	senso	senso	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	comune	comune	ADJ	A	Gender=Com|Number=Sing	20	amod	_	AlignEnd=338.58
+22	per	per	ADP	E	_	24	mark	_	_
+23	non	non	ADV	BN	Polarity=Neg	24	advmod	_	_
+24	appesantire	appesantire	VERB	V	VerbForm=Inf	18	advcl	_	_
+25	eeh	pause	X	PI	_	24	discourse	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	descrizioni	descrizione	NOUN	S	Gender=Fem|Number=Plur|PronType=Art	24	obj	_	_
+28	laddove	laddove	SCONJ	CS	_	31	mark	_	_
+29	non	non	ADV	BN	Polarity=Neg	31	advmod	_	_
+30	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	31	cop	_	_
+31	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	27	advcl	_	AlignEnd=343.34
+32	ma	ma	CCONJ	CC	_	37	cc	_	AlignBegin=343.46
+33	contemporaneamente	contemporaneamente	ADV	B	_	37	advmod	_	_
+34	con	con	ADP	E	_	37	case	_	_
+35	uno	uno	NUM	N	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	reparandum:redup	_	Interrupted=Yes
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	orecchio	orecchio	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+38	teso	teso	VERB	A	Gender=Masc|Number=Sing|VerbForm=Part	37	acl	_	AlignEnd=346.88
+39	a	a	ADP	E	_	41	case	_	AlignBegin=346.88
+40	eventuali	eventuale	ADJ	A	Gender=Com|Number=Plur	41	amod	_	_
+41	incongruenze	incongruenza	NOUN	S	Gender=Fem|Number=Plur	38	obl	_	|AlignEnd=348
+
+# sent_id = G0125_16_36
+# text = E questo è anche il lavoro che fa un editor come me o come anche il buon Doctor Story
+1	e	e	CCONJ	CC	_	6	discourse	_	AlignBegin=348.64
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	che	che	PRON	PR	_	8	obj	_	_
+8	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	acl:relcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	editor	editor	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	me	me	PRON	PE	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	nmod	_	AlignEnd=350.98
+13	o	o	CCONJ	CC	_	18	cc	_	AlignBegin=351.06
+14	come	come	SCONJ	CS	_	18	case	_	_
+15	anche	anche	ADV	B	_	18	advmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	buon	buono	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	doctor	Doctor	NOUN	SP	Foreign=Yes|Gender=Masc|Number=Sing	12	conj	_	_
+19	story	Story	NOUN	SP	Foreign=Yes	18	flat:name	_	AlignEnd=352.76
+
+# sent_id = G0125_16_37
+# text = quando si fa una revisione di un romanzo si sta attenti anche a questi dettagli ovvero a non dare per scontato quello che {sp} può sembrare scontato sia a livello di trama ma anche proprio a livello di dettagli nelle descrizioni .
+1	quando	quando	SCONJ	CS	_	3	mark	_	AlignBegin=352.96
+2	si	si	PRON	PC	_	3	expl:impers	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	advcl	_	_
+4	una	uno	DET	RI	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	AlignEnd=354.98
+9	si	si	PRON	PC	_	10	expl:impers	_	AlignBegin=355.02
+10	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+11	attenti	attento	ADJ	A	Gender=Masc|Number=Plur	10	_	_	_
+12	anche	anche	ADV	B	_	10	advmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	AlignEnd=356.4
+16	ovvero	ovvero	CCONJ	CC	_	19	cc	_	AlignBegin=356.48
+17	a	a	ADP	E	_	19	mark	_	_
+18	non	non	ADV	BN	Polarity=Neg	19	advmod	_	_
+19	dare	dare	VERB	V	VerbForm=Inf	15	conj	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	scontato	scontare	VERB	V	Gender=Masc|Number=Sing	19	amod	_	_
+22	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	obj	_	_
+23	che	che	PRON	PR	_	26	nsubj	_	_
+24	{sp}	pause	X	PC	_	23	discourse	_	_
+25	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	26	aux	_	_
+26	sembrare	sembrare	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+27	scontato	scontato	ADJ	V	Gender=Masc|Number=Sing	26	amod	_	AlignEnd=361.24
+28	sia	sia	CCONJ	CC	_	30	cc	_	AlignBegin=361.24
+29	a	a	ADP	E	_	30	case	_	_
+30	livello	livello	NOUN	S	Gender=Masc|Number=Sing	26	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	trama	trama	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	AlignEnd=362.2
+33	ma	ma	CCONJ	CC	_	37	cc	_	AlignBegin=362.22
+34	anche	anche	ADV	B	_	37	advmod	_	_
+35	proprio	proprio	ADV	B	_	37	advmod	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	livello	livello	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	dettagli	dettaglio	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
+40	in	in	ADP	E_RD	_	42	case	_	_
+41	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	descrizioni	descrizione	NOUN	S	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	obl	_	|AlignEnd=364
+
+# sent_id = G0125_16_38
+# text = Se un personaggio ha un oggetto in una mano e nella scena dopo l' oggetto è nell' altra mano , beh non ho descritto che si passava il cellulare dalla mano destra alla mano sinistra però eeh questo potrebbe creare un' incongruenza , nel momento in cui il personaggio è aggrappato a un cornicione con la mano destra e ha il cellulare nella mano sinistra .
+1	se	se	SCONJ	CS	_	3	mark	_	AlignBegin=366.28
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	25	advcl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	_	_	_
+9	mano	mano	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	AlignEnd=369.22
+10	e	e	CCONJ	CC	_	17	cc	_	AlignBegin=369.38
+11	in	in	ADP	E_RD	_	13	case	_	_
+12	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scena	scena	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+14	dopo	dopo	ADP	E	_	13	advmod	_	_
+15	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	conj	_	_
+18	in	in	ADP	E_RD	_	21	case	_	_
+19	l'	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	altra	altro	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	mano	mano	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	|AlignEnd=371
+22	beh	beh	CCONJ	B	_	25	discourse	_	AlignBegin=372.02|DM=Yes
+23	non	non	ADV	BN	Polarity=Neg	25	advmod	_	_
+24	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	25	aux	_	_
+25	descritto	descrivere	VERB	V	VerbForm=Part	0	root	_	_
+26	che	che	SCONJ	CS	_	28	mark	_	_
+27	si	si	PRON	PC	_	28	expl	_	_
+28	passava	passare	VERB	V	_	25	ccomp	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	da	da	ADP	E_RD	_	33	case	_	_
+32	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	mano	mano	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+34	destra	destro	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35	a	a	ADP	E_RD	_	37	case	_	_
+36	la	la	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	mano	mano	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	_
+38	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	37	amod	_	_
+39	però	però	ADV	B	_	43	cc	_	_
+40	eeh	pause	X	RD	_	39	discourse	_	_
+41	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	43	nsubj	_	_
+42	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	43	aux	_	_
+43	creare	creare	VERB	V	VerbForm=Inf	25	conj	_	_
+44	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	incongruenza	incongruenza	NOUN	S	Gender=Fem|Number=Sing	43	obj	_	|AlignEnd=380
+46	in	in	ADP	E_RD	_	48	case	_	AlignBegin=380.62
+47	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	AlignBegin=380.62
+48	momento	momento	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+49	in	in	ADP	E	_	50	case	_	_
+50	cui	cui	PRON	PR	_	54	obl	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	54	nsubj	_	_
+53	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	54	aux	_	_
+54	aggrappato	aggrappare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	48	acl:relcl	_	_
+55	a	a	ADP	E	_	57	case	_	_
+56	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	cornicione	cornicione	NOUN	S	Gender=Masc|Number=Sing	54	obl	_	_
+58	con	con	ADP	E	_	60	case	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	mano	mano	NOUN	S	Gender=Fem|Number=Sing	54	nmod	_	_
+61	destra	destro	ADJ	A	Gender=Fem|Number=Sing	60	amod	_	AlignEnd=384.86
+62	e	e	CCONJ	CC	_	63	cc	_	AlignBegin=384.92
+63	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	54	conj	_	_
+64	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	63	obj	_	_
+66	in	in	ADP	E_RD	_	68	case	_	_
+67	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
+68	mano	mano	NOUN	S	Gender=Fem|Number=Sing	65	obl	_	_
+69	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	68	amod	_	|AlignEnd=386
+
+# sent_id = G0125_16_39
+# text = Ecco che se di colpo il cellulare è nella mano destra beh questo scambio di mano è un po' più inverosimile .
+1	ecco	ecco	ADV	B	_	18	discourse	_	AlignBegin=386.76|DM=1
+2	che	che	SCONJ	CS	_	1	fixed	_	DM=2
+3	se	se	SCONJ	CS	_	8	mark	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	8	_	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	advcl	_	_
+9	in	in	ADP	E_RD	_	11	case	_	_
+10	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mano	mano	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	destra	destro	ADJ	A	Gender=Fem|Number=Sing	11	_	_	AlignEnd=388.8
+13	beh	beh	ADV	B	_	18	discourse	_	AlignBegin=389.42|DM=Yes
+14	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	mano	mano	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	cop	_	_
+19	un	uno	DET	RI	_	20	det	_	_
+20	po'	poco	ADV	B	Gender=Masc|Number=Sing	22	advmod	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	inverosimile	inverosimile	ADJ	A	Gender=Com|Number=Sing	0	root	_	|AlignEnd=393
+
+# sent_id = G0125_16_40
+# text = E questo è solo un esempio ma ce ne sono molti altri .
+1	e	e	CCONJ	CC	_	6	discourse	_	AlignBegin=393.8
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+4	solo	solo	ADV	B	_	6	amod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	AlignEnd=395.74
+7	ma	ma	CCONJ	CC	_	12	cc	_	AlignBegin=395.88
+8	ce	ce	PRON	PC	_	12	expl	_	_
+9	ne	ne	PRON	PC	_	12	expl	_	_
+10	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	cop	_	_
+11	molti	molto	DET	DI	Gender=Masc|Number=Plur	12	amod	_	_
+12	altri	altro	PRON	PI	Gender=Masc|Number=Plur	6	conj	_	_
+
+# sent_id = G0125_16_41
+# text = Questo tra l' altro è capitato in una revisione che ho fatto .
+1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	tra	tra	ADP	E	_	4	fixed	_	DM=1
+3	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	DM=2
+4	altro	altro	PRON	PI	Gender=Masc|Number=Sing	6	discourse	_	DM=3
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
+6	capitato	capitare	VERB	V	VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	revisione	revisione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	che	che	PRON	PR	_	12	obj	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	12	aux	_	_
+12	fatto	fare	VERB	V	VerbForm=Part	9	acl:relcl	_	|AlignEnd=399
+
+# sent_id = G0125_16_42
+# text = per questo me lo ricordo .
+1	per	per	ADP	E	_	0	_	_	AlignBegin=399.54
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	_	_	_
+3	me	me	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	_	_	_
+4	lo	lo	PRON	PC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	_
+5	ricordo	ricordo	NOUN	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	_	_	|AlignEnd=400
+
+# sent_id = G0125_16_43
+# text = Detto questo fatemi sapere cosa ne pensate dell' inferenza bayesiana , se l' avevate sentita nominare , se vi sembra sensata , se vi sembra utile anche per la scrittura .
+1	detto	dire	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	2	fixed	_	AlignBegin=400.88|DM=1
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	discourse	_	DM=2
+3	fate	fate	NOUN	S	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+4	mi	mi	PRON	S	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	sapere	sapere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	cosa	cosa	PRON	PQ	_	8	mark	_	_
+7	ne	ne	PRON	PC	_	8	obl	_	_
+8	pensate	pensare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres	5	ccomp	_	_
+9	di	di	NOUN	S	_	11	case	_	_
+10	l'	il	NOUN	S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	inferenza	inferenza	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	bayesiana	bayesiano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	se	se	SCONJ	CS	_	16	mark	_	_
+14	l'	lo	PRON	PC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	avevate	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres	16	aux	_	_
+16	sentita	sentire	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	8	conj	_	_
+17	nominare	nominare	VERB	V	VerbForm=Inf	16	xcomp	_	|AlignEnd=406
+18	se	se	SCONJ	CS	_	20	mark	_	AlignBegin=406.8
+19	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	20	iobj	_	_
+20	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	conj	_	_
+21	sensata	sensato	ADJ	A	Gender=Fem|Number=Sing	20	xcomp	_	|AlignEnd=408
+22	se	se	SCONJ	CS	_	24	mark	_	AlignBegin=408
+23	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	24	iobj	_	_
+24	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	conj	_	_
+25	utile	utile	ADJ	A	Gender=Com|Number=Sing	24	xcomp	_	_
+26	anche	anche	ADV	B	_	29	advmod	_	_
+27	per	per	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+
+# sent_id = G0125_16_44
+# text = eeh Ringrazio il dottor story per avermi dato questa possibilità di flexare un po' di statistica , E al prossimo video .
+1	eeh	eeh	ADJ	AP	_	2	discourse	_	_
+2	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	dottor	dottor	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	story	story	NOUN	S	Foreign=Yes	4	flat:name	_	_
+6	per	per	ADP	E	_	9	mark	_	_
+7	avere	avere	AUX	VA_PC	VerbForm=Inf	9	aux	_	_
+8	mi	mi	AUX	VA_PC	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	dato	dare	VERB	V	VerbForm=Part	2	advcl	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	possibilità	possibilità	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	flexare	flexare	VERB	V	Foreign=Yes|VerbForm=Inf	11	xcomp	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	po'	poco	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	statistica	statistica	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	|AlignEnd=415
+18	e	e	CCONJ	CC	_	22	cc	_	AlignBegin=415.2
+19	a	a	ADP	E_RD	_	22	case	_	_
+20	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+22	video	video	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	|AlignEnd=416

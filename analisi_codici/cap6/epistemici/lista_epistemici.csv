@@ -1,0 +1,162 @@
+forme,certezza,morphosyntax,polarity,epistemic_type,prendere,struttura,parentetico,prende_complemento
+a dir la verità,positive,lexicon_adverb,positive,indirect_reportive,1,SP,,
+ammetto che,negative,lexicon_CTP,negative,indirect_reportive,1,SV,,sì
+bo,negative,lexicon_discourse_marker,neutral,no evidence,1,INTJ,,
+boh,negative,lexicon_discourse_marker,neutral,no evidence,1,INTJ,,
+capiamo che,neutral,lexicon_CTP,positive,indirect_inferential,1,SV,,sì
+capire che,neutral,lexicon_CTP,negative,no evidence,1,SV,,sì
+capisco che,neutral,lexicon_CTP,positive,indirect_inferential,1,SV,,sì
+capito,positive,lexicon_discourse_marker,positive,MULTIPLE:indirect_inferential|indirect_reportive|quotative,1,V,,
+certamente,positive,lexicon_discourse_marker,positive,no evidence,1,ADV,,
+certo,positive,lexicon_discourse_marker,MULTIPLE:neutral|positive,MULTIPLE:indirect_inferential|indirect_reportive|no evidence|quotative,1,ADV,,
+certo che,positive,lexicon_discourse_marker,positive,no evidence,1,ADV,,sì
+credo,negative,lexicon_discourse_marker,positive,no evidence,1,V,,
+credo che,negative,lexicon_CTP,MULTIPLE:negative|positive,MULTIPLE:indirect_inferential|no evidence,1,SV,,sì
+dico la verità,neutral,discourse_utterance,positive,quotative,1,SV,,
+è ovvio,positive,discourse_utterance,MULTIPLE:neutral|positive,no evidence,1,pred,,
+è vero,positive,discourse_utterance,positive,no evidence,1,pred,,
+è vero che,neutral,lexicon_CTP,MULTIPLE:neutral|positive,no evidence,1,pred,,sì
+è visibile,neutral,syntax_list,neutral,quotative,1,pred,,
+era ovvio,positive,discourse_utterance,positive,no evidence,1,pred,,
+forse,negative,lexicon_adverb,MULTIPLE:negative|neutral|positive,MULTIPLE:indirect_inferential|no evidence|quotative,1,ADV,,
+guarda,positive,lexicon_discourse_marker,positive,no evidence,1,V,,
+ho capito,neutral,lexicon_discourse_marker,positive,MULTIPLE:indirect_inferential|no evidence,1,V,,
+ho capito che,neutral,lexicon_CTP,positive,quotative,1,SV,,sì
+immaginiamo,neutral,lexicon_discourse_marker,positive,quotative,1,V,,
+immagino,negative,lexicon_discourse_marker,positive,indirect_inferential,1,V,,
+in effetti,positive,lexicon_adverb,positive,no evidence,1,SP,,
+in realtà,positive,lexicon_adverb,positive,no evidence,1,SP,,
+infatti,positive,lexicon_discourse_marker,positive,MULTIPLE:indirect_inferential|no evidence|quotative,1,ADV,,
+lo so,positive,discourse_utterance,MULTIPLE:neutral|positive,no evidence,1,SV,,
+magari,neutral,lexicon_adverb,MULTIPLE:negative|neutral|positive,MULTIPLE:indirect_inferential|no evidence,1,ADV,,
+mi è sembrato di,positive,lexicon_CTP,positive,indirect_inferential,1,SV,parentetico,
+mi hanno detto che,negative,lexicon_CTP,positive,no evidence,1,SV,parentetico,sì
+mi pare,negative,lexicon_CTP|lexicon_discourse_marker,MULTIPLE:neutral|positive,MULTIPLE:no evidence|quotative,1,SV,parentetico,
+mi pare che,positive,lexicon_CTP,positive,MULTIPLE:indirect_reportive|memory,1,SV,parentetico,sì
+mi pareva,positive,lexicon_discourse_marker,positive,indirect_inferential,1,SV,parentetico,
+mi rendo conto che,positive,lexicon_CTP,positive,no evidence,1,SV,,sì
+mi ricordavo di,negative,lexicon_CTP,positive,memory,1,SV,parentetico,
+mi ricordo,negative,lexicon_CTP,positive,quotative,1,SV,parentetico,
+mi sa che,negative,lexicon_CTP,MULTIPLE:negative|positive,no evidence,1,SV,,sì
+mi sembra,negative,lexicon_CTP|lexicon_discourse_marker,MULTIPLE:neutral|positive,MULTIPLE:no evidence|quotative,1,SV,parentetico,
+non credo,negative,lexicon_CTP,negative,indirect_reportive,1,SV,,
+non credo che,negative,lexicon_CTP,MULTIPLE:neutral|positive,MULTIPLE:no evidence|quotative,1,SV,,sì
+non è che,neutral,lexicon_CTP,negative,no evidence,1,SV,,sì
+non è vero,neutral,discourse_utterance,negative,no evidence,1,SV,,
+non lo so,negative,discourse_utterance,MULTIPLE:neutral|positive,MULTIPLE:indirect_inferential|no evidence|quotative,1,SV,parentetico,
+non mi ricordo,negative,discourse_utterance,neutral,memory,1,SV,parentetico,
+non mi sembrava,neutral,lexicon_discourse_marker,neutral,no evidence,1,SV,parentetico,
+non sapevo che,negative,lexicon_CTP,negative,UNKNOWN,1,SV,,sì
+non sembra,negative,lexicon_CTP,negative,indirect_inferential,1,SV,,
+non si vede,negative,syntax_list,negative,no evidence,1,SV,,
+non si vedono,neutral,syntax_list,positive,quotative,1,SV,,
+non so bene,negative,lexicon_discourse_marker,neutral,no evidence,1,SV,parentetico,
+pare che,negative,lexicon_CTP,positive,MULTIPLE:indirect_inferential|no evidence,1,SV,,sì
+penso,negative,lexicon_CTP,positive,indirect_reportive,1,V,parentetico,
+penso che,negative,lexicon_CTP,positive,MULTIPLE:no evidence|quotative,1,SV,,sì
+per me,negative,lexicon_discourse_marker,positive,quotative,1,SP,,
+presumo,negative,lexicon_discourse_marker,positive,indirect_inferential,1,V,,
+probabilmente,negative,lexicon_adverb,positive,no evidence,1,ADV,,
+può darsi che,neutral,lexicon_CTP,MULTIPLE:neutral|positive,no evidence,1,SV,,sì
+sappiamo che,positive,lexicon_CTP,positive,no evidence,1,SV,,sì
+sarà che,neutral,morphology_future,positive,no evidence,1,SV,,sì
+se devo dire la verità,positive,lexicon_adverb,positive,indirect_inferential,1,SV,,
+se non sbaglio,neutral,lexicon_adverb,positive,no evidence,1,SV,,
+secondo me,negative,lexicon_adverb,MULTIPLE:neutral|positive,MULTIPLE:no evidence|quotative,1,SP,,
+sembra,neutral,lexicon_CTP,positive,indirect_inferential,1,V,,
+sembrava,negative,lexicon_CTP,positive,indirect_inferential,1,V,,
+sentito che,negative,lexicon_CTP,positive,indirect_reportive,1,SV,,sì
+senz 'altro,positive,lexicon_discourse_marker,positive,no evidence,1,SP,,
+si dice che,neutral,lexicon_CTP,positive,indirect_reportive,1,SV,,sì
+si vedrà che,positive,lexicon_CTP,positive,direct_visual,1,SV,,sì
+so che,positive,lexicon_CTP,positive,no evidence,1,SV,,sì
+so però che,positive,lexicon_CTP,positive,indirect_inferential,1,SV,,sì
+testualmente,neutral,lexicon_adverb,neutral,indirect_inferential,1,ADV,,
+vedete,positive,lexicon_discourse_marker,positive,direct_visual,1,V,,
+veramente,positive,lexicon_adverb|lexicon_discourse_marker,MULTIPLE:negative|positive,MULTIPLE:indirect_reportive|no evidence,1,ADV,,
+VERO,neutral,lexicon_discourse_marker,positive,no evidence,1,ADV,,
+ovvio,positive,lexicon_discourse_marker,positive,,2,ADV,,
+chiaro,positive,lexicon_discourse_marker,positive,,2,ADJ,,
+possibile,positive,lexicon_discourse_marker,positive,,2,ADJ,,
+impossibile,positive,lexicon_discourse_marker,negative,,2,ADJ,,
+improbabile,neutral,lexicon_discourse_marker,negative,,2,ADJ,,
+probabile,neutral,lexicon_discourse_marker,positive,,2,ADJ,,
+plausibile,neutral,lexicon_discourse_marker,positive,,2,ADJ,,
+implausibile,neutral,lexicon_discourse_marker,negative,,2,ADJ,,
+verosimile,neutral,lexicon_discourse_marker,positive,,2,ADJ,,
+inverosimile,neutral,lexicon_discourse_marker,negative,,2,ADJ,,
+incerto,negative,lexicon_discourse_marker,negative,,2,ADJ,,
+dubbio,neutral,lexicon_adverb,negative,,2,ADJ,,
+indubbio,positive,lexicon_adverb,positive,,2,ADJ,,
+presunto,negative,lexicon_discourse_marker,,,2,ADJ,,
+supposto,negative,lexicon_discourse_marker,,,2,ADJ,,
+ipotetico,negative,lexicon_discourse_marker,,,2,ADJ,,
+apparente,negative,lexicon_adverb,,,2,ADJ,,
+evidentemente,positive,lexicon_adverb,,,2,ADV,,
+evidente,positive,lexicon_adverb,,,2,ADJ,,
+certamente,positive,lexicon_discourse_marker,positive,,2,ADV,,
+con ogni probabilità,positive,lexicon_adverb,,,2,SP,,
+sicuramente,positive,lexicon_adverb,positive,,2,ADV,,
+indubbiamente,positive,lexicon_adverb,positive,,2,ADV,,
+probabilmente,positive,lexicon_adverb,positive,,2,ADV,,
+verosimilmente,positive,lexicon_adverb,positive,,2,ADV,,
+plausibilmente,positive,lexicon_adverb,positive,,2,ADV,,
+apparentemente,negative,lexicon_adverb,MULTIPLE:negative|neutral|positive,,2,ADV,,
+mi sa,negative,discourse_utterance,positive,,2,SV,,
+mi sembra,negative,discourse_utterance,positive,,2,SV,,
+mi pare,negative,discourse_utterance,positive,,2,SV,,
+senza dubbio,positive,lexicon_discourse_marker,positive,,2,SP,,
+quasi certamente,positive,lexicon_CTP,positive,,2,ADV,,
+quasi sicuramente,positive,lexicon_CTP,positive,,2,ADV,,
+molto probabilmente,positive,lexicon_CTP,positive,,2,ADV,,
+può essere,neutral,lexicon_CTP,MULTIPLE:neutral|positive,,2,SV,,
+potrebbe darsi,negative,lexicon_CTP,MULTIPLE:neutral|positive,,2,SV,,
+potrebbe essere,neutral,lexicon_CTP,MULTIPLE:neutral|positive,,2,SV,,
+potrebbe,neutral,lexicon_CTP,MULTIPLE:neutral|positive,,2,V,,
+impressione,negative,lexicon_CTP|lexicon_discourse_marker,positive,MULTIPLE:indirect_inferential|no evidence,2,SV,,
+impressione che,negative,lexicon_CTP,positive,indirect_inferential,2,SV,,sì
+sembrato,negative,lexicon_CTP,positive,,2,SV,,
+sembrato che,negative,lexicon_CTP,positive,,2,SV,,sì
+credevo,negative,lexicon_discourse_marker,positive,,2,V,,
+mi pareva,negative,lexicon_discourse_marker,positive,,2,SV,,
+direi,negative,lexicon_discourse_marker,positive,,2,V,parentetico,
+credevo che,negative,lexicon_CTP,positive,,2,SV,,sì
+sembrerebbe,negative,lexicon_CTP,positive,,2,SV,,
+circa,neutral,lexicon_adverb,neutral,,2,ADV,,
+naturalmente,positive,lexicon_adverb,positive,,2,ADV,,
+chiaramente,positive,lexicon_adverb,positive,,2,ADV,,
+in realtà,neutral,lexicon_adverb,positive,,2,SP,,
+deduco,neutral,lexicon_CTP,positive,,2,V,parentetico,
+suppongo,negative,lexicon_CTP,positive,,2,V,parentetico,
+si suppone,negative,lexicon_CTP,positive,,2,SV,parentetico,
+presumo,negative,lexicon_CTP,positive,,2,V,parentetico,
+immagino,negative,lexicon_CTP,positive,,2,V,parentetico,
+penso che,negative,lexicon_CTP,positive,,2,SV,,sì
+pensavo che,negative,lexicon_CTP,positive,,2,SV,,sì
+pensava che,negative,lexicon_CTP,positive,,2,SV,,sì
+pensa che,negative,lexicon_CTP,positive,,2,SV,,sì
+credevamo che,negative,lexicon_CTP,positive,,2,SV,,sì
+deduce,neutral,lexicon_CTP,positive,,2,SV,parentetico,
+deduciamo,neutral,lexicon_CTP,positive,,2,V,parentetico,
+ritengo,negative,lexicon_CTP,positive,,2,V,parentetico,
+ritiene,negative,lexicon_CTP,positive,,2,SV,parentetico,
+riteniamo,negative,lexicon_CTP,positive,,2,V,,
+supponiamo,negative,lexicon_CTP,positive,,2,V,,
+presume,negative,lexicon_CTP,positive,,2,SV,,
+presumiamo,negative,lexicon_CTP,positive,,2,V,,
+immaginiamo,negative,lexicon_CTP,positive,,2,V,,
+si immagina,negative,lexicon_CTP,positive,,2,SV,,
+si crede,negative,lexicon_CTP,positive,,2,SV,,
+si direbbe,neutral,lexicon_CTP,positive,,2,SV,,
+non si direbbe,neutral,lexicon_CTP,negative,,2,SV,,
+a quanto pare,neutral,lexicon_CTP,neutral,,2,F,,
+a quanto mi risulta,negative,lexicon_CTP,neutral,,2,F,,
+mi risulta,negative,lexicon_CTP,positive,,2,SV,,
+per quanto ne so,negative,lexicon_discourse_marker,neutral,,2,ADV,,
+presumibilmente,negative,lexicon_adverb,positive,,2,ADV,,
+assolutamente,positive,lexicon_adverb,positive,,2,ADV,,
+decisamente,positive,lexicon_adverb,positive,,2,ADV,,
+senz'altro,positive,lexicon_discourse_marker,positive,,2,SP,,
+chissà,negative,lexicon_adverb,negative,,2,ADV,,
+se non vado errato,neutral,lexicon_discourse_marker,positive,,2,SV,,
+se non vado errata,neutral,lexicon_discourse_marker,positive,,2,SV,,

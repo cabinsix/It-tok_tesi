@@ -1,0 +1,356 @@
+# sent_id = G1224_M_1
+# text = Storytime ,
+1	storytime	storytime	NOUN	SP	Foreign=Yes|Gender=Masc|Number=Sing	0	orphan	_	AlignBegin=0
+
+# sent_id = G1224_M_2
+# text = vi racconto come ho detto ad NAME_PERSON che volevo essere la sua fidanzata .
+1	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	racconto	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+3	come	come	SCONJ	CS	_	5	mark	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	aux	_	_
+5	detto	dire	VERB	V	VerbForm=Part	2	ccomp	_	_
+6	ad	a	ADP	E	_	7	case	_	_
+7	name_person	NAME_PERSON	PROPN	SP	_	5	obl	_	_
+8	che	che	SCONJ	PR	_	13	mark	_	_
+9	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp	10	aux	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	13	cop	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Case=Gen|Number=Sing|Person=3|PronNumber=Sing|PronType=Prs	13	det:poss	_	_
+13	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	5	ccomp	_	|AlignEnd=5
+
+# sent_id = G1224_M_3
+# text = Allora tutto inizia con un allora amore {sp} siamo fidanzati ?
+1	allora	allora	ADV	B	_	3	advmod	_	AlignBegin=5.84|DM=Yes
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	inizia	iniziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	con	con	ADP	E	_	10	case	_	_
+5	un	uno	DET	RI	_	10	det	_	_
+6	allora	allora	X	A	_	10	discourse	_	DM=Yes
+7	amore	amore	NOUN	S	Number=Sing	10	vocative	_	_
+8	{sp}	pause	PRON	PC	_	7	discourse	_	_
+9	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres	10	cop	_	_
+10	fidanzati	fidanzare	VERB	V	Gender=Masc|Number=Plur	3	obl	_	_
+
+# sent_id = G1224_M_4
+# text = E io dicevo sempre no ,
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	dicevo	dicere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	no	no	ADV	BN	Polarity=Neg|PronType=Neg	3	xcomp	_	_
+
+# sent_id = G1224_M_5
+# text = non ho un anello al dito , quindi mi ritengo libera .
+1	non	non	ADV	BN	Polarity=Neg|PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	anello	anello	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	a	a	ADP	E_RD	_	7	case	_	_
+6	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	dito	dito	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	quindi	quindi	ADV	B	_	10	advmod	_	_
+9	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+10	ritengo	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	advcl	_	_
+11	libera	libero	ADJ	A	Gender=Fem|Number=Sing	10	xcomp	_	|AlignEnd=15
+
+# sent_id = G1224_M_6
+# text = Ovviamente scherzando per tergiversare e per fare un po' di ironia sulla cosa .
+1	ovviamente	ovviamente	ADV	B	_	2	advmod	_	AlignBegin=15.22|DM=Yes
+2	scherzando	scherzare	VERB	V	VerbForm=Ger	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	tergiversare	tergiversare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	4	conj	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	NOUN	S	_	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	ironia	ironia	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	su	su	ADP	E_RD	_	14	case	_	_
+13	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+
+# sent_id = G1224_M_7
+# text = Così dopo {sp} un mesetto da questo scherzare che avevo detto questa cosa , NAME_PERSON mi regala un anello svarowski simbolico per dire vedi adesso devi essere per forza la mia fidanzata perché ti ho regalato un anello .
+1	così	così	ADV	B	_	16	advmod	_	_
+2	dopo	dopo	ADP	E	_	16	case	_	_
+3	{sp}	pause	X	V	_	2	discourse	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mesetto	mese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	Evaluative=Small
+6	da	da	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	scherzare	scherzare	NOUN	V	Gender=Masc|Number=Sing	5	advcl	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp	11	aux	_	_
+11	detto	dire	VERB	V	VerbForm=Part	8	conj	_	_
+12	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	name_person	NAME_PERSON	PROPN	SP	_	16	nsubj	_	_
+15	mi	mi	PRON	PC	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	regala	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+18	anello	anello	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	svarowski	svarowski	NOUN	A	_	18	appos	_	_
+20	simbolico	simbolico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+21	per	per	ADP	E	_	22	mark	_	_
+22	dire	dire	VERB	V	VerbForm=Inf	16	advcl	_	_
+23	vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres	22	ccomp	_	DM=Yes
+24	adesso	adesso	ADV	B	_	31	advmod	_	_
+25	devi	dovere	AUX	VM	Mood=Imp|Number=Sing|Person=2|Tense=Pres	26	aux	_	_
+26	essere	essere	AUX	V	VerbForm=Inf	31	cop	_	_
+27	per	per	ADP	E	_	28	fixed	_	_
+28	forza	forza	NOUN	S	Gender=Fem|Number=Sing	31	advmod	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	mia	mio	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=1|PronNumber=Sing|PronType=Prs	31	det:poss	_	_
+31	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	_
+32	perché	perché	SCONJ	CS	_	33	mark	_	_
+33	ti	ti	PRON	PC	Case=Dat|Number=Sing|Person=2|PronType=Prs	33	iobj	_	_
+34	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	33	aux	_	_
+35	regalato	regalare	VERB	V	VerbForm=Part	14	advcl	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+37	anello	anello	NOUN	S	Gender=Masc|Number=Sing	33	obj	_	|AlignEnd=36
+
+# sent_id = G1224_M_8
+# text = Così io ho deciso di non rispondergli subito e ho detto ok ci penso un attimo e ti faccio sapere .
+1	così	così	ADV	B	_	4	advmod	_	AlignBegin=37.18
+2	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	aux	_	_
+4	deciso	decidere	VERB	V	VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	non	non	ADV	BN	Polarity=Neg|PronType=Neg	7	advmod	_	_
+7	rispondere	rispondere	VERB	V_PC	VerbForm=Inf	4	xcomp	_	_
+8	gli	gli	PRON	V_PC	Case=Dat|Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+9	subito	subito	ADV	B	_	7	advmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	12	aux	_	_
+12	detto	dire	VERB	V	VerbForm=Inf	4	conj	_	_
+13	ok	ok	ADV	I	Foreign=Yes	15	discourse	_	DM=Yes
+14	ci	ci	PRON	PC	Clitic=Yes	15	expl	_	_
+15	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	12	ccomp	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	attimo	attimo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	ti	ti	PRON	PC	Case=Dat|Number=Sing|Person=2|PronType=Prs	20	iobj	_	_
+20	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	15	conj	_	_
+21	sapere	sapere	VERB	V	VerbForm=Inf	20	ccomp	_	|AlignEnd=43
+
+# sent_id = G1224_M_9
+# text = E sapete che cosa ho fatto ?
+1	e	e	CCONJ	CC	_	2	discourse	_	AlignBegin=43.2
+2	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+3	che	che	SCONJ	DQ	_	4	goeswith	_	_
+4	cosa	cosa	PRON	PQ	Gender=Fem|Number=Sing	6	obj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	aux	_	_
+6	fatto	fare	VERB	V	VerbForm=Part	2	ccomp	_	|AlignEnd=44
+
+# sent_id = G1224_M_10
+# text = Ho detto devo fare qualcosa di unico , di speciale , di non scontato per dirgli che voglio essere la sua fidanzata .
+1	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	aux	_	AlignBegin=45.3
+2	detto	dire	VERB	V	VerbForm=Part	0	root	_	_
+3	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	qualcosa	qualcosa	PRON	PI	Gender=Com|Number=Sing|PronType=Ind	4	obj	_	_
+6	di	di	ADP	E	_	7	case	_	list_cxn=1
+7	unico	unico	ADJ	A	Gender=Masc|Number=Sing	5	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	list_cxn=2
+9	speciale	speciale	NOUN	S	Gender=Com|Number=Sing	7	conj	_	_
+10	di	di	ADP	E	_	12	mark	_	list_cxn=3
+11	non	non	ADV	BN	Polarity=Neg|PronType=Neg	12	advmod	_	_
+12	scontato	scontare	ADJ	V	Gender=Masc|Number=Sing	9	conj	_	AlignEnd=50.22
+13	per	per	ADP	E	_	14	mark	_	AlignBegin=50.34
+14	dire	dire	VERB	V_PC	VerbForm=Inf	10	advcl	_	_
+15	gli	gli	PRON	V_PC	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	advcl	_	_
+16	che	che	SCONJ	CS	_	21	mark	_	_
+17	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	18	aux	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	21	cop	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	suo	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronNumber=Sing|PronType=Prs	21	det:poss	_	_
+21	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	14	ccomp	_	|AlignEnd=52
+
+# sent_id = G1224_M_11
+# text = Così ho deciso di realizzare , di far realizzare una pallina personalizzata perché eravamo nel periodo natalizio .
+1	così	così	ADV	B	_	3	advmod	_	AlignBegin=52.68
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	aux	_	_
+3	deciso	decidere	VERB	V	VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	list_cxn=1
+5	realizzare	realizzare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	di	di	ADP	E	_	8	mark	_	list_cxn=2
+7	far	fare	VERB	V	VerbForm=Inf	8	aux	_	_
+8	realizzare	realizzare	VERB	V	VerbForm=Inf	5	reparandum	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pallina	palla	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	personalizzata	personalizzato	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	perché	perché	SCONJ	CS	_	13	mark	_	_
+13	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	10	advcl	_	_
+14	in	in	ADP	E_RD	_	16	case	_	_
+15	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	13	advcl	_	_
+17	natalizio	natalizio	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	|AlignEnd=60
+
+# sent_id = G1224_M_12
+# text = Su questa pallina che conservo ancora con cura e vi farò vedere eeh perché ce l' ho conservata a casa di mia mamma per non romperla perché dovremmo fare il trasloco ehm ho scritto sì voglio essere la tua fidanzata .
+1	su	su	ADP	E	_	3	case	_	AlignBegin=60.52
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	pallina	palla	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+4	che	che	PRON	PR	_	5	nsubj	_	_
+5	conservo	conservare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	acl:relcl	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	cura	cura	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	12	iobj	_	_
+11	farò	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut	12	conj	_	_
+12	vedere	vedere	VERB	V	VerbForm=Inf	5	conj	_	_
+13	eeh	pause	X	PI	_	12	discourse	_	_
+14	perché	perché	ADV	B	_	18	mark	_	_
+15	ce	ce	PRON	PC	_	18	expl	_	_
+16	l'	lo	PRON	PC	Case=Acc|Number=Sing|Person=3	18	obj	_	_
+17	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	18	aux	_	_
+18	conservata	conservare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	12	advcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	casa	casa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	mia	mio	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing|PronType=Prs	23	det:poss	_	_
+23	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	per	per	ADP	E	_	26	mark	_	_
+25	non	non	ADV	BN	Polarity=Neg|PronType=Neg	26	advmod	_	_
+26	rompere	rompere	VERB	V_PC	VerbForm=Inf	15	advcl	_	_
+27	la	lo	PRON	V_PC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	perché	perché	SCONJ	CS	_	30	mark	_	_
+29	dovremmo	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres	30	aux	_	_
+30	fare	fare	VERB	V	VerbForm=Inf	26	advcl	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	trasloco	trasloco	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	_
+33	ehm	pause	X	PD	_	35	discourse	_	_
+34	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	35	aux	_	_
+35	scritto	scrivere	VERB	V	VerbForm=Part	0	root	_	_
+36	sì	sì	ADV	B	_	35	ccomp	_	_
+37	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	38	aux	_	_
+38	essere	essere	AUX	V	VerbForm=Inf	41	cop	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	tua	tuo	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronNumber=Sing|PronType=Prs	41	det:poss	_	_
+41	fidanzata	fidanzato	NOUN	S	Gender=Fem|Number=Sing	36	conj	_	|AlignEnd=75
+
+# sent_id = G1224_M_13
+# text = E NAME_PERSON un po' si è emozionato ,
+1	e	e	CCONJ	CC	_	7	discourse	_	AlignBegin=75.28
+2	name_person	NAME_PERSON	PROPN	B	_	7	nsubj	_	_
+3	un	uno	DET	RI	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	NOUN	B	_	7	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes	7	expl	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux	_	_
+7	emozionato	emozionare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	|AlignEnd=79
+
+# sent_id = G1224_M_14
+# text = abbiamo appeso questa pallina all' albero come buon auspicio per tutto ovviamente il mese di dicembre fino a Natale .
+1	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres	2	aux	_	AlignBegin=80.34
+2	appeso	appendere	VERB	V	VerbForm=Part	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	pallina	palla	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	a	a	ADP	E_RD	_	7	case	_	_
+6	l'	l'	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	albero	albero	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	come	come	ADP	E	_	10	case	_	_
+9	buon	buono	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	auspicio	auspicio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	_
+13	ovviamente	ovviamente	ADV	B	_	12	advmod	_	DM=Yes
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mese	mese	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	dicembre	dicembre	NOUN	S	_	15	nmod	_	_
+18	fino	fino	ADV	B	_	20	case	_	_
+19	a	a	ADP	E	_	20	fixed	_	_
+20	natale	Natale	NOUN	SP	_	17	nmod	_	_
+
+# sent_id = G1224_M_15
+# text = E quando gliel' ho data la verità il mio cuore batteva tantissimo perché ci frequentavamo da poco e come ogni relazione senti ancora quel batticuore di dire andrà tutto bene e quant' altro no ?
+1	e	e	CCONJ	CC	_	12	discourse	_	_
+2	quando	quando	SCONJ	CS	_	6	mark	_	_
+3	gli	gli	PRON	PC_PC	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+4	l'	l'	PRON	PC_PC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	aux	_	_
+6	data	dare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	12	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	verità	verità	NOUN	S	Gender=Fem|Number=Sing	12	discourse	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronNumber=Sing|PronType=Prs	11	det:poss	_	_
+11	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	batteva	battere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
+13	tantissimo	tanto	ADV	B	Degree=Sup	12	advmod	_	_
+14	perché	perché	SCONJ	CS	_	16	mark	_	_
+15	ci	ci	PRON	PC	Clitic=Yes	16	expl	_	_
+16	frequentavamo	frequentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	12	advcl	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	poco	poco	PRON	PI	Gender=Masc|Number=Sing	16	obl	_	_
+19	e	e	CCONJ	CC	_	23	cc	_	_
+20	come	come	ADP	E	_	22	mark	_	_
+21	ogni	ogni	DET	DI	_	22	det	_	_
+22	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+23	senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	16	conj	_	_
+24	ancora	ancora	ADV	B	_	23	advmod	_	_
+25	quel	quello	DET	PD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	batticuore	batticuore	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+27	di	di	ADP	E	_	28	mark	_	_
+28	dire	dire	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	andrà	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	28	ccomp	_	_
+30	tutto	tutto	PRON	PI	_	31	advmod	_	_
+31	bene	bene	ADV	B	_	29	advmod	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	quant'	quanto	SCONJ	CS	_	34	case	_	_
+34	altro	altro	PRON	PI	Gender=Masc|Number=Sing	28	conj	_	_
+35	no	no	ADV	BN	_	28	discourse	_	DM=Yes
+
+# sent_id = G1224_M_16
+# text = ehm Questo per dirvi che a volte basta un semplice gesto per fare la differenza .
+1	ehm	ehme	NOUN	S	_	2	discourse	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	orphan	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	dire	dire	VERB	V_PC	VerbForm=Inf	2	xcomp	_	_
+5	vi	vi	VERB	V_PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	volte	volta	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+9	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	semplice	semplice	ADJ	A	Gender=Com|Number=Sing	12	amod	_	_
+12	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	|AlignEnd=108
+
+# sent_id = G1224_M_17
+# text = E e voi invece avete mai fatto qualcosa di diverso per comunicare con {sp} qualcosa di importante con il vostro fidanzato , compagno o marito ?
+1	e	e	CCONJ	CC	_	2	reparandum	_	AlignBegin=108.92|AlignEnd=110.32
+2	e	e	CCONJ	CC	_	7	discourse	_	AlignBegin=110.34
+3	voi	voi	PRON	PE	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+4	invece	invece	ADV	B	_	7	advmod	_	_
+5	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres	7	aux	_	_
+6	mai	mai	ADV	B	_	7	advmod	_	_
+7	fatto	fare	VERB	V	VerbForm=Part	0	root	_	_
+8	qualcosa	qualcosa	PRON	PI	PronType=Ind	7	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	diverso	diverso	PRON	PI	Gender=Masc|Number=Sing	8	amod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	comunicare	comunicare	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	con	con	ADP	E	_	15	reparandum	_	_
+14	{sp}	pause	X	FF	_	13	discourse	_	_
+15	qualcosa	qualcosa	PRON	PI	PronType=Ind	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	importante	importante	ADJ	S	Gender=Com|Number=Sing	15	amod	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	vostro	vostro	DET	AP	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronNumber=Sing	21	det:poss	_	_
+21	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+22	compagno	compagno	NOUN	S	Gender=Masc|Number=Sing	21	conj	_	_
+23	o	o	CCONJ	CC	_	24	cc	_	_
+24	marito	marito	NOUN	S	Gender=Masc|Number=Sing	22	conj	_	_
+
+# sent_id = G1224_M_18
+# text = fateme lo sapere .
+1	fate	fate	VERB	SP	Mood=Imp|Number=Plur|Person=2|Tense=Pres	4	aux	_	_
+2	me	me	PRON	SP	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	lo	lo	PRON	SP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	|AlignEnd=121

@@ -1,0 +1,643 @@
+# sent_id = 1024_R_1
+# text = Io sono scioccata ,
+1	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=0
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	cop	_	_
+3	scioccata	scioccare	VERB	V	Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 1024_R_2
+# text = cioè ma noi ci rendiamo conto ?
+1	cioè	cioè	CCONJ	CC	_	5	discourse	_	DM=Yes
+2	ma	ma	CCONJ	CC	_	5	discourse	_	DM=Yes
+3	noi	noi	PRON	PE	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	ci	ci	PRON	PC	_	5	obj	_	_
+5	rendiamo	rendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+6	conto	conto	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	|AlignEnd=3
+
+# sent_id = 1024_R_3
+# text = Ma a voi della della maternità surrogata ma che cazzo ve ne frega ?
+1	ma	ma	CCONJ	CC	_	15	discourse	_	DM=Yes
+2	a	a	ADP	E	_	3	case	_	_
+3	voi	voi	PRON	PE	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	obl	_	_
+4	di	di	ADP	E_RD	_	6	reparandum:redup	_	_
+5	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	reparandum:redup	_	_
+6	di	di	ADP	E_RD	_	8	case	_	_
+7	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	maternità	maternità	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	ma	ma	CCONJ	CC	_	15	discourse	_	DM=Yes
+11	che	che	PRON	DE	_	12	case	_	_
+12	cazzo	cazzo	NOUN	S	_	15	discourse	_	_
+13	ve	ve	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	15	iobj	_	_
+14	ne	ne	PRON	PC	_	15	obl	_	_
+15	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 1024_R_4
+# text = Siete contro contro la maternità surrogata ?
+1	siete	essere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+2	contro	contro	ADP	E	_	3	reparandum:redup	_	_
+3	contro	contro	ADV	B	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	maternità	maternità	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+
+# sent_id = 1024_R_5
+# text = Benissimo .
+1	benissimo	bene	INTJ	B	Degree=Sup	0	root	_	DM=Yes|AlignEnd=13
+
+# sent_id = 1024_R_6
+# text = Non cercate i servizi di una madre surrogata .
+1	non	non	ADV	BN	Polarity=Neg	2	advmod	_	AlignBegin=14.54
+2	cercate	cercare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	madre	madre	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	|AlignEnd=17
+
+# sent_id = 1024_R_7
+# text = Io pensavo fosse solo un mezzo mero mezzo un mero artificio da campagna elettorale per fomentare per ottenere voti da parte dell' elettorato molto basso che ha votato la compagine al governo .
+1	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=17.74
+2	pensavo	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp	0	root	_	_
+3	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp	6	cop	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	2	ccomp	_	_
+7	mero	mero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	6	conj:redup	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mero	mero	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	artificio	artificio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	elettorale	elettorale	ADJ	A	Gender=Com|Number=Sing	13	amod	_	AlignEnd=23.7
+15	per	per	ADP	E	_	16	mark	_	AlignBegin=24.24
+16	fomentare	fomentare	VERB	V	VerbForm=Inf	11	advcl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	ottenere	ottenere	VERB	V	VerbForm=Inf	16	conj	_	_
+19	voti	voto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	da	da	ADP	E	_	21	case	_	_
+21	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	di	di	ADP	E_RD	_	24	case	_	_
+23	l'	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	elettorato	elettorato	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	molto	molto	ADV	B	_	26	advmod	_	_
+26	basso	basso	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	AlignEnd=29.76
+27	che	che	PRON	PR	_	29	nsubj	_	AlignBegin=29.76
+28	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	29	aux	_	_
+29	votato	votare	VERB	V	VerbForm=Part	24	acl:relcl	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	compagine	compagine	NOUN	S	Gender=Fem|Number=Sing	29	obj	_	_
+32	a	a	ADP	E_RD	_	34	case	_	_
+33	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	governo	governo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+
+# sent_id = 1024_R_8
+# text = C' è una caratteristica però che collega tu+ sia chi vota e sia la compagine al governo .
+1	c'	ci	PRON	PC	_	2	expl	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	caratteristica	caratteristica	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	però	però	ADV	B	_	2	advmod	_	_
+6	che	che	SCONJ	CS	_	7	nsubj	_	_
+7	collega	collegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	acl:relcl	_	_
+8	tu+	tutto	PRON	SP	Gender=Masc|Number=Plur	7	obj	_	_
+9	sia	sia	CCONJ	V	_	11	cc:preconj	_	_
+10	chi	chi	PRON	PR	_	11	nsubj	_	_
+11	vota	votare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl:relcl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	sia	sia	CCONJ	V	_	15	cc:preconj	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	compagine	compagine	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+16	a	a	ADP	E_RD	_	18	case	_	_
+17	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	governo	governo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	|AlignEnd=38
+
+# sent_id = 1024_R_9
+# text = Ã ovvio che per stare dietro a queste cose per crederci bisogna avere basse capacità cognitive di base .
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	AlignBegin=39.34|DM=1
+2	ovvio	ovvio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	DM=2
+3	che	che	SCONJ	CS	_	14	mark	_	DM=3
+4	per	per	ADP	E	_	5	mark	_	list_cxn=1
+5	stare	stare	VERB	V	VerbForm=Inf	14	advcl	_	_
+6	dietro	dietro	ADV	B	_	5	advmod	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	per	per	ADP	E	_	11	mark	_	list_cxn=2
+11	credere	credere	VERB	V_PC	VerbForm=Inf	5	conj	_	_
+12	ci	ci	PRON	V_PC	_	11	obl	_	_
+13	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux	_	_
+14	avere	avere	VERB	V	VerbForm=Inf	2	csubj	_	_
+15	basse	basso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	capacità	capacità	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	cognitive	cognitivo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	base	base	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	|AlignEnd=46
+
+# sent_id = 1024_R_10
+# text = Per di più , specifica che non fa mai male , la maggior parte di voi non potrebbero neanche permettersi la perché la+ la maternità surrogata è un privilegio per pochi , per ricchi .
+1	per	per	ADP	E	_	3	case	_	AlignBegin=46.84|DM=1
+2	di	di	ADP	E	_	1	fixed	_	DM=2
+3	più	più	ADV	B	_	18	advmod	_	DM=3
+4	specifica	specifica	NOUN	A	Gender=Fem|Number=Sing	18	nmod	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	Polarity=Neg	7	advmod	_	_
+7	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
+8	mai	mai	ADV	B	Polarity=Neg	7	advmod	_	_
+9	male	male	ADV	B	_	7	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	maggior	maggiore	ADJ	A	Degree=Cmp|Gender=Fem|Number=Sing	12	amod	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	voi	voi	PRON	PE	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nmod	_	_
+15	non	non	ADV	BN	Polarity=Neg	18	advmod	_	_
+16	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres	18	aux	_	_
+17	neanche	neanche	ADV	BN	Polarity=Neg	18	advmod	_	_
+18	permettere	permettere	VERB	V	VerbForm=Inf	0	root	_	_
+19	se	si	PRON	V	_	18	expl	_	_
+20	la	la	PRON	V	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	18	obj	_	_
+21	perché	perché	SCONJ	V	Gender=Fem|Number=Sing	28	mark	_	_
+22	la+	il	DET	V	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	la	il	DET	V	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	maternità	maternità	NOUN	V	Gender=Fem|Number=Sing	28	nsubj	_	_
+25	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	28	cop	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	privilegio	privilegio	NOUN	S	Gender=Masc|Number=Sing	18	advcl	_	_
+29	per	per	ADP	E	_	30	case	_	list_cxn=1
+30	pochi	poco	PRON	PI	Gender=Masc|Number=Plur	28	nmod	_	_
+31	per	per	ADP	E	_	32	case	_	list_cxn=2
+32	ricchi	ricco	NOUN	S	Gender=Masc|Number=Plur	30	conj	_	|AlignEnd=59
+
+# sent_id = 1024_R_11
+# text = Ã un artificio che viene utilizzato nel novanta percento dei casi , non dagli omosessuali , dagli eterosessuali .
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	AlignBegin=59.76
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	artificio	artificio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	_	6	nsubj:pass	_	_
+5	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	aux:pass	_	_
+6	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	3	acl:relcl	_	_
+7	in	in	ADP	E_RD	_	10	case	_	_
+8	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	case	_	_
+9	novanta	novanta	NUM	N	_	10	nummod	_	_
+10	percento	percento	SYM	S	_	6	obl	_	_
+11	di	di	ADP	E_RD	_	13	case	_	_
+12	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	casi	caso	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	non	non	ADV	BN	Polarity=Neg	17	advmod	_	_
+15	da	da	ADP	E_RD	_	17	case	_	_
+16	gli	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	omosessuali	omosessuale	NOUN	S	Gender=Masc|Number=Plur	6	obl:agent	_	_
+18	da	da	ADP	E_RD	_	20	case	_	_
+19	gli	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	eterosessuali	eterosessualo	NOUN	S	Gender=Masc|Number=Plur	17	conj	_	|AlignEnd=66
+
+# sent_id = 1024_R_12
+# text = La battaglia ideologica invece è stata fatta contro le coppie dello stesso sesso , come se {sp} in Italia gli omosessuali fossero così potenti , così ricchi da poter fare quello che vogliono .
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	AlignBegin=67.1
+2	battaglia	battaglia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	ideologica	ideologico	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	invece	invece	ADV	B	_	7	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux	_	_
+6	stata	essere	AUX	VA	Gender=Fem|Number=Sing|VerbForm=Part	7	aux:pass	_	_
+7	fatta	fare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+8	contro	contro	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+11	di	di	ADP	E_RD	_	14	case	_	_
+12	lo	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	come	come	ADV	B	_	24	advmod	_	_
+16	se	se	SCONJ	CS	_	24	mark	_	_
+17	{sp}	pause	X	V	_	19	discourse	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	italia	Italia	PROPN	SP	_	24	obl	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	omosessuali	omosessuale	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	_	_
+22	fossero	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp	24	cop	_	_
+23	così	così	ADV	B	_	24	advmod	_	_
+24	potenti	potente	ADJ	A	Gender=Com|Number=Plur	7	advcl	_	_
+25	così	così	ADV	B	_	26	advmod	_	_
+26	ricchi	ricco	ADJ	A	Gender=Masc|Number=Plur	24	conj	_	_
+27	da	da	ADP	E	_	29	mark	_	_
+28	poter	potere	AUX	VM	VerbForm=Inf	29	aux	_	_
+29	fare	fare	VERB	V	VerbForm=Inf	26	xcomp	_	_
+30	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	29	obj	_	_
+31	che	che	PRON	PR	_	32	obj	_	_
+32	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	30	acl:relcl	_	|AlignEnd=78
+
+# sent_id = 1024_R_13
+# text = No , quelli sono solo gli eterosessuali .
+1	no	no	ADV	I	Polarity=Neg	6	discourse	_	AlignBegin=78.4
+2	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	cop	_	_
+4	solo	solo	ADV	B	_	6	advmod	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	eterosessuali	eterosessuali	NOUN	S	Gender=Masc|Number=Plur	0	root	_	|AlignEnd=79
+
+# sent_id = 1024_R_14
+# text = Cioé a voi per manipolare , perché ovviamente il governo che voi avete votato , il vostro presidente del consiglio Gollum , che voi avete votato , ovviamente devono distorcere le notizie , manipolarle , per far attecchire un certo tipo di cultura che faccia breccia nei vostri {sp} , come chiamarli , cervelletti , per trovare supporto .
+1	cioé	cioé	ADV	V	_	27	_	_	AlignBegin=79.94|DM=Yes
+2	a	a	ADP	E	_	3	case	_	_
+3	voi	voi	PRON	PE	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	_	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	manipolare	manipolare	VERB	V	VerbForm=Inf	27	_	_	_
+6	perché	perché	SCONJ	CS	_	27	mark	_	_
+7	ovviamente	ovviamente	ADV	B	_	27	advmod	_	DM=Yes
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+10	che	che	PRON	PR	_	13	obj	_	AlignBegin=88.78
+11	voi	voi	PRON	PE	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	_
+12	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres	13	aux	_	_
+13	votato	votare	VERB	V	VerbForm=Part	9	acl:relcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	vostro	vostro	DET	AP	Gender=Masc|Number=Sing	16	det:poss	_	_
+16	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+17	di	di	ADP	E_RD	_	19	case	_	_
+18	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	gollum	Gollum	NOUN	SP	_	19	appos	_	|AlignEnd=88
+21	che	che	PRON	PR	_	24	obj	_	AlignBegin=88.78
+22	voi	voi	PRON	PE	Case=Nom|Number=Plur|Person=2|PronType=Prs	24	nsubj	_	_
+23	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres	24	aux	_	_
+24	votato	votare	VERB	V	VerbForm=Part	16	acl:relcl	_	_
+25	ovviamente	ovviamente	ADV	B	_	27	advmod	_	DM=Yes
+26	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres	27	aux	_	_
+27	distorcere	distorcere	VERB	V	VerbForm=Inf	0	root	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	manipolare	manipolare	VERB	V_PC	VerbForm=Inf	27	conj	_	_
+31	le	il	PRON	V_PC	Case=Acc|Gender=Fem|Number=Plur|PronType=Prs	30	obj	_	|AlignEnd=95
+32	per	per	ADP	E	_	34	mark	_	AlignBegin=95.12
+33	far	fare	VERB	V	VerbForm=Inf	34	aux	_	_
+34	attecchire	attecchire	VERB	V	VerbForm=Inf	27	advcl	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	certo	certo	ADJ	A	Gender=Masc|Number=Sing	37	amod	_	_
+37	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	_
+40	che	che	PRON	PR	_	41	nsubj	_	_
+41	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	37	acl:relcl	_	_
+42	breccia	breccia	NOUN	S	Gender=Fem|Number=Sing	41	obj	_	_
+43	in	in	ADP	E_RD	_	50	case	_	_
+44	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+45	vostri	vostro	PRON	PP	Case=Gen|Gender=Masc|Number=Plur|Person=2|Poss=Yes|PronNumber=Plur	50	det:poss	_	_
+46	{sp}	pause	X	V	_	45	discourse	_	_
+47	come	come	SCONJ	CS	_	48	mark	_	DM=1
+48	chiamare	chiamare	VERB	V_PC	VerbForm=Inf	50	advcl	_	DM=2
+49	li	lo	PRON	V_PC	_	48	obj	_	DM=2
+50	cervelletti	cervelletti	NOUN	SP	Gender=Masc|Number=Plur	41	obl	_	Evaluative=Yes|AlignEnd=104
+51	per	per	ADP	E	_	52	mark	_	AlignBegin=104.34
+52	trovare	trovare	VERB	V	VerbForm=Inf	41	advcl	_	_
+53	supporto	supporto	NOUN	S	Gender=Masc|Number=Sing	52	obj	_	|AlignEnd=106
+
+# sent_id = 1024_R_15
+# text = Non mi stupisce perché è fa parte di una specifica strategia messa in atto dalla destra .
+1	non	non	ADV	BN	Polarity=Neg	3	advmod	_	AlignBegin=106.82
+2	mi	mi	PRON	PC	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	stupisce	stupiscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	perché	perché	SCONJ	CS	_	6	mark	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	reparandum	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	advcl	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	specifica	specifico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+12	messa	mettere	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	atto	atto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+15	da	da	ADP	E_RD	_	17	case	_	_
+16	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	destra	destra	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	|AlignEnd=114
+
+# sent_id = 1024_R_16
+# text = Vi stanno manipolando .
+1	vi	vi	ADV	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	expl	_	AlignBegin=114.74
+2	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	aux	_	_
+3	manipolando	manipolare	VERB	V	VerbForm=Ger	0	root	_	|AlignEnd=116
+
+# sent_id = 1024_R_17
+# text = E vi stanno facendo credere di fare i vostri interessi , quando della maternità surrogata a nessuno frega niente , perché nessuno in Italia quasi la utilizza , ma soprattutto , come se loro fossero un padre benevolo .
+1	e	e	CCONJ	CC	_	5	cc	_	AlignBegin=118.78
+2	vi	vi	ADV	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+3	stanno	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
+4	facendo	fare	VERB	V	VerbForm=Ger	5	aux	_	_
+5	credere	credere	VERB	V	VerbForm=Inf	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	vostri	vostro	DET	AP	Case=Gen|Gender=Masc|Number=Plur|Person=2|Poss=Yes|PronNumber=Plur	10	det:poss	_	_
+10	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+11	quando	quando	SCONJ	CS	_	18	mark	_	_
+12	di	di	ADP	E_RD	_	14	case	_	_
+13	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	maternità	maternità	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+15	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	a	a	PRON	PI	_	17	case	_	_
+17	nessuno	nessuno	PRON	PI	Polarity=Neg|PronType=Neg	18	obl	_	_
+18	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	advcl	_	_
+19	niente	niente	PRON	PI	Polarity=Neg|PronType=Neg	18	obj	_	|AlignEnd=124
+20	perché	perché	SCONJ	CS	_	26	mark	_	AlignBegin=124.1
+21	nessuno	nessuno	PRON	PI	Polarity=Neg|PronType=Neg	26	nsubj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	italia	Italia	PROPN	SP	_	21	obl	_	_
+24	quasi	quasi	ADV	B	_	21	advmod	_	_
+25	la	il	DET	RD	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+26	utilizza	utilizza	NOUN	S	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	advcl	_	|AlignEnd=126
+27	ma	ma	CCONJ	CC	_	34	cc	_	AlignBegin=126.2
+28	soprattutto	soprattutto	ADV	B	_	34	advmod	_	_
+29	come	come	ADV	B	_	34	advmod	_	_
+30	se	se	SCONJ	CS	_	34	mark	_	_
+31	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
+32	fossero	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp	34	cop	_	_
+33	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	padre	padre	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+35	benevolo	benevolo	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	|AlignEnd=131
+
+# sent_id = 1024_R_18
+# text = Quale altro regime vi ricorda in cui il potere politico era considerato paternalistico ?
+1	quale	quale	DET	DQ	Gender=Com|Number=Sing|PronType=Int	3	det	_	AlignBegin=132
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing|PronType=Ind	3	amod	_	_
+3	regime	regime	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+5	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	_	12	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	potere	potere	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+10	politico	politico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	12	aux:pass	_	_
+12	considerato	considerare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	3	acl:relcl	_	_
+13	paternalistico	paternalistico	ADJ	A	Gender=Masc|Number=Sing	12	xcomp	_	_
+
+# sent_id = 1024_R_19
+# text = Aggiungiamo un' altra cosa .
+1	aggiungiamo	aggiungere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	altra	altro	ADJ	A	Gender=Fem|Number=Sing|PronType=Ind	4	amod	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+
+# sent_id = 1024_R_20
+# text = L' ideologia e la tattica politica utilizzata è ben sgamabile .
+1	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	_	_	_
+2	ideologia	ideologia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	tattica	tattica	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	politica	politico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	utilizzata	utilizzare	ADJ	A	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+9	ben	bene	ADV	B	_	10	advmod	_	_
+10	sgamabile	sgamabile	ADJ	A	Gender=Com|Number=Sing	0	root	_	|AlignEnd=145
+
+# sent_id = 1024_R_21
+# text = Loro vi stanno convincendo che esista un pericolo {sp} che può intaccare la vostra sfera personale quando non è vero perché la destra si basa su questo .
+1	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=145.38
+2	vi	vi	ADV	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	advmod	_	_
+3	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	aux	_	_
+4	convincendo	convincere	VERB	V	VerbForm=Ger	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	esista	esistere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	{sp}	pause	X	V	_	8	discourse	_	_
+10	che	che	PRON	PR	_	12	nsubj	_	AlignBegin=148.78
+11	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
+12	intaccare	intaccare	VERB	V	VerbForm=Ger	8	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	vostra	vostro	DET	AP	Case=Gen|Gender=Fem|Number=Plur|Poss=Yes|PronNumber=Sing	15	det:poss	_	_
+15	sfera	sfera	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	personale	personale	ADJ	A	Gender=Com|Number=Sing	15	amod	_	_
+17	quando	quando	SCONJ	CS	_	20	mark	_	_
+18	non	non	ADV	BN	Polarity=Neg	20	advmod	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	cop	_	_
+20	vero	vero	ADJ	A	Gender=Masc|Number=Sing	4	advcl	_	AlignEnd=153.46
+21	perché	perché	SCONJ	CS	_	25	mark	_	AlignBegin=153.52
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	destra	destra	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	si	si	PRON	PC	_	25	expl	_	_
+25	basa	basare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	advcl	_	_
+26	su	su	ADP	E	_	27	case	_	_
+27	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	25	obl	_	|AlignEnd=155
+
+# sent_id = 1024_R_22
+# text = Cercare un nemico da combattere perché loro possono passare da difensori della patria , mentre invece stanno facendo passare il concetto , perché il vero senso della loro politica è questo , che tutte le persone che non rientrano in un determinato standard , che non siano in un determinato modo , vadano punite .
+1	cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	AlignBegin=155.58
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	combattere	combattere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	perché	perché	SCONJ	CS	_	9	mark	_	_
+7	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
+9	passare	passare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	difensori	difensore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+12	di	di	ADP	E_RD	_	14	case	_	_
+13	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	patria	patria	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	|AlignEnd=160
+15	mentre	mentre	SCONJ	CS	_	19	cc	_	AlignBegin=160.74
+16	invece	invece	ADV	B	_	19	advmod	_	_
+17	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	19	aux	_	_
+18	facendo	fare	VERB	V	VerbForm=Ger	19	aux	_	_
+19	passare	passare	VERB	V	VerbForm=Inf	9	conj	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	concetto	concetto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+22	perché	perché	SCONJ	CS	_	31	mark	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	vero	vero	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	senso	senso	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+26	di	di	ADP	E_RD	_	29	case	_	_
+27	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	loro	loro	DET	AP	Case=Gen|Number=Plur|Person=3|PronType=Prs	29	det:poss	_	_
+29	politica	politica	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	31	cop	_	_
+31	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	19	advcl	_	|AlignEnd=167
+32	che	che	SCONJ	CS	_	51	mark	_	AlignBegin=167.2
+33	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Ind	35	det	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	persone	persona	NOUN	S	Gender=Fem|Number=Plur	51	nsubj	_	_
+36	che	che	PRON	PR	_	38	nsubj	_	_
+37	non	non	ADV	BN	Polarity=Neg	38	advmod	_	_
+38	rientrano	rientrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	35	acl:relcl	_	_
+39	in	in	ADP	E	_	42	case	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	standard	standard	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	38	obl	_	_
+43	che	che	PRON	PR	_	45	nsubj	_	_
+44	non	non	ADV	BN	Polarity=Neg	45	advmod	_	_
+45	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres	38	conj	_	_
+46	in	in	ADP	E	_	49	case	_	_
+47	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+48	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+49	modo	modo	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	|AlignEnd=173
+50	vadano	andare	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres	51	aux	_	AlignBegin=173.96
+51	punite	punire	VERB	V	Gender=Fem|Number=Plur|VerbForm=Part	21	xcomp	_	|AlignEnd=175
+
+# sent_id = 1024_R_23
+# text = Quindi vi fanno percepire che la maternità surrogata è un pericolo .
+1	quindi	quindi	CCONJ	CC	_	4	discourse	_	AlignBegin=176.14|DM=Yes
+2	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+3	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	aux	_	_
+4	percepire	percepire	VERB	V	VerbForm=Inf	0	root	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maternità	maternità	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	surrogata	surrogato	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	|AlignEnd=178
+
+# sent_id = 1024_R_24
+# text = Perché ?
+1	perché	perché	ADV	B	PronType=Int	0	root	_	AlignEnd=181
+
+# sent_id = 1024_R_25
+# text = Per i diritti dei bambini .
+1	per	per	ADP	E	_	3	case	_	AlignBegin=181.72
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	diritti	diritto	NOUN	S	Gender=Masc|Number=Plur	0	orphan	_	_
+4	di	di	ADP	E_RD	_	6	case	_	_
+5	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	|AlignEnd=183
+
+# sent_id = 1024_R_26
+# text = Quando non è così .
+1	quando	quando	SCONJ	CS	_	4	mark	_	AlignBegin=183.88
+2	non	non	ADV	BN	Polarity=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+4	così	così	ADV	B	_	0	root	_	|AlignEnd=185
+
+# sent_id = 1024_R_27
+# text = Vi fanno percepire che la farina di grillo , vi stanno difendendo dalla farina di grillo , perché gli italiani veri mangiano le mucche .
+1	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	AlignBegin=185.68
+2	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	aux	_	_
+3	percepire	percepire	VERB	V	VerbForm=Inf	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	farina	farina	NOUN	S	Gender=Fem|Number=Sing	11	reparandum	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	grillo	grillo	ADJ	SP	Gender=Masc|Number=Sing	6	nmod	_	|AlignEnd=188
+9	vi	vi	PRON	PC	Case=Acc|Number=Plur|Person=2|PronType=Prs	11	obj	_	AlignBegin=188.96
+10	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	aux	_	_
+11	difendendo	difendere	VERB	V	VerbForm=Ger	3	ccomp	_	_
+12	da	da	ADP	E_RD	_	14	case	_	_
+13	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	farina	farina	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	grillo	grillo	ADJ	SP	Gender=Masc|Number=Sing	14	nmod	_	|AlignEnd=191
+17	perché	perché	SCONJ	CS	_	21	mark	_	AlignBegin=191.56
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+20	veri	VERO	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	mangiano	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	advcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	mucche	mucca	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	|AlignEnd=195
+
+# sent_id = 1024_R_28
+# text = Vi stanno difendendo dalla carriera alias per i ragazzi trans perché è un pericolo .
+1	vi	vi	PRON	PC	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	obj	_	AlignBegin=195.7
+2	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	aux	_	_
+3	difendendo	difendere	VERB	V	VerbForm=Ger	0	root	_	_
+4	da	da	ADP	E_RD	_	6	case	_	_
+5	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	carriera	carriera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	alias	alias	NOUN	S	Foreign=Yes	6	compound	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+11	trans	trans	ADJ	A	Foreign=Yes	10	amod	_	AlignEnd=200.58
+12	perché	perché	SCONJ	CS	_	15	mark	_	AlignBegin=200.82
+13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pericolo	pericolo	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	|AlignEnd=202
+
+# sent_id = 1024_R_29
+# text = Vi stanno difendendo dalle coppie omogenitoriali che non meritano di avere i propri nomi nel registro di nascita dei loro figli perché gli italiani veri sono solo mamma e papà . Capite ?
+1	vi	vi	ADV	PC	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	obj	_	AlignBegin=202.78
+2	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	aux	_	_
+3	difendendo	difendere	VERB	V	VerbForm=Ger	0	root	_	_
+4	da	da	ADP	E_RD	_	6	case	_	_
+5	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	omogenitoriali	omogenitoriale	ADJ	A	Gender=Com|Number=Plur	6	amod	_	AlignEnd=206.76
+8	che	che	PRON	PR	_	10	nsubj	_	AlignBegin=207.28
+9	non	non	ADV	BN	Polarity=Neg	10	advmod	_	_
+10	meritano	meritare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	acl:relcl	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	avere	avere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes	15	det:poss	_	_
+15	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+16	in	in	ADP	E_RD	_	18	case	_	AlignEnd=208.74
+17	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignEnd=208.74
+18	registro	registro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	AlignBegin=208.74
+19	di	di	ADP	E	_	20	case	_	_
+20	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21	di	di	ADP	E_RD	_	24	case	_	_
+22	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	loro	loro	DET	AP	Case=Gen|Number=Plur|Person=3|PronType=Prs	24	det:poss	_	_
+24	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	AlignEnd=212.46
+25	perché	perché	SCONJ	CS	_	29	mark	_	AlignBegin=212.52
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	29	nsubj	_	_
+28	veri	vero	ADJ	A	Gender=Masc|Number=Plur	27	amod	_	_
+29	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	advcl	_	_
+30	solo	solo	ADV	B	_	29	advmod	_	_
+31	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	29	advcl	_	_
+32	e	e	CCONJ	CC	_	33	cc	_	_
+33	papà	papà	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	|AlignEnd=217
+34	capite	capire	VERB	SP	Mood=Ind|Number=Plur|Person=2|Tense=Pres	3	ROOT	_	DM=Yes|AlignEnd=217
+
+# sent_id = 1024_R_30
+# text = Loro vi stanno difendendo da un nemico fittizio che loro stessi hanno creato e che stanno cercando di combattere perché fondamentalmente vogliono una società in cui tutti rispettino un determinato standard , e chi si muove da quello standard non va bene .
+1	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	vi	vi	ADV	PC	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	advmod	_	_
+3	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	aux	_	_
+4	difendendo	difendere	VERB	V	VerbForm=Ger	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	fittizio	fittizio	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	che	che	PRON	PR	_	13	obj	_	_
+10	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+11	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	aux	_	_
+13	creato	creare	VERB	V	VerbForm=Part	7	acl:relcl	_	AlignEnd=225.74
+14	e	e	CCONJ	CC	_	17	cc	_	AlignBegin=225.76
+15	che	che	PRON	PR	_	17	obj	_	_
+16	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	17	aux	_	_
+17	cercando	cercare	VERB	V	VerbForm=Ger	13	conj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	combattere	combattere	VERB	V	VerbForm=Inf	17	xcomp	_	AlignEnd=228.3
+20	perché	perché	SCONJ	CS	_	22	mark	_	AlignBegin=228.36
+21	fondamentalmente	fondamentalmente	ADV	B	_	22	advmod	_	DM=Yes
+22	vogliono	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	19	advcl	_	_
+23	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	società	società	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	cui	cui	PRON	PR	_	28	obl	_	_
+27	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur	28	nsubj	_	_
+28	rispettino	rispettare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres	24	acl:relcl	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	determinato	determinato	ADJ	A	Gender=Masc|Number=Sing	31	amod	_	_
+31	standard	standard	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	|AlignEnd=235
+32	e	e	CCONJ	CC	_	40	cc	_	AlignBegin=235.72
+33	chi	chi	PRON	PR	_	35	nsubj	_	_
+34	si	si	PRON	PC	_	35	expl	_	_
+35	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	40	csubj	_	_
+36	da	da	ADP	E	_	38	case	_	_
+37	quello	quello	PRON	DD	Gender=Masc|Number=Sing|PronType=Dem	38	det	_	_
+38	standard	standard	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	35	obl	_	_
+39	non	non	ADV	BN	Polarity=Neg	40	advmod	_	_
+40	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	conj	_	_
+41	bene	bene	ADV	B	_	40	advmod	_	|AlignEnd=239
+
+# sent_id = 1024_R_31
+# text = Cosa vi ricorda ?
+1	cosa	cosa	PRON	PC	PronType=Int	3	obj	_	AlignBegin=240.12
+2	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+3	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	|AlignEnd=241

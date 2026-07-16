@@ -1,0 +1,95 @@
+lemma;valency
+apparire;1 > V.subj[1]
+chiedere;1 > V.subj[1] > 2 (a+3)
+assassinare;1 > V.subj[1] > 2 (con+3)
+no verbal counterpart;N/A
+colpire;1 > V.subj[1] > 2 (con+3)
+essere arido;1 > V.subj[1]
+avere fame;1 > V.subj[1]
+essere affamato;1 > V.subj[1]
+essere malato;1 > V.subj[1]
+essere triste;1 > V.subj[1]
+sbattere le palpebre;1 > V.subj[1]
+bollire;1 > V.subj[1] > 2
+rompere;1 > V.subj[1] > 2 (con+3)
+portare;1 > V.subj[1] > 2 (a+3)
+costruire;1 > V.subj[1] > 2 (di+3)
+bruciare;1 > V.subj[1] > 2 (con+3)
+trasportare;1 > V.subj[1] > 2 (> LOC3)
+pulire;1 > V.subj[1] > 2 (da+3)
+scalare;1 > V.subj[1] > 2
+cuocere;1 > V.subj[1] > 2
+tossire;1 > V.subj[1]
+coprire;1 > V.subj[1] > 2 (con+3)
+piangere;1 > V.subj[1]
+tagliare;1 > V.subj[1] > 2 (con+3)
+morire;1 > V.subj[1]
+dissotterrare;1 > V.subj[1] > 2
+vestire;1 > V.subj[1] > 2
+mangiare;1 > V.subj[1] > 2
+cadere;1 > V.subj[1]
+temere;1 > V.subj[1] > 2
+avere freddo;1 > V.subj[1] (> LOC2)
+sentire freddo;1 > V.subj[1] (> LOC2)
+avere dolore;1 > V.subj[1] (> LOC2)
+sentire dolore;1 > V.subj[1] (> LOC2)
+riempire;1 > V.subj[1] > 2 (con+3)
+seguire;1 > V.subj[1] > 2
+spaventare;1 > V.subj[1] > 2
+ricevere;1 > V.subj[1] > 2 (da+3)
+dare;1 > V.subj[1] > 2 (a+3)
+andare;1 > V.subj[1] (> LOC2)
+macinare;1 > V.subj[1] > 2 (con+3)
+udire;1 > V.subj[1] > 2
+sentire;1 > V.subj[1] > 2
+aiutare;1 > V.subj[1] > 2
+nascondere;1 > V.subj[1] > 2 (a+3)
+urtare;1 > V.subj[1] > 2 (con+3)
+abbracciare;1 > V.subj[1] > 2
+saltare;1 > V.subj[1]
+uccidere;1 > V.subj[1] > 2 (con+3)
+conoscere;1 > V.subj[1] > 2
+ridere;1 V.subj[1] (di+2)
+partire;1 V.subj[1] (da+2) (per+3)
+lasciare;1 > V.subj[1] > 2
+piacere;a+1 > V.subj[2] > 2
+abitare;1 > V.subj[1] (> LOC2)
+caricare;1 > V.subj[1] > 2 (su+3)
+guardare;1 > V.subj[1] > 2
+fare;1 > V.subj[1] > 2 (di+3)
+incontrare;1 > V.subj[1] > 2
+chiamare;1 > V.subj[1] > 2 > 3
+sbucciare;1 > V.subj[1] > 2
+giocare;1 V.subj[1] (con+2)
+versare;1 > V.subj[1] > 2 (> LOC3)
+spingere;1 > V.subj[1] > 2 (> LOC3)
+mettere;1 > V.subj[1] > 2 (> LOC3)
+piovere;V
+rotolare;1 > V.subj[1] > 2
+correre;1 > V.subj[1]
+dire;1 > V.subj[1] > 2 (a+3)
+urlare;1 > V.subj[1]
+cercare;1 > V.subj[1] > 2
+vedere;1 > V.subj[1] > 2
+inviare;1 > V.subj[1] > 2 (a+3)
+radere;1 > V.subj[1] > 2 (a+3)
+sgridare;1 > V.subj[1] > 2
+mostrare;1 > V.subj[1] > 2 (a+3)
+cantare;1 > V.subj[1]
+affondare;1 > V.subj[1] > 2 (con+3)
+sedersi;1 > V.subj[1] (> LOC2)
+sedere;1 > V.subj[1] (> LOC2)
+odorare;1 > V.subj[1] > 2
+rubare;1 > V.subj[1] > 2 (a+3) (da+4)
+prendere;1 > V.subj[1] > 2 (da+3)
+parlare;1 > V.subj[1] > (a+2) (di+3)
+insegnare;1 > V.subj[1] > 2 (a+3)
+strappare;1 > V.subj[1] > 2 (da+3)
+raccontare;1 > V.subj[1] > 2 (a+3)
+pensare;1 > V.subj[1] (> a+2)
+lanciare;1 > V.subj[1] > 2 (> LOC3)
+legare;1 > V.subj[1] > 2 (a+3) (con+4)
+toccare;1 > V.subj[1] > 2 (con+3)
+volere;1 > V.subj[1] > 2
+lavare;1 > V.subj[1] > 2
+pulire;1 > V.subj[1] > 2 (da+3)

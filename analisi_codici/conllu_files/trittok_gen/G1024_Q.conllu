@@ -1,0 +1,235 @@
+# sent_id = G1024_Q_1
+# text = Ciao a tutti .
+1	ciao	ciao	ADV	B	_	0	root	_	_=|AlignBegin=3.96
+2	a	a	ADP	E	_	3	case	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	_
+
+# sent_id = G1024_Q_2
+# text = NAME_PLACE è sicuramente un posto incantevole ,
+1	name_place	NAME_PLACE	PROPN	SP	_	5	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	sicuramente	sicuramente	ADV	B	_	5	advmod	_	DM=
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	posto	posto	NOUN	S	Number=Sing	0	root	_	_
+6	incantevole	incantevole	ADJ	A	Gender=Com|Number=Sing	5	amod	_	_
+
+# sent_id = G1024_Q_3
+# text = uno di quei posti che se visiti la la {lp} rivr la riviera NAME_PLACE dovresti assolutamente vedere almeno quanto NAME_PLACE o NAME_PLACE .
+1	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quei	quello	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	posti	posto	NOUN	S	Number=Plur	1	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	14	nsubj	_	Prolonged=Yes
+6	se	se	SCONJ	CS	_	7	mark	_	_=|AlignEnd=11.32
+7	visiti	visitare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	_	AlignBegin=11.32
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	reparandum	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	rivr	riviera	NOUN	S	Gender=Fem|Number=Sing	12	reparandum	_	Interrupted=Yes
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	riviera	riviera	NOUN	S	Number=Sing	7	obj	_	_
+13	name_place	NAME_PLACE	PROPN	SP	_	12	amod	_	_
+14	dovresti	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	assolutamente	assolutamente	ADV	B	_	16	advmod	_	DM=
+16	vedere	vedere	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+17	almeno	almeno	ADV	B	_	19	advmod	_	_
+18	quanto	quanto	ADP	E	PronType=Ind	19	case	_	_
+19	name_place	NAME_PLACE	PROPN	SP	_	16	orphan	_	_
+20	o	o	CCONJ	CC	_	21	cc	_	_
+21	name_place	NAME_PLACE	PROPN	SP	_	19	conj	_	_
+
+# sent_id = G1024_Q_4
+# text = {sp} Almeno {sp}
+1	{sp}	pause	X	SP	_	2	discourse	_	_
+2	almeno	almeno	ADV	B	_	0	root	_	_
+3	{sp}	pause	X	SP	_	2	discourse	_	_
+
+# sent_id = G1024_Q_5
+# text = questo secondo i miei gusti ,
+1	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	secondo	secondo	ADP	E	_	5	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	miei	mio	DET	AP	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Poss=Yes|PronNumber=Sing	5	det:poss	_	_
+5	gusti	gusto	NOUN	S	Number=Plur	1	nmod	_	_
+
+# sent_id = G1024_Q_6
+# text = e mentre vai a NAME_PLACE ti dovresti fermare tassativamente a NAME_PLACE e NAME_ENTITY per vedere eeh l'isola di NAME_PLACE appunto che è una zona a dir poco meravigliosa .
+1	e	e	CCONJ	CC	_	8	discourse	_	_
+2	mentre	mentre	SCONJ	CS	_	3	mark	_	_
+3	vai	andare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	name_place	NAME_PLACE	PROPN	SP	_	3	obl	_	_
+6	ti	tu	PRON	PC	Case=Acc|PronType=Prs	8	obj	_	_
+7	dovresti	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fermare	fermare	VERB	V	VerbForm=Inf	0	root	_	_
+9	tassativamente	tassativamente	ADV	B	_	8	advmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	name_place	NAME_PLACE	PROPN	SP	_	8	obl	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	name_entity	NAME_ENTITY	PROPN	SP	_	11	conj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	vedere	vedere	VERB	V	VerbForm=Inf	8	advcl	_	_
+16	eeh	eeh	X	B	_	15	discourse	_	Prolonged=Yes
+17	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	isola	isola	NOUN	S	_	15	obj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	name_place	NAME_PLACE	PROPN	SP	_	18	nmod	_	_
+21	appunto	appunto	ADV	B	_	15	advmod	_	DM=
+22	che	che	SCONJ	CS	_	25	nsubj	_	_
+23	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	zona	zona	NOUN	S	_	20	acl:relcl	_	_
+26	a	a	ADP	E	_	27	mark	_	_
+27	dir	dire	VERB	V	VerbForm=Inf	25	advcl	_	_
+28	poco	poco	ADV	B	_	27	advmod	_	AlignEnd=39.74
+29	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	AlignBegin=39.74
+
+# sent_id = G1024_Q_7
+# text = Purtroppo come vedi a soltanto sedici chilometri da un posto così meraviglioso qualcuno ha pensato di ampliare il porto
+1	purtroppo	purtroppo	ADV	B	_	15	advmod	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3	vedi	vedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	conj	_	_
+4	a	a	ADP	E	_	7	case	_	Prolonged=Yes
+5	soltanto	soltanto	ADV	B	_	6	advmod	_	_
+6	sedici	sedici	NUM	N	NumType=Card	7	nummod	_	_
+7	chilometri	chilometro	NOUN	S	_	15	advmod	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	posto	posto	NOUN	S	Number=Sing	7	nmod	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	AlignEnd=48.76
+13	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	AlignBegin=48.76
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	pensato	pensare	VERB	V	VerbForm=Part	0	root	_	AlignEnd=51.32
+16	di	di	ADP	E	_	17	mark	_	AlignBegin=51.32
+17	ampliare	ampliare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	porto	porto	NOUN	S	Number=Sing	17	obj	_	_
+
+# sent_id = G1024_Q_8
+# text = il porto di NAME_PLACE che fa parte di quello con NAME_PLACE che viene eeh seguito , che fa parte a sua volta del porto di Genova
+1	il	il	DET	RD	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	porto	porto	NOUN	S	Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	name_place	NAME_PLACE	PROPN	SP	_	2	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	parte	parte	NOUN	S	Number=Sing	6	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	name_place	NAME_PLACE	PROPN	SP	_	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj:pass	_	_
+13	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux:pass	_	_
+14	eeh	eeh	X	RD	_	15	discourse	_	Prolonged=Yes
+15	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	9	acl:relcl	_	AlignBegin=60.2
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+18	parte	parte	NOUN	S	Number=Sing	17	obj	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	sua	suo	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	volta	volta	NOUN	S	Number=Sing	18	obl	_	_
+22	di	di	ADP	E_RD	_	24	case	_	_
+23	il	il	ADP	E_RD	_	24	case	_	_
+24	porto	porto	NOUN	S	Number=Sing	18	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	genova	Genova	PROPN	SP	_	24	nmod	_	_
+
+# sent_id = G1024_Q_9
+# text = e come se non bastasse pare che vogliano metterci anche un bel rigassificatore ,
+1	e	e	CCONJ	CC	_	6	discourse	_	_
+2	come	come	ADV	B	_	5	mark	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	non	non	ADV	BN	_	5	advmod	_	Prolonged=Yes
+5	bastasse	bastare	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	vogliano	vogliano	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	AlignEnd=69.6
+9	mettere	mettere	VERB	V_PC	VerbForm=Inf	6	xcomp	_	AlignBegin=69.6
+10	ci	ci	VERB	V_PC	Clitic=Yes	9	obl	_	AlignBegin=69.6
+11	anche	anche	ADV	B	_	14	advmod	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	bel	bello	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	rigassificatore	rigassificatore	NOUN	S	_	9	obj	_	_
+
+# sent_id = G1024_Q_10
+# text = tutto per aumentare l'ecocompatibilità dell' area a vantaggio di questi posti meravigliosi .
+1	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	per	per	ADP	E	_	3	mark	_	_
+3	aumentare	aumentare	VERB	V	VerbForm=Inf	1	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	eco	eco	ADJ	_	_	6	amod	_	_
+6	compatibilità	compatibilità	NOUN	_	Number=Inv	3	obj	_	_
+7	di	di	ADP	E_RD	_	9	case	_	_
+8	l'	l'	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	area	area	NOUN	S	Number=Sing	6	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	AlignEnd=77.2
+11	vantaggio	vantaggio	NOUN	S	Number=Sing	9	nmod	_	AlignBegin=77.2
+12	di	di	ADP	E	_	14	case	_	_
+13	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	posti	posto	NOUN	S	Number=Plur	11	nmod	_	_
+15	meravigliosi	meraviglioso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	|AlignEnd=79
+
+# sent_id = G1024_Q_11
+# text = Ti sembra una cosa normale ?
+1	ti	tu	PRON	PC	Case=Dat|PronType=Prs	2	iobj	_	AlignBegin=83.36
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cosa	cosa	NOUN	S	Number=Sing	0	root	_	_
+5	normale	normale	ADJ	A	Gender=Com|Number=Sing	4	amod	_	_
+
+# sent_id = G1024_Q_12
+# text = Commenta e scrivi la tua opinione ehh nei commenti
+1	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	scrivi	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronNumber=Sing	6	det:poss	_	_
+6	opinione	opinione	NOUN	S	Number=Sing	3	obj	_	_
+7	ehh	ehhe	ADV	B	_	10	discourse	_	Prolonged=Yes
+8	in	in	ADP	E_RD	_	10	case	_	_
+9	i	i	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	commenti	commento	NOUN	S	Number=Plur	6	obl	_	_
+
+# sent_id = G1024_Q_13
+# text = cioè scusa
+1	cioè	cioè	ADV	B	_	2	discourse	_	_
+2	scusa	scusare	VERB	A	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	DM=Yes
+
+# sent_id = G1024_Q_14
+# text = vota e scrivi la tua opinione nei commenti .
+1	vota	votare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	scrivi	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronNumber=Sing	6	det:poss	_	_
+6	opinione	opinione	NOUN	S	Number=Sing	3	obj	_	Prolonged=Yes
+7	in	in	ADP	E_RD	_	9	case	_	_
+8	i	i	ADP	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	commenti	commento	NOUN	S	Number=Plur	3	obl	_	|AlignEnd=90
+
+# sent_id = G1024_Q_15
+# text = Un saluto a tutti da NAME_PERSON
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=95.3
+2	saluto	saluto	NOUN	S	Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	name_person	NAME_PERSON	PROPN	SP	_	4	nmod	_	_
+
+# sent_id = G1024_Q_16
+# text = NAME_ENTITY , il tuo esperto del fotovoltaico .
+1	name_entity	NAME_ENTITY	PROPN	SP	_	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronNumber=Sing	4	det:poss	_	_
+4	esperto	esperto	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	di	di	ADP	E_RD	_	7	case	_	_
+6	il	il	ADP	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fotovoltaico	fotovoltaico	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+
+# sent_id = G1024_Q_17
+# text = Ciao ragazzi e buona domenica .
+1	ciao	ciao	ADV	V	_	0	root	_	_
+2	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	buona	buono	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	domenica	domenica	NOUN	S	_	1	conj	_	|AlignEnd=100

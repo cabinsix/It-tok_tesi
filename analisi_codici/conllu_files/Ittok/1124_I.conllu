@@ -1,0 +1,149 @@
+# sent_id = 1									
+# text = Arresto in differita entro quarantott' ore per chi usa violenza contro i medici . Infatti è stato dato il via definitivo dalla Camera alle misure per contrastare la violenza sui professionisti sociosanitari nell'esercizio delle loro funzioni e danneggiamento di strutture e macchinari che riguardano chiaramente che sono presenti all'interno degli ospedali . Dunque cosa prevede questa norma ? Questa norma prevede l'arresto obbligatorio in flagranza e , in determinate condizioni , l'arresto in flagranza differita per i delitti di lesioni personali commessi nei confronti appunto degli operatori sociosanitari nonché per il danneggiamento dei beni destinati all'assistenza sanitaria . Ã previsto il carcere ? Ebbene sì , la norma prevede una pena che va da un minimo di un anno fino a ben cinque anni di reclusione oltre al pagamento poi di una multa che può arrivare fino a diecimila euro.									
+1	Arresto	arresto	NOUN	S	_	1	ROOT	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	differita	differita	NOUN	S	_	1	nmod	_	_
+4	entro	entro	ADP	E	_	5	case	_	_
+5	quarantott	quarantotto	NUM	S	_	1	nmod	_	_
+6	'	'	PUNCT	FB	_	7	punct	_	_
+7	ore	ora	NOUN	S	_	5	obl	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	chi	chi	PRON	PR	_	5	obl	_	_
+10	usa	usare	VERB	V	_	9	acl:relcl	_	_
+11	violenza	violenza	NOUN	S	_	10	obj	_	_
+12	contro	contro	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	_	14	det	_	_
+14	medici	medico	NOUN	S	_	10	obl	_	_
+15	.	.	PUNCT	FS	_	1	punct	_	_
+16	Infatti	infatti	ADV	B	_	19	advmod	_	_
+17	è	essere	AUX	VA	_	19	aux	_	_
+18	stato	essere	AUX	VA	_	19	aux:pass	_	_
+19	dato	dare	VERB	V	_	19	ROOT	_	_
+20	il	il	DET	RD	_	21	det	_	_
+21	via	via	NOUN	S	_	19	nsubj:pass	_	_
+22	definitivo	definitivo	ADJ	A	_	21	amod	_	_
+23	dalla	da il	ADP	E_RD	_	24	case	_	_
+24	Camera	camera	NOUN	S	_	19	obl:agent	_	_
+25	alle	a il	ADP	E_RD	_	26	case	_	_
+26	misure	misura	NOUN	S	_	19	obl	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	contrastare	contrastare	VERB	V	_	19	advcl	_	_
+29	la	il	DET	RD	_	30	det	_	_
+30	violenza	violenza	NOUN	S	_	28	obj	_	_
+31	sui	su il	ADP	E_RD	_	32	case	_	_
+32	professionisti	professionista	NOUN	S	_	30	nmod	_	_
+33	sociosanitari	sociosanitare	ADJ	A	_	32	amod	_	_
+34	nell'	in il	ADP	E_RD	_	35	case	_	_
+35	esercizio	esercizio	NOUN	S	_	28	obl	_	_
+36	delle	di il	ADP	E_RD	_	38	case	_	_
+37	loro	loro	DET	AP	_	38	det:poss	_	_
+38	funzioni	funzione	NOUN	S	_	35	nmod	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	danneggiamento	danneggiamento	NOUN	S	_	35	conj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	strutture	struttura	NOUN	S	_	40	nmod	_	_
+43	e	e	CCONJ	CC	_	44	cc	_	_
+44	macchinari	macchinario	NOUN	S	_	42	conj	_	_
+45	che	che	PRON	PR	_	46	nsubj	_	_
+46	riguardano	riguardare	VERB	V	_	42	acl:relcl	_	_
+47	chiaramente	chiaramente	ADV	B	_	50	advmod	_	DM
+48	che	che	SCONJ	CS	_	50	mark	_	_
+49	sono	essere	AUX	V	_	50	cop	_	_
+50	presenti	presente	ADJ	A	_	28	advcl	_	_
+51	all'	a il	ADP	E_RD	_	52	case	_	_
+52	interno	interno	NOUN	S	_	50	obl	_	_
+53	degli	di il	ADP	E_RD	_	54	case	_	_
+54	ospedali	ospedale	NOUN	S	_	52	nmod	_	_
+55	.	.	PUNCT	FS	_	19	punct	_	_
+56	Dunque	dunque	ADV	B	_	58	advmod	_	DM
+57	cosa	cosa	PRON	PQ	_	58	nsubj	_	_
+58	prevede	prevedere	VERB	V	_	58	ROOT	_	_
+59	questa	questo	DET	DD	_	60	det	_	_
+60	norma	norma	NOUN	S	_	58	obj	_	_
+61	?	?	PUNCT	FS	_	58	punct	_	_
+62	Questa	questo	DET	DD	_	63	det	_	_
+63	norma	norma	NOUN	S	_	64	nsubj	_	_
+64	prevede	prevedere	VERB	V	_	64	ROOT	_	_
+65	l'	il	DET	RD	_	66	det	_	_
+66	arresto	arresto	NOUN	S	_	64	obj	_	_
+67	obbligatorio	obbligatorio	ADJ	A	_	66	amod	_	_
+68	in	in	ADP	E	_	69	case	_	_
+69	flagranza	flagranza	NOUN	S	_	64	obl	_	_
+70	e	e	CCONJ	CC	_	77	cc	_	_
+71	,	,	PUNCT	FF	_	77	punct	_	_
+72	in	in	ADP	E	_	74	case	_	_
+73	determinate	determinato	DET	DI	_	74	det	_	_
+74	condizioni	condizione	NOUN	S	_	77	nmod	_	_
+75	,	,	PUNCT	FF	_	74	punct	_	_
+76	l'	il	DET	RD	_	77	det	_	_
+77	arresto	arresto	NOUN	S	_	69	conj	_	_
+78	in	in	ADP	E	_	79	case	_	_
+79	flagranza	flagranza	NOUN	S	_	77	nmod	_	_
+80	differita	differire	VERB	V	_	79	amod	_	_
+81	per	per	ADP	E	_	83	case	_	_
+82	i	il	DET	RD	_	83	det	_	_
+83	delitti	delitto	NOUN	S	_	80	obl	_	_
+84	di	di	ADP	E	_	85	case	_	_
+85	lesioni	lesione	NOUN	S	_	83	nmod	_	_
+86	personali	personale	ADJ	A	_	85	amod	_	_
+87	commessi	commettere	VERB	V	_	85	acl	_	_
+88	nei	in il	ADP	E_RD	_	89	case	_	_
+89	confronti	confronto	NOUN	S	_	87	obl	_	_
+90	appunto	appunto	ADV	B	_	92	advmod	_	_
+91	degli	di il	ADP	E_RD	_	92	case	_	_
+92	operatori	operatore	NOUN	S	_	89	nmod	_	_
+93	sociosanitari	sociosanitare	ADJ	A	_	92	amod	_	_
+94	nonché	nonché	CCONJ	CC	_	97	cc	_	_
+95	per	per	ADP	E	_	97	case	_	_
+96	il	il	DET	RD	_	97	det	_	_
+97	danneggiamento	danneggiamento	NOUN	S	_	69	conj	_	_
+98	dei	di il	ADP	E_RD	_	99	case	_	_
+99	beni	bene	NOUN	S	_	97	nmod	_	_
+100	destinati	destinare	VERB	V	_	99	acl	_	_
+101	all'	a il	ADP	E_RD	_	102	case	_	_
+102	assistenza	assistenza	NOUN	S	_	100	obl	_	_
+103	sanitaria	sanitario	ADJ	A	_	102	amod	_	_
+104	.	.	PUNCT	FS	_	64	punct	_	_
+105	Ã	essere	AUX	VA	_	106	aux:pass	_	_
+106	previsto	prevedere	VERB	V	_	106	ROOT	_	_
+107	il	il	DET	RD	_	108	det	_	_
+108	carcere	carcere	NOUN	S	_	106	nsubj:pass	_	_
+109	?	?	PUNCT	FS	_	106	punct	_	_
+110	Ebbene	Ebbene	ADV	B	_	115	advmod	_	_
+111	sì	sì	INTJ	I	_	115	advmod	_	_
+112	,	,	PUNCT	FF	_	111	punct	_	_
+113	la	il	DET	RD	_	114	det	_	_
+114	norma	norma	NOUN	S	_	115	nsubj	_	_
+115	prevede	prevedere	VERB	V	_	115	ROOT	_	_
+116	una	uno	DET	RI	_	117	det	_	_
+117	pena	pena	NOUN	S	_	115	obj	_	_
+118	che	che	PRON	PR	_	119	nsubj	_	_
+119	va	andare	VERB	V	_	117	acl:relcl	_	_
+120	da	da	ADP	E	_	122	case	_	_
+121	un	uno	DET	RI	_	122	det	_	_
+122	minimo	minimo	NOUN	S	_	119	obl	_	_
+123	di	di	ADP	E	_	125	case	_	_
+124	un	uno	DET	RI	_	125	det	_	_
+125	anno	anno	NOUN	S	_	122	nmod	_	_
+126	fino	fino	ADV	B	_	130	case	_	_
+127	a	a	ADP	E	_	126	fixed	_	_
+128	ben	bene	ADV	B	_	130	advmod	_	_
+129	cinque	cinque	NUM	N	_	130	nummod	_	_
+130	anni	anno	NOUN	S	_	119	obl	_	_
+131	di	di	ADP	E	_	132	case	_	_
+132	reclusione	reclusione	NOUN	S	_	130	nmod	_	_
+133	oltre	oltre	ADV	B	_	135	case	_	_
+134	al	a il	DET	E_RD	_	135	det	_	_
+135	pagamento	pagamento	NOUN	S	_	119	obl	_	_
+136	poi	poi	ADV	B	_	139	advmod	_	_
+137	di	di	ADP	E	_	139	case	_	_
+138	una	uno	DET	RI	_	139	det	_	_
+139	multa	multa	NOUN	S	_	135	nmod	_	_
+140	che	che	PRON	PR	_	142	nsubj	_	_
+141	può	potere	AUX	VM	_	142	aux	_	_
+142	arrivare	arrivare	VERB	V	_	139	acl:relcl	_	_
+143	fino	fino	ADV	B	_	146	case	_	_
+144	a	a	ADP	E	_	143	fixed	_	_
+145	diecimila	diecimila	NUM	N	_	146	nummod	_	_
+146	euro	euro	NOUN	S	_	142	obl	_	_
+147	.	.	PUNCT	FS	_	115	punct	_	_

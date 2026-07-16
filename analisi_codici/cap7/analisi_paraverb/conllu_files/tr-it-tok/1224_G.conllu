@@ -1,0 +1,726 @@
+# sent_id = 1224_G_1
+# text = Sh , parliamo piano , ok ?
+1	sh	noise	X	SP	_	2	nsubj	_	_
+2	parliamo	parlare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+3	piano	piano	ADV	B	_	2	advmod	_	_
+4	ok	ok	ADV	I	Foreign=Yes	2	discourse	_	DM=Yes
+
+# sent_id = 1224_G_2
+# text = Mentre francamente la cantante , la cantautrice , l' artista in genere , insomma , ma soprattutto portavoce della cultura woke , continua a regalarci le sue stronzate , avrei voluto dire perle di saggezza , ma sarei stato troppo poco scurrile , ehm come questa , ad esempio NAME_PERSON NAME_PERSON ha una sola squadra di maschi bianchi , bastardi , da abbattere perché è il problema di tutto il mondo e noi veniamo discriminate perché ci sono questi maschi bianchi che ci stanno mettendo sotto , l' Italia dimostra invece no , al contrario delle tesi dei sinistrellacci malefici che si ritengono in minoranza perché esclusi , che gli italiani hanno dimostrato appunto attraverso la votazione che conti poco il sesso quando c' è talento , conti poco il colore della pelle quando c' è talento , perché si presume che X Factor sia stato vinto da NAME_PERSON , una cantante ehm con origini maliane ma italianissima , ok ?
+1	mentre	mentre	SCONJ	CS	_	4	mark	_	_
+2	francamente	francamente	ADV	B	_	4	advmod	_	DM=Yes
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cantante	cantante	NOUN	S	Gender=Com|Number=Sing	19	nsubj	_	list_cxn=1
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cantautrice	cantautore	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	list_cxn=2
+7	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	artista	artista	NOUN	S	Gender=Com|Number=Sing	6	conj	_	list_cxn=3
+9	in	in	ADP	E	_	10	case	_	_
+10	genere	genere	NOUN	S	_	8	nmod	_	_
+11	insomma	insomma	ADV	B	_	8	advmod	_	DM=Yes
+12	ma	ma	CCONJ	CC	_	14	cc	_	_
+13	soprattutto	soprattutto	ADV	B	_	14	advmod	_	_
+14	portavoce	portavoce	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+15	di	di	ADP	E_RD	_	17	case	_	_
+16	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	woke	woke	ADJ	SP	Foreign=Yes	17	nmod	_	_
+19	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	80	advcl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	regalare	regalare	VERB	V_PC	VerbForm=Inf	19	xcomp	_	_
+22	ci	ci	PRON	V_PC	_	21	iobj	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	sue	suo	DET	AP	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronNumber=Plur|PronType=Prs	25	det:poss	_	_
+25	stronzate	stronzata	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+26	avrei	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres	27	aux	_	_
+27	voluto	volere	AUX	VM	VerbForm=Part	28	aux	_	_
+28	dire	dire	VERB	V	VerbForm=Inf	25	appos	_	_
+29	perle	perla	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	saggezza	saggezza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+32	ma	ma	CCONJ	CC	_	37	cc	_	_
+33	sarei	saere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres	34	aux	_	_
+34	stato	essere	AUX	V	Gender=Masc|Number=Sing|VerbForm=Part	37	cop	_	_
+35	troppo	troppo	ADV	B	_	36	advmod	_	_
+36	poco	poco	ADV	B	_	37	advmod	_	_
+37	scurrile	scurrile	ADJ	A	Gender=Com|Number=Sing	28	conj	_	_
+38	ehm	pause	X	S	_	39	discourse	_	_
+39	come	come	ADP	E	_	40	case	_	_
+40	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	25	obl	_	_
+41	ad	a	ADP	E	_	42	case	_	DM=1
+42	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	DM=2
+43	name_person	NAME_PERSON	PROPN	SP	_	45	nsubj	_	_
+44	name_person	NAME_PERSON	PROPN	SP	_	43	flat:name	_	_
+45	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	40	xcomp	_	_
+46	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	sola	solo	ADJ	A	Gender=Fem|Number=Sing	48	amod	_	DM=Yes
+48	squadra	squadra	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	_
+49	di	di	ADP	E	_	50	case	_	_
+50	maschi	maschio	NOUN	S	Gender=Masc|Number=Plur	48	nmod	_	_
+51	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	50	amod	_	_
+52	bastardi	bastardo	NOUN	S	Gender=Masc|Number=Plur	51	conj	_	_
+53	da	da	ADP	E	_	54	mark	_	_
+54	abbattere	abbattere	VERB	V	VerbForm=Inf	52	conj	_	_
+55	perché	perché	SCONJ	CS	_	58	mark	_	_
+56	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	58	cop	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	problema	problema	NOUN	S	Gender=Fem|Number=Sing	54	advcl	_	_
+59	di	di	ADP	E	_	62	case	_	_
+60	tutto	tutto	DET	T	Gender=Masc|Number=Sing	62	det	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	58	nmod	_	AlignEnd=22.34
+63	e	e	CCONJ	CC	_	66	cc	_	AlignBegin=22.34
+64	noi	noi	PRON	PE	Case=Nom|Number=Plur|Person=1|PronType=Prs	66	nsubj:pass	_	_
+65	veniamo	venire	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres	66	aux:pass	_	_
+66	discriminate	discriminare	VERB	V	Gender=Fem|Number=Plur|VerbForm=Part	58	conj	_	_
+67	perché	perché	SCONJ	CS	_	69	mark	_	_
+68	ci	ci	PRON	PC	_	69	expl	_	_
+69	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	66	advcl	_	_
+70	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	71	det	_	_
+71	maschi	maschio	NOUN	S	Gender=Masc|Number=Plur	69	nsubj	_	_
+72	bianchi	bianco	ADJ	A	Gender=Masc|Number=Plur	71	amod	_	AlignEnd=25.66
+73	che	che	PRON	PR	_	76	nsubj	_	AlignBegin=25.66
+74	ci	ci	PRON	PC	_	76	obj	_	_
+75	stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	76	aux	_	_
+76	mettendo	mettere	VERB	V	VerbForm=Ger	71	acl:relcl	_	_
+77	sotto	sotto	ADV	B	_	76	advmod	_	_
+78	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	79	det	_	_
+79	italia	Italia	PROPN	SP	Gender=Fem|Number=Plur	80	nsubj	_	_
+80	dimostra	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+81	invece	invece	ADV	B	_	80	advmod	_	DM=Yes
+82	no	no	ADV	BN	_	80	advmod	_	_
+83	a	a	ADP	E_RD	_	85	case	_	_
+84	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	85	det	_	_
+85	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	80	nmod	_	_
+86	di	di	ADP	E_RD	_	88	case	_	_
+87	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	88	det	_	_
+88	tesi	tesi	NOUN	S	Gender=Fem|Number=Plur	85	nmod	_	_
+89	di	di	ADP	E_RD	_	91	case	_	_
+90	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	91	det	_	_
+91	sinistrellacci	sinistrellaccio	NOUN	A	Gender=Masc|Number=Plur	88	nmod	_	Evaluative=Yes
+92	malefici	malefico	NOUN	S	Gender=Masc|Number=Plur	91	obl	_	AlignEnd=31.86
+93	che	che	PRON	PR	_	95	nsubj	_	AlignBegin=32.42
+94	si	si	PRON	PC	_	95	expl	_	_
+95	ritengono	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	91	acl:relcl	_	_
+96	in	in	ADP	E	_	97	case	_	_
+97	minoranza	minoranza	NOUN	S	Gender=Fem|Number=Sing	95	obl	_	_
+98	perché	perché	SCONJ	CS	_	99	mark	_	_
+99	esclusi	escludere	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	97	advcl	_	|AlignEnd=35
+100	che	che	SCONJ	CS	_	104	mark	_	AlignBegin=35.24
+101	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	102	det	_	_
+102	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	104	nsubj	_	_
+103	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	104	aux	_	_
+104	dimostrato	dimostrare	VERB	V	VerbForm=Part	82	appos	_	_
+105	appunto	appunto	ADV	B	_	104	advmod	_	DM=Yes
+106	attraverso	attraverso	ADP	E	_	108	case	_	_
+107	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	108	det	_	_
+108	votazione	votazione	NOUN	S	Gender=Fem|Number=Sing	104	obl	_	AlignEnd=39.04
+109	che	che	SCONJ	CS	_	110	mark	_	AlignBegin=39.04
+110	conti	contare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres	104	ccomp	_	_
+111	poco	poco	ADV	B	_	110	advmod	_	_
+112	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	113	det	_	_
+113	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	110	nsubj	_	_
+114	quando	quando	SCONJ	CS	_	116	mark	_	_
+115	c'	ci	PRON	PC	_	116	expl	_	_
+116	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	110	advcl	_	_
+117	talento	talento	NOUN	S	Gender=Masc|Number=Sing	116	nsubj	_	|AlignEnd=42
+118	conti	conto	NOUN	S	Mood=Sub|Number=Sing|Person=3|Tense=Pres	110	conj	_	AlignBegin=42.62
+119	poco	poco	ADV	B	_	118	advmod	_	_
+120	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	121	det	_	_
+121	colore	colore	NOUN	S	Gender=Masc|Number=Sing	118	obj	_	_
+122	di	di	ADP	E_RD	_	124	case	_	_
+123	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	124	det	_	_
+124	pelle	pelle	NOUN	S	Gender=Fem|Number=Sing	121	nmod	_	_
+125	quando	quando	SCONJ	CS	_	127	mark	_	_
+126	c'	ci	PRON	PC	_	127	expl	_	_
+127	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	118	advcl	_	_
+128	talento	talento	NOUN	S	Gender=Masc|Number=Sing	127	nsubj	_	|AlignEnd=45
+129	perché	perché	SCONJ	CS	_	131	mark	_	AlignBegin=45.86
+130	si	si	PRON	PC	_	131	expl:impers	_	_
+131	presume	presumere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	104	advcl	_	_
+132	che	che	SCONJ	CS	_	137	mark	_	_
+133	x	X	X	SP	_	134	flat:name	_	_
+134	factor	Factor	NOUN	SP	Foreign=Yes	137	nsubj:pass	_	_
+135	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres	136	aux	_	_
+136	stato	essere	AUX	VA	Gender=Masc|Number=Sing|VerbForm=Part	137	aux:pass	_	_
+137	vinto	vincere	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	131	ccomp	_	_
+138	da	da	ADP	E	_	139	case	_	_
+139	name_person	NAME_PERSON	PROPN	SP	_	137	obl:agent	_	_
+140	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	141	det	_	_
+141	cantante	cantante	NOUN	S	Gender=Fem|Number=Sing	139	appos	_	_
+142	ehm	pause	X	S	_	141	discourse	_	_
+143	con	con	ADP	E	_	144	case	_	_
+144	origini	origine	NOUN	S	Gender=Fem|Number=Plur	141	nmod	_	_
+145	maliane	maliano	ADJ	A	Gender=Fem|Number=Plur	144	amod	_	_
+146	ma	ma	CCONJ	CC	_	147	cc	_	_
+147	italianissima	italianissimo	ADJ	A	Degree=Sup|Gender=Fem|Number=Sing	144	conj	_	_
+148	ok	ok	ADV	I	Foreign=Yes	144	discourse	_	DM=Yes|AlignEnd=54
+
+# sent_id = 1224_G_3
+# text = Con la patatina {sp} femminuccia {sp} femminuccia ehm Ok ?
+1	con	con	ADP	E	_	3	case	_	AlignBegin=54.9
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	patatina	patata	NOUN	S	Gender=Fem|Number=Sing	0	orphan	_	Evaluative=Yes
+4	{sp}	pause	X	FF	_	3	discourse	_	_
+5	femminuccia	femmina	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	Evaluative=Yes
+6	{sp}	pause	X	FS	_	5	discourse	_	_
+7	femminuccia	femmina	NOUN	SP	Gender=Fem|Number=Sing	5	conj:redup	_	Evaluative=Yes
+8	ehm	pause	X	SP	_	7	discourse	_	_
+9	ok	ok	INTJ	I	_	7	discourse	_	DM=Yes
+
+# sent_id = 1224_G_4
+# text = Andiamo avanti {sp}
+1	andiamo	Andiamo	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+2	avanti	avanti	ADV	B	_	1	advmod	_	_
+3	{sp}	pause	X	FS	_	1	punct	_	_
+
+# sent_id = 1224_G_5
+# text = Ora vorrei invece parlarvi dello stato mentale psicologico di quelli che hanno in testa la cultura woke , chiamati anche in gergo sinistrellacci malefici privi di logica Ok ?
+1	ora	ora	ADV	B	_	4	advmod	_	DM=Yes
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres	4	aux	_	_
+3	invece	invece	ADV	B	_	4	advmod	_	_
+4	parlare	parlare	VERB	V_PC	VerbForm=Inf	0	root	_	_
+5	vi	vi	PRON	V_PC	Case=Dat|Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+6	di	di	ADP	E_RD	_	8	case	_	_
+7	lo	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	stato	stato	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	mentale	mentale	ADJ	A	Gender=Com|Number=Sing	8	amod	_	_
+10	psicologico	psicologico	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	nmod	_	_
+13	che	che	PRON	PR	_	14	nsubj	_	_
+14	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	acl:relcl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	testa	testa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+19	woke	woke	ADJ	SP	Foreign=Yes	18	nmod	_	AlignEnd=64.7
+20	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	12	advcl:relcl	_	AlignBegin=64.88
+21	anche	anche	ADV	B	_	20	advmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	gergo	gergo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	sinistrellacci	sinistrellaccio	NOUN	A	Gender=Masc|Number=Plur	20	xcomp	_	Evaluative=Yes
+25	malefici	malefico	NOUN	S	Gender=Masc|Number=Plur	24	nsubj:pass	_	_
+26	privi	privo	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	logica	logica	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	ok	ok	INTJ	I	_	4	discourse	_	DM=Yes
+
+# sent_id = 1224_G_6
+# text = Adesso vi darò una brevissima una spolverata di psicologia , però prendetela sempre con le pinze perché io sono un fascista razzista omofobo ignorante ,
+1	adesso	adesso	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	darò	darò	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	brevissima	brevissimo	ADJ	A	Degree=Sup|Gender=Fem|Number=Sing	3	obj	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	spolverata	spolverata	NOUN	S	Gender=Fem|Number=Sing	5	reparandum	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	psicologia	psicologia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	però	però	ADV	B	_	11	conj	_	_
+11	prendete	prendete	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	conj	_	_
+12	la	lo	PRON	V	Gender=Fem|Number=Sing	11	obj	_	_
+13	sempre	sempre	ADV	B	_	11	advmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	pinze	pinza	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+17	perché	perché	SCONJ	CS	_	21	mark	_	_
+18	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+19	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	21	cop	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	fascista	fascista	NOUN	S	Gender=Com|Number=Sing	11	advcl	_	list_cxn=1
+22	razzista	razzista	ADJ	A	Gender=Com|Number=Sing	21	conj	_	list_cxn=2
+23	omofobo	omofobo	ADJ	SP	Gender=Masc|Number=Sing	22	conj	_	list_cxn=3
+24	ignorante	ignorante	ADJ	A	Gender=Com|Number=Sing	23	conj	_	list_cxn=4
+
+# sent_id = 1224_G_7
+# text = l' avevo dimenticato .
+1	l'	lo	PRON	PC	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp	3	aux	_	_
+3	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	AlignEnd=76.02
+
+# sent_id = 1224_G_8
+# text = Per cui non vi fidate di me andate a cercare .
+1	per	per	ADP	E	_	2	mark	_	AlignBegin=76.06
+2	cui	cui	PRON	PR	_	5	advcl	_	_
+3	non	non	ADV	BN	Polarity=Neg	5	advmod	_	_
+4	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	expl	_	_
+5	fidate	fidato	ADJ	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	andate	andare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres	5	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	cercare	cercare	VERB	V	VerbForm=Inf	8	xcomp	_	|AlignEnd=78
+
+# sent_id = 1224_G_9
+# text = C' è un criterio per andare a diagnosticare i disturbi della personalità Ok ?
+1	c'	ci	PRON	PC	_	2	expl	_	AlignBegin=78.68
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	andare	andare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	diagnosticare	diagnosticare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	di	di	ADP	E_RD	_	13	case	_	_
+12	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	personalità	personalità	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	ok	ok	ADV	I	_	2	discourse	_	DM=Yes
+
+# sent_id = 1224_G_10
+# text = Attenzione .
+1	attenzione	attenzione	NOUN	S	_	0	root	_	DM=Yes
+
+# sent_id = 1224_G_11
+# text = Questo criterio è dimensionale .
+1	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+4	dimensionale	dimensionale	ADJ	A	Gender=Com|Number=Sing	0	root	_	_
+
+# sent_id = 1224_G_13
+# text = Cosa vuol dire ?
+1	cosa	cosa	PRON	PQ	PronType=Int	3	nsubj	_	_
+2	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	|AlignEnd=86
+
+# sent_id = 1224_G_14
+# text = Vuol dire che una persona ha quattro aree per andare a verificare il funzionamento di se stesso ok ? della propria personalità .
+1	vuol	Volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux	_	AlignBegin=86.54
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	persona	persona	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	_
+7	quattro	quattro	NUM	N	_	8	nummod	_	_
+8	aree	area	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	andare	andare	VERB	V	VerbForm=Inf	6	advcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	verificare	verificare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	funzionamento	funzionamento	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	se	se	PRON	PC	PronType=Prs	14	nmod	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	ok	ok	ADV	I	_	16	discourse	_	DM=Yes
+19	di	di	ADP	E_RD	_	22	case	_	_
+20	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes	22	det:poss	_	_
+22	personalità	personalità	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+
+# sent_id = 1224_G_15
+# text = La prima è l' autostima , la seconda è l' autodirezionalità , la terza è l' empatia e la quarta è l' intimità Ok ?
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	autostima	autostima	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	seconda	secondo	ADJ	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+9	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	autodirezionalità	autodirezionalità	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing	15	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
+14	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	empatia	empatia	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quarta	quarto	ADJ	NO	Gender=Fem|Number=Sing	21	nsubj	_	_
+19	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
+20	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	intimità	intimità	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+22	ok	ok	INTJ	I	_	21	discourse	_	DM=Yes
+
+# sent_id = 1224_G_16
+# text = Fermi , fermi , fermi .
+1	fermi	fermare	VERB	S	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	DM=Yes
+2	fermi	fermare	VERB	A	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj:redup	_	DM=Yes
+3	fermi	fermare	VERB	A	Mood=Imp|Number=Plur|Person=2|Tense=Pres	2	conj:redup	_	DM=Yes
+
+# sent_id = 1224_G_17
+# text = L' autostima {sp} cos' è l' autostima ?
+1	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	autostima	autostima	NOUN	S	Gender=Fem|Number=Sing	0	orphan	_	_
+3	{sp}	pause	X	S	_	2	discourse	_	_
+4	cos'	cos'	PRON	PQ	_	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+6	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	autostima	autostima	NOUN	S	Gender=Fem|Number=Sing	2	parataxis	_	|AlignEnd=103
+
+# sent_id = 1224_G_18
+# text = Quando una persona conosce il proprio valore ed è in grado di elaborare emotivamente le esperienze .
+1	quando	quando	SCONJ	CS	_	4	mark	_	AlignBegin=103.38
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	conosce	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
+7	valore	valore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	ed	e	CCONJ	CC	_	9	cc	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	grado	grado	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	elaborare	elaborare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	emotivamente	emotivamente	ADV	B	_	13	advmod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+
+# sent_id = 1224_G_19
+# text = Che vuol dire ?
+1	che	che	PRON	PR	_	3	mark	_	_
+2	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+
+# sent_id = 1224_G_20
+# text = Vuol dire che se io sono in grado di riconoscere il mio valore , quindi i miei pregi , ma soprattutto i miei difetti , avrò degli obiettivi , autodirezionalità , molto raggiungibili .
+1	vuol	Volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	aux	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	23	mark	_	_
+4	se	se	SCONJ	CS	_	8	mark	_	_
+5	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	grado	grado	NOUN	S	Gender=Masc|Number=Sing	23	advcl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	riconoscere	riconoscere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mio	mio	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing	13	det:poss	_	_
+13	valore	valore	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14	quindi	quindi	ADV	B	_	17	cc	_	DM=Yes
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	miei	mio	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronNumber=Plur	17	det:poss	_	_
+17	pregi	pregio	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18	ma	ma	CCONJ	CC	_	22	cc	_	_
+19	soprattutto	soprattutto	ADV	B	_	22	advmod	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	miei	mio	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronNumber=Plur	22	det:poss	_	_
+22	difetti	difetto	NOUN	S	Gender=Masc|Number=Plur	14	conj	_	_
+23	avrò	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut	2	_	_	_
+24	degli	uno	DET	DI	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+26	autodirezionalità	autodirezionalità	NOUN	S	Gender=Fem|Number=Sing	25	appos	_	_
+27	molto	molto	ADV	B	_	28	advmod	_	_
+28	raggiungibili	raggiungibile	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+
+# sent_id = 1224_G_21
+# text = E quando dovessi sbagliare potrei fare tranquillamente una sana auto+ autocritica andando a lavorare sul miglioramento .
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	dovessi	dovessi	AUX	VM	Mood=Sub|Number=Sing|Person=1|Tense=Imp	4	aux	_	_
+4	sbagliare	sbagliare	VERB	V	VerbForm=Inf	6	advcl	_	_
+5	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres	6	aux	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	tranquillamente	tranquillamente	ADV	B	_	6	advmod	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	sana	sano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+10	auto+	autocritica	NOUN	S	_	11	reparandum:redup	_	Interrupted=Yes
+11	autocritica	autocritica	ADJ	A	Gender=Fem|Number=Sing	6	obj	_	_
+12	andando	andare	VERB	V	VerbForm=Ger	6	advcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	lavorare	lavorare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	su	su	ADP	E_RD	_	17	case	_	_
+16	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	miglioramento	miglioramento	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	AlignEnd=123.96
+
+# sent_id = 1224_G_22
+# text = I sinistrellacci si sentono esclusi dalla società pensano di dover essere accettati nonostante loro credano di essere più bravi di ciò che poi dimostrano di essere e quando vengono esclusi la colpa non può essere loro non l' accettano .
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	AlignBegin=125.14
+2	sinistrellacci	sinistrellaccio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	_	4	expl	_	_
+4	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+5	esclusi	escludere	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	4	xcomp	_	_
+6	da	da	ADP	E_RD	_	8	case	_	_
+7	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	società	società	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	parataxis	_	_
+10	di	di	ADP	E	_	13	mark	_	_
+11	dover	dovere	AUX	VM	VerbForm=Inf	13	aux	_	_
+12	essere	essere	AUX	VA	VerbForm=Inf	13	aux:pass	_	_
+13	accettati	accettare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	9	advcl	_	_
+14	nonostante	nonostante	ADP	E	_	16	case	_	_
+15	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	credano	credere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres	13	xcomp	_	_
+17	di	di	ADP	E	_	20	mark	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	20	cop	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	16	xcomp	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	ciò	ciò	PRON	PD	_	20	obl	_	_
+23	che	che	PRON	PR	_	25	obj	_	_
+24	poi	poi	ADV	B	_	25	advmod	_	_
+25	dimostrano	dimostrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	22	acl:relcl	_	_
+26	di	di	ADP	E	_	27	mark	_	_
+27	essere	essere	VERB	V	VerbForm=Inf	25	xcomp	_	_
+28	e	e	CCONJ	CC	_	36	cc	_	_
+29	quando	quando	SCONJ	CS	_	31	mark	_	_
+30	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres	31	aux:pass	_	_
+31	esclusi	escludere	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	36	advcl	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	36	nsubj	_	_
+34	non	non	ADV	BN	Polarity=Neg	36	advmod	_	_
+35	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	36	aux	_	_
+36	essere	essere	AUX	V	VerbForm=Inf	20	conj	_	_
+37	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nmod:poss	_	_
+38	non	non	ADV	BN	Polarity=Neg	40	advmod	_	_
+39	l'	lo	PRON	PC	Case=Acc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+40	accettano	accettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	36	parataxis	_	_
+
+# sent_id = 1224_G_23
+# text = Hanno l' instabilità emotiva molto evidente .
+1	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	instabilità	instabilità	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	emotiva	emotivo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	evidente	evidente	ADJ	A	Gender=Com|Number=Sing	3	advmod	_	_
+
+# sent_id = 1224_G_24
+# text = Hanno principi di narcisismo , principi di borderline , principi di antisocialità .
+1	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+2	principi	principio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	list_cxn=1
+3	di	di	ADP	E	_	4	case	_	_
+4	narcisismo	narcisismo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	principi	principio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	list_cxn=2
+6	di	di	ADP	E	_	7	case	_	_
+7	borderline	borderline	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	5	nmod	_	_
+8	principi	principio	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	list_cxn=3
+9	di	di	ADP	E	_	10	case	_	_
+10	antisocialità	antisocialità	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+
+# sent_id = 1224_G_25
+# text = Non riescono a capire dove cazzo stanno .
+1	non	non	ADV	BN	Polarity=Neg	2	advmod	_	_
+2	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	capire	capire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	dove	dove	ADV	B	_	7	advmod	_	_
+6	cazzo	cazzo	NOUN	S	_	7	discourse	_	Expl=Yes
+7	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	ccomp	_	_
+
+# sent_id = 1224_G_26
+# text = Si sentono esclusi e attaccano .
+1	si	si	PRON	PC	_	2	expl	_	_
+2	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+3	esclusi	escludere	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	2	xcomp	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	attaccano	attaccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	conj	_	AlignEnd=149.82
+
+# sent_id = 1224_G_27
+# text = Vedono una cazzata utilizzano tutti i bias interpretativi , attentivi , l' affect as information , utilizzano i bias mnemonici Ce la menano su ogni minchiata perché c' hanno problemi , hanno disturbi della personalità .
+1	vedono	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	AlignBegin=150.16
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cazzata	cazzata	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	utilizzano	utilizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	parataxis	_	list_cxn=1
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	bias	bias	NOUN	S	Foreign=Yes|Gender=Masc|Number=Plur	4	obj	_	_
+8	interpretativi	interpretativo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	list_cxn=1
+9	attentivi	attentivo	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	list_cxn=2
+10	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	affect	affect	X	SW	Foreign=Yes	7	conj	_	list_cxn=3
+12	as	as	X	SW	Foreign=Yes	13	flat:name	_	_
+13	information	information	NOUN	S	Foreign=Yes	11	flat:name	_	_
+14	utilizzano	utilizzare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	cop	_	list_cxn=2
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	bias	bias	NOUN	S	Foreign=Yes|Gender=Masc|Number=Plur	14	obj	_	_
+17	mnemonici	mnemonico	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	ce	ce	PRON	PC	Case=Dat|Number=Plur|Person=1|PronType=Prs	20	iobj	_	_
+19	la	lo	PRON	PC	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	obj	_	_
+20	menano	menare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	conj	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	ogni	ogni	DET	DI	Gender=Com|Number=Sing|PronType=Ind	23	det	_	_
+23	minchiata	minchiata	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+24	perché	perché	ADV	B	_	26	advmod	_	_
+25	c'	ci	PRON	PC	_	26	expl	_	_
+26	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	20	advcl	_	list_cxn=1
+27	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+28	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	26	conj	_	list_cxn=2
+29	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	28	obj	_	_
+30	di	di	ADP	E_RD	_	32	case	_	_
+31	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	case	_	_
+32	personalità	personalità	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
+
+# sent_id = 1224_G_28
+# text = I sinistrellacci hanno disturbi della personalità .
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sinistrellacci	sinistrellaccio	NOUN	SP	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root:redup	_	_
+4	disturbi	disturbo	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	di	di	ADP	E_RD	_	7	case	_	_
+6	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	personalità	personalità	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+
+# sent_id = 1224_G_29
+# text = Ora non in tutte le aree , perché magari qualcuno riesce ad avere un po' di vita sociale che non ho parlato dell' intimità e dell' empatia ma {sp} non è necessario in questo caso però sono persone disturbate
+1	ora	ora	ADV	B	_	6	discourse	_	DM=Yes
+2	non	non	ADV	BN	Polarity=Neg	6	advmod	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	aree	area	NOUN	S	Gender=Fem|Number=Plur	0	orphan	_	_
+7	perché	perché	SCONJ	CS	_	10	mark	_	_
+8	magari	magari	ADV	B	_	10	advmod	_	_
+9	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+10	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	advcl	_	_
+11	ad	a	ADP	E	_	12	mark	_	_
+12	avere	avere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	NOUN	S	_	12	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	sociale	sociale	ADJ	A	Gender=Com|Number=Sing	16	amod	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	non	non	ADV	BN	Polarity=Neg	21	advmod	_	_
+20	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	21	aux	_	_
+21	parlato	parlare	VERB	V	VerbForm=Part	10	advcl	_	_
+22	di	di	ADP	E_RD	_	24	case	_	_
+23	l'	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	intimità	intimità	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	di	di	ADP	E_RD	_	28	case	_	_
+27	l'	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	empatia	empatia	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	_
+29	ma	ma	CCONJ	CC	_	33	cc	_	_
+30	{sp}	pause	X	FF	_	29	discourse	_	_
+31	non	non	ADV	BN	Polarity=Neg	33	advmod	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	33	cop	_	_
+33	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	21	conj	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+36	caso	caso	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37	però	però	ADV	B	_	39	advmod	_	_
+38	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	39	cop	_	_
+39	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+40	disturbate	disturbare	VERB	V	Gender=Fem|Number=Plur	39	amod	_	_
+
+# sent_id = 1224_G_30
+# text = Sono persone che non riescono a capire la realtà perché loro devono confermare le loro tesi .
+1	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	cop	_	_
+2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	che	che	PRON	PR	_	5	nsubj	_	_
+4	non	non	ADV	BN	Polarity=Neg	5	advmod	_	_
+5	riescono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	acl:relcl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	capire	capire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	perché	perché	SCONJ	CS	_	13	mark	_	_
+11	loro	loro	PRON	PE	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	aux	_	_
+13	confermare	confermare	VERB	V	VerbForm=Inf	5	advcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	loro	loro	DET	AP	Case=Gen|Number=Plur|Person=3|Poss=Yes	16	det:poss	_	_
+16	tesi	tesi	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+
+# sent_id = 1224_G_31
+# text = Si chiama bias confirmatorio .
+1	si	si	PRON	PC	_	2	expl	_	_
+2	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	bias	bias	NOUN	S	Foreign=Yes	2	xcomp	_	_
+4	confirmatorio	confirmatorio	ADJ	SP	Gender=Masc|Number=Plur	3	amod	_	_
+
+# sent_id = 1224_G_32
+# text = I sinistrellacci hanno problemi nelle aree della funzionalità del sé e questa ne è la chiara e limpida dimostrazione .
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sinistrellacci	sinistrellaccio	NOUN	SP	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	in	in	ADP	E_RD	_	7	case	_	_
+6	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	aree	area	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	di	di	ADP	E_RD	_	10	case	_	_
+9	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	funzionalità	funzionalità	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E_RD	_	13	case	_	_
+12	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sé	sé	NOUN	PC	_	10	nmod	_	_
+14	e	e	CCONJ	CC	_	22	cc	_	_
+15	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	22	nsubj	_	_
+16	ne	ne	PRON	PC	_	22	iobj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	cop	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	limpida	limpido	ADJ	A	Gender=Fem|Number=Sing	19	conj	_	_
+22	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+
+# sent_id = 1224_G_33
+# text = In Italia ha vinto X Factor una ragazza di colore ok ?
+1	in	in	ADP	E	_	2	case	_	_
+2	italia	Italia	PROPN	SP	_	4	obl	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
+4	vinto	vincere	VERB	V	VerbForm=Part	0	root	_	_
+5	x	X	X	SP	_	6	flat:name	_	_
+6	factor	Factor	NOUN	SP	Foreign=Yes	4	obj	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	colore	colore	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	ok	ok	INTJ	I	_	10	discourse	_	DM=Yes|AlignEnd=194
+
+# sent_id = 1224_G_34
+# text = Quindi l' Italia non è né misogina , né fascista , né razzista nè omofoba .
+1	quindi	quindi	ADV	B	_	7	advmod	_	AlignBegin=194.86
+2	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	advmod	_	_
+3	italia	Italia	PROPN	SP	_	7	nsubj	_	_
+4	non	non	ADV	BN	Polarity=Neg	5	advmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+6	né	né	CCONJ	CC	Polarity=Neg	7	cc:preconj	_	_
+7	misogina	misogino	NOUN	S	Gender=Fem|Number=Sing	0	root	_	list_cxn=1
+8	né	né	CCONJ	CC	Polarity=Neg	9	cc	_	_
+9	fascista	fascista	ADJ	A	Gender=Com|Number=Sing	7	conj	_	list_cxn=2
+10	né	né	CCONJ	CC	Polarity=Neg	11	cc	_	_
+11	razzista	razzista	ADJ	A	Gender=Com|Number=Sing	9	conj	_	list_cxn=3
+12	nè	nè	CCONJ	CC	Polarity=Neg	13	cc	_	_
+13	omofoba	omofoba	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	list_cxn=4
+
+# sent_id = 1224_G_35
+# text = L' Italia , come tutto il resto del mondo , s' è rotta i coglioni delle percezioni dei sinistrellacci .
+1	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	_	_	_
+2	italia	Italia	PROPN	SP	_	12	nsubj	_	_
+3	come	come	ADP	E	_	6	case	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	resto	resto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E_RD	_	9	case	_	_
+8	il	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	s'	si	PRON	PC	_	12	expl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
+12	rotta	rompere	NOUN	V	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	coglioni	coglione	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	di	di	ADP	E_RD	_	17	case	_	_
+16	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	percezioni	percezione	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+18	di	di	ADP	E_RD	_	20	case	_	_
+19	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	sinistrellacci	sinistrellaccio	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	Evaluative=Yes
+
+# sent_id = 1224_G_36
+# text = Fatevi curare , cazzo .
+1	fate	fate	VERB	V_PC	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	aux	_	_
+2	vi	vi	PRON	V_PC	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obj	_	_
+3	curare	curare	VERB	V	VerbForm=Inf	0	root	_	_
+4	cazzo	cazzo	NOUN	S	_	3	discourse	_	Expl=Yes
+
+# sent_id = 1224_G_37
+# text = Fatevi curare , cazzo .
+1	fate	fate	VERB	V_PC	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	aux	_	_
+2	vi	vi	VERB	V_PC	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obj	_	_
+3	curare	curare	VERB	V	VerbForm=Inf	0	root:redup	_	_
+4	cazzo	cazzo	NOUN	S	_	3	discourse	_	Expl=Yes
+
+# sent_id = 1224_G_38
+# text = Avete bisogno di cure urgenti .
+1	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+2	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cure	cura	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	urgenti	urgente	ADJ	A	Gender=Com|Number=Plur	4	amod	_	AlignEnd=210.68

@@ -1,0 +1,603 @@
+# sent_id = G1124_N_1
+# text = In questo quadro ci sono due personaggi , uno che {sp} ha fatto una rivoluzione e ha liberato dalle catene i malati psichiatrici e ha migliorato le loro condizioni e l' altro quello che si è preso il merito .
+1	in	in	ADP	E	_	3	case	_	AlignBegin=0
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	ci	ci	PRON	PC	_	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	cop	_	_
+6	due	due	NUM	N	_	7	nummod	_	_
+7	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	uno	uno	PRON	PI	Gender=Masc|Number=Sing	7	appos	_	_
+9	che	che	PRON	PR	_	12	nsubj	_	_
+10	{sp}	pause	X	PC	_	9	discourse	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
+12	fatto	fare	VERB	V	VerbForm=Part	8	acl:relcl	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	aux	_	_
+17	liberato	liberare	VERB	V	VerbForm=Part	12	conj	_	_
+18	da	da	ADP	E_RD	_	20	case	_	_
+19	le	le	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	catene	catena	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	malati	malato	NOUN	S	Gender=Masc|Number=Plur	17	obj	_	_
+23	psichiatrici	psichiatrico	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	26	aux	_	_
+26	migliorato	migliorare	VERB	V	VerbForm=Part	17	conj	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+28	loro	loro	DET	AP	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronNumber=Plur	29	det:poss	_	_
+29	condizioni	condizione	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+33	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	32	appos	_	_
+34	che	che	PRON	PR	_	37	nsubj	_	_
+35	si	si	PRON	PC	Clitic=Yes	36	expl	_	_
+36	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	37	aux	_	_
+37	preso	prendere	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	33	acl:relcl	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	merito	merito	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+
+# sent_id = G1124_N_2
+# text = Il personaggio chiave a cui voglio dare giustizia oggi eeh è NAME_PERSON NAME_PERSON NAME_PERSON di umili origini , nato nel millesettecentoquarantacinque in Francia , eeh si ammalò di tubercolosi
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=13.38
+2	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	2	compound	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	cui	cui	PRON	PR	Number=Sing	7	obl	_	_
+6	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	aux	_	_
+7	dare	dare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+8	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9	oggi	oggi	ADV	B	_	7	advmod	_	_
+10	eeh	pause	X	PQ	_	9	discourse	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+12	name_person	NAME_PERSON	PROPN	SP	_	2	nsubj	_	_
+13	name_person	NAME_PERSON	PROPN	SP	_	12	flat:name	_	_
+14	name_person	pussin	PROPN	SP	_	13	flat:name	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	umili	umile	ADJ	A	Gender=Com|Number=Plur	17	amod	_	_
+17	origini	origine	NOUN	S	Gender=Fem|Number=Plur	12	acl	_	_
+18	nato	nascere	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	17	conj	_	_
+19	in	in	ADP	E_RD	_	21	case	_	_
+20	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	millesettecentoquarantacinque	millesettecentoquarantacinque	NUM	S	_	18	obl	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	francia	Francia	PROPN	SP	_	18	nmod	_	_
+24	eeh	pause	X	CC	_	26	discourse	_	_
+25	si	si	PRON	PC	_	26	expl	_	_
+26	ammalò	ammalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	parataxis	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	tubercolosi	tubercolosi	NOUN	S	_	26	obl	_	AlignEnd=29.5
+
+# sent_id = G1124_N_3
+# text = Stava quasi schiattando ragazzi ,
+1	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp	3	aux	_	AlignBegin=30
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	schiattando	schiattare	VERB	V	VerbForm=Ger	0	advcl	_	_
+4	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	DM=Yes
+
+# sent_id = G1124_N_4
+# text = fu ricoverato all' ospedale de Dieu a Parigi ma si riprese , si riprese e successivamente fu assunto all' ospedale di NAME_PLACE di Paris come custode , come guardiano nell' ala de l les alienés , ovvero come venivano chiamati i malati psichiatrici all' epoca , gli alienati .
+1	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	aux	_	_
+2	ricoverato	ricoverare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E_RD	_	5	case	_	_
+4	l'	l'	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	de	de	ADP	SP	_	5	flat	_	_
+7	dieu	Dieu	NOUN	SP	_	6	flat	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	parigi	Parigi	PROPN	SP	_	7	obl	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	si	si	PRON	PC	_	12	expl	_	_
+12	riprese	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
+13	si	si	PRON	PC	_	14	expl	_	_
+14	riprese	riprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	parataxis	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	successivamente	successivamente	ADV	B	_	18	advmod	_	_
+17	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	aux:pass	_	_
+18	assunto	assumere	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	14	conj	_	_
+19	a	a	ADP	E_RD	_	21	case	_	_
+20	l'	l'	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	name_place	NAME_PLACE	PROPN	SP	_	21	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	paris	Paris	PROPN	SP	_	23	nmod	_	_
+26	come	come	ADP	E	_	27	case	_	_
+27	custode	custode	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	guardiano	guardiano	NOUN	S	Gender=Masc|Number=Sing	27	conj	_	_
+30	in	in	ADP	E_RD	_	32	case	_	_
+31	l'	l'	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ala	ala	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33	de	di	VERB	V	_	35	case	_	Interrupted=Yes
+34	l	les	DET	SP	_	35	reparandum	_	Interrupted=Yes
+35	les	les	DET	SW	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	alienés	alienés	NOUN	S	Gender=Masc|Number=Plur	32	obl:foreign	_	_
+37	ovvero	ovvero	CCONJ	CC	_	40	cc	_	_
+38	come	come	SCONJ	CS	_	40	mark	_	_
+39	venivano	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp	40	aux:pass	_	_
+40	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	36	acl	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	malati	malato	NOUN	S	Gender=Masc|Number=Plur	40	nsubj:pass	_	_
+43	psichiatrici	psichiatrice	ADJ	A	Gender=Masc|Number=Plur	42	amod	_	_
+44	a	a	ADP	E_RD	_	46	case	_	_
+45	l'	l'	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	epoca	epoca	NOUN	S	Gender=Fem|Number=Plur	42	obl	_	_
+47	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	alienati	alienare	VERB	V	Gender=Masc|Number=Plur	36	conj	_	|AlignEnd=51
+
+# sent_id = G1124_N_5
+# text = Nonostante non avesse un ruolo no , importante , fosse soltanto un semplice guardiano inserviente eeh fece i conti con la durissima realtàÂ  eeh che era quella dei malati psichiatrici , dei pazienti psichiatrici , ovvero erano tenuti in condizioni {sp} disumanissime .
+1	nonostante	nonostante	SCONJ	CS	_	3	mark	_	AlignBegin=52
+2	non	non	ADV	BN	Polarity=Neg|PronType=Neg	3	advmod	_	_
+3	avesse	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp	15	advcl	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ruolo	ruolo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	Prolonged=Yes
+6	no	no	ADV	BN	_	5	discourse	_	DM=Yes
+7	importante	importante	ADJ	A	Gender=Com|Number=Sing	5	amod	_	_
+8	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp	12	cop	_	_
+9	soltanto	soltanto	ADV	B	_	12	advmod	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	semplice	semplice	ADJ	A	Gender=Com|Number=Sing	12	amod	_	_
+12	guardiano	guardiano	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+13	inserviente	inserviente	ADJ	A	Gender=Com|Number=Sing	12	conj	_	_
+14	eeh	pause	X	AP	_	12	discourse	_	_
+15	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	AlignBegin=60.54
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	conti	conto	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	con	con	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	durissima	durissimo	ADJ	A	Degree=Sup|Gender=Fem|Number=Sing	21	amod	_	_
+21	realtàÂ 	realtàÂ 	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	Prolonged=Yes
+22	eeh	pause	X	AP	_	21	discourse	_	_
+23	che	che	PRON	PR	_	25	nsubj	_	_
+24	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	25	cop	_	_
+25	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	21	acl:relcl	_	_
+26	di	di	ADP	E_RD	_	28	case	_	list_cxn=1
+27	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	malati	malato	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
+29	psichiatrici	psichiatrice	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
+30	di	di	ADP	E_RD	_	32	case	_	list_cxn=2
+31	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	pazienti	paziente	NOUN	S	Gender=Masc|Number=Plur	28	conj	_	_
+33	psichiatrici	psichiatrice	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
+34	ovvero	ovvero	CCONJ	CC	_	36	cc	_	_
+35	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp	36	aux:pass	_	_
+36	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	21	appos:pass	_	_
+37	in	in	ADP	E	_	38	case	_	_
+38	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	36	obl	_	_
+39	{sp}	pause	X	PC	_	38	discourse	_	_
+40	disumanissime	disumano	ADJ	A	Degree=Sup|Gender=Fem|Number=Plur	32	amod	_	|AlignEnd=73
+
+# sent_id = G1124_N_6
+# text = Dormivano in giacigli di paglia pieni di insetti , fra escrementi , rifiuti , non c' era igiene , mangiavano gli avanzi e gli scarti , le stanze erano {sp} fredde e queste persone non vedevano nemmeno la luce del sole e spesso erano tenuti in catene per evitare appunto le crisi .
+1	dormivano	dormire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	0	root	_	AlignBegin=74.14
+2	in	in	ADP	E	_	3	case	_	_
+3	giacigli	giaciglio	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	paglia	paglia	NOUN	S	_	3	obl	_	_
+6	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	fra	fra	ADP	E	_	10	case	_	_
+10	escrementi	escremento	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+11	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+12	non	non	ADV	BN	Polarity=Neg|PronType=Neg	14	advmod	_	_
+13	c'	ci	PRON	PC	_	14	expl	_	_
+14	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	10	conj	_	_
+15	igiene	igiene	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+16	mangiavano	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	1	conj	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	avanzi	avanzo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	scarti	scarto	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	26	nsubj	_	_
+24	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	26	cop	_	_
+25	{sp}	pause	X	S	_	24	discourse	_	_
+26	fredde	freddo	ADJ	A	Gender=Fem|Number=Plur	16	conj	_	_
+27	e	e	CCONJ	CC	_	31	cc	_	_
+28	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	29	det	_	_
+29	persone	persona	NOUN	S	Gender=Fem|Number=Plur	31	nsubj	_	_
+30	non	non	ADV	BN	Polarity=Neg|PronType=Neg	31	advmod	_	_
+31	vedevano	vedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	26	conj	_	_
+32	nemmeno	nemmeno	ADV	BN	Polarity=Neg|PronType=Neg	31	advmod	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	luce	luce	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+35	di	di	ADP	E_RD	_	37	case	_	_
+36	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	sole	sole	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	AlignEnd=87.88
+38	e	e	CCONJ	CC	_	41	cc	_	AlignBegin=90
+39	spesso	spesso	ADV	B	_	41	advmod	_	_
+40	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp	41	aux:pass	_	_
+41	tenuti	tenere	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	31	conj	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	catene	catena	NOUN	S	Gender=Fem|Number=Plur	41	obl	_	_
+44	per	per	ADP	E	_	45	mark	_	_
+45	evitare	evitare	VERB	V	VerbForm=Inf	41	advcl	_	_
+46	appunto	appunto	ADV	B	_	45	discourse	_	_
+47	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	crisi	crisi	NOUN	S	Gender=Fem|Number=Plur	45	obj	_	_
+
+# sent_id = G1124_N_7
+# text = C' erano anche epilettici che erano considerati all' epoca malati psichiatrici , c' erano paranoici , c' erano tutte quelle persone che erano considerate appunto pazienti incurabili perchè la malattia mentale all' epoca eeh era data proprio per spacciata .
+1	c'	ci	PRON	PC	Clitic=Yes	2	expl	_	_
+2	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	0	root	_	_
+3	anche	anche	ADV	B	_	2	advmod	_	_
+4	epilettici	epilettico	ADJ	A	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	che	che	PRON	PR	_	7	obj:pass	_	_
+6	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp	7	aux:pass	_	_
+7	considerati	considerare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	4	acl:relcl	_	_
+8	a	a	ADP	E_RD	_	10	case	_	_
+9	l'	l'	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	malati	malato	NOUN	S	Gender=Masc|Number=Plur	7	xcomp	_	_
+12	psichiatrici	psichiatrice	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	c'	ci	PRON	PC	_	14	expl	_	_
+14	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	2	conj	_	_
+15	paranoici	paranoice	ADJ	A	Gender=Masc|Number=Plur	14	nsubj	_	_
+16	c'	ci	PRON	PC	_	17	expl	_	_
+17	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	14	conj	_	_
+18	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+19	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	persone	persona	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
+21	che	che	PRON	PR	_	23	obj:pass	_	_
+22	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp	23	aux:pass	_	_
+23	considerate	considerare	VERB	V	Gender=Fem|Number=Plur|VerbForm=Part	20	acl:relcl	_	_
+24	appunto	appunto	ADV	B	_	23	advmod	_	_
+25	pazienti	paziente	NOUN	S	Gender=Masc|Number=Plur	23	xcomp	_	_
+26	incurabili	incurabile	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	perchè	perchè	SCONJ	CS	_	29	mark	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	36	nsubj:pass	_	_
+30	mentale	mentale	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+31	a	a	ADP	E_RD	_	33	case	_	_
+32	l'	l'	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+34	eeh	pause	X	PR	_	29	discourse	_	_
+35	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp	36	aux:pass	_	_
+36	data	dare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	16	advcl	_	_
+37	proprio	proprio	ADV	B	_	39	advmod	_	_
+38	per	per	ADP	E	_	39	case	_	_
+39	spacciata	spacciata	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	|AlignEnd=111
+
+# sent_id = G1124_N_8
+# text = Allora il nostro NAME_PERSON NAME_PERSON eeh non se ne fa una ragione ,
+1	allora	allora	ADV	B	_	10	discourse	_	DM=Yes
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nostro	nostro	DET	AP	Case=Gen|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronNumber=Sing	4	det:poss	_	_
+4	name_person	NAME_PERSON	PROPN	SP	_	10	nsubj	_	_
+5	name_person	NAME_PERSON	PROPN	SP	_	4	flat	_	_
+6	eeh	pause	X	CC	_	4	discourse	_	_
+7	non	non	ADV	BN	Polarity=Neg|PronType=Neg	10	advmod	_	_
+8	se	si	PRON	PC	_	10	expl	_	_
+9	ne	ne	PRON	PC	Clitic=Yes	10	iobj	_	_
+10	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+
+# sent_id = G1124_N_9
+# text = dice io devo fare qualcosa .
+1	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+2	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+3	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+5	qualcosa	qualcosa	PRON	PI	PronType=Ind	4	obj	_	|AlignEnd=118
+
+# sent_id = G1124_N_10
+# text = Non riesco a vedere queste persone trattate così perchè devono eeh {sp} ci deve essere la felicitàÂ  da qualche parte in queste persone e io voglio ridargli la .
+1	non	non	ADV	BN	Polarity=Neg|PronType=Neg	2	advmod	_	AlignBegin=118.12
+2	riesco	riesco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+7	trattate	trattare	VERB	V	Gender=Fem|Number=Plur|VerbForm=Part	4	ccomp	_	_
+8	così	così	ADV	B	_	7	advmod	_	_
+9	perchè	perchè	SCONJ	CS	_	10	mark	_	_
+10	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	advcl	_	_
+11	eeh	pause	X	S	_	10	discourse	_	_
+12	{sp}	pause	X	FF	_	11	discourse	_	_
+13	ci	ci	PRON	PC	Clitic=Yes	15	expl	_	_
+14	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	aux	_	_
+15	essere	essere	AUX	V	VerbForm=Inf	10	reparandum	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	felicitàÂ 	felicitàÂ 	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	qualche	qualche	DET	DI	_	20	det	_	_
+20	parte	parte	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+24	e	e	CCONJ	CC	_	27	cc	_	_
+25	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1	27	nsubj	_	_
+26	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	27	aux	_	_
+27	ridare	ridare	VERB	SP	VerbForm=Inf	17	conj	_	_
+28	gli	gli	VERB	SP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+29	la	la	VERB	SP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	|AlignEnd=127
+
+# sent_id = G1124_N_11
+# text = Dopo aver osservato per tanti anni tutti gli errori che facevano , lui che fece
+1	dopo	dopo	SCONJ	CS	_	3	mark	_	AlignBegin=127.62
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	osservato	osservare	VERB	V	VerbForm=Part	14	advcl	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	errori	errore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+10	che	che	PRON	PR	_	11	obj	_	_
+11	facevano	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	9	acl:relcl	_	_
+12	lui	lui	PRON	PE	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	che	che	PRON	PR	PronType=Int	14	obj	_	_
+14	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = G1124_N_12
+# text = cominciò a creare le vere e proprie cartelle cliniche di queste persone in entrata e eeh e durante la degenza .
+1	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	creare	creare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+5	vere	VERO	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+6	e	e	CCONJ	CC	_	5	fixed	_	_
+7	proprie	proprio	ADJ	A	Gender=Fem|Number=Plur	6	fixed	_	_
+8	cartelle	cartella	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+9	cliniche	clinico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	entrata	entrata	NOUN	S	Gender=Fem|Number=Sing	3	advmod	_	Interrupted=Yes
+15	e	e	NOUN	SP	_	17	reparandum	_	Interrupted=Yes
+16	eeh	eeh	NOUN	S	_	15	discourse	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	durante	durante	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	degenza	degenza	NOUN	S	Gender=Fem|Number=Sing	14	conj	_	|AlignEnd=141
+
+# sent_id = G1124_N_13
+# text = Quindi ogni paziente che entrava registrava l' etàÂ  , il sesso , i sintomi , le condizioni , tutta {sp} insomma faceva proprio la raccolta anamnestica che adesso la chiamiamo così .
+1	quindi	quindi	CCONJ	CC	_	6	discourse	_	AlignBegin=141.96|DM=Yes
+2	ogni	ogni	DET	DI	PronType=Ind	3	det	_	_
+3	paziente	paziente	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	che	che	PRON	PR	_	5	nsubj	_	_
+5	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	3	acl:relcl	_	_
+6	registrava	registrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
+7	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	etàÂ 	etàÂ 	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	sintomi	sintomo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	|AlignEnd=147
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_=|AlignBegin=148.12
+14	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	12	conj	_	_
+15	tutta	tutto	ADJ	A	Gender=Fem|Number=Sing	14	conj	_	_
+16	{sp}	pause	X	FF	_	8	punct	_	_
+17	insomma	insomma	ADV	B	_	18	discourse	_	DM=Yes
+18	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	15	reparandum	_	_
+19	proprio	proprio	ADV	B	_	18	advmod	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	anamnestica	anamnestico	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23	che	che	PRON	PR	_	26	obj	_	_
+24	adesso	adesso	ADV	B	_	26	advmod	_	_
+25	la	la	PRON	PC	Case=Acc|Gender=Fem|Number=Sing|Person=3	26	obj	_	_
+26	chiamiamo	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	21	acl:relcl	_	_
+27	così	così	ADV	B	_	15	advmod	_	_
+
+# sent_id = G1124_N_14
+# text = Cominciò a capire che andava cambiata l' alimentazione perchè si ripercuteva no sul corpo e sulla mente .
+1	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	capire	capire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	andava	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp	6	aux:pass	_	_
+6	cambiata	cambiare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	3	ccomp	_	_
+7	l'	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	alimentazione	alimentazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	perchè	perchè	SCONJ	CS	_	11	mark	_	_
+10	si	si	PRON	PC	_	11	expl	_	_
+11	ripercuteva	ripercutere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	8	advcl	_	_
+12	no	no	ADV	B	Polarity=Neg	11	discourse	_	DM=Yes
+13	su	su	ADP	E_RD	_	15	case	_	_
+14	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	corpo	corpo	NOUN	S	_	11	obl	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	su	su	ADP	E_RD	_	19	case	_	_
+18	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	mente	mente	NOUN	S	_	15	conj	_	|AlignEnd=161
+
+# sent_id = G1124_N_15
+# text = Decise di eliminare le percosse perchè ragazzi questi pazienti uno dei trattamenti erano salassi e botte .
+1	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	AlignBegin=161.9
+2	di	di	ADP	E	_	3	mark	_	_
+3	eliminare	eliminare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	percosse	percossa	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	perchè	perchè	SCONJ	CS	_	14	mark	_	_
+7	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	6	vocative	_	DM=Yes
+8	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	pazienti	paziente	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+10	uno	uno	PRON	PI	Gender=Masc|Number=Sing	14	nsubj	_	_
+11	di	di	ADP	E_RD	_	13	case	_	_
+12	i	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	trattamenti	trattamento	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp	15	cop	_	_
+15	salassi	salasso	NOUN	A	Gender=Masc|Number=Plur	5	advcl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	botte	botte	NOUN	S	Gender=Fem|Number=Plur	15	conj	_	Interrupted=Yes|AlignEnd=170
+
+# sent_id = G1124_N_16
+# text = Appunto chiese di eliminare anche i salassi perchè vedeva che eeh non si arrivava a niente anzi .
+1	appunto	appunto	ADV	S	_	2	discourse	_	AlignBegin=170.34|DM=Yes
+2	chiese	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	eliminare	eliminare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	salassi	salasso	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+8	perchè	perchè	SCONJ	CS	_	9	mark	_	_
+9	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	4	advcl	_	_
+10	che	che	SCONJ	CS	_	14	mark	_	_
+11	eeh	pause	X	CC	_	10	discourse	_	_
+12	non	non	ADV	BN	Polarity=Neg|PronType=Neg	14	advmod	_	_
+13	si	si	PRON	PC	_	14	expl:impers	_	_
+14	arrivava	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	9	ccomp	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	niente	niente	PRON	PI	Polarity=Neg|PronType=Neg	14	obl	_	_
+17	anzi	anzi	ADV	B	_	14	advmod	_	_
+
+# sent_id = G1124_N_17
+# text = E cosa più importante eeh li eliminò dalle catene , gli levò le catene perchè erano spesso incatenati .
+1	e	e	CCONJ	CC	_	7	discourse	_	_
+2	cosa	cosa	NOUN	PQ	Gender=Fem|Number=Sing	7	nmod	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	importante	importante	ADJ	A	Gender=Com|Number=Sing	2	amod	_	_
+5	eeh	pause	X	CC	_	4	discourse	_	_
+6	li	li	PRON	PC	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+7	eliminò	eliminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+8	da	da	ADP	E_RD	_	10	case	_	_
+9	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	catene	catena	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+11	gli	lo	PRON	PC	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	iobj	_	_
+12	levò	levare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	conj	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	catene	catena	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	perchè	perchè	SCONJ	CS	_	18	mark	_	_
+16	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp	18	aux	_	_
+17	spesso	spesso	ADV	B	_	18	advmod	_	_
+18	incatenati	incatenare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	12	advcl	_	_
+
+# sent_id = G1124_N_18
+# text = E cominciò quello che lui chiamava il trattamento morale ovvero semplicemente cominciò a parlare con queste persone .
+1	e	e	CCONJ	CC	_	2	discourse	_	_
+2	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	che	che	PRON	PR	_	6	obj	_	_
+5	lui	lui	PRON	PE	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	3	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	morale	morale	ADJ	A	Gender=Com|Number=Sing	8	amod	_	_
+10	ovvero	ovvero	CCONJ	CC	_	12	cc	_	_
+11	semplicemente	semplicemente	ADV	B	_	12	advmod	_	_
+12	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	parlare	parlare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+
+# sent_id = G1124_N_19
+# text = eeh Arriva NAME_PERSON , lo psichiatra che riceve l' incarico da NAME_PERSON NAME_PERSON e alla vista di questi pazienti non incatenati gli fa una domanda .
+1	eeh	pause	X	AP	_	2	discourse	_	_
+2	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	name_person	NAME_PERSON	PROPN	SP	_	2	nsubj	_	_
+4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	psichiatra	psichiatra	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+6	che	che	PRON	PR	_	7	nsubj	_	_
+7	riceve	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	acl:relcl	_	_
+8	l'	il	DET	RD	_	9	det	_	_
+9	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	name_person	NAME_PERSON	PROPN	SP	_	7	obl:agent	_	_
+12	name_person	NAME_PERSON	PROPN	SP	_	11	flat	_	_
+13	e	e	CCONJ	CC	_	21	cc	_	_
+14	a	a	ADP	E_RD	_	16	case	_	_
+15	la	la	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vista	vista	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	pazienti	paziente	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	non	non	ADV	BN	Polarity=Neg|PronType=Neg	21	advmod	_	_
+21	incatenati	incatenare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	19	acl	_	_
+22	gli	gli	PRON	PC	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+23	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	_	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	|AlignEnd=200
+
+# sent_id = G1124_N_20
+# text = Cosa accade quando un folle in piena crisi viene liberato dalle catene ?
+1	cosa	cosa	PRON	PQ	_	2	obj	_	AlignBegin=200.54
+2	accade	accadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	quando	quando	SCONJ	CS	_	10	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	folle	folle	NOUN	S	Gender=Com|Number=Sing	10	nsubj:pass	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	crisi	crisi	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux:pass	_	_
+10	liberato	liberare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	2	advcl	_	_
+11	da	da	ADP	E_RD	_	13	case	_	_
+12	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	catene	catena	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+
+# sent_id = G1124_N_21
+# text = NAME_PERSON gli rispose , si calma .
+1	name_person	pussin	PROPN	B	_	3	nsubj	_	_
+2	gli	lo	PRON	PC	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	rispose	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	si	si	PRON	PC	_	5	expl	_	_
+5	calma	calmare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
+
+# sent_id = G1124_N_22
+# text = E fu così che NAME_PERSON abbracciò la causa di NAME_PERSON e insieme a lui fecero questa grande rivoluzione e definitivamente come si vede nel quadro , si vede eeh un uomo che toglie le catene sotto di NAME_PERSON , ma quello con il grembiule bianco è NAME_PERSON , il vero ideatore della rivoluzione che ringraziamo .
+1	e	e	CCONJ	CC	_	2	discourse	_	_
+2	fu	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	così	così	ADV	B	_	2	discourse	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	name_person	NAME_PERSON	PROPN	SP	_	6	nsubj	_	_
+6	abbracciò	abbracciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	causa	causa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	name_person	NAME_PERSON	PROPN	SP	_	8	nsubj	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	insieme	insieme	ADV	B	_	14	advmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+15	fecero	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	6	conj	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+17	grande	grande	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	AlignEnd=214.08
+19	e	e	CCONJ	CC	_	6	cc	_	AlignBegin=214.08
+20	definitivamente	definitivamente	ADV	B	_	9	advmod	_	_
+21	come	come	ADV	B	_	23	mark	_	_
+22	si	si	PRON	PC	_	23	expl:impers	_	_
+23	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advcl	_	_
+24	in	in	ADP	E_RD	_	26	case	_	_
+25	il	il	ADP	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	si	si	PRON	PC	_	28	expl:pass	_	_
+28	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	conj:redup	_	_
+29	eeh	pause	X	CS	_	28	discourse	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+32	che	che	PRON	PR	_	33	nsubj	_	_
+33	toglie	togliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	31	acl:relcl	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	catene	catena	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+36	sotto	sotto	ADP	E	_	38	case	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	name_person	NAME_PERSON	PROPN	SP	_	31	obl	_	_
+39	ma	ma	CCONJ	CC	_	46	cc	_	_
+40	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	46	nsubj	_	_
+41	con	con	ADP	E	_	43	case	_	_
+42	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	grembiule	grembiule	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
+44	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	43	amod	_	_
+45	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	46	cop	_	_
+46	name_person	pussin	PROPN	SP	_	31	conj	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+48	vero	vero	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	_
+49	ideatore	ideatore	NOUN	S	Gender=Masc|Number=Sing	46	appos	_	_
+50	di	di	ADP	E_RD	_	52	case	_	_
+51	la	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	rivoluzione	rivoluzione	NOUN	S	Gender=Fem|Number=Sing	49	nmod	_	AlignEnd=227.76
+53	che	che	PRON	PR	_	54	obj	_	AlignBegin=227.84
+54	ringraziamo	ringrazare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	46	acl:relcl	_	|AlignEnd=229

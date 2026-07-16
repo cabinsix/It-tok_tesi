@@ -1,0 +1,321 @@
+# sent_id = G0125_1_1
+# text = rispondo a questo commento e quindi vi faccio vedere il set che ho fatto da New Martina .
+# tags = DONE
+1	rispondo	rispondere	VERB	V	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=0
+2	a	a	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	commento	commento	NOUN	S	Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	quindi	quindi	ADV	B	_	8	advmod	_	DM=yes
+7	vi	voi	PRON	PC	Case=Dat|Number=Plur|Person=2	8	iobj	_	_
+8	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	vedere	vedere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	set	set	NOUN	S	Foreign=Yes	9	obj	_	_
+12	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fatto	fare	VERB	V	VerbForm=Part	11	acl:relcl	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	new	New	PROPN	SP	Foreign=Yes	14	obl	_	_
+17	martina	Martina	PROPN	SP	_	16	flat:name	_	comp_2=|AlignEnd=5
+
+# sent_id = G0125_1_2
+# text = Questo commento mi è stato lasciato sotto il video in cui ho parlato di come sono stata derubata a Napoli
+1	questo	questo	DET	DD	Gender=Masc|Number=Sing	2	det	_	AlignBegin=5.68
+2	commento	commento	NOUN	S	Number=Sing	6	nsubj:pass	_	_
+3	mi	io	PRON	PC	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|VerbForm=Part	6	aux:pass	_	_
+6	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+7	sotto	sotto	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	video	video	NOUN	S	Number=Sing	6	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	13	obl	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	parlato	parlare	VERB	V	VerbForm=Part	9	acl:relcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	come	come	SCONJ	CS	_	18	mark	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	stata	essere	AUX	VA	Gender=Fem|Number=Sing|VerbForm=Part	18	aux:pass	_	_
+18	derubata	derubare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	6	advcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	napoli	Napoli	PROPN	SP	_	18	obl	_	_
+
+# sent_id = G0125_1_3
+# text = e in il video appunto dicevo che sono andata da New Martina a farmi mettere cover e pellicola ,
+# tags = DONE
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	in	in	ADP	E_RD	_	4	case	_	_
+3	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	video	video	NOUN	S	Number=Sing	6	obl	_	_
+5	appunto	appunto	ADV	B	_	6	discourse	_	DM=yes
+6	dicevo	dicevo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	andata	andare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	6	ccomp	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	new	New	PROPN	SP	Foreign=Yes	9	obl	_	_
+12	martina	Martina	PROPN	SP	_	11	flat:name	_	_
+13	a	a	ADP	E	_	16	mark	_	_
+14	fare	fare	AUX	V_PC	VerbForm=Inf	16	aux	_	_
+15	mi	io	AUX	V_PC	Case=Dat	14	obl	_	_
+16	mettere	mettere	VERB	V	_	9	ccomp	_	_
+17	cover	cover	NOUN	S	Foreign=Yes	16	obj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	pellicola	pellicola	NOUN	S	Number=Sing	17	conj	_	|AlignEnd=19
+
+# sent_id = G0125_1_4
+# text = quindi a farmi fare insomma questo questo set .
+# tags = DONE
+1	quindi	quindi	ADV	B	_	5	discourse	_	AlignBegin=19.28|DM=yes
+2	a	a	ADP	E	_	5	mark	_	_
+3	fare	fare	AUX	V_PC	VerbForm=Inf	5	aux	_	_
+4	mi	io	VERB	V_PC	Case=Dat	3	obl	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	insomma	insomma	ADV	B	_	5	discourse	_	DM=yes
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing	9	det	_	Interrupted=Yes|list_cxn_1=yes
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing	9	det	_	list_cxn_2=yes
+9	set	set	NOUN	S	Foreign=Yes	5	obj	_	|AlignEnd=22
+
+# sent_id = G0125_1_5
+# text = Qui ho il mio telefono ,
+1	qui	qui	ADV	B	_	2	advmod	_	=|AlignBegin=22.56
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	io	DET	AP	Case=Gen|Gender=Masc|Number=Sing|PronNumber=Sing	5	det:poss	_	_
+5	telefono	telefono	NOUN	S	Number=Sing	2	obj	_	_
+
+# sent_id = G0125_1_6
+# text = il mio è un iPhone undici ,
+# tags = DONE
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mio	io	PRON	PP	Case=Gen|Gender=Masc|Number=Sing|PronNumber=Sing|PronType=Prs	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	iphone	iPhone	NOUN	S	_	0	root	_	_
+6	undici	undici	NUM	N	NumType=Card	5	nummod	_	_
+
+# sent_id = G0125_1_7
+# text = è lilla e infatti la cover che ho scelto è questa ,
+# tags = DONE
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	lilla	lilla	ADV	A	_	0	root	_	_
+3	e	e	CCONJ	CC	_	6	cc	_	_
+4	infatti	infatti	ADV	B	_	10	discourse	_	DM=yes
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cover	cover	NOUN	S	Foreign=Yes	2	conj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	scelto	scegliere	VERB	V	VerbForm=Part	6	xcomp	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	questa	questo	PRON	PD	Gender=Fem|Number=Sing	2	conj	_	_
+
+# sent_id = G0125_1_8
+# text = MartiShock se non sbaglio si chiama ,
+# tags = DONE
+1	martishock	MartiShock	PROPN	X	_	6	appos:foreign	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	DM_1=yes
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	DM_2=yes
+4	sbaglio	sbaglio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	xcomp	_	DM_3=yes
+5	si	si	PRON	PC	_	6	expl	_	_
+6	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = G0125_1_9
+# text = è blu qua opaca
+# tags = DONE
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	blu	blu	ADV	A	_	0	root	_	_
+3	qua	qua	ADV	B	_	4	advmod	_	_
+4	opaca	opaco	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+
+# sent_id = G0125_1_10
+# text = invece ha i tastini fatti così
+# tags = DONE
+1	invece	invece	ADV	B	_	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	tastini	tasto	NOUN	_	Number=Plur	2	obj	_	_
+5	fatti	fare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	4	acl	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+
+# sent_id = G0125_1_11
+# text = e ha anche le fotocamere protette ed è fatta in questo modo
+# tags = DONE
+1	e	e	CCONJ	CC	_	2	cc	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	fotocamere	fotocamera	NOUN	S	Number=Plur	2	obj	_	_
+6	protette	proteggere	VERB	A	Gender=Fem|Number=Plur|VerbForm=Part	5	amod	_	_
+7	ed	e	CCONJ	CC	_	9	cc	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	fatta	fare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	2	conj	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	modo	modo	NOUN	S	Number=Sing	9	obl	_	_
+
+# sent_id = G0125_1_12
+# text = e secondo me con il lilla questo blu si abbinava molto bene .
+# tags = DONE
+1	e	e	CCONJ	CC	_	10	discourse	_	_
+2	secondo	secondo	ADP	E	_	3	case	_	_
+3	me	io	PRON	PC	Case=Acc	10	advmod	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lilla	lilla	NOUN	S	_	10	obl	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	blu	blu	NOUN	S	_	10	nsubj	_	_
+9	si	si	PRON	PC	_	10	expl	_	_
+10	abbinava	abbinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	molto	molto	ADV	B	_	12	advmod	_	_
+12	bene	bene	ADV	B	_	10	advmod	_	_
+
+# sent_id = G0125_1_13
+# text = Invece come pellicola ho scelto questa qui opaca ,
+# tags = DONE
+1	invece	invece	ADV	B	_	5	advmod	_	_
+2	come	come	ADP	E	_	3	case	_	_
+3	pellicola	pellicola	NOUN	S	Number=Sing	5	obl	_	AlignEnd=50
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	AlignBegin=50
+5	scelto	scegliere	VERB	V	VerbForm=Part	0	root	_	_
+6	questa	questo	PRON	DD	Gender=Fem|Number=Sing|PronType=Dem	5	obj	_	_
+7	qui	qui	ADV	B	_	6	advmod	_	_
+8	opaca	opaco	ADJ	A	Gender=Fem|Number=Sing	6	appos	_	_
+
+# sent_id = G0125_1_14
+# text = si vede che è opaca ,
+# tags = DONE
+1	si	si	PRON	PC	_	2	expl:impers	_	_
+2	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	opaca	opaco	ADJ	A	Gender=Fem|Number=Sing	2	ccomp	_	_
+
+# sent_id = G0125_1_15
+# text = veramente bellissima
+# tags = DONE
+1	veramente	veramente	ADV	B	_	2	advmod	_	_
+2	bellissima	bella	ADJ	A	Degree=Sup|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = G0125_1_16
+# text = e questa è quella classica non è privacy
+# tags = DONE
+1	e	e	CCONJ	CC	_	2	discourse	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	AlignEnd=60
+5	classica	classico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	AlignBegin=60
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	privacy	privacy	ADJ	S	Foreign=Yes	4	parataxis	_	_
+
+# sent_id = G0125_1_17
+# text = e si vede così
+# tags = DONE
+1	e	e	CCONJ	CC	_	3	discourse	_	_
+2	si	si	PRON	PC	Person=3|PronType=Prs	3	expl:impers	_	_
+3	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	così	così	ADV	B	_	3	advmod	_	_
+
+# sent_id = G0125_1_18
+# text = non so se si capisce è molto fluida cioè è proprio un' altra cosa cioè le dita scivolano proprio in un altro modo sopra sopra queste pellicole
+# tags = DONE, ripetizioni
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	xcomp	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Person=3|PronType=Prs	5	expl:impers	_	_
+5	capisce	capire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	è	essere	VERB	CC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	fluida	fluido	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+9	cioè	cioè	ADV	B	_	14	discourse	_	DM=yes
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	proprio	proprio	ADV	B	_	14	advmod	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	altra	altro	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	cosa	cosa	NOUN	S	Number=Sing	8	parataxis	_	_
+15	cioè	cioè	ADV	B	_	18	discourse	_	AlignEnd=70|DM=yes
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	AlignBegin=70
+17	dita	dito	NOUN	S	Number=Plur	18	nsubj	_	_
+18	scivolano	scivolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+19	proprio	proprio	ADV	B	_	18	advmod	_	_
+20	in	in	ADP	E	_	23	case	_	_
+21	un	uno	DET	RI	Gender=Masc|Number=Sing	23	det	_	_
+22	altro	altro	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	modo	modo	NOUN	S	Number=Sing	18	obl	_	_
+24	sopra	sopra	ADP	V_PC	_	25	reparandum	_	Interrupted=Yes
+25	sopra	sopra	ADP	E	_	27	case	_	_
+26	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	27	det	_	_
+27	pellicole	pellicola	NOUN	S	_	18	obl	_	_
+
+# sent_id = G0125_1_19
+# text = e quindi niente questo era il mio il set che ho fatto da Martina quando sono stata a Napoli .
+# tags = DONE, falsa partenza
+1	e	e	CCONJ	CC	_	3	discourse	_	DM=yes
+2	quindi	quindi	ADV	B	_	3	case	_	DM=yes
+3	niente	niente	PRON	PI	_	9	discourse	_	DM=yes
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mio	io	DET	PP	Case=Gen|Gender=Masc|Number=Sing|PronNumber=Sing	9	reparandum	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	set	set	NOUN	S	Foreign=Yes	0	root	_	_
+10	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fatto	fare	VERB	V	VerbForm=Part	9	acl:relcl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	martina	Martina	PROPN	SP	_	12	obl	_	_
+15	quando	quando	SCONJ	CS	_	17	mark	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	stata	essere	AUX	V	Gender=Fem|Number=Sing|VerbForm=Part	12	advcl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	napoli	Napoli	PROPN	SP	_	17	obl	_	|AlignEnd=83
+
+# sent_id = 2
+# text = Questo commento mi è stato lasciato sotto il video in cui ho parlato di come sono stata derubata a Napoli e nel video appunto dicevo che sono andata da New Martina a farmi mettere cover e pellicola , quindi a farmi fare insomma questo questo set .
+1	questo	questo	DET	DD	_	2	det	_	=|AlignBegin=5.68
+2	commento	commento	NOUN	S	_	6	nsubj:pass	_	_
+3	mi	mi	PRON	PC	_	6	iobj	_	_
+4	è	essere	AUX	VA	_	6	aux:pass	_	_
+5	stato	essere	AUX	VA	_	6	aux:pass	_	_
+6	lasciato	lasciare	VERB	V	_	6	ROOT	_	_
+7	sotto	sotto	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	_	9	det	_	_
+9	video	video	NOUN	S	_	6	obl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	_	13	obl	_	_
+12	ho	avere	AUX	VA	_	13	aux	_	_
+13	parlato	parlare	VERB	V	_	9	acl:relcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	come	come	SCONJ	CS	_	18	advmod	_	_
+16	sono	essere	AUX	VA	_	18	aux	_	_
+17	stata	essere	AUX	VA	_	18	aux:pass	_	_
+18	derubata	derubare	VERB	V	_	6	advcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	napoli	Napoli	PROPN	SP	_	18	obl	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	nel	in il	ADP	E_RD	_	23	case	_	_
+23	video	video	NOUN	S	_	25	obl	_	_
+24	appunto	appunto	ADV	B	_	23	advmod	_	DM=
+25	dicevo	dicevo	VERB	V	_	6	conj	_	_
+26	che	che	SCONJ	CS	_	28	mark	_	_
+27	sono	essere	AUX	VA	_	28	aux	_	_
+28	andata	andare	VERB	V	_	25	ccomp	_	_
+29	da	da	ADP	E	_	30	case	_	_
+30	new	New	PROPN	SP	_	28	obl	_	_
+31	martina	Martina	PROPN	SP	_	30	flat:name	_	_
+32	a	a	ADP	E	_	33	mark	_	_
+33	farmi	fare	AUX	V_PC	_	28	obl	_	_
+34	mettere	mettere	VERB	V	_	33	ccomp	_	_
+35	cover	cover	NOUN	S	_	34	obj	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	pellicola	pellicola	NOUN	S	_	35	conj	_	|AlignEnd=19
+38	quindi	quindi	ADV	B	_	40	advmod	_	AlignBegin=19.28|DM=
+39	a	a	ADP	E	_	40	mark	_	_
+40	farmi	fare	VERB	V_PC	_	34	conj	_	_
+41	fare	fare	VERB	V	_	40	ccomp	_	_
+42	insomma	insomma	ADV	B	_	41	advmod	_	DM=
+43	questo	questo	DET	DD	_	44	reparandum	_	_
+44	questo	questo	DET	DD	_	45	det	_	list_cxn_2=
+45	set	set	NOUN	S	_	34	obl	_	|AlignEnd=22

@@ -1,0 +1,440 @@
+# sent_id = G1224_H_1
+# text = Questa è la storia di una ragazza che ce l' ha fatta .
+1	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	AlignBegin=0
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	storia	storia	NOUN	S	Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	che	che	PRON	PR	_	12	nsubj	_	_
+9	ce	ce	PRON	PC	_	12	expl	_	_
+10	l'	lo	PRON	PC	_	12	obj	_	_
+11	ha	avere	AUX	VA	_	12	aux	_	_
+12	fatta	fare	VERB	V	_	7	acl:relcl	_	|AlignEnd=2
+
+# sent_id = G1224_H_2
+# text = Oggi non ti parlo di me ,
+1	oggi	oggi	ADV	B	_	4	advmod	_	AlignBegin=2.76
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ti	ti	PRON	PC	Case=Dat|Clitic=Yes|Person=2|PronType=Prs	4	obl	_	_
+4	parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+
+# sent_id = G1224_H_3
+# text = se non mi conosci ancora io sono NAME_PERSON , stilista e fondatrice del mio brand sartoriale .
+1	se	se	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Case=Acc|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	conosci	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	8	ccomp	_	_
+5	ancora	ancora	ADV	B	_	4	advmod	_	_
+6	io	io	PRON	PE	Case=Nom|PronType=Prs	8	nsubj	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	cop	_	_
+8	name_person	NAME_PERSON	PROPN	SP	_	0	root	_	_
+9	stilista	stilista	NOUN	S	Number=Sing	8	appos	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	fondatrice	fondatore	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+12	di	di	ADP	E_RD	_	15	case	_	_
+13	il	il	ADP	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mio	mio	DET	AP	Case=Gen|Definite=Def|Number=Sing|Person=1|Poss=Yes|PronNumber=Sing	15	det:poss	_	_
+15	brand	brand	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	11	nmod	_	_
+16	sartoriale	sartoriale	ADJ	A	Gender=Com|Number=Sing	15	amod	_	|AlignEnd=8
+
+# sent_id = G1224_H_4
+# text = Ma oggi ti parlo di NAME_PERSON ,
+1	ma	ma	CCONJ	CC	_	4	discourse	_	AlignBegin=8.38|DM=
+2	oggi	oggi	ADV	B	_	4	advmod	_	_
+3	ti	ti	PRON	PC	Case=Dat|Clitic=Yes|Person=2|PronType=Prs	4	iobj	_	_
+4	parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	name_person	NAME_PERSON	PROPN	SP	_	4	iobj	_	_
+
+# sent_id = G1224_H_5
+# text = una ragazza che ha fondato un brand di gioielli artigianali .
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing	2	det	_	_
+2	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
+5	fondato	fondare	VERB	V	Gender=Masc|Mood=Prp|Number=Sing|VerbForm=Part	2	advcl:relcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing	7	det	_	_
+7	brand	brand	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	gioielli	gioiello	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	artigianali	artigianale	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	|AlignEnd=13
+
+# sent_id = G1224_H_6
+# text = Quindi comunque ti parlerò di artigianato ,
+1	quindi	quindi	CCONJ	CC	_	4	discourse	_	AlignBegin=14.06|DM=Yes
+2	comunque	comunque	ADV	B	_	4	advmod	_	_
+3	ti	ti	PRON	PC	Case=Dat|Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
+4	parlerò	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	advcl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	artigianato	artigianato	NOUN	S	Gender=Masc|Number=Sing	4	iobj	_	_
+
+# sent_id = G1224_H_7
+# text = se sei un appassionato di artigianato resta perché {sp} ti racconterò una storia incredibile ,
+1	se	se	SCONJ	CS	_	4	mark	_	_
+2	sei	essere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing	4	det	_	_
+4	appassionato	appassionato	NOUN	S	Gender=Masc|Number=Sing	7	ccomp	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	artigianato	artigianato	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	resta	restare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	{sp}	pause	X	PC	_	8	discourse	_	_
+10	ti	ti	PRON	PC	Case=Dat|Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	obl	_	_
+11	racconterò	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut	7	advcl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing	13	det	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	incredibile	incredibile	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+
+# sent_id = G1224_H_8
+# text = se no skippa pure .
+1	se	se	SCONJ	CS	_	2	mark	_	_
+2	no	no	ADV	BN	PronType=Neg	3	ccomp	_	_
+3	skippa	skippare	VERB	A	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
+4	pure	pure	ADV	B	_	3	advmod	_	|AlignEnd=23
+
+# sent_id = G1224_H_9
+# text = Conobbi questa ragazza circa quattro anni fa , quando durante la pandemia decisi di fondare il mio brand .
+1	conobbi	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	AlignBegin=23.54
+2	questa	questo	DET	DD	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	circa	circa	ADV	B	_	5	advmod	_	_
+5	quattro	quattro	NUM	N	_	6	nummod	_	_
+6	anni	anno	NOUN	S	Number=Plur	1	nmod	_	_
+7	fa	fa	ADV	B	_	6	advmod	_	_
+8	quando	quando	SCONJ	CS	_	12	advmod	_	_
+9	durante	durante	ADP	E	_	11	mark	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pandemia	pandemia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+12	decisi	decidere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	6	acl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	fondare	fondare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronNumber=Sing	17	det:poss	_	_
+17	brand	brand	NOUN	S	Foreign=Yes|Gender=Masc|Number=Plur	14	obj	_	|AlignEnd=28
+
+# sent_id = G1224_H_10
+# text = Cercando tra i profili con cui collaborare mi sono imbattuta giusto nel suo profilo e vidi eeh che realizzava questi orecchini bellissimi ,
+1	cercando	cercare	VERB	V	VerbForm=Ger	10	xcomp	_	AlignBegin=28.54
+2	tra	tra	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	profili	profilo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+7	collaborare	collaborare	VERB	V	VerbForm=Inf	4	advcl:relcl	_	Prolonged=Yes
+8	mi	mi	PRON	PC	Case=Dat|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	expl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	10	aux	_	_
+10	imbattuta	imbattere	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+11	giusto	giusto	ADV	A	_	15	advmod	_	DM=Yes
+12	in	in	ADP	E_RD	_	15	case	_	_
+13	il	il	ADP	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	suo	suo	DET	AP	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronNumber=Sing	15	det:poss	_	_
+15	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	vidi	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	10	conj	_	_
+18	eeh	pause	X	PI	_	17	discourse	_	_
+19	che	che	SCONJ	CS	_	20	mark	_	_
+20	realizzava	realizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	17	ccomp	_	_
+21	questi	questo	DET	DD	Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
+22	orecchini	orecchino	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+23	bellissimi	bello	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	|AlignEnd=38
+
+# sent_id = G1224_H_11
+# text = ma la cosa che {sp} mi colpì di più è che era siciliana come me .
+1	ma	ma	CCONJ	CC	_	13	cc	_	AlignBegin=38.7
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	{sp}	pause	X	PC	_	4	discourse	_	_
+6	mi	mi	PRON	PC	Case=Acc|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	expl	_	_
+7	colpì	colpire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	più	più	ADV	B	_	7	advmod	_	_
+10	è	essere	VERB	V	_	13	cop	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	13	cop	_	_
+13	siciliana	siciliano	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+14	come	come	ADP	E	_	15	root	_	_
+15	me	me	PRON	PE	Case=Dat|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obl	_	|AlignEnd=42
+
+# sent_id = G1224_H_12
+# text = Di fatti il nome del brand è NAME_ENTITY , nome di origine greco che significa di fatti Sicilia .
+1	di	di	ADP	E	_	2	goeswith	_	DM=1
+2	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	9	discourse	_	DM=2
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	nome	nome	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	Prolonged=Yes
+5	di	di	ADP	E_RD	_	7	case	_	_
+6	il	il	ADP	E_RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	brand	brand	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	4	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
+9	name_entity	NAME_ENTITY	PROPN	SP	_	0	root	_	_
+10	nome	nome	NOUN	S	Gender=Masc|Number=Sing	15	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	origine	origine	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+13	greco	greco	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	acl:relcl	_	_
+16	di	di	ADP	E	_	17	goeswith	_	DM_1=
+17	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	15	discourse	_	DM_2=
+18	sicilia	Sicilia	PROPN	SP	_	15	nmod	_	|AlignEnd=48
+
+# sent_id = G1224_H_13
+# text = La cercai subito per chiederle una collaborazione e fu l' unica , dopo tanti tentativi di collaborazione con altri brand , a rendersi subito disponibile .
+1	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing	2	obj	_	AlignBegin=49.02
+2	cercai	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	chiedere	chiedere	VERB	V_PC	VerbForm=Inf	2	xcomp	_	_
+6	le	gli	PRON	V_PC	Case=Dat|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	_
+11	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	unica	unico	PRON	A	Gender=Fem|Number=Sing	2	conj	_	_
+13	dopo	dopo	ADP	E	_	15	case	_	_
+14	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	tentativi	tentativo	NOUN	S	Gender=Masc|Number=Plur	2	advmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	altri	altro	ADJ	A	Gender=Masc|Number=Plur|PronType=Ind	20	amod	_	_
+20	brand	brand	NOUN	S	Foreign=Yes|Gender=Masc|Number=Sing	17	nmod	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	rendere	rendere	VERB	V_PC	VerbForm=Inf	12	xcomp	_	_
+23	si	si	PRON	V_PC	_	22	expl	_	_
+24	subito	subito	ADV	B	_	22	advmod	_	_
+25	disponibile	disponibile	ADJ	A	Number=Sing	22	amod	_	|AlignEnd=57
+
+# sent_id = G1224_H_14
+# text = Quindi le feci vedere il primo vestito eeh che di / idealizzai e che mi feci fare allora da una sarta perché io non sapevo ancora cucire né tanto meno avevo gli strumenti per farlo .
+1	quindi	quindi	ADV	B	_	4	discourse	_	AlignBegin=57.78|DM=Yes
+2	le	gli	PRON	PC	Case=Dat|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+3	feci	feci	NOUN	S	Mood=Ind|Number=Sing|Person=1|Tense=Past	4	aux	_	_
+4	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	primo	primo	ADJ	NO	Gender=Masc|Number=Sing	7	amod	_	_
+7	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	eeh	pause	X	PC	_	7	discourse	_	_
+9	che	che	CCONJ	CC	PronType=Rel	12	nsubj	_	_
+10	di	di	ADP	E	_	12	reparandum	_	Interrupted=Yes
+11	/	pause	X	FF	_	10	discourse	_	_
+12	idealizzai	idealizzare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	7	acl:relcl	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	che	che	SCONJ	CS	PronType=Rel	17	mark	_	_
+15	mi	mi	PRON	PC	Case=Dat|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+16	feci	feci	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	17	aux	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	12	conj	_	_
+18	allora	allora	ADV	B	_	17	advmod	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sarta	sarta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22	perché	perché	SCONJ	CS	_	27	mark	_	_
+23	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+25	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp	27	aux	_	_
+26	ancora	ancora	ADV	B	_	25	advmod	_	_
+27	cucire	cucire	VERB	V	VerbForm=Inf	17	advmod	_	_
+28	né	né	CCONJ	CC	PronType=Neg	31	cc	_	_
+29	tanto	tanto	ADV	B	_	31	advmod	_	InIdiom=Yes
+30	meno	meno	ADV	B	_	29	goeswith	_	InIdiom=Yes
+31	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp	27	conj	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	31	obj	_	_
+34	per	per	ADP	E	_	35	mark	_	_
+35	fare	fare	VERB	V_PC	VerbForm=Inf	33	advcl	_	_
+36	lo	lo	VERB	V_PC	Case=Acc|Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	advcl	_	|AlignEnd=69
+
+# sent_id = G1224_H_15
+# text = Vi faccio vedere il vestito bellissimo che mi ero fatta realizzare .
+1	vi	vi	PRON	PC	Case=Dat|Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	AlignBegin=69.54
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	aux	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	bellissimo	bello	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	che	che	SCONJ	CS	PronType=Rel	11	mark	_	_
+8	mi	mi	PRON	PC	Case=Dat|Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+9	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp	10	aux	_	_
+10	fatta	fare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	11	aux	_	_
+11	realizzare	realizzare	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
+
+# sent_id = G1224_H_16
+# text = Tra l' altro per me divenne un' icona e lei decise di realizzare per me in abbinamento questi orecchini che adesso vi mostro .
+1	tra	tra	ADP	E	_	3	case	_	DM=1
+2	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	DM=2
+3	altro	altro	PRON	PI	Gender=Masc|Number=Sing	6	discourse	_	DM=3
+4	per	per	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+6	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	icona	icona	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	lei	lei	PRON	PE	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	decise	decidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	realizzare	realizzare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	me	me	PRON	PE	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	abbinamento	abbinamento	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	questi	questo	DET	DD	Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+19	orecchini	orecchino	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+21	adesso	adesso	ADV	B	_	23	advmod	_	_
+22	vi	vi	PRON	PC	Case=Dat|Number=Plur|Person=2|PronType=Prs	23	iobj	_	_
+23	mostro	mostro	NOUN	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	19	acl:relcl	_	|AlignEnd=82
+
+# sent_id = G1224_H_17
+# text = Questa è la scatola .
+1	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	AlignBegin=82.46
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scatola	scatola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	|AlignEnd=83
+
+# sent_id = G1224_H_18
+# text = Questi sono gli orecchini .
+1	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	AlignBegin=86.98
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	cop	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	orecchini	orecchino	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+
+# sent_id = G1224_H_19
+# text = lp Bellissimi .
+1	lp	pause	X	PC	_	2	discourse	_	_
+2	bellissimi	bello	ADJ	SP	Degree=Sup|Gender=Masc|Number=Plur	0	root	_	_
+
+# sent_id = G1224_H_20
+# text = Qui c' è scritto anche il loro motto
+1	qui	qui	ADV	B	_	4	advmod	_	_
+2	c'	ci	PRON	PC	_	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
+4	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	anche	anche	ADV	B	_	4	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronNumber=Plur	8	det:poss	_	_
+8	motto	motto	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+
+# sent_id = G1224_H_21
+# text = se è leggero è NAME_ENTITY .
+1	se	se	SCONJ	CS	_	3	mark	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
+3	leggero	leggero	ADJ	A	Gender=Masc|Number=Sing	5	advcl	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+5	name_entity	NAME_ENTITY	PROPN	SP	_	0	root	_	_
+
+# sent_id = G1224_H_22
+# text = Questo difatti è l' orecchino e dietro era stato realizzato così .
+1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	di	di	CCONJ	CC	_	3	case	_	DM=1
+3	fatti	fatti	CCONJ	CC	Gender=Masc|Number=Plur	1	discourse	_	DM=2
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+5	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	orecchino	orecchino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	dietro	dietro	ADV	B	_	11	advmod	_	_
+9	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	10	aux:pass	_	_
+10	stato	essere	AUX	VA	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	aux:pass	_	_
+11	realizzato	realizzare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	_
+12	così	così	ADV	B	_	11	advmod	_	_
+
+# sent_id = G1224_H_23
+# text = Per me avere nelle mani già allora un gioiello così realizzato a mano era già tanta roba .
+1	per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	_	_
+3	avere	avere	VERB	V	VerbForm=Inf	15	csubj	_	_
+4	in	in	ADP	E_RD	_	6	case	_	_
+5	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	mani	mano	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	già	già	ADV	B	_	3	advmod	_	_
+8	allora	allora	ADV	B	_	3	advmod	_	AlignEnd=109.66
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=109.66
+10	gioiello	gioiello	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	realizzato	realizzare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	10	acl:relcl	_	_
+13	a	a	ADP	E	_	9	case	_	_
+14	mano	mano	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
+16	già	già	ADV	B	_	15	advmod	_	_
+17	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+18	roba	roba	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+
+# sent_id = G1224_H_24
+# text = Non so se capite bene il valore eeh di una cosa realizzata per qualcun altro fatta con le proprie mani ,
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	DM_1=
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	DM_2=
+3	se	se	SCONJ	CS	_	4	case	_	DM_3=
+4	capite	capite	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	ccomp	_	_
+5	bene	bene	ADV	B	_	4	_	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	valore	valore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	eeh	eeh	CCONJ	CC	_	7	discourse	_	Prolonged=Yes
+9	di	di	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	AlignEnd=115.92
+12	realizzata	realizzare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	11	acl:relcl	_	AlignBegin=115.92
+13	per	per	ADP	E	_	15	case	_	_
+14	qualcun	qualcuno	DET	DI	Gender=Masc|Number=Sing	15	det	_	_
+15	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	_
+16	fatta	fare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	11	acl:relcl	_	_
+17	con	con	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	proprie	proprio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes	20	det:poss	_	_
+20	mani	mano	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+
+# sent_id = G1224_H_25
+# text = ha un valore veramente grandissimo .
+1	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	valore	valore	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	veramente	veramente	ADV	B	_	5	advmod	_	_
+5	grandissimo	grande	ADJ	A	Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	_
+
+# sent_id = G1224_H_26
+# text = Il fatto sta che eeh ho tanto pubblicizzato quell' abito o anche collaborato con influencer ma niente
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	eeh	pause	X	PC	_	3	discourse	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres	8	aux	_	_
+7	tanto	tanto	ADV	B	PronType=Ind	8	advmod	_	_
+8	pubblicizzato	pubblicizzare	VERB	V	Gender=Masc|Number=Sing|VerbForm=Part	3	ccomp	_	_
+9	quell'	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	abito	abito	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	collaborato	collaborare	VERB	V	_	8	conj	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	influencer	influencer	NOUN	S	Gender=Com|Number=Plur	13	obl	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	niente	niente	PRON	PI	_	13	conj	_	AlignEnd=130.28
+
+# sent_id = G1224_H_27
+# text = nessuno lo acquistò .
+1	nessuno	nessuno	PRON	PI	PronType=Ind	3	nsubj	_	AlignBegin=130.28
+2	lo	lo	PRON	PC	Gender=Masc|Number=Sing	3	obj	_	_
+3	acquistò	acquistare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = G1224_H_28
+# text = Ma la storia non finì qui
+1	ma	ma	CCONJ	CC	_	5	mark	_	DM=
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	storia	storia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	finì	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	qui	qui	ADV	B	_	5	advmod	_	_
+
+# sent_id = G1224_H_29
+# text = ve lo voglio raccontare in il prossimo video .
+1	ve	vi	PRON	PC	Case=Dat|Clitic=Yes|Person=2|PronNumber=Plur	4	iobj	_	_
+2	lo	lo	PRON	PC	Case=Acc|Clitic=Yes|Gender=Masc|Number=Sing	4	obj	_	_
+3	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	aux	_	_
+4	raccontare	raccontare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E_RD	_	8	case	_	_
+6	il	il	ADP	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	video	video	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	|AlignEnd=136
