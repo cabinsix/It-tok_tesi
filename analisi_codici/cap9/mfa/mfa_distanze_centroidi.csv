@@ -1,0 +1,8 @@
+tipologia_Gen,conversazione libera,intervista,lezione,ricevimento,risposta,stitch,storytime
+conversazione libera,0.0,1.799,3.81,1.511,5.039,5.234,5.238
+intervista,1.799,0.0,2.061,1.051,3.266,3.559,3.837
+lezione,3.81,2.061,0.0,2.539,1.238,2.539,3.506
+ricevimento,1.511,1.051,2.539,0.0,3.77,4.493,4.875
+risposta,5.039,3.266,1.238,3.77,0.0,2.253,3.522
+stitch,5.234,3.559,2.539,4.493,2.253,0.0,1.347
+storytime,5.238,3.837,3.506,4.875,3.522,1.347,0.0
