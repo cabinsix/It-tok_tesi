@@ -20,19 +20,19 @@ df_pct = pd.DataFrame(data_percentuali).set_index("UPOS")
 upos_selezionate = ["NOUN", "VERB", "ADP", "DET", "ADV", "PRON", "AUX", "ADJ", "CCONJ", "SCONJ", "PROPN"]
 df_filtered = df_pct.loc[upos_selezionate]
 
-# Trasponiamo per avere i corpora sulle righe e calcoliamo Pearson
-matrice_pearson = df_filtered.T.corr(method="pearson")
+# Trasponiamo per avere i corpora sulle righe e calcoliamo spearman
+matrice_spearman = df_filtered.T.corr(method="spearman")
 
 # 3. Creiamo la "maschera" per nascondere il triangolo inferiore
 # k=-1 nasconde tutto ciò che sta rigorosamente sotto la diagonale principale
-mask = np.tril(np.ones_like(matrice_pearson, dtype=bool), k=-1)
+mask = np.tril(np.ones_like(matrice_spearman, dtype=bool), k=-1)
 
 # 4. Generazione del grafico
 plt.figure(figsize=(10, 8))
 
 # Disegniamo la heatmap applicando maschera e colori specifici
 sns.heatmap(
-    matrice_pearson, 
+    matrice_spearman, 
     mask=mask,               # Nasconde il triangolo inferiore
     annot=True,              # Mostra i numeri
     cmap="PiYG_r",           # Mappa colori Rosa (+1) e Verde (-1)

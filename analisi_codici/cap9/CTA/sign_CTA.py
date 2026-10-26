@@ -5,7 +5,7 @@ from scipy import stats
 df = pd.read_csv("cta_sentence_level.csv")
 
 # 2. Filtra solo i tre corpora di interesse
-target_corpora = ["trittok_gen", "trittok_polso", "postwita"]
+target_corpora = ["trittok_gen", "trittok_polso"]
 df_filtered = df[df["corpus"].isin(target_corpora)].copy()
 
 # 3. Creazione delle variabili binarie (Presenza/Assenza = True/False)
@@ -31,8 +31,6 @@ indicatori = {
 }
 
 coppie = [
-    ("postwita", "trittok_gen"),
-    ("postwita", "trittok_polso"),
     ("trittok_gen", "trittok_polso")
 ]
 num_confronti = len(coppie)
@@ -66,7 +64,7 @@ for nome_indicatore, colonna in indicatori.items():
     
     if p_global < 0.05:
         print("-> RISULTATO: Differenza globale SIGNIFICATIVA (p < 0.05).")
-        print("-> Esecuzione dei confronti post-hoc a coppie:")
+        
         
         # 2. Test Post-Hoc
         for c1, c2 in coppie:

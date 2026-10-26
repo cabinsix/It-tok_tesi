@@ -9,14 +9,14 @@ library(lme4)
 library(car)          # Anova() -> test globale sull'effetto corpus
 library(emmeans)      # confronti a coppie post-hoc
 library(performance)  # controllo sovradispersione
-
+library(glmmTMB)
 # --- 1. SELEZIONA IL FILE ---
 percorso <- file.choose()   # si apre una finestra per scegliere il CSV
 df <- read.csv(percorso, stringsAsFactors = FALSE)
 
 # --- Corpora da escludere ---
 # (Modifica questa lista in base ai test che vuoi effettuare)
-escludere <- c("isdt", "kiparla", "Ittok", "parlamint", "tr-it-tok", "gen","polso")
+escludere <- c("isdt", "kiparla", "Ittok", "parlamint", "tr-it-tok", "gen","polso","postwita")
 # Puoi aggiungere alla riga sopra anche "gen", "polso", "trittok_gen", "trittok_polso" o "kiparla2.18" all'occorrenza.
 
 df <- df[!(df$corpus %in% escludere), ]
@@ -53,6 +53,14 @@ df$log_token <- log(df$n_token)
 cat("\n>>> Unita' (gruppi) per corpus:\n")
 print(tapply(df$gruppo, df$corpus, function(x) length(unique(x))))
 
+
+lev <- levels(df$corpus)
+peso <- function(v) { w <- setNames(rep(0, length(lev)), lev); w[names(v)] <- v; unname(w) }
+contrasti <- list(
+  `Gen - PolSo`      = peso(c(trittok_gen = 1, trittok_polso = -1)),
+  `TikTok - KIParla` = peso(c(trittok_gen = 0.5, trittok_polso = 0.5, kiparla2.18 = -1))
+)
+
 # ============================================================
 # A) CONTEGGI -> glmer Poisson con offset log(token)
 # ============================================================
@@ -75,11 +83,21 @@ for (nome in names(conteggi)) {
   disp <- tryCatch(check_overdispersion(m), error = function(e) NULL)
   if (!is.null(disp)) print(disp)
   
+  if (!is.null(disp) && disp$p_value < 0.05) {
+    cat("\n>>> Sovradispersione: uso binomiale negativa\n")
+    m <- glmmTMB(f, data = df, family = nbinom2)
+  }
+  
+  cat("\n-- Random effect --\n")
+  print(VarCorr(m))
+  print(performance::icc(m))
+  cat("Fit singolare:", performance::check_singularity(m), "\n")
+  
   cat("\n-- Test globale effetto 'corpus' --\n")
   print(Anova(m, type = "II"))
   
-  cat("\n-- Confronti a coppie (emmeans, Tukey) --\n")
-  print(pairs(emmeans(m, ~ corpus)))
+  cat("\n-- Contrasti mirati (Bonferroni su 2) --\n")
+  print(contrast(emmeans(m, ~ corpus), method = contrasti, adjust = "bonferroni"))
 }
 
 # ============================================================
@@ -99,9 +117,199 @@ for (nome in names(continue)) {
                 error = function(e) { cat("Errore nel fit:", conditionMessage(e), "\n"); NULL })
   if (is.null(m)) next
   
+  cat("\n-- Random effect --\n")
+  print(VarCorr(m))
+  print(performance::icc(m))
+  cat("Fit singolare:", performance::check_singularity(m), "\n")
+  
   cat("\n-- Test globale effetto 'corpus' --\n")
   print(Anova(m, type = "II"))
   
-  cat("\n-- Confronti a coppie (emmeans, Tukey) --\n")
-  print(pairs(emmeans(m, ~ corpus)))
+  cat("\n-- Confronti a coppie --\n")
+  print(contrast(emmeans(m, ~ corpus), method = contrasti, adjust = "bonferroni"))
 }
+
+library(tidyr)
+emo <- c("gioia","sorpresa","fiducia","aspettativa","tristezza","paura","disgusto","rabbia")
+df$frase <- paste(df$gruppo, seq_len(nrow(df)), sep = "_")
+
+long <- pivot_longer(df, cols = paste0("avg_", emo),
+                     names_to = "emozione", values_to = "valore")
+
+m_int <- lmer(valore ~ corpus * emozione + (1 | gruppo) + (1 | frase), data = long)
+print(Anova(m_int, type = "II"))
+
+
+
+cat("\n-- Interazione con varianza residua specifica per emozione --\n")
+m_int2 <- glmmTMB(valore ~ corpus * emozione + (1 | gruppo) + (1 | frase),
+                  dispformula = ~ emozione, data = long)
+print(Anova(m_int2, type = "II"))
+
+
+# ============================================================
+# C) EMOZIONI SINGOLE -> un lmer per emozione
+# BH globale su 8 emozioni x 2 contrasti = 16 test
+# ============================================================
+risultati <- list()
+
+for (e in emo) {
+  y <- paste0("avg_", e)
+  cat("\n\n=========================================\n")
+  cat("===", e, "(lineare misto) ===\n")
+  cat("=========================================\n")
+  
+  m <- lmer(as.formula(paste0(y, " ~ corpus + (1 | gruppo)")), data = df, REML = TRUE)
+  
+  cat("\n-- Test globale effetto 'corpus' --\n")
+  print(Anova(m, type = "II"))
+  
+  d <- as.data.frame(contrast(emmeans(m, ~ corpus), method = contrasti, adjust = "none"))
+  d$emozione <- e
+  print(d[, c("contrast", "estimate", "SE", "df", "t.ratio", "p.value")])
+  risultati[[e]] <- d
+}
+
+tutti <- do.call(rbind, risultati); rownames(tutti) <- NULL
+tutti$p_BH <- p.adjust(tutti$p.value, method = "BH")
+tutti <- tutti[order(tutti$p_BH), ]
+
+cat("\n\n### TABELLA RIASSUNTIVA (BH su", nrow(tutti), "test) ###\n")
+print(tutti[, c("emozione", "contrast", "estimate", "SE", "df", "t.ratio", "p.value", "p_BH")],
+      row.names = FALSE, digits = 3)
+
+# ============================================================
+# D) PCA delle emozioni: centroidi per corpus + loadings
+# ============================================================
+library(ggplot2)
+
+emo_cols <- paste0("avg_", emo)
+ok  <- complete.cases(df[, emo_cols])
+Xs  <- scale(as.matrix(df[ok, emo_cols]))
+grp <- droplevels(df$corpus[ok])
+levels(grp) <- c(kiparla2.18 = "KIParla", trittok_gen = "TrIttok_Gen",
+                 trittok_polso = "TrIttok_PolSo")[levels(grp)]
+
+pca <- prcomp(Xs, center = FALSE, scale. = FALSE)
+ve  <- round(100 * summary(pca)$importance[2, 1:2], 1)
+scores <- data.frame(PC1 = pca$x[, 1], PC2 = pca$x[, 2], corpus = grp)
+
+agg <- do.call(rbind, lapply(split(scores, scores$corpus), function(d) {
+  n <- nrow(d)
+  data.frame(corpus = d$corpus[1], PC1 = mean(d$PC1), PC2 = mean(d$PC2),
+             se1 = sd(d$PC1) / sqrt(n), se2 = sd(d$PC2) / sqrt(n))
+}))
+
+load <- as.data.frame(pca$rotation[, 1:2]); load$emo <- sub("^avg_", "", rownames(load))
+sc <- max(abs(c(agg$PC1, agg$PC2))) / max(abs(as.matrix(load[, 1:2]))) * 0.9
+
+p <- ggplot() +
+  geom_hline(yintercept = 0, color = "grey85") + geom_vline(xintercept = 0, color = "grey85") +
+  geom_segment(data = load, aes(x = 0, y = 0, xend = PC1 * sc, yend = PC2 * sc),
+               arrow = arrow(length = unit(0.15, "cm")), color = "grey55", linewidth = 0.4) +
+  geom_text(data = load, aes(x = PC1 * sc * 1.12, y = PC2 * sc * 1.12, label = emo),
+            size = 3.3, color = "grey35") +
+  geom_errorbar(data = agg, aes(x = PC1, ymin = PC2 - se2, ymax = PC2 + se2, color = corpus),
+                width = 0, linewidth = 0.6) +
+  geom_errorbarh(data = agg, aes(y = PC2, xmin = PC1 - se1, xmax = PC1 + se1, color = corpus),
+                 height = 0, linewidth = 0.6) +
+  geom_point(data = agg, aes(PC1, PC2, fill = corpus),
+             size = 6, shape = 21, color = "black", stroke = 0.9) +
+  geom_text(data = agg, aes(PC1, PC2, label = corpus), vjust = -1.6, size = 3.4, fontface = "bold") +
+  labs(title = "Baricentri dei corpora nello spazio emotivo (PCA)",
+       subtitle = "frecce = emozioni (loadings), barre = SE del baricentro",
+       x = paste0("PC1 (", ve[1], "%)"), y = paste0("PC2 (", ve[2], "%)")) +
+  coord_equal() + theme_minimal(base_size = 12) + theme(legend.position = "none")
+
+ggsave("pca_centroidi.png", p, width = 8.5, height = 7, dpi = 300)
+print(p)
+
+cat("\n=== Varianza spiegata PC1/PC2 (%) ===\n"); print(ve)
+cat("\n=== Coordinate dei baricentri ===\n")
+print(agg[, c("corpus", "PC1", "PC2")], row.names = FALSE, digits = 3)
+cat("\n=== Loadings ===\n")
+print(load[order(-abs(load$PC1)), c("emo", "PC1", "PC2")], row.names = FALSE, digits = 3)
+
+
+# ============================================================
+# E) GRAFICO A RAGNATELA DEL PROFILO EMOTIVO
+# Da eseguire dopo il resto dello script (usa l'oggetto df)
+# ============================================================
+library(ggplot2)
+
+# --- Impostazioni ---------------------------------------------
+# TRUE  = profilo relativo: per ogni corpus le 8 emozioni sommano a 100%
+#         (mostra la FORMA del profilo, cioe' cio' che l'interazione ha testato)
+# FALSE = valori medi per frase cosi' come sono
+profilo_relativo <- TRUE
+
+# Ordine della ruota di Plutchik: le emozioni opposte stanno ai lati opposti
+emo_ord <- c("gioia", "fiducia", "paura", "sorpresa",
+             "tristezza", "disgusto", "rabbia", "aspettativa")
+
+nomi_corpus <- c(kiparla2.18   = "KIParla",
+                 trittok_gen   = "Tr-It-tok Gen",
+                 trittok_polso = "Tr-It-tok PolSo")
+
+colori <- c("KIParla"         = "#7A7A7A",
+            "Tr-It-tok Gen"   = "#2F6DB5",
+            "Tr-It-tok PolSo" = "#D1495B")
+
+# --- 1. Media per corpus di ciascuna emozione ---------------------
+cols <- paste0("avg_", emo_ord)
+medie <- aggregate(df[, cols], by = list(corpus = df$corpus),
+                   FUN = mean, na.rm = TRUE)
+
+mat <- as.matrix(medie[, cols])
+if (profilo_relativo) mat <- 100 * mat / rowSums(mat)
+
+# --- 2. Formato lungo ---------------------------------------------
+radar <- data.frame(
+  corpus   = rep(nomi_corpus[as.character(medie$corpus)], times = length(emo_ord)),
+  emozione = rep(emo_ord, each = nrow(medie)),
+  pos      = rep(seq_along(emo_ord), each = nrow(medie)),
+  valore   = as.vector(mat)
+)
+radar$corpus <- factor(radar$corpus, levels = names(colori))
+
+cat("\n=== Valori del grafico a ragnatela ===\n")
+print(reshape(radar[, c("corpus", "emozione", "valore")],
+              idvar = "emozione", timevar = "corpus", direction = "wide"),
+      row.names = FALSE, digits = 3)
+
+# --- 3. Coordinate radar (linee dritte tra i vertici) -------------
+coord_radar <- function(start = 0) {
+  ggproto("CoordRadar", CoordPolar, theta = "x", r = "y",
+          start = start, direction = 1, clip = "off",
+          is_linear = function(coord) TRUE)
+}
+
+n <- length(emo_ord)
+etichetta_y <- if (profilo_relativo) "% sul totale emotivo" else "valore medio per frase"
+
+# --- 4. Grafico ---------------------------------------------------
+p_radar <- ggplot(radar, aes(x = pos, y = valore, group = corpus,
+                             colour = corpus, fill = corpus)) +
+  geom_polygon(alpha = 0.12, linewidth = 0.9) +
+  geom_point(size = 2.2) +
+  scale_x_continuous(limits = c(1, n + 1), breaks = seq_len(n),
+                     labels = emo_ord) +
+  scale_y_continuous(limits = c(0, NA), expand = expansion(mult = c(0, 0.05))) +
+  scale_colour_manual(values = colori) +
+  scale_fill_manual(values = colori) +
+  coord_radar() +
+  labs(title = "Profilo emotivo dei corpora",
+       subtitle = if (profilo_relativo)
+         "Peso relativo di ciascuna emozione (le otto emozioni sommano a 100%)"
+       else "Valore medio per frase di ciascuna emozione",
+       x = NULL, y = etichetta_y, colour = NULL, fill = NULL) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom",
+        axis.text.x = element_text(size = 11, colour = "grey20"),
+        axis.text.y = element_text(size = 8, colour = "grey50"),
+        panel.grid.major = element_line(colour = "grey85"),
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(face = "bold"))
+
+ggsave("radar_profilo_emotivo.png", p_radar, width = 7.5, height = 7.5, dpi = 300)
+print(p_radar)

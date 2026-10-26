@@ -5,7 +5,7 @@ import scikit_posthocs as sp
 
 # === 1. CARICA ===
 df = pd.read_csv("elita_sup_sentence_level.csv")   # <-- nome del tuo file
-corpora_da_escludere = ["isdt", "kiparla","Ittok","gen","polso","parlamint","tr-it-tok"]   # <-- MODIFICA QUI
+corpora_da_escludere = ["isdt", "kiparla","Ittok","gen","polso","parlamint","tr-it-tok","postwita"]   # <-- MODIFICA QUI
 df = df[~df["corpus"].isin(corpora_da_escludere)]
 
 # quante frasi per corpus

@@ -1,0 +1,206 @@
+# sent_id = 1124_S_1
+# text = Ciò che non nominiamo non esiste .
+1	ciò	ciò	PRON	PD	Number=Sing|PronType=Dem	6	nsubj	_	AlignBegin=0
+2	che	che	PRON	PR	_	4	obj	_	_
+3	non	non	ADV	BN	Polarity=Neg	4	advmod	_	_
+4	nominiamo	nominare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	1	acl:relcl	_	_
+5	non	non	ADV	BN	Polarity=Neg	6	advmod	_	_
+6	esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 1124_S_2
+# text = Ed ecco perché , anche se sembra banale , è molto importante declinare al femminile i nomi di alcune professioni come presidentessa , avvocata , sindaca , diplomatica e via dicendo .
+1	ed	e	CCONJ	CC	_	2	cc	_	_
+2	ecco	ecco	ADV	B	_	10	discourse	_	_
+3	perché	perché	SCONJ	CS	_	2	mark	_	_
+4	anche	anche	ADV	B	_	6	mark	_	_
+5	se	se	SCONJ	CS	_	4	fixed	_	_
+6	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	advcl	_	_
+7	banale	banale	ADJ	A	Gender=Com|Number=Sing	6	xcomp	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	importante	importante	ADJ	A	Gender=Com|Number=Sing	0	root	_	_
+11	declinare	declinare	VERB	V	VerbForm=Inf	10	csubj	_	_
+12	a	a	ADP	E_RD	_	14	case	_	_
+13	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	femminile	femminile	ADJ	S	Gender=Com|Number=Sing	11	obl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur	19	det	_	_
+19	professioni	professione	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	come	come	ADP	E	_	21	case	_	Prolonged=Yes
+21	presidentessa	presidente	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	avvocata	avvocato	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+23	sindaca	sindaco	NOUN	S	Gender=Fem|Number=Sing	22	conj	_	_
+24	diplomatica	diplomatico	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	via	via	ADV	B	_	27	advmod	_	GeneralExtender=Yes
+27	dicendo	dire	VERB	V	VerbForm=Ger	24	conj	_	|AlignEnd=16
+
+# sent_id = 1124_S_3
+# text = Il fatto che non siano ancora di uso comune , o che suonino strani , o che magari alcuni nomi non siano ancora stati inventati , non vuol dire che non possiamo e non dobbiamo usarli .
+1	il	il	DET	RD	_	2	det	_	AlignBegin=16.6
+2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	non	non	ADV	BN	Polarity=Neg	8	advmod	_	_
+5	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres	8	cop	_	_
+6	ancora	ancora	ADV	B	_	8	advmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	uso	uso	NOUN	S	Gender=Masc|Number=Sing	2	advcl	_	_
+9	comune	comune	ADJ	A	Gender=Com|Number=Sing	8	amod	_	_
+10	o	o	CCONJ	CC	_	12	cc	_	_
+11	che	che	PRON	PR	_	12	mark	_	_
+12	suonino	suonare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres	8	conj	_	_
+13	strani	strano	ADJ	A	Gender=Masc|Number=Plur	12	xcomp	_	_
+14	o	o	CCONJ	CC	_	23	cc	_	_
+15	che	che	SCONJ	CS	_	23	mark	_	_
+16	magari	magari	ADV	B	_	23	advmod	_	DM=Yes
+17	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur	18	det	_	_
+18	nomi	nome	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+19	non	non	ADV	BN	Polarity=Neg	23	advmod	_	_
+20	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres	22	aux:pass	_	_
+21	ancora	ancora	ADV	B	_	23	advmod	_	_
+22	stati	essere	AUX	VA	Gender=Masc|Number=Plur|VerbForm=Part	23	aux:pass	_	_
+23	inventati	inventare	VERB	V	Gender=Masc|Number=Plur|VerbForm=Part	12	conj	_	_
+24	non	non	ADV	BN	Polarity=Neg	26	advmod	_	_
+25	vuol	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres	26	aux	_	_
+26	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+27	che	che	SCONJ	CS	_	29	mark	_	_
+28	non	non	ADV	BN	Polarity=Neg	29	advmod	_	_
+29	possiamo	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	26	ccomp	_	_
+30	e	e	CCONJ	CC	_	33	cc	_	_
+31	non	non	ADV	BN	Polarity=Neg	33	advmod	_	_
+32	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres	33	aux	_	_
+33	usare	usare	VERB	V_PC	VerbForm=Inf	29	conj	_	_
+34	li	li	PRON	V_PC	Gender=Masc|Number=Plur|Person=3	33	obj	_	|AlignEnd=26
+
+# sent_id = 1124_S_4
+# text = Anzi , le parole hanno il potere di dare forma al mondo .
+1	anzi	anzi	ADV	B	_	4	advmod	_	AlignBegin=26.8
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	potere	potere	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	Prolonged=Yes
+8	dare	dare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	forma	forma	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	a	a	ADP	E_RD	_	12	case	_	_
+11	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mondo	mondo	NOUN	S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	obl	_	Interrupted=Yes
+
+# sent_id = 1124_S_5
+# text = Ad esempio la parola abracadabra , non so se lo sapete , ma secondo alcune ipotesi significa io creo mentre parlo , ed è proprio legata al potere che hanno le parole di creare e dare forma al mondo .
+1	ad	a	ADP	E	_	2	case	_	DM=1
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	DM=2
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	parola	parola	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+5	abracadabra	abracadabra	ADV	SP	Foreign=Yes	4	xcomp	_	_
+6	non	non	ADV	BN	Polarity=Neg	7	advmod	_	_
+7	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+10	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	ccomp	_	_
+11	ma	ma	CCONJ	CC	_	15	cc	_	_
+12	secondo	secondo	ADP	E	_	14	case	_	_
+13	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	ipotesi	ipotesi	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+15	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	conj	_	_
+16	io	io	PRON	PE	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	creo	creare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	15	xcomp	_	_
+18	mentre	mentre	SCONJ	CS	_	19	mark	_	_
+19	parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	17	advcl	_	_
+20	ed	e	CCONJ	CC	_	23	cc	_	_
+21	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	aux:pass	_	_
+22	proprio	proprio	ADV	B	_	23	advmod	_	_
+23	legata	legare	VERB	V	Gender=Fem|Number=Sing|VerbForm=Part	15	conj	_	_
+24	a	a	ADP	E_RD	_	26	case	_	_
+25	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	potere	potere	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	che	che	PRON	PR	_	28	obj	_	_
+28	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	26	acl:relcl	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	parole	parola	NOUN	S	Gender=Fem|Number=Plur	28	nsubj	_	_
+31	di	di	ADP	E	_	32	mark	_	_
+32	creare	creare	VERB	V	VerbForm=Inf	28	acl	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	dare	dare	VERB	V	VerbForm=Inf	32	conj	_	_
+35	forma	forma	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	_
+36	a	a	ADP	E_RD	_	38	case	_	_
+37	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	34	obl	_	Interrupted=Yes|AlignEnd=46
+
+# sent_id = 1124_S_6
+# text = Il genere grammaticale delle nostre parole è una pura convenzione linguistica .
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=46.92
+2	genere	genere	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	grammaticale	grammaticale	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E_RD	_	7	case	_	_
+5	le	il	DET	E_RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	nostre	nostro	DET	AP	Case=Gen|Gender=Fem|Number=Plur|Person=1|PronNumber=Plur|PronType=Prs	7	det:poss	_	_
+7	parole	parola	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Prolonged=Yes
+10	pura	puro	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	convenzione	convenzione	NOUN	S	Gender=Fem|Number=Sing	11	ROOT	_	_
+12	linguistica	linguistico	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	|AlignEnd=51
+
+# sent_id = 1124_S_7
+# text = La nostra lingua italiana è una lingua androcentrica {sp} influenza il modo in cui noi vediamo il mondo , accentuando gli stereotipi di genere .
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=52.44
+2	nostra	nostro	DET	AP	Case=Gen|Gender=Fem|Number=Plur|Person=1|PronNumber=Sing|PronType=Prs	3	det:poss	_	_
+3	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	androcentrica	androcentrico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	{sp}	pause	X	FS	_	7	discourse	_	AlignEnd=55.7
+10	influenza	influenza	VERB	E	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	conj	_	AlignBegin=56.8
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	modo	modo	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cui	cui	PRON	PR	_	16	obl	_	_
+15	noi	noi	PRON	PE	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+16	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	12	acl:relcl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	accentuando	accentuare	VERB	V	VerbForm=Ger	16	advcl	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	stereotipi	stereotipo	NOUN	S	Gender=Masc|Number=Plur	19	obj	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	genere	genere	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	|AlignEnd=61
+
+# sent_id = 1124_S_8
+# text = Ogni giorno nascono dei neologismi , alcuni che fanno anche schifo , per le cose più disparate .
+1	ogni	ogni	DET	DI	_	2	det	_	AlignBegin=61.96
+2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	nascono	nascere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	dei	di	DET	DI	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	neologismi	neologismo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	appos	_	_
+7	che	che	PRON	PR	_	8	nsubj	_	_
+8	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	acl:relcl	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	schifo	schifo	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	disparate	disparato	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	|AlignEnd=67
+
+# sent_id = 1124_S_9a
+# text = Quindi perché opponiamo resistenza all' uso del femminile in alcune professioni ?
+1	quindi	quindi	CCONJ	CC	_	3	cc	_	AlignBegin=68.36
+2	perché	perché	SCONJ	CS	PronType=Int	3	mark	_	_
+3	opponiamo	opponere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+4	resistenza	resistenza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+5	a	a	ADP	E_RD	_	7	case	_	_
+6	l'	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	uso	uso	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E_RD	_	10	case	_	_
+9	il	il	DET	E_RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	femminile	femminile	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	professioni	professione	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	|AlignEnd=72
