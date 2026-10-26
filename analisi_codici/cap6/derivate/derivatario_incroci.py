@@ -34,7 +34,6 @@ TOTALI = {
 # DERIVATARIO
 # ======================================================
 
-DERIVATARIO = "derivatario.csv"   # o .txt
 
 df_der = pd.read_csv(
     DERIVATARIO,

@@ -1,8 +1,7 @@
 from collections import Counter
 import os
 from pathlib import Path
-import re
-import sys
+
 from conllu import parse_incr
 import pandas as pd
 
